@@ -13,7 +13,7 @@ module.exports = {
       title: 'Lendiom',
       logo: {
         alt: 'Lendiom\'s Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -28,7 +28,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://fisoftpro.com',
+          href: 'https://app.lendiom.com',
           label: 'Go to the App',
           position: 'right',
         },
