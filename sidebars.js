@@ -10,7 +10,7 @@ module.exports = {
       label: 'Lendiom Pay',
       collapsed: false,
       items: [
-        'pay/what-is-it',
+        'pay/what-is-pay',
       ],
     },
     {
