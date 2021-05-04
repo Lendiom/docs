@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+.buttons a:first-child {
+  margin-right: 15px;
+}
+
 .features {
   display: flex;
   align-items: center;
