@@ -1,6 +1,6 @@
 ---
 id: what-is-pay
-title: What Is It?
+title: What Is Lendiom Pay?
 slug: /pay/
 ---
 
