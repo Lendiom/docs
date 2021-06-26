@@ -39,6 +39,9 @@ module.exports = {
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Lendiom. Built with Docusaurus.`,
     },
+    umamiAnalytics: {
+      websiteID: '50da4779-c746-4dfd-a3a4-638c54d0f561',
+    },
   },
   presets: [
     [
@@ -59,5 +62,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    './plugins/umami',
   ],
 };
