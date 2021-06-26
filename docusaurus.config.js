@@ -40,7 +40,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Lendiom. Built with Docusaurus.`,
     },
     umamiAnalytics: {
-      websiteID: '50da4779-c746-4dfd-a3a4-638c54d0f561',
+      websiteID: 'b45ce3de-5a4d-4922-aee2-80dd1a354d39',
     },
   },
   presets: [
