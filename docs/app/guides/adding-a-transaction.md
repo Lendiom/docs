@@ -70,7 +70,7 @@ A regular payment has the highest complexity out of all of the [Transaction Type
 
 :::warning
 
-The regular payment transaction application flow is not complete.
+This description of the regular payment transaction application flow is not complete.
 
 :::
 
