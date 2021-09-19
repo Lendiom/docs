@@ -15,7 +15,7 @@ To sign up, please visit https://app.lendiom.com/auth/register. The sign up proc
 5. Select how you want to be billed (monthly or yearly).
 
 ## Accepting an Invite
-Whenever someone invites you to join their organization you will recieve an email with a link to accept the invite.
+Whenever someone invites you to join their organization you will receive an email with a link to accept the invite.
 
 1. Click the "Accept Invitation" button in the email
 2. Ensure your name is correct.

@@ -6,7 +6,12 @@ title: Adding a Fillable PDF
 We call PDF Forms Fillable PDFs. With this feature you can upload a PDF Form and then map the data which you want populated in the fields. Then you can have the system fill the PDF out for you, such as filling out a contract with all the terms of the loan and the development name.
 
 ## Upload the PDF Form
-**Note:** The uploaded PDF must be a PDF Form (see [here](http://naccl-24.ucdavis.edu/technical-support/create-fill-able-pdf-word-document) or [here](https://helpx.adobe.com/acrobat/using/pdf-forms.html) for information).
+
+:::important
+
+The uploaded PDF must be a PDF Form (see [here](http://naccl-24.ucdavis.edu/technical-support/create-fill-able-pdf-word-document) or [here](https://helpx.adobe.com/acrobat/using/pdf-forms.html) for information).
+
+:::
 
 1. Go to *Org Settings*
 2. Click on *Fillable PDFs*
