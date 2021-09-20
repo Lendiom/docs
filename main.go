@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
@@ -9,7 +10,7 @@ import (
 
 var (
 	//Version is the version of the client
-	Version = "0.0.5"
+	Version = "0.0.6"
 
 	//Commit is the commit version of the client
 	Commit = "local"
@@ -35,17 +36,23 @@ func defaultRouteHandler(c *gin.Context) {
 	c.File("build/index.html")
 }
 
+func noRouteHandler(c *gin.Context) {
+	log.Printf("no route found for %s", c.Request.URL.Path)
+	c.File("build/404.html")
+}
+
 func main() {
 	Router := gin.Default()
 
 	Router.Use(versionMiddleware)
 	Router.Use(cspMiddleware)
+	// Router.Use(addIndexMiddleware)
 
-	Router.Use(static.Serve("/", static.LocalFile("./build/", false)))
+	Router.Use(static.Serve("/", static.LocalFile("./build/", true)))
 
 	Router.GET("/", defaultRouteHandler)
 
-	Router.NoRoute(defaultRouteHandler)
+	Router.NoRoute(noRouteHandler)
 
 	Router.Run(":5005")
 }
