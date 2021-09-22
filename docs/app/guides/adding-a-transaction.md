@@ -1,6 +1,6 @@
 ---
 id: adding-a-transaction
-title: Adding a Transaction
+title: Adding a Loan Transaction
 ---
 
 A transaction in the Lendiom system represents any time there is an exchange of money. For example, a down payment is paid or a regular payment is made.
@@ -20,7 +20,13 @@ The transaction type determines how the money is applied against the loan. For a
 ![img](../../../static/img/docs/app/guides/adding-a-transaction/transaction-types.png)
 
 ### Payment For {#input-payment-for}
-When the [Transaction Type](#input-type) is a [Regular Payment](#type-regular), this input is enabled. One or more payments can be selected. Payments which have been paid in full will not appear. The payments which have an asterisk `*` in front of them are late. //TODO: explain this in depth
+When the [Transaction Type](#input-type) is a [Regular Payment](#type-regular), this input is enabled. One or more payments can be selected. Payments which have been paid in full will not appear. The payments which have an asterisk `*` in front of them are late.
+
+:::caution Work in Progress
+
+The **Payment For** section is in progress. If you have any questions, please send them to us so we can add here to clarify.
+
+:::
 
 ### Amount {#input-amount}
 The amount of money in the transaction. Whenever any number of payments are selected, this input will be populated with the sum total of the payments.
@@ -62,17 +68,17 @@ Create the transaction with the date of when they sent you the money and then ch
 
 :::
 
-## Transaction Application Flow {#transaction-flow}
-Whenever a payment is applied, a certain sequence is followed to ensure the funds are correctly distributed and calculated. The flow followed depends on the [Transaction Type](#input-type) which was selected when the transaction was created.
+## Transaction Payment Distribution {#transaction-flow}
+Whenever a payment is applied, a certain sequence is followed to ensure the funds are correctly distributed and calculated. The distribution of the funds depends on the [Transaction Type](#input-type) which was selected when the transaction was created.
 
-### Regular Payment {#type-regular}
-A regular payment has the highest complexity out of all of the [Transaction Types](#input-type).
+:::caution Work in Progress
 
-:::warning
-
-This description of the regular payment transaction application flow is not complete.
+The **Transaction Payment Distribution** section is a work in progress. If you have any questions, please send them to us so we can add here to clarify.
 
 :::
+
+### Regular Payment {#type-regular}
+The payment distribution of a regular payment heavily depends on how the loan is configured. When you [created a loan](./creating-a-loan), you will have selected the [Extra Payment Application](./creating-a-loan#step2-extra-application) which determines how extra payment funds are allocated.
 
 ### Principal Payment {#type-principal}
 A principal payment [transaction type](#input-type) means that **100%** of the amount goes towards the principal.
