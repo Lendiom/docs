@@ -4,6 +4,12 @@ title: Loan
 description: The loan variable passed to a Lendiom template.
 ---
 
+:::note Type
+
+Structure
+
+:::
+
 ## Description
 
 The **Loan** variable contains all of the information regarding a loan.
