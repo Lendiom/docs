@@ -16,8 +16,8 @@ module.exports = {
     {
       type: 'category',
       label: 'Lendiom App',
-      collapsed: true,
-      items: 
+      collapsed: false,
+      items:
       [
         'app/what-is-lendiom',
         'app/faq',
