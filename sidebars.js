@@ -2,8 +2,8 @@ module.exports = {
   someSidebar: [
     {
       type: 'doc',
-      id: 'doc1',
-      label: 'Getting Started',
+      id: 'docguide',
+      label: 'Documentation Guide',
     },
     {
       type: 'category',
