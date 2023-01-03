@@ -82,3 +82,7 @@ The return address printed on the notice letter will be the Mailing Address addr
 
 ### Name in Signature {#finalize-signature}
 If the [Send Mail](#finalize-mail) option is enabled, then you will need to input the name that goes in the signature position on the letter.
+
+
+## Customer Paying
+For customers who have a loan inside of Lendiom, they will be able to pay inside of Lendiom Pay. Please see the [Lendiom Pay guide related to Paying Property Taxes](../../pay/guides/paying-property-taxes).
