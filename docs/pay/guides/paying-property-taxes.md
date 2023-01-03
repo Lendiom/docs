@@ -11,7 +11,7 @@ The following is a screenshot of the details page whenever property taxes are du
 ![Loan Overview with Property Due Screenshot](/img/docs/pay/guides/paying-property-tax/loan-overview-property-tax-due.png)
 
 ## Paying
-When you click the **Pay Property Taxes Due** button, a modal will come up with two inputs. First, you will need to select the payment method you want to use to pay the property taxes, [see here if you need to add a payment method](./adding-a-payment-method). Second input simply displays the total amount you will be paying, including the Property Taxes due and the platform fee.
+When you click the **Pay Property Taxes Due** button, a modal will come up with two inputs. First, you will need to select the payment method you want to use to pay the property taxes, [see here if you need to add a payment method](./adding-payment-method). Second input simply displays the total amount you will be paying, including the Property Taxes due and the platform fee.
 
 Here is a screenshot of the payment modal with a bank account selected:
 
