@@ -4,12 +4,10 @@ title: What Is Lendiom?
 slug: /app/
 ---
 
-What exactly is Lendiom?
-
-# Brief Description
+## Brief Description
 Lendiom is a platform for owner financing land developers, hard money lendors, and those who help manage the businesses.
 
-## Features
+### Features
 * Loan management
   * Amortization schedule
   * Transaction tracking
@@ -17,3 +15,4 @@ Lendiom is a platform for owner financing land developers, hard money lendors, a
   * Payment notifications (upcoming, late, success)
 * Project management
 * Client/Customer records
+* File uploads

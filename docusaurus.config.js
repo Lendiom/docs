@@ -40,7 +40,7 @@ module.exports = {
         footer: {
             style: 'dark',
             links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} Lendiom. Built with Docusaurus.`,
+            copyright: `Copyright © 2019 - ${new Date().getFullYear()} Lendiom.`,
         },
         umamiAnalytics: {
             websiteID: 'b45ce3de-5a4d-4922-aee2-80dd1a354d39',

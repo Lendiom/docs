@@ -145,10 +145,10 @@ Whenever you create creating an existing loan, this value enables the extra inpu
 ## Step 4: Communication {#step4}
 In step four, you configure whether or not the communication with the client is automated and what their preference is.
 
-### Automated Communication {#step3-auto-communication}
+### Automated Communication {#step4-auto-communication}
 Should the communication to the client be automated or manual?
 
-### Communication Preference {#step3-communication-pref}
+### Communication Preference {#step4-communication-pref}
 Currently the only supported preference is SMS (aka text messages). At the moment Lendiom sends them messages about an upcoming payment due date, past due dates and more. However, the client must have a mobile number in the system.
 
 ### Step 4 Screenshot

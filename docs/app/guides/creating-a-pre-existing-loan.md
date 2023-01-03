@@ -34,7 +34,7 @@ When entering the interest paid and principal paid, please **exclude** any parti
 On the third step of the loan creation, [see here for more information](./creating-a-loan#step3), toggle the **[New or Existing Loan](./creating-a-loan#step3-new-or-existing)** field so it says `Existing`. Once that is done, four new fields will appear.
 
 #### Principal Paid
-This value is the sum total of how much of the principal has been paid, **excluding** any partial payments.
+This value is the sum total of how much of the principal has been paid, **excluding** any partial payments. Also, exclude the down payment as that information was entered and is taken into account.
 
 #### Interest Paid
 This value is the sum total of how much interest has been paid, **excluding** any partial payments.
