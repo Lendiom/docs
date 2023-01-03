@@ -10,7 +10,7 @@ import (
 
 var (
 	//Version is the version of the client
-	Version = "0.0.8"
+	Version = "0.1.0"
 
 	//Commit is the commit version of the client
 	Commit = "local"
