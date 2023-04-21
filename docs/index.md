@@ -1,6 +1,6 @@
 ---
-id: docguide
-title: Documentation Guide
+id: home-doc
+title: Documentation
 slug: /
 ---
 

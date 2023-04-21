@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Lendiom',
     tagline: 'Lending a helping hand to independent lenders.',
-    url: 'https://lendiom.com',
+    url: 'https://docs.lendiom.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -20,7 +20,7 @@ module.exports = {
             },
             items: [
                 {
-                    to: 'docs/',
+                    to: '/',
                     activeBasePath: 'docs',
                     label: 'Docs',
                     position: 'left',
@@ -52,6 +52,7 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
+                    routeBasePath: '/',
                     // Please change this to your repo.
                     editUrl: 'https://github.com/Lendiom/docs/edit/master/',
                 },
