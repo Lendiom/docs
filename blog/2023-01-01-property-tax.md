@@ -37,4 +37,4 @@ Once created, the last step is to finalize the Property Tax and send the notices
 
 After the Property Tax is finalized, then all you have you to do is wait for everyone to pay or manually record their payments.
 
-For more information on the various information, please see the [Property Tax Guide](../docs/app/guides/property-taxes).
+For more information on the various information, please see the [Property Tax Guide](../app/guides/property-taxes).

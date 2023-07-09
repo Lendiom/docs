@@ -30,6 +30,7 @@ module.exports = {
       items:
       [
         'app/what-is-lendiom',
+        'app/communication',
         'app/faq',
         {
           type: 'category',
