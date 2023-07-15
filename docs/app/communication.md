@@ -74,13 +74,15 @@ While waiting for approval, any messages you send will incur additional fees fro
 
 ## The Cost
 The entire campaign process incurs costs. Here are our prices as of July 14th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](https://support.lendiom.com/help/3570878021)!
-- Phone Number: $5.00 per month
+- Phone Number: $5 per month
 - Brand Registration: $10 one-time charge
-- Campaign Registration: $3.00 per month
-- Outgoing SMS: $0.01 per (message segment)(#sms-segments)
-- Incoming SMS: $0.005 per (message segment)(#sms-segments)
-- Outgoing MMS: $0.02 per (message segment)(#sms-segments)
-- Incoming MMS: $0.02 per (message segment)(#sms-segments)
+- Vetting Fee: $50 one-time charge (ideally shouldn't happen, but sometimes it does)
+- Campaign Registration: $25 one-time charge
+- Campaign Monthly Renewal: $5 per month (first charge is for 3 months)
+- Outgoing SMS: $0.01 per [message segment](#sms-segments)
+- Incoming SMS: $0.005 per [message segment](#sms-segments)
+- Outgoing MMS: $0.02 per [message segment](#sms-segments)
+- Incoming MMS: $0.02 per [message segment](#sms-segments)
 - Incoming Calls: $0.01 per minute
 - Outgoing Calls: $0.0075 per minute
 
