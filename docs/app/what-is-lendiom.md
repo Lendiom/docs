@@ -5,7 +5,7 @@ slug: /app/
 ---
 
 ## Brief Description
-Lendiom is a platform for owner financing land developers, hard money lendors, and those who help manage the businesses.
+Lendiom is a platform for owner financing land developers, hard money lenders, and those who help manage the businesses.
 
 ### Features
 * Loan management

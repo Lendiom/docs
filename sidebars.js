@@ -2,8 +2,8 @@ module.exports = {
   someSidebar: [
     {
       type: 'doc',
-      id: 'docguide',
-      label: 'Documentation Guide',
+      id: 'home-doc',
+      label: 'Documentation',
     },
     {
       type: 'category',
@@ -30,6 +30,7 @@ module.exports = {
       items:
       [
         'app/what-is-lendiom',
+        'app/communication',
         'app/faq',
         {
           type: 'category',

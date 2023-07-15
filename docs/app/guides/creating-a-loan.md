@@ -38,7 +38,7 @@ Whenever the [loan type](#step1-type) is a tract of land, the tract must be sele
 Who is the loan for? The client must exist in the system already.
 
 ### Loan Label {#step1-label}
-The loan label is for your reference and the client's reference (when using [Lendiom Pay](/docs/pay/)). The system auto generates a label based upon the loan type, tract of land selection and the client. We highly recommend customizing the label for you and your client to easily recognize it.
+The loan label is for your reference and the client's reference (when using [Lendiom Pay](/pay/)). The system auto generates a label based upon the loan type, tract of land selection and the client. We highly recommend customizing the label for you and your client to easily recognize it.
 
 ### Step 1 Screenshot
 ![img](../../../static/img/docs/app/guides/creating-a-loan/first-step.png)
