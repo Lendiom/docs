@@ -74,7 +74,7 @@ While waiting for approval, any messages you send will incur additional fees fro
 
 ## The Cost
 The entire campaign process incurs costs. Here are our prices as of July 14th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](https://support.lendiom.com/help/3570878021)!
-- Phone Number: $5 per month
+- Phone Number: $2.50 per month
 - Brand Registration: $10 one-time charge
 - Vetting Fee: $50 one-time charge (ideally shouldn't happen, but sometimes it does)
 - Campaign Registration: $25 one-time charge
