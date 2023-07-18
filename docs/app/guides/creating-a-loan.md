@@ -122,9 +122,9 @@ When you select **Accrues Daily**, the interest needed is based on the remaining
 
 The remaining principal balance is \$29,000 with an interest rate of 10% and a monthly payment of \$254.50. The buyer pays their payment 5 days after the due date. The amount towards interest would be $281.94. The formula for calculating interest due is:
 
-$T=P*\frac I Y*D$
+$A=P*\frac I Y*D$
 
-`T` = Towards interest
+`A` = Accrued interest
 
 `P` = Principal Due
 
@@ -136,7 +136,7 @@ $T=P*\frac I Y*D$
 
 :::
 
-When you select **Follows Payment Schedule**, the interest needed is based on the payment schedule (also know as amortization schedule). When the buyer pays their payment, the interest needed is based on how much the payment schedule determines it is.
+When you select **Follows Payment Schedule**, the interest needed is based on the payment schedule (also known as amortization schedule). When the buyer pays their payment, the interest needed is based on how much the payment schedule determines it is.
 
 ### Monthly Payment {#step3-payment}
 How much the monthly payment will be based upon the provided terms. This is a calculated value. Should this value ever be anything different than what you expected, please get with support and include how you calculated your monthly payment.
