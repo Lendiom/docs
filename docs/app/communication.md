@@ -41,8 +41,10 @@ As your brand is your business, the CTIA requires detailed legal information. We
 - Business Email: The email address for your business.
 - Business Legal Address: It must not be a PO Box; we fill this in from the billing address.
 
+The brand approval process can take anywhere from a few seconds to a few hours. Until the brand gets approved, you will not be able to move forward. We will provide an in-app notification (maybe a text and email in the future) when the brand is approved.
+
 ### Campaign Registration
-After you submit your brand information, it's time to register your campaign. There is a lot of information on the campaign registration page, but it's all read-only because we have already done most of the work for you. The CTIA requires specific information about how you will use the phone number. Since Lendiom uses the 10DLC for Application-to-Person messaging, it's important to provide correct campaign data to avoid delays. Currently, the approval process takes up to 4 weeks!
+After you submit your brand information, and it gets approved, it's time to register your campaign. There is a lot of information on the campaign registration page, but it's all read-only because we have already done most of the work for you. The CTIA requires specific information about how you will use the phone number. Since Lendiom uses the 10DLC for Application-to-Person messaging, it's important to provide correct campaign data to avoid delays. Currently, the approval process takes up to 4 weeks!
 
 Lendiom will submit the following campaign information on your behalf:
 - Use Case: Low Volume Mixed
