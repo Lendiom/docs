@@ -53,7 +53,7 @@ Lendiom will submit the following campaign information on your behalf:
 - Opt Out/In: How end users can choose to stop or receive messages again
 
 :::warning
-If you plan to send more than 5,000 messages a day, please [contact support](https://support.lendiom.com/help/3570878021) before starting the registration process.
+If you plan to send more than 5,000 messages a day, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question) before starting the registration process.
 :::
 
 ### Number Purchasing
@@ -72,24 +72,21 @@ Lendiom will buy the number and assign it to the registered campaign. Now you ar
 ### Approval Process
 As mentioned earlier, the approval process can take up to 4 weeks. In some cases, it may take less time.
 
-While waiting for approval, any messages you send will incur additional fees from carriers. Unfortunately, there is no way to know the status of your campaign without contacting support. We need to work with our provider manually to check the status. So, please [contact us](https://support.lendiom.com/help/3570878021), and we will reach out to our provider to provide you with an update.
+While waiting for approval, any messages you send will incur additional fees from carriers. Unfortunately, there is no way to know the status of your campaign without contacting support. We need to work with our provider manually to check the status. So, please [contact us](mailto:support@lendiom.com?subject=Communication%20Question), and we will reach out to our provider to provide you with an update.
 
 ## The Cost
-The entire campaign process incurs costs. Here are our prices as of July 14th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](https://support.lendiom.com/help/3570878021)!
+The entire campaign process incurs costs. Here are our prices as of August 25th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](mailto:support@lendiom.com?subject=Communication%20Question%20-%20Pricing)!
 - Phone Number: $2.50 per month
 - Brand Registration: $10 one-time charge
 - Vetting Fee: $50 one-time charge (ideally shouldn't happen, but sometimes it does)
 - Campaign Registration: $25 one-time charge
 - Campaign Monthly Renewal: $5 per month (first charge is for 3 months)
-- Outgoing SMS: $0.01 per [message segment](#sms-segments)
-- Incoming SMS: $0.005 per [message segment](#sms-segments)
-- Outgoing MMS: $0.02 per [message segment](#sms-segments)
-- Incoming MMS: $0.02 per [message segment](#sms-segments)
-- Incoming Calls: $0.01 per minute
-- Outgoing Calls: $0.0075 per minute
+- SMS: $0.015 per [message segment](#sms-segments)
+- MMS: $0.03 per [message segment](#sms-segments)
+- Calls: $0.02 per minute
 
 ### Carrier Fees
-Each carrier charges its own fee in addition to the above. These fees can change frequently, so we cannot list them in this documentation. If you want to know the current carrier fee pricing, please [contact support](https://support.lendiom.com/help/3570878021), and we will provide you with the most up-to-date information.
+Each carrier charges its own fee **in addition to the above**. These fees can change frequently, so we cannot list them in this documentation. If you want to know the current carrier fee pricing, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question), and we will provide you with the most up-to-date information.
 
 ## Contract Verbiage
 The CTIA has specific rules about "automatic opt-in." If you automatically opt buyers into messages, you must have their consent. Your contract or Terms and Conditions should not have any hidden clauses. You need the buyer to initial under the paragraph describing how Lendiom is involved and that they will be opted into messaging. The following is an example, and it is **not** legal advice!

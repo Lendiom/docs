@@ -1,4 +1,4 @@
-FROM node:15.14.0 as webapp
+FROM node:18.16.0 as webapp
 
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
 
@@ -10,7 +10,7 @@ RUN yarn install
 
 RUN yarn run build
 
-FROM golang:1.16 as server
+FROM golang:1.18 as server
 
 WORKDIR /go/src/github.com/Lendiom/docs
 
