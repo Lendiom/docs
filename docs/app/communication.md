@@ -53,7 +53,7 @@ Lendiom will submit the following campaign information on your behalf:
 - Opt Out/In: How end users can choose to stop or receive messages again
 
 :::warning
-If you plan to send more than 5,000 messages a day, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question) before starting the registration process.
+If you plan to send more than 5,000 messages a day, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question%20Volume) before starting the registration process.
 :::
 
 ### Number Purchasing
@@ -89,11 +89,11 @@ The entire campaign process incurs costs. Here are our prices as of August 25th,
 Each carrier charges its own fee **in addition to the above**. These fees can change frequently, so we cannot list them in this documentation. If you want to know the current carrier fee pricing, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question), and we will provide you with the most up-to-date information.
 
 ## Contract Verbiage
-The CTIA has specific rules about "automatic opt-in." If you automatically opt buyers into messages, you must have their consent. Your contract or Terms and Conditions should not have any hidden clauses. You need the buyer to initial under the paragraph describing how Lendiom is involved and that they will be opted into messaging. The following is an example, and it is **not** legal advice!
+The CTIA has specific rules about "*automatic opt-in.*" If you automatically opt buyers into messages, you must have their consent. Your contract or Terms and Conditions should not have any hidden clauses. You need the buyer to initial under the paragraph describing Lendiom Communication and that they will be opted into messaging. The following is an example, and it is **NOT** legal advice!
 
+> **Lendiom.** Buyer(s) understand and agree that Lendiom may process this contract, including their personal information, to provide services, improve products, and comply with applicable laws and regulations. Personal information includes, but is not limited to, name, mailing address, Social Security Number, and phone number.
 
-
-> **Lendiom.** By initialing below, Buyer(s) consent to the processing of this contract, including personal information (ex: name, mailing address, Social Security Number, and phone number), by Lendiom. Lendiom will use Buyer's information to provide services, improve products, and comply with applicable laws and regulations. The Buyer(s) also agree to opt-in to receive text messages or emails for password-less two-factor authentication login flow, payment reminders, or payment status updates. The password-less flow means that the Buyer will need to enter a code from their mobile phone when they log in to Lendiom. The Buyer(s) can withdraw their consent anytime by contacting the Seller as set forth in paragraph 15 or by sending STOP to the number. However, when the Buyer(s) withdraws their consent, it will restrict their ability to use Lendiom's services.
+> **Lendiom Communication.** By initializing below, Buyer(s) opt-in to receive text messages, or emails, for password-less two-factor authentication login flow, payment reminders, or payment status updates. The Buyer(s) can withdraw their consent at any time by contacting the Seller as set forth in paragraph 15 or by sending STOP to the number.
 
 :::warning
 Please consult your attorney as the example above is **NOT** legal advice. It is only an example. The important requirement is that the buyer must initial and make it clear that they are opting in to messages from Lendiom.
@@ -102,6 +102,6 @@ Please consult your attorney as the example above is **NOT** legal advice. It is
 ## Misc Information
 
 ### SMS Segments
-SMS messages may seem simple, but there are some complex details due to character encoding. We'll provide a summary here, but if you want more detailed information, you can visit [Wikipedia (click here)](https://en.wikipedia.org/wiki/SMS#Message_size). To see segments in action, you can use this [visual calculator (https://twiliodeved.github.io/message-segment-calculator/)](https://twiliodeved.github.io/message-segment-calculator/). 
+SMS messages may seem simple, but there are some complex details due to character encoding. We'll provide a summary here, but if you want more detailed information, you can visit [Wikipedia (click here)](https://en.wikipedia.org/wiki/SMS#Message_size). To see segments in action, you can use this [visual calculator](https://twiliodeved.github.io/message-segment-calculator/) (https://twiliodeved.github.io/message-segment-calculator/). 
 
-When you send an SMS message with more than 160 characters, the message gets split into smaller messages for sending. Large messages are divided into 153-character "segments" and sent individually, then reassembled by the recipient's device. Each segment can have a maximum of 153 characters because a data header is included with each segment to ensure correct reassembly.
+When a SMS message with more than 160 characters is sent, the message gets split into smaller messages for sending. Large messages are divided into 153-character "segments" and sent individually, then reassembled by the recipient's device. Each segment can have a maximum of 153 characters because a data header is included with each segment to ensure correct reassembly.

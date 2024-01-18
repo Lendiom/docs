@@ -11,6 +11,7 @@ module.exports = {
       collapsed: false,
       items: [
         'pay/what-is-pay',
+        'pay/logging-in',
         {
             type: 'category',
             label: 'Guides',
