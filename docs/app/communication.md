@@ -41,8 +41,10 @@ As your brand is your business, the CTIA requires detailed legal information. We
 - Business Email: The email address for your business.
 - Business Legal Address: It must not be a PO Box; we fill this in from the billing address.
 
+The brand approval process can take anywhere from a few seconds to a few hours. Until the brand gets approved, you will not be able to move forward. We will provide an in-app notification (maybe a text and email in the future) when the brand is approved.
+
 ### Campaign Registration
-After you submit your brand information, it's time to register your campaign. There is a lot of information on the campaign registration page, but it's all read-only because we have already done most of the work for you. The CTIA requires specific information about how you will use the phone number. Since Lendiom uses the 10DLC for Application-to-Person messaging, it's important to provide correct campaign data to avoid delays. Currently, the approval process takes up to 4 weeks!
+After you submit your brand information, and it gets approved, it's time to register your campaign. There is a lot of information on the campaign registration page, but it's all read-only because we have already done most of the work for you. The CTIA requires specific information about how you will use the phone number. Since Lendiom uses the 10DLC for Application-to-Person messaging, it's important to provide correct campaign data to avoid delays. Currently, the approval process takes up to 4 weeks!
 
 Lendiom will submit the following campaign information on your behalf:
 - Use Case: Low Volume Mixed
@@ -51,7 +53,7 @@ Lendiom will submit the following campaign information on your behalf:
 - Opt Out/In: How end users can choose to stop or receive messages again
 
 :::warning
-If you plan to send more than 5,000 messages a day, please [contact support](https://support.lendiom.com/help/3570878021) before starting the registration process.
+If you plan to send more than 5,000 messages a day, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question%20Volume) before starting the registration process.
 :::
 
 ### Number Purchasing
@@ -70,31 +72,28 @@ Lendiom will buy the number and assign it to the registered campaign. Now you ar
 ### Approval Process
 As mentioned earlier, the approval process can take up to 4 weeks. In some cases, it may take less time.
 
-While waiting for approval, any messages you send will incur additional fees from carriers. Unfortunately, there is no way to know the status of your campaign without contacting support. We need to work with our provider manually to check the status. So, please [contact us](https://support.lendiom.com/help/3570878021), and we will reach out to our provider to provide you with an update.
+While waiting for approval, any messages you send will incur additional fees from carriers. Unfortunately, there is no way to know the status of your campaign without contacting support. We need to work with our provider manually to check the status. So, please [contact us](mailto:support@lendiom.com?subject=Communication%20Question), and we will reach out to our provider to provide you with an update.
 
 ## The Cost
-The entire campaign process incurs costs. Here are our prices as of July 14th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](https://support.lendiom.com/help/3570878021)!
+The entire campaign process incurs costs. Here are our prices as of August 25th, 2023. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](mailto:support@lendiom.com?subject=Communication%20Question%20-%20Pricing)!
 - Phone Number: $2.50 per month
 - Brand Registration: $10 one-time charge
 - Vetting Fee: $50 one-time charge (ideally shouldn't happen, but sometimes it does)
 - Campaign Registration: $25 one-time charge
 - Campaign Monthly Renewal: $5 per month (first charge is for 3 months)
-- Outgoing SMS: $0.01 per [message segment](#sms-segments)
-- Incoming SMS: $0.005 per [message segment](#sms-segments)
-- Outgoing MMS: $0.02 per [message segment](#sms-segments)
-- Incoming MMS: $0.02 per [message segment](#sms-segments)
-- Incoming Calls: $0.01 per minute
-- Outgoing Calls: $0.0075 per minute
+- SMS: $0.015 per [message segment](#sms-segments)
+- MMS: $0.03 per [message segment](#sms-segments)
+- Calls: $0.02 per minute
 
 ### Carrier Fees
-Each carrier charges its own fee in addition to the above. These fees can change frequently, so we cannot list them in this documentation. If you want to know the current carrier fee pricing, please [contact support](https://support.lendiom.com/help/3570878021), and we will provide you with the most up-to-date information.
+Each carrier charges its own fee **in addition to the above**. These fees can change frequently, so we cannot list them in this documentation. If you want to know the current carrier fee pricing, please [contact support](mailto:support@lendiom.com?subject=Communication%20Question), and we will provide you with the most up-to-date information.
 
 ## Contract Verbiage
-The CTIA has specific rules about "automatic opt-in." If you automatically opt buyers into messages, you must have their consent. Your contract or Terms and Conditions should not have any hidden clauses. You need the buyer to initial under the paragraph describing how Lendiom is involved and that they will be opted into messaging. The following is an example, and it is **not** legal advice!
+The CTIA has specific rules about "*automatic opt-in.*" If you automatically opt buyers into messages, you must have their consent. Your contract or Terms and Conditions should not have any hidden clauses. You need the buyer to initial under the paragraph describing Lendiom Communication and that they will be opted into messaging. The following is an example, and it is **NOT** legal advice!
 
+> **Lendiom.** Buyer(s) understand and agree that Lendiom may process this contract, including their personal information, to provide services, improve products, and comply with applicable laws and regulations. Personal information includes, but is not limited to, name, mailing address, Social Security Number, and phone number.
 
-
-> **Lendiom.** By initialing below, Buyer(s) consent to the processing of this contract, including personal information (ex: name, mailing address, Social Security Number, and phone number), by Lendiom. Lendiom will use Buyer's information to provide services, improve products, and comply with applicable laws and regulations. The Buyer(s) also agree to opt-in to receive text messages or emails for password-less two-factor authentication login flow, payment reminders, or payment status updates. The password-less flow means that the Buyer will need to enter a code from their mobile phone when they log in to Lendiom. The Buyer(s) can withdraw their consent anytime by contacting the Seller as set forth in paragraph 15 or by sending STOP to the number. However, when the Buyer(s) withdraws their consent, it will restrict their ability to use Lendiom's services.
+> **Lendiom Communication.** By initializing below, Buyer(s) opt-in to receive text messages, or emails, for password-less two-factor authentication login flow, payment reminders, or payment status updates. The Buyer(s) can withdraw their consent at any time by contacting the Seller as set forth in paragraph 15 or by sending STOP to the number.
 
 :::warning
 Please consult your attorney as the example above is **NOT** legal advice. It is only an example. The important requirement is that the buyer must initial and make it clear that they are opting in to messages from Lendiom.
@@ -103,6 +102,6 @@ Please consult your attorney as the example above is **NOT** legal advice. It is
 ## Misc Information
 
 ### SMS Segments
-SMS messages may seem simple, but there are some complex details due to character encoding. We'll provide a summary here, but if you want more detailed information, you can visit [Wikipedia (click here)](https://en.wikipedia.org/wiki/SMS#Message_size). To see segments in action, you can use this [visual calculator (https://twiliodeved.github.io/message-segment-calculator/)](https://twiliodeved.github.io/message-segment-calculator/). 
+SMS messages may seem simple, but there are some complex details due to character encoding. We'll provide a summary here, but if you want more detailed information, you can visit [Wikipedia (click here)](https://en.wikipedia.org/wiki/SMS#Message_size). To see segments in action, you can use this [visual calculator](https://twiliodeved.github.io/message-segment-calculator/) (https://twiliodeved.github.io/message-segment-calculator/). 
 
-When you send an SMS message with more than 160 characters, the message gets split into smaller messages for sending. Large messages are divided into 153-character "segments" and sent individually, then reassembled by the recipient's device. Each segment can have a maximum of 153 characters because a data header is included with each segment to ensure correct reassembly.
+When a SMS message with more than 160 characters is sent, the message gets split into smaller messages for sending. Large messages are divided into 153-character "segments" and sent individually, then reassembled by the recipient's device. Each segment can have a maximum of 153 characters because a data header is included with each segment to ensure correct reassembly.

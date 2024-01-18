@@ -110,6 +110,34 @@ How long the loan will be financed for in terms of years.
 ### Interest Rate {#step3-rate}
 The rate at which the loan is charged interest. Currently Lendiom only supports a fixed interest rate (for now).
 
+### Interest Schedule {#step3-interest-schedule}
+There are a few ways interest can be calculated. At the moment, Lendiom only supports two of them:
+
+* Accrues Daily
+* Follows Payment Schedule
+
+When you select **Accrues Daily**, the interest needed is based on the remaining principal balance and the amount of days since their last payment. When the amount of interest needed is more than the current payment amount, the unpaid interest is added to a interest balance and is required to be paid first on the next payment.
+
+:::note Example of Accrues Daily
+
+The remaining principal balance is \$29,000 with an interest rate of 10% and a monthly payment of \$254.50. The buyer pays their payment 5 days after the due date. The amount towards interest would be $281.94. The formula for calculating interest due is:
+
+$A=P*\frac I Y*D$
+
+`A` = Accrued interest
+
+`P` = Principal Due
+
+`I` = Interest Rate
+
+`Y` = Days in the Year (360, 365)
+
+`D` = Days since Last Payment
+
+:::
+
+When you select **Follows Payment Schedule**, the interest needed is based on the payment schedule (also known as amortization schedule). When the buyer pays their payment, the interest needed is based on how much the payment schedule determines it is.
+
 ### Monthly Payment {#step3-payment}
 How much the monthly payment will be based upon the provided terms. This is a calculated value. Should this value ever be anything different than what you expected, please get with support and include how you calculated your monthly payment.
 
