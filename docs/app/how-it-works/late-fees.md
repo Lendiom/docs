@@ -28,7 +28,7 @@ The application value tells Lendiom how to apply the late fee. Currently, there 
 * Added to Late Fee Balance: the late fee is added to a running late fee balance and is never automatically paid
 * Added to Principal: the late fee is appended to the remaining principal balance (*note:* this only works on loans)
 
-### Charge Type:
+### Charge Type
 The charge type instructs Lendiom how much to charge for the late fee. At the moment, there are three options:
 
 * Fixed: the amount is fixed and doesn't change
