@@ -99,6 +99,27 @@ The CTIA has specific rules about "*automatic opt-in.*" If you automatically opt
 Please consult your attorney as the example above is **NOT** legal advice. It is only an example. The important requirement is that the buyer must initial and make it clear that they are opting in to messages from Lendiom.
 :::
 
+## Message Samples
+Below are several samples of messages we send out.
+
+- Hi Sabryna, this is My Land Co. Friendly reminder: your payment of $250.25 for Land Estates Tract 2 is due today and auto pay is on. Access your account at: https://go.lendiom.com/pay/36e2459
+- Hey Sabryna, this is My Land Co. Your payment of $250.25 for Land Estates Tract 2 is due on Jan 1st 2024. Access your account at: https://go.lendiom.com/pay/36g2459
+- Sabryna, this is My Land Co. The $250.25 payment successfully posted to Land Estates Tract 2. Next payment is due on Feb 1st 2024.
+- My Land Co here, Sabryna Dooley. Your payment of $250.25 for Land Estates Tract 2 was due on Dec 1st 2023 and is now late. The total you owe, including late fees, is $285.25. Access your account at: https://go.lendiom.com/pay/36g2459
+
+## Automated Dates
+When you have automated messages enabled, they are sent according to the following schedule. At the moment, this is not configurable and is hard coded. We do have plans for customizing it but no date is set.
+
+:::info
+These are only sent if you are fully registered in the communication portal and the loan has automated messages enabled.
+:::
+
+- Due today: on the date of a payment being due
+- Late notice: the day a late fee is applied (depends on your [late fee config](how-it-works/late-fees))
+- Upcoming: seven days before the due date
+- Property tax due: the date the property tax is due
+- Payment status updates: when they happen
+
 ## Misc Information
 
 ### SMS Segments
