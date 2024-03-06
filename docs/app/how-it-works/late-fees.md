@@ -34,6 +34,16 @@ The application value tells Lendiom how to apply the late fee. Currently, there 
 * Added to Late Fee Balance: the late fee is added to the flex late fee balance and is never automatically paid
 * Added to Principal: the late fee is appended to the remaining principal balance (*note:* this only works on loans)
 
+:::tip
+
+If your contract states that the late fee will be paid first out of the next payment that comes in, then select the **First Part of Next Payment**. Payments which come in with this selected with result in a payment allocation as follows:
+
+1. Late Fee
+2. Interest
+3. Principal
+
+:::
+
 ### Charge Type
 The charge type instructs Lendiom how much to charge for the late fee. At the moment, there are three options:
 

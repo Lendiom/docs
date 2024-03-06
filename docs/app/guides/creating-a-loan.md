@@ -3,7 +3,7 @@ id: creating-a-loan
 title: Creating a Loan
 ---
 
-A loan in the Lendiom system represents a real loan. This resource contains all of the characteristics and configurations which make up the loan. The loan can represent an owner financed loan, a cash loan or anything else where a sum of money is owed that is expected to be paid back with interest.
+A loan in the Lendiom system represents a real loan. This resource contains all of the characteristics and configurations which make up the loan. The loan can represent an owner financed loan, a cash loan or anything else where a sum of money is owed that is expected to be paid back with (or without) interest.
 
 As of the release *v0.15.0*, pre-existing loans can now be created in the system. By pre-existing, we mean that you can enter the details of how much principal and interest has already been paid along with when the next due date when creating a loan. The information provided then allows us to create a loan and correctly generate the amortization and payment schedule.
 
@@ -13,23 +13,22 @@ The current process for creating a loan consists of five steps. We will describe
 The first step consists of telling the system what the loan is for and who the loan is for, plus a few more details.
 
 ### Loan Status {#step1-status}
-When creating a loan, we ask what the status or state the loan is in. The options are:
-* Active
-* Inactive
-* Late
-* In Default
-* Draft
+When creating a loan, the status will always be in the **Draft** status. After you save the loan, you will be able to make it active in the Action Center of the loan. For more details about the possible statuses of a loan, please see the [how it works page](../how-it-works/loan-status).
 
-:::tip Tip: Draft Status
+:::info Why Draft?
 
-We highly recommend utilizing the **Draft** status when creating a loan. When a loan is in a draft status, the system does not apply any late fees and you can easily delete the loan if you misconfigured something.
-
-Why would you want any late fees to **not** be applied? A prime example of this is whenever you are moving your loans over into our system and manually entering in the transactions and payments. This way you can set the correct close and due dates and not have to worry about the system applying late fees when you are entering the past payments. Then once you have all of the previous payments entered, you can take the loan out of draft status and let the system take over.
+Starting in v0.37.0, all loans will be saved as a **Draft**. We made this change as you can now collect down payments via Lendiom. But we also made this change to give people more time to review the details of a loan they created. 
 
 :::
 
 ### Loan Type {#step1-type}
-Currently there can only be two types of loans. A **Cash** loan or a **Tract of Land** loan.
+The type of loan determines what can be attached to the loan.
+
+* **Cash** - Only need to select a client, basically a hard money loan
+* **Tract of Land** - Enables selecting one or more tracts of land
+* **Residential** - Enables selecting a residential (house) inventory
+
+//TODO: fix the following section!
 
 ### Loan Tract Selection {#step1-tract-selection}
 Whenever the [loan type](#step1-type) is a tract of land, the tract must be selected. It will drop down a list of the developments and the tracts in each development. For a tract to be selectable, it must be available and no other active loan can be against the tract of land (can not be marked as sold).
@@ -53,40 +52,14 @@ The closing date is when the papers are going to be signed or were signed. This 
 ### First Payment Date {#step2-first-payment-date}
 The first day the payment is due. This date then sets whenever the following due dates are. For example, if the due date is the March 1st, 2021 then the due date will be the first of each month that follows until the loan is paid in full.
 
-### Days Until Date {#step2-grace-period}
-How long the payee has after the due date until the payment is considered late. This is also known as the due date **grace period**.
+### Days Until Default {#step2-days-until-default}
+How many days after their due date (exclusive of it) until the loan is considered to be in default? The checkbox disables automatically moving the loan to a status of in default.
 
-### Late Fee Application {#step2-late-fee-application}
-The late fee application determines how the late fee should be applied to the loan. The options are:
-* First Part of Next Payment
-* Added to Principal
+### Late Fees Applied
+Whether or not you want the late fees applied automatically or manually.
 
-:::tip
-
-If your indicates that the late fee will be paid first out of the next payment that comes in, then select the **First Part of Next Payment**. Payments which come in with this selected with result in a payment allocation as follows:
-
-1. Late Fee
-2. Interest
-3. Principal
-
-:::
-
-### Late Fee Charge Type {#step2-late-fee-charge-type}
-The type of late fee charge determines how the late fee will be calculated. The options are:
-* Fixed Amount
-* Percentage
-
-### Fixed Late Fee Amount {#step2-late-fee-fixed}
-If the late fee charge type is **Fixed Amount**, then this input will determine how much the late fee will be.
-
-### Late Fee Percentage {#step2-late-fee-percent}
-When the late fee charge type is **Percentage**, what is the percentage fee for the late fee?
-
-### Min Late Fee {#step2-min-late-fee}
-What is the lowest amount that the late fee can be? So, if the percentage above results in a calculated fee lower than this minimum, then this minimum amount will be charged.
-
-### Max Late Fee {#step2-max-late-fee}
-What is the highest amount that the late fee can be? So, if the percentage above results in a calculated fee higher than this maximum, then the maximum amount will be charged.
+### Late Fee Tiers
+A late fee tier tells Lendiom how and when to apply a late fee or multiple late fees. For more information, please see the [how late fees works page](../how-it-works/late-fees).
 
 ### Step 2 Screenshot
 ![img](../../../static/img/docs/app/guides/creating-a-loan/terms-step.png)
@@ -100,6 +73,14 @@ Sales price refers to how much they agreed to pay prior to putting any money dow
 
 ### Down Payment {#step3-downpayment}
 Down payment is the amount of money the Client (buyer) is putting down against the principal as part of the initial agreement.
+
+Since February 2024, you can now natively collect the down payment from within Lendiom. The button **Collect via Lendiom** will open a modal asking for more details.
+
+:::info PayArc Requirement
+
+You must be setup to process payments via PayArc to collect down payments via Lendiom.
+
+:::
 
 ### Amount Financed {#step3-amt-financed}
 This input is a calculated value based upon the previous two inputs. It subtracts the down payment from the sales price.
