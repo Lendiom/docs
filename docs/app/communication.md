@@ -44,6 +44,13 @@ As your brand is your business, the CTIA requires detailed legal information. We
 The brand approval process can take anywhere from a few seconds to a few hours. Until the brand gets approved, you will not be able to move forward. We will provide an in-app notification (maybe a text and email in the future) when the brand is approved.
 
 ### Campaign Registration
+
+:::warning
+The TCR is currently backed up on Campaign registrations. As such, we have disabled self-service registration and are working on a solution. We will update this page when we have more information.
+
+Until then, please contact support if you wish to have your campaign registered. It is a manual process and can take up to 8 weeks.
+:::
+
 After you submit your brand information, and it gets approved, it's time to register your campaign. There is a lot of information on the campaign registration page, but it's all read-only because we have already done most of the work for you. The CTIA requires specific information about how you will use the phone number. Since Lendiom uses the 10DLC for Application-to-Person messaging, it's important to provide correct campaign data to avoid delays. Currently, the approval process takes up to 4 weeks!
 
 Lendiom will submit the following campaign information on your behalf:

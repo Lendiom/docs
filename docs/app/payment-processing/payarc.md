@@ -10,6 +10,6 @@ Beginning in Q4 of 2023, Lendiom integrated with a new payment processor. After 
 ## Fees
 The fees with PayArc vary from merchant to merchant, however, they will be no more than:
 * Card fees: 3.4%
-* ACH fees: 1.0%
+* ACH fees: 1.0% plus $0.30 per transaction
 
 To find out what your processing rates are, please visit the PayArc information page inside of Lendiom.

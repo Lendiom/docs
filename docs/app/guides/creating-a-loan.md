@@ -17,7 +17,7 @@ When creating a loan, the status will always be in the **Draft** status. After y
 
 :::info Why Draft?
 
-Starting in v0.37.0, all loans will be saved as a **Draft**. We made this change as you can now collect down payments via Lendiom. But we also made this change to give people more time to review the details of a loan they created. 
+Starting in v0.40.0, all loans will be saved as a **Draft**. We made this change as you can now collect down payments via Lendiom. But we also made this change to give people more time to review the details of a loan they created. 
 
 :::
 
@@ -52,8 +52,11 @@ The closing date is when the papers are going to be signed or were signed. This 
 ### First Payment Date {#step2-first-payment-date}
 The first day the payment is due. This date then sets whenever the following due dates are. For example, if the due date is the March 1st, 2021 then the due date will be the first of each month that follows until the loan is paid in full.
 
-### Days Until Default {#step2-days-until-default}
-How many days after their due date (exclusive of it) until the loan is considered to be in default? The checkbox disables automatically moving the loan to a status of in default.
+### Days Until In-Default {#step2-days-until-in-default}
+How many days after their due date (exclusive of the due date) until the loan is considered to be in-default? Minimum of 1 day and maximum of 365 days, this field is required. When automatic in-defaulting is enabled, the system will automatically mark the loan as in-default and send the buyer a notice of in-default via SMS (letters are not automatically sent, you will need to manually send them). For the loan to become Current again, the buyer must pay the full amount due, inclusive of any and all late fees.
+
+### Defaults After {#step2-defaults-after}
+If automatic in-defaulting is enabled, this field is required. This field is the number of days after the loan is in-default that the system will automatically mark the loan as defaulted. The minimum is 1 day and the maximum is 365 days. **Please note:** repossessing the property (and thus marking the loan as repossessed) is not automatic and must be done manually.
 
 ### Late Fees Applied
 Whether or not you want the late fees applied automatically or manually.
