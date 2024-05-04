@@ -4,12 +4,6 @@ title: Documentation
 slug: /
 ---
 
-:::important
-
-The documentation for Lendiom and Lendiom Pay is a work in progress. If you would like to contribute, please get with us.
-
-:::
-
 The documentation is split into two sections, one for [Lendiom](./app/what-is-lendiom.md) and one for [Lendiom Pay](./pay/what-is-pay.md).
 
 ### Lendiom Pay

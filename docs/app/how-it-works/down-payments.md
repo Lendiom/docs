@@ -13,13 +13,13 @@ Collecting down payments online requires being set up with the [PayArc payment p
 :::
 
 ### Enabling Collecting Down Payments Online
-To enable collecting down payments online, you must first be set up with [PayArc](../payment-processing/payarc.md). After that, when creating a loan, you can enable the option to collect a down payment online. This will allow the buyer to pay the down payment online via Lendiom Pay.
+To enable online down payments, you must first set up a merchant account with [PayArc](../payment-processing/payarc.md). Once setup, when creating a loan, you can opt to collect a down payment online, allowing the buyer to make the payment via Lendiom Pay.
 
-Lendiom supports collecting either a lump sum down payment or incremental down payments. Incremental down payments allow the buyer to pay the down payment in multiple payments. Additionally, the expected online down payment can be less than the total down payment to account for any down payment already collected offline.
+Lendiom supports two types of online down payments: lump sum and incremental. Incremental down payments permit buyers to pay the down payment in multiple installments. Additionally, the expected online down payment amount can be set to less than the total down payment amount to account for any offline down payments already collected.
 
-When creating the loan, you can specify the expected down payment amount and the expected online down payment amount. The expected online down payment amount is the amount that the buyer will be expected to pay online. The expected down payment amount is the total down payment amount that the buyer is expected to pay. You can also specify the down payment due date, or due dates if you are collecting incremental down payments. The last piece of information you can specify is the status that the loan should move to if the down payment is not paid by the due date. This will allow you to cancel the loan (if lump sum), or move the loan to a pending status or to draft status.
+When creating a loan, you can specify the following details: the expected down payment amount (the total amount due), the expected online down payment amount (the amount payable online), and the down payment due date or dates (if collecting incremental down payments). You can also configure the loan status that should be triggered if the down payment is not made by the specified deadline. This allows you to cancel the loan (for lump sum payments), move it to a pending or draft status, or take other desired actions.
 
-Please note that if the down payment is not paid by the due date and the system moves the loan into the status configured, the buyer will no longer be able to pay the down payment online. They will need to contact you to make arrangements for the down payment. Unless you move the loan back to an [active status](./loan-status.md#active-statuses) (such as pending). However, Lendiom will not adjust the status of the loan because of the down payment not being paid, that happens only once.
+Please note that if the down payment remains unpaid by the due date and the system updates the loan status accordingly, the buyer will no longer be able to make the online down payment. They will need to contact you directly to arrange for the down payment. However, unless you manually move the loan back to an [active status](./loan-status.md#active-statuses) (such as pending), Lendiom will not automatically adjust the loan status due to non-payment of the down payment.
 
 ### Down Payment Collection Modal
 When telling Lendiom to collect a down payment online, you will click the **Collect via Lendiom** button on the new loan wizard, step 3 (how much). This will open a modal that allows you to specify the details of the down payment collection.
@@ -40,11 +40,15 @@ The details needed are:
 
 
 ### Buyer Experience
-When the buyer logs into their Lendiom Pay portal, they will see their list of loans that they have with you. When a loan has an online down payment that is due, they will see a notice on the loan card that the down payment is due.
+When the buyer logs into their Lendiom Pay portal, they will be presented with a list of their active loans with your organization.
+If a loan has an online down payment that is approaching or has reached its due date, a notification will appear on the corresponding loan card,
+alerting them that the down payment is pending and requires their attention.
 
 ![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-loan-list.png)
 
-When they click into the loan, they will see a notice at the top of the loan details page that the down payment is due. They will also see a button to pay the down payment.
+When the buyer clicks on a specific loan from their list, they will be directed to the loan details page.
+At the top of this page, a prominent notice will alert them that the online down payment is due.
+Additionally, a 'Pay down payment now' button will be displayed, allowing them to conveniently initiate the payment process.
 
 ![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-loan-details.png)
 
@@ -52,8 +56,8 @@ When they click the **Pay down payment now** button, they will be taken to the p
 
 ![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-payment-page.png)
 
-Once they click the **Pay** button, the payment will be processed and the loan will be updated to reflect that the down payment has been paid. If there are still down payment increments to be paid, the buyer will still see a notice that the down payment is due.
-
+After clicking the **Pay** button, the payment will be processed and the loan status will be updated to reflect that the down payment has been made.
+If there are still outstanding incremental down payments to be paid, the buyer will continue to see a notice indicating that the down payment is due, prompting them to fulfill their remaining obligations.
 
 ### Buyer Messages and Reminders
 
@@ -67,21 +71,27 @@ When the buyer has a down payment due, they will receive several text messages t
 
 The first message will be sent 5 days before the due date. This message will remind the buyer that the down payment is due soon.
 
-> Hi [Buyer Name], your down payment to [Company Name] of $[Amount] is due on [Date]. Access your account at: https://go.lendiom.com/d/b3uQ3q-Ig
-> 
-> Reply STOP to opt out from msgs.
+```plaintext
+Hi [Buyer Name], your down payment to [Company Name] of $[Amount] is due on [Date]. Access your account at: https://go.lendiom.com/d/b3uQ3q-Ig
+
+Reply STOP to opt out from msgs.
+```
 
 
 #### Down Payment Due Today
 The next message will be sent on the due date. This message will remind the buyer that the down payment is due that day.
 
-> Hello [Buyer Name], [Company Name] would like to remind you that your down payment of $[Amount] is due today. Access your account at: https://go.lendiom.com/d/b2uQ3q-Ig
-> 
-> Reply STOP to opt out from msgs.
+```plaintext
+Hello [Buyer Name], [Company Name] would like to remind you that your down payment of $[Amount] is due today. Access your account at: https://go.lendiom.com/d/b2uQ3q-Ig
+
+Reply STOP to opt out from msgs.
+```
 
 #### Down Payment Missed
 Then if they fail to make the down payment, they will receive a message the day after the due date. This message will inform the buyer to contact the company to make arrangements for the down payment.
 
-> Hi [Buyer Name], unfortunately the down payment that was due on [Date] for [Inventory and Tract Name] is now past due. Please contact [Company Name] to make arrangements as soon as possible since online down payments are no longer possible. Thank you.
-> 
-> Reply STOP to opt out from msgs.
+```plaintext
+Hi [Buyer Name], unfortunately the down payment that was due on [Date] for [Inventory and Tract Name] is now past due. Please contact [Company Name] to make arrangements as soon as possible since online down payments are no longer possible. Thank you.
+
+Reply STOP to opt out from msgs.
+```
