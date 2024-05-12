@@ -6,7 +6,7 @@ author: Bradley Hilton
 ---
 
 ## Introduction
-Prior to [version](../faq.md#check-version) `v0.40.0` of Lendiom, collecting down payments online involved a work around or sending an invoice via [Stripe](../payment-processing/stripe.md) or [PayArc](../payment-processing/payarc.md). With the introduction of the [Loan Action Center](./loan-action-center.md), we also introduced the capability to collect down payments online.
+Prior to [version](../faq.md#check-version) 0.40.0 of Lendiom, collecting down payments online involved a work around or sending an invoice via [Stripe](../payment-processing/stripe.md) or [PayArc](../payment-processing/payarc.md). With the introduction of the [Loan Action Center](./loan-action-center.md), we also introduced the capability to collect down payments online.
 
 :::note
 Collecting down payments online requires being set up with the [PayArc payment processor](../payment-processing/payarc.md). [Stripe](../payment-processing/stripe.md) is not supported for online down payments.

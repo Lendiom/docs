@@ -82,7 +82,7 @@ Alternatively, in the case of a cash loan, it is the principal amount borrowed p
 ### Down Payment {#step3-downpayment}
 Down payment is the amount of money the Client (buyer) is putting down against the principal as part of the initial agreement.
 
-Since February 2024, you can now natively collect the down payment from within Lendiom. The button **Collect via Lendiom** will open a modal asking for more details. [Click here for more information.](../how-it-works/down-payments.md)
+Since February 2024, you can now natively collect the down payment from within Lendiom. The button **Collect via Lendiom** will open a modal asking for more details. [Click here for more information.](../how-it-works/loan-down-payments.md)
 
 :::info PayArc Requirement
 

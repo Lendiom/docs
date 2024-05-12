@@ -11,4 +11,4 @@ Thank you for choosing Lendiom for all of your owner financing needs! We are exc
 
 With this new feature, we are making it easy for sellers to keep record of their down payments. Additionally, buyers can now enjoy a seamless experience when making their down payments.
 
-For more information and screenshots, [please read our documentation](/app/how-it-works/down-down-payments)!
+For more information and screenshots, [please read our documentation](/app/how-it-works/loan-down-payments)!

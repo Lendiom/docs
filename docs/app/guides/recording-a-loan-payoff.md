@@ -3,7 +3,7 @@ id: recording-a-loan-payoff
 title: Recording a Loan Payoff
 ---
 
-Since version 0.41.0, Lendiom has a dedicated feature to record when a borrower pays off their loan early.
+Since [version](../faq.md#check-version) 0.41.0, Lendiom has a dedicated feature to record when a borrower pays off their loan early.
 
 ## What is a Loan Payoff?
 A loan payoff happens when the borrower pays the entire loan amount at once, which can occur at any time during the loan period.
