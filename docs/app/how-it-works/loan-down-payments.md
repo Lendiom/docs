@@ -1,5 +1,5 @@
 ---
-id: down-down-payments
+id: loan-down-payments
 title: Loan Down Payments
 description: How do down payments work in Lendiom? What can I expect?
 author: Bradley Hilton
