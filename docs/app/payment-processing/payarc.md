@@ -1,24 +1,45 @@
 ---
 id: payarc
 title: "Processor: PayArc"
-description: Information and links about the integration with PayArc
+description: Integration details and fee structure for PayArc payment processing.
 ---
 
 ## Introduction
-Beginning in Q4 of 2023, Lendiom integrated with a new payment processor. After doing research and talking with several different processors, we settled on PayArc to be the processor of choice moving forward. We had several reasons for switching processors, including, but not limited to, their support and understanding of our product and our customers (you, the land or rental owner). Additionally, we wanted to work with a processor that we could easily call and get human support. Plus, with their fee structures, we are able to offer lower processing rates than previous.
+In Q4 of 2023, Lendiom partnered with [PayArc](https://payarc.com/payarc-and-lendiom-forge-alliance-to-enhance-payment-solutions-for-real-estate-industry/) as our primary payment processor. This decision was based on PayArc’s strong support capabilities, deep understanding of the real estate industry, and customer-focused approach. With PayArc, Lendiom can offer lower processing rates, enhanced service, and direct access to human support for our users—landlords and property managers.
 
-## Fees
+## Processing Fees
 
-The fees for using PayArc vary depending on each business. However, we can guarantee that our fees will not exceed the following rates:
+PayArc’s fees vary by business, but Lendiom guarantees that rates will not exceed the following:
 
-* Credit Card Transactions: 3.4% + $0.35 per transaction
-* ACH (Bank) Transactions: 1.0% + $0.30 per transaction
+- **Credit Card Transactions**: 3.4% + $0.35 per successful transaction
+- **ACH (Bank) Transactions**: 1.0% + $0.30 per successful transaction
 
-To find out your specific processing rates, please visit the PayArc information page within Lendiom.
+To view your specific processing rates, visit the PayArc section within the Lendiom platform.
 
 ## Monthly Fees
 
-For credit card processing, there is a minimum monthly fee that covers various expenses such as statement generation, direct deposits, and PCI compliance. The good news is that this fee decreases as you process more
-transactions. This means that the more you use our service, the lower your monthly fee will be.
+PayArc imposes a minimum monthly fee for both credit card and ACH processing:
 
-Additionally, for bank (ACH) processing - which is optional - there is a minimum monthly fee of $10. Similar to credit card processing, this fee also decreases as you process more ACH transactions.
+### Credit Card Processing
+- Covers costs such as statement generation, direct deposits, and PCI compliance.
+- The fee decreases as transaction volume increases, rewarding higher usage.
+
+### ACH (Bank) Processing
+- Optional service with a minimum monthly fee of **$10**.
+
+## PCI Compliance
+
+Since each business operates as its own merchant, maintaining PCI compliance is your responsibility. PayArc facilitates this process by sending a **PCI Compliance Questionnaire** email via **Security Metrics**. 
+
+### Compliance Process
+1. Complete the basic questionnaire to confirm PCI compliance.
+2. Call PayArc support if you need guidance—they’re available to assist.
+
+**Important**: Using the Lendiom-PayArc integration inherently ensures PCI compliance. You just need to complete the questionnaire for verification.
+
+### Non-Compliance Fees
+Failure to complete the questionnaire will result in additional monthly charges:
+- **After 60 days**: $29.95 per month.
+- **After 180 days**: $49.95 per month.
+
+We strongly recommend setting aside 30 minutes to complete the questionnaire promptly.
