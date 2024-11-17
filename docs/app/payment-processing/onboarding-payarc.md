@@ -5,38 +5,78 @@ description: Documents and requirements for onboarding with PayArc
 ---
 
 ## Overview
-The onboarding process is manual right now, so a meeting is required so we can step you through the application. Additionally, there are several requirements you will need ahead of time.
 
-## Process
-The onboarding process looks like this:
+Onboarding with PayArc is simple when you have all the necessary documents ready. This guide outlines the steps to complete the process and the required information.
 
-1. Scheduling a meeting with Bradley Hilton ([link here](https://cal.com/bradleyhilton/payarc))
-2. Gathering the requirements
-3. Filling out the application together
-4. Wait for approval
-5. Call PayArc and walk through PCI Compliance Questionnaire
+## Onboarding Steps
 
-## Requirements
+Follow these steps to onboard with PayArc:
 
-* Photo of the primary owner's drivers license
-  * Cannot be expired
-  * Only the person filling out the information
-* Owners Information
-  * Date of Birth
-  * Social Security Number
-  * Email address
-* Business EIN Issuance Letter (SS-4 form)
-* Business incorporation information
-  * Date
-  * State
-  * Articles of Incorporation
-* Photo of a voided check (must have routing and bank account numbers readable)
-* Statements:
-  * 2 years of financials (P&L statements or business tax returns)
-  * Last 3 months of Banking statements
-  * Last 3 months of card/ach processing statements
-  * If no processing history, then last 3 months of personal banking statements
-* Copy of your contract ([ensure the section about Lendiom is in there](../communication#contract-verbiage))
-* Estimated Processing
-  * Total monthly processing amount
-  * Highest individual payment amount
+1. **Prepare Required Documents**  
+   Ensure you have all the necessary documents and information listed below.
+
+2. **Fill Out the Application in Lendiom**  
+   Complete the Merchant Info section inside the Lendiom platform.
+
+3. **Sign Electronically**  
+   Electronically sign the application to finalize submission.
+
+4. **Wait for Approval**  
+   PayArc will review your application and notify you once it's approved.
+
+5. **Complete the PCI Compliance Questionnaire**  
+   Upon approval, call PayArc for assistance with the PCI Compliance Questionnaire.
+
+---
+
+## Required Documents and Information
+
+To ensure a smooth onboarding process, gather the following:
+
+### Personal Information
+- **Driver’s License the Owner(s)**:  
+  - Must be valid and unexpired.  
+  - Should be a clear color picture.
+- **Owner’s Information**:  
+  - Date of Birth.  
+  - Social Security Number.  
+  - Email Address.
+
+### Business Information
+- **EIN Issuance Letter (SS-4 Form)**  
+- **Business Incorporation Details**:  
+  - Date of Incorporation.  
+  - State of Incorporation.  
+  - Articles of Incorporation.
+- **Voided Check**:  
+  - Must display readable routing and account numbers.
+
+### Financial Statements
+- **Financial History**:  
+  - Two years of financial statements (Profit & Loss statements or business tax returns).  
+  - Last three months of business banking statements.  
+  - Last three months of card/ACH processing statements (if applicable).  
+  - If no processing history, provide the last three months of personal banking statements.
+
+### Contract Information
+- **Business Contract**:  
+  - Include a section about Lendiom.  
+  - [Click here](../communication#contract-verbiage) for details on suggested verbiage.
+
+### Processing Estimates
+- **Estimated Monthly Processing Volume**:  
+  - Average transaction amount.
+  - Total monthly processing amount.  
+  - Highest individual transaction amount.
+
+:::tip
+For all estimates, we encourage you to round up 10-25% to ensure you have room to grow.
+:::
+
+---
+
+## Notes and Tips
+
+- **Accuracy is Key**: Double-check all information and documents to avoid delays.
+- **Support Available**: If you need assistance, reach out to [Lendiom support](mailto:support@lendiom.com?subject=PayArc%20Onboarding%20Question).
+- **Secure Submission**: All data submitted is encrypted and handled securely.

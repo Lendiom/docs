@@ -6,71 +6,132 @@ author: Bradley Hilton
 ---
 
 ## Introduction
-Late fees in Lendiom have previously been simple and straightforward, without a lot of flexibility. With Lendiom v0.36.0, the system has evolved to accommodate more complex scenarios. This article outlines how late fee tiers work within Lendiom.
+Late fees in Lendiom have evolved to handle more complex scenarios with the introduction of **late fee tiers** in Lendiom v0.36.0. This article explains how late fees are calculated, applied, and managed, including advanced features such as multiple tiers, grace periods, and flexible balances.
 
 :::info
-
-Rentals currently only have support for one late fee tier. 
-
+Currently, rentals only support a single late fee tier.
 :::
 
-## Tiers
-A late fee tier can be considered a single charge for being late, without considering any other late fee tiers. Each tier is set up separately and isn't affected by any other late fee tiers.
+## Late Fee Tiers
+A late fee tier defines a specific charge for being late, independent of other tiers. Each tier operates on its own logic and is configured individually.
 
-## Tier Definition
-Each tier has the following baseline configuration options:
+### Tier Configuration
+Each tier has the following configurable options:
+- **Days**: The number of days after the due date when this late fee tier is applied.
+- **Application**: How the late fee is applied (e.g., to principal, balance, or next payment).
+- **Charge Type**: How the late fee is calculated (e.g., fixed or percentage).
+- **Fixed and Percentage Amounts**: Includes optional minimum and maximum limits for percentage-based fees.
 
-* Days: the amount of days after the due date when this late fee tier is applied
-* Application: how the late fee is applied (principal, next payment, balance)
-* Charge Type: the formula for calculating the late fee (fixed or percentage)
+### Additional Tier Controls
+- **Disabled**: When enabled, late fees will not be applied to any payments.
+- **Tier Added Date**: Tracks when a new tier is introduced, ensuring it does not retroactively affect previous payments.
 
-### Days
-The value of the days is like a grace period. Therefore, if buyers have a 10-day grace period before being charged a late fee, then the late fee is charged starting from the 11th day of the month, provided the due date is the 1st of the month. The 10-day grace period implies that the due date is not included in the calculation of the late fee. In other words, the late fee is charged exclusively starting from the 11th day of the month, which means the 1st day of the month is not part of the late fee period.
+### Days (Grace Period)
+The `Days` value defines the grace period for each tier. For example:
+- If the due date is the 1st of the month and the grace period is 10 days, the late fee applies starting on the 11th.
+- Grace periods only include calendar days, not the due date itself.
 
 ### Application
-The application value tells Lendiom how to apply the late fee. Currently, there are three options (two on rentals):
-
-* First Part of Next Payment: the late fee is took out first of the next payment
-* Added to Late Fee Balance: the late fee is added to the flex late fee balance and is never automatically paid
-* Added to Principal: the late fee is appended to the remaining principal balance (*note:* this only works on loans)
-
-:::tip
-
-If your contract states that the late fee will be paid first out of the next payment that comes in, then select the **First Part of Next Payment**. Payments which come in with this selected with result in a payment allocation as follows:
-
-1. Late Fee
-2. Interest
-3. Principal
-
-:::
+Defines how the late fee is applied:
+1. **First Part of Next Payment**:
+   - The late fee is deducted first from the next payment made.
+   - Payments are allocated in the following order: Late Fee → Interest → Principal.
+2. **Added to Late Fee Balance**:
+   - Late fees are added to the `Flex Late Fee Balance` and never deducted automatically.
+3. **Added to Principal**:
+   - Late fees are appended to the remaining principal balance (available for loans only).
 
 ### Charge Type
-The charge type instructs Lendiom how much to charge for the late fee. At the moment, there are three options:
+Determines how the late fee amount is calculated:
+- **Fixed**: A preset amount that remains constant.
+- **Percentage**: A percentage of the balance due, with minimum and maximum values.
 
-* Fixed: the amount is fixed and doesn't change
-* Percentage: the amount is based on the balance due, with support for a min and max amount
+#### Example: Percentage Late Fee
+- Percent: 4%
+- Minimum: $10
+- Maximum: $50
 
-#### Fixed
-A preset value that does change. The only value required for fixed charge type is the amount to charge for being late.
+If the balance due is $800:
+- Fee = $800 × 4% = $32 (between the min/max range).
 
-#### Percentage
-Lendiom will take their balance due and multiply it by the percentage provided. If the result is less than the minimum amount, then Lendiom will charge the configured minimum amount. If the result is more than the configured maximum amount, the Lendiom will charge the maximum amount. Three fields are required when using percentage:
-
-* Percent (ex: 4%)
-* Minimum (ex: $10)
-* Maximum (ex: $50)
-
-That's it! With these three pieces of information, Lendiom will charge the appropriate late fee amount based on the balance due. And don't worry, Lendiom rounds up to the nearest cent, so you won't have to worry about any weird fractional amounts.
+If the balance due is $200:
+- Fee = $200 × 4% = $8 (below the minimum, so the fee is $10).
 
 ## Late Fee Balances
-With the introduction of late fee tiers, a new late fee balance was introduced `Flex Late Fees`. This late fee balance will hold any late fees accrued from tiers which have the application `Late Fee Balance`. With this introduction, there are now two different late fee balances:
+Lendiom uses two types of late fee balances:
+1. **Late Fee Balance**:
+   - Contains fees deducted automatically with payments.
+   - Cleared as part of the regular payment process when the application is "First Part of Next Payment."
+2. **Flex Late Fee Balance**:
+   - Contains fees that are manually managed.
+   - Requires explicit user actions to clear, such as recording a late fee payment.
 
-* `Late Fee Balance` contains the amount of late fees which get paid automatically
-* `Flex Late Fee Balance` contains the amount of late fees which never get automatically paid
+## Applying Late Fees
+Late fees are applied using the following logic:
+1. **Status Check**: Late fees are only applied to loans with active statuses. Loans or Rentals in `Draft` mode are excluded.
+2. **Grace Period Enforcement**: A late fee is applied only after the grace period has elapsed.
+3. **Transaction Association**: Each late fee is tied to a specific transaction for accurate reversals.
+4. **Duplicate Prevention**: The system prevents the same tier from being applied multiple times for the same grace period. However, if recording late fees manually, it is possible to create duplicate late fees.
 
-When making a payment and at least one tier contains the `First Part of Next Payment` application, the late fee balance will be took out first. The only way to bring the `Flex Late Fee` balance down is to manually record a positive late fee payment.
+:::tip
+If a payment is made after a late fee has already been applied, the late fee will remain tied to the original transaction. This ensures integrity when reversing payments or recalculating late fees.
+:::
+
+### Example
+- Due Date: January 1st.
+- Grace Period: 10 days.
+- Payment Made: January 15th.
+- Late Fee Application: 
+  - Grace period ends January 11th.
+  - A late fee is applied on January 12th.
+
+---
 
 ## Updating Late Fee Tiers
-During the course of the life of a loan, generally the late fee configuration stays the same. If you ever want to update a late fee configuration, and tiers, you absolutely can! However, the number of tiers must at least stay the same. Meaning, you can not remove a tier but you can add a tier.
+Late fee tiers can be updated during a loan's or rental's lifecycle, but with the following restrictions:
+1. **No Tier Removal**: Tiers cannot be removed once applied to payments. This ensures integrity for existing transactions.
+2. **Adding New Tiers**: New tiers can be added at any time, but they will only apply to payments due after their addition date (`Tier Added Date`).
 
-Why? Because when making a payment, or when a payment is late, we associate the late fee tier applied to the payment so that if, or when, the payment is reversed then the proper late fee tier is also reversed.
+:::info
+When a tier is updated, all new late fees applied will use the updated configuration. Existing fees tied to prior transactions will remain unchanged.
+:::
+
+---
+
+## Grace Period and Multi-Tier Handling
+When multiple tiers exist, each tier operates independently:
+- **Grace Period Overlap**: If a payment qualifies for multiple tiers (e.g., 10-day and 20-day grace periods), the system applies each tier sequentially as its grace period ends.
+- **Tier Independence**: Higher tiers (e.g., Tier 2) do not depend on the conditions of lower tiers (e.g., Tier 1) nor do they replace the lower tiers.
+
+---
+
+## Reversing Late Fees
+When payments are reversed, associated late fees are also reversed:
+- Fees tied to specific tiers and transactions will be recalculated automatically.
+- Reversals respect the original tier logic to ensure accurate balances.
+
+---
+
+## Example Scenarios
+
+### Scenario 1: Single Tier with Fixed Fee
+- **Configuration**:
+  - Days: 10
+  - Application: First Part of Next Payment
+  - Charge Type: Fixed ($50)
+- **Outcome**:
+  - A payment due on January 1st incurs a $50 late fee on January 11th.
+
+### Scenario 2: Multiple Tiers with Percentage Fee
+- **Configuration**:
+  - Tier 1: Days = 10, Application = Balance, Charge Type = Percentage (4%, Min: $10, Max: $50)
+  - Tier 2: Days = 20, Application = Balance, Charge Type = Percentage (5%, Min: $20, Max: $100)
+- **Outcome**:
+  - Payment due on January 1st incurs:
+    - Tier 1 fee on January 11th.
+    - Tier 2 fee on January 21st if still unpaid.
+
+---
+
+## Word of Caution
+Late fees are powerful tools for managing payment compliance. However, it is crucial to clearly disclose how late fees are calculated and applied in contracts. Failure to do so may result in legal challenges.

@@ -31,6 +31,7 @@ module.exports = {
       items:
       [
         'app/what-is-lendiom',
+        'app/getting-started',
         'app/communication',
         'app/faq',
         {
