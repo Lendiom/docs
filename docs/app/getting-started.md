@@ -51,7 +51,7 @@ To add your inventory of properties:
 1. Navigate to the **Inventory** page in the Lendiom dashboard.
 2. Click the **Add New** button.
 3. Complete the three-step process:
-   - **Step 1**: Select a category (see the [FAQ](../faq) for available options).
+   - **Step 1**: Select a category (see the [FAQ](faq) for available options).
      Then choose the type and status.
    - **Step 2**: Provide high-level details based on the category.
    - **Step 3**: Review the details to ensure accuracy.
