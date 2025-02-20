@@ -78,6 +78,12 @@ As mentioned earlier, the approval process can take up to 8 weeks. In some cases
 
 While waiting for approval, any messages you send will incur additional fees from carriers. Unfortunately, there is no way to know the status of your campaign without contacting support. We need to work with our provider manually to check the status. So, please [contact us](mailto:support@lendiom.com?subject=Communication%20Question), and we will reach out to our provider to provide you with an update.
 
+### Automated Messaging
+Automated messages will only be sent if:
+1. The **Communication Portal is enabled**.
+2. The **client has opted in to receive text messages**.
+3. The **loan has automated messaging enabled**.
+
 ## The Cost
 The entire campaign process incurs costs. Here are our prices as of November 11th, 2024. We will keep this pricing page up to date. If you believe there's an error, please [contact support and let us know](mailto:support@lendiom.com?subject=Communication%20Question%20-%20Pricing)!
 - Communication Portal: $7.50 per month
