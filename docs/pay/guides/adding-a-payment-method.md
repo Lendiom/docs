@@ -1,6 +1,6 @@
 ---
 id: adding-payment-method
-title: Adding a Payment Method
+title: Adding a Payment Method Guide
 ---
 
 A payment method is where the money comes from whenever you make a payment. We currently support:

@@ -1,6 +1,6 @@
 ---
 id: paying-property-taxes
-title: Paying Property Taxes
+title: Paying Property Taxes Guide
 ---
 
 With Lendiom Pay, you can pay for your property tax online instead of having to mail something in. Once you log in to your Lendiom Pay account, you will see the list of owner financed loans you have in the system. For each tract that has property tax due, you will see **Property Tax Due** underneath the name of the loan. Click on the *View Details* button to view more information.
