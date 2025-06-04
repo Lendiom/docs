@@ -120,7 +120,7 @@ When payments are reversed, associated late fees are also reversed:
   - Application: First Part of Next Payment
   - Charge Type: Fixed ($50)
 - **Outcome**:
-  - A payment due on January 1st incurs a $50 late fee on January 11th.
+  - A payment due on January 1st has a $50 late fee created on January 11th and dated January 10th.
 
 ### Scenario 2: Multiple Tiers with Percentage Fee
 - **Configuration**:
@@ -130,8 +130,3 @@ When payments are reversed, associated late fees are also reversed:
   - Payment due on January 1st incurs:
     - Tier 1 fee on January 11th.
     - Tier 2 fee on January 21st if still unpaid.
-
----
-
-## Word of Caution
-Late fees are powerful tools for managing payment compliance. However, it is crucial to clearly disclose how late fees are calculated and applied in contracts. Failure to do so may result in legal challenges.
