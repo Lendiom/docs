@@ -43,3 +43,18 @@ Failure to complete the questionnaire will result in additional monthly charges:
 - **After 180 days**: $49.95 per month.
 
 We strongly recommend setting aside 30 minutes to complete the questionnaire promptly.
+
+## Transaction Timing
+
+### Cards
+Card payments will normally fail or succeed within one business day. Then, it takes one or two business days for the payment to show up in your bank account (even more if your merchant account has funding delays).
+
+### ACH
+ACH payments will normally take 10 to 15 business days to complete. The flow usually goes:
+1. Client makes a payment
+2. 10 to 15 days later, it shows up in your bank
+3. 3-5 days later, Lendiom shows it as successful
+
+*Note*: We understand it takes a long time, but there's nothing we can do to expedite this.
+
+Should an ACH payment fail, it will happen within the 10 to 15 days.
