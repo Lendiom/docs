@@ -27,9 +27,33 @@ Each tier has the following configurable options:
 - **Tier Added Date**: Tracks when a new tier is introduced, ensuring it does not retroactively affect previous payments.
 
 ### Days (Grace Period)
-The `Days` value defines the grace period for each tier. For example:
-- If the due date is the 1st of the month and the grace period is 10 days, the late fee applies starting on the 11th.
-- Grace periods only include calendar days, not the due date itself.
+The **Days** setting defines how many full calendar days after the due date a payment can be late **without** incurring a late fee. The due date itself is **not** counted.
+
+#### How it’s evaluated
+- **Calendar days only.** Weekends and holidays are treated like any other day.
+- **Due date excluded.** Counting starts the day **after** the due date.
+- **Organization timezone.** All checks use the organization’s local timezone.
+- **No partial-day logic.** A payment only becomes late when an entire grace period has elapsed.
+
+#### When a payment becomes late
+- A payment becomes **late** at 12:00 AM **the day after** the grace period ends (i.e., on `due date + Days`).
+- Lendiom creates the late fee on the **first processing run after** the grace period ends, but the **transaction date** of that fee is set to the **last day of the grace period**. This preserves accurate audit history for reversals and recalculations.
+
+#### Example
+- **Due date:** January 1
+- **Days (grace):** 10
+- **Grace window:** January 2–January 11 (10 full days)
+- **Becomes late:** January 12 (12:00 AM, org timezone)
+- **Late fee record:** Created during the first run on/after January 12, **dated January 11** (the last day of grace).
+
+#### Additional notes
+- If the required amount is paid in full **before** the grace period ends, no late fee is applied.
+- When multiple tiers exist, each tier’s **Days** is evaluated independently from the same due date.
+- If a late-fee tier is added **after** its grace period would have ended for an already-late payment, Lendiom will **not** retroactively apply that tier to that past period.
+
+:::tip
+The **creation** of the late fee can be slightly later (next automation run), but the **transaction date** is set to the **last day of the grace window**. This preserves auditability for reversals and recalculations.
+:::
 
 ### Application
 Defines how the late fee is applied:
