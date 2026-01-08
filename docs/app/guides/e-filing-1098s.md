@@ -3,7 +3,7 @@ id: e-filing-1098s
 title: E-Filing 1098 INTs
 ---
 
-As of version 0.46.0 of Lendiom, you can now e-file your Form 1098s. This uses all of the data you have entered into Lendiom, aggregates it into one report, and then e-files it with the government (through a third-party partner of ours). As of 2024, the price per form is $8.00, which includes e-filing and mailing the form to the client via USPS.
+As of version 0.46.0 of Lendiom, you can now e-file your Form 1098s. This uses all of the data you have entered into Lendiom, aggregates it into one report, and then e-files it with the government (through a third-party partner of ours). As of 2024, the price per form is $10.00, which includes e-filing and mailing the form to the client via USPS.
 
 ## Form 1098 Overview
 

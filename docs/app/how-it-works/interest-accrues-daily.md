@@ -81,6 +81,7 @@ For example, if the borrower pays 5 days late, the calculation is:
 $A = P \cdot \frac{I}{Y} \cdot D$
 
 Using the earlier example:
+
 - **30/360 and Actual/360:** \$972.22
 - **Actual/365:** \$958.90
 
@@ -93,6 +94,7 @@ A nightly job ensures the loan data is consistent, recalculating daily accrued i
 
 ### Late Payment Calculation
 When payments are late, the system:
+
 - Checks the due date and grace period.
 - Applies late fees based on the loan's configuration.
 - Updates the loan's status (e.g., **Late**, **Grace Period**).
@@ -103,7 +105,3 @@ When payments are late, the system:
 
 ## Word of Caution
 While Lendiom facilitates loan management, compliance with applicable laws remains your responsibility. Ensure contracts explicitly define interest calculations to avoid legal disputes. [Read more here.](https://www.martindale.com/banking-financial-services/article_Lerch-Early-Brewer-Chartered_1610522.htm)
-
-<!-- ## Interactive Example
-TODO: Add this
-<InterestAccrualExample /> -->
