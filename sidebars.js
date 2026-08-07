@@ -64,6 +64,15 @@ module.exports = {
             }
           ]
         },
+        {
+          type: 'category',
+          label: 'Webhooks',
+          items: [
+            'app/webhooks/webhooks-overview',
+            'app/webhooks/event-reference',
+            'app/webhooks/security-and-delivery',
+          ]
+        },
       ],
     }
   ],
