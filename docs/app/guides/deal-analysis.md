@@ -3,6 +3,12 @@ id: deal-analysis
 title: Deal Analysis
 ---
 
+:::caution Beta
+
+This feature is currently in a beta status and must be manually enabled in **Org Settings > Billing > Enable Deal Analysis** addon.
+
+:::
+
 A land deal really comes down to four numbers: what the land cost you, what you've spent getting it ready to sell, what you still owe on it, and what you expect to collect across every tract. Before v0.65.0, Lendiom didn't have a place to keep those numbers together, so most of us kept them in a spreadsheet that was out of date the day after we made it. The deal analysis fixes that. It lives on the development itself and recalculates every time you record a cost, a loan, or a sale.
 
 It's in **beta** for now. It works, we use it, but it isn't finished. If something feels off or missing, tell us. That feedback is what decides where it goes next.
