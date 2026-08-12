@@ -3,7 +3,7 @@ id: inviting-a-client-to-lendiom-pay
 title: Inviting a Client to Lendiom Pay
 ---
 
-# Introduction
+## Introduction
 
 A client (also known as a “buyer”) must receive an invitation before they can access Lendiom Pay. The invitation can be sent through the Communication Portal or generated as a document for you to send separately.
 

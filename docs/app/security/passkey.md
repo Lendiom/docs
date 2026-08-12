@@ -5,7 +5,7 @@ title: Passkey
 
 Passkeys give you phishing-resistant, password-free sign-in that’s faster and more secure. Register more than one passkey and keep a recovery method so you’re protected and never locked out.
 
-# Add a passkey to your account
+## Add a passkey to your account
 
 **What you need first**
 
@@ -21,7 +21,7 @@ Passkeys give you phishing-resistant, password-free sign-in that’s faster and 
 5. Confirm using your device unlock method — face/fingerprint, device PIN, or press the security key.
 6. Repeat to register a second device/key as a backup.
 
-# How a passkey protects your account
+## How a passkey protects your account
 
 - **Phishing-resistant:** passkeys use public-key cryptography so a malicious site can’t trick your device into revealing a reusable secret.
 - **No password to steal or reuse:** there’s nothing for attackers to guess, reuse, or leak from a server.
@@ -30,7 +30,7 @@ Passkeys give you phishing-resistant, password-free sign-in that’s faster and 
 - **Faster sign-in:** unlock with biometrics or PIN instead of typing a password + 2FA.
 - **Built-in multi-factor strength:** possession of your device plus biometric/PIN provides high assurance without extra codes.
 
-# Recovery & best practices
+## Recovery & best practices
 
 - **Register at least two passkeys** (e.g., phone + laptop or phone + hardware key). That prevents lockout if one device is lost.
 - **Enable cloud keychain sync** (iCloud Keychain, Google Password Manager, etc.) if you want passkeys to move across your devices — but treat that sync account like a high-value account.
@@ -38,7 +38,7 @@ Passkeys give you phishing-resistant, password-free sign-in that’s faster and 
 - **If a device is lost or stolen:** immediately remove/revoke its passkey from your account security settings and, if possible, remotely wipe or lock the device.
 - **Don’t share devices or unlock credentials.** Treat biometrics and device PINs as private.
 
-# Troubleshooting & compatibility tips
+## Troubleshooting & compatibility tips
 
 - If your browser or OS is out of date, update it — older versions may not support passkeys.
 - If your account doesn't have a passkey yet, you’ll fall back to password.
