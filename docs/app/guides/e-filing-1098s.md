@@ -70,13 +70,6 @@ Once you hit submit, it might take a minute or two, depending on how many 1098s 
 
 And that's it! You will have successfully e-filed your 1098s!! 🎉
 
-## Features Coming Soon
-
-A few more features will be coming out before the end of this month:
-
-- Downloading the filed 1098s
-- Status of the filed 1098s (pending, accepted, rejected, etc.)
-
 ## Support
 
 If you run into any problems or have any questions, please reach out to us! [support@lendiom.com](mailto:support@lendiom.com)

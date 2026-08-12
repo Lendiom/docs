@@ -52,7 +52,7 @@ The payment number of the last paid in full payment. This value is used to calcu
 The date when the next payment is due, excluding the grace period.
 
 ### Verification
-On the last step of creating a new loan, [the review step](./creating-a-loan#step5), please double check the generated amortization schedule. Verify that the next payment number is correct, the next payment due date is correct, and the amounts to the interest and principal are correct.
+On the last step of creating a new loan, [the review step](./creating-a-loan#step6), please double check the generated amortization schedule. Verify that the next payment number is correct, the next payment due date is correct, and the amounts to the interest and principal are correct.
 
 ### How It Works
 Whenever a loan is created based on a pre-existing one, we take the values provided and instead of generating the amortization schedule on the original terms we generate a new one based on the remaining principal.
@@ -89,7 +89,7 @@ When did they last make their payment? We will use this to calculate the interes
 The date when the next payment is due, excluding the grace period.
 
 ### Verification
-On the last step of creating a new loan, [the review step](./creating-a-loan#step5), review all of the information you entered is correct and doesn't contain any extra zeros or other numbers. Double check yourself and Lendiom.
+On the last step of creating a new loan, [the review step](./creating-a-loan#step6), review all of the information you entered is correct and doesn't contain any extra zeros or other numbers. Double check yourself and Lendiom.
 
 ### How It Works
 The system takes the provided original sales price, subtracts the down payments to get how much principal was originally due. Then, it takes that amount and subtracts the amount of principal paid already to get the balance due. It then stores the last payment date and the unpaid interest balance. Once the buyer pays their next payment, we calculate the days since last payment to get the new interest due and add the unpaid interest balance to get how much should be applied towards interest and principal.

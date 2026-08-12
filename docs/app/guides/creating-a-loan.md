@@ -38,11 +38,11 @@ Who is the loan for? The client must exist in the system already or you can use 
 The loan label is for your reference and the client's reference (when using [Lendiom Pay](/pay/)). The system auto generates a label based upon the loan type, tract of land selection and the client. We highly recommend customizing the label for you and your client to easily recognize it.
 
 ### Step 1 Screenshot
-![img](../../../static/img/docs/app/guides/creating-a-loan/first-step.png)
+![Step 1 of the new loan wizard: what the loan is for and who it is for](/img/docs/app/guides/creating-a-loan/first-step.png)
 
 
 ## Step 2: Terms {#step2}
-The third step is for setting the terms of the loan. So, when the due date is and how late fees are charged.
+The second step is for setting the terms of the loan. So, when the due date is and how late fees are charged.
 
 ### Closing Date {#step2-closing-date}
 The closing date is when the papers are going to be signed or were signed. This is primarily for your record keeping and does not effect any loan calculations.
@@ -69,11 +69,11 @@ You can set this time frame between 1 and 365 days.
 **Important note:** Repossessing the property (which marks the loan as repossessed) is a manual process and will not occur automatically.
 
 ### Step 2 Screenshot
-![img](../../../static/img/docs/app/guides/creating-a-loan/terms-step.png)
+![Step 2 of the new loan wizard: due dates, late fee tiers and defaulting](/img/docs/app/guides/creating-a-loan/terms-step.png)
 
 
 ## Step 3: How Much {#step3}
-The second step consists of telling the system about the terms of the loan.
+The third step consists of telling the system the amounts that make up the loan: the sales price, the down payment, the rate, and how long it runs.
 
 ### Sales Price {#step3-price}
 The sales price refers to the initial amount that the buyer agrees to pay before making any down payment or adjustments.
@@ -162,7 +162,7 @@ Let's say that the monthly payment is $225. We have a client who pays a $250 eve
 Whenever you create creating an existing loan, this value enables the extra inputs for creating a loan based on an existing one. For more information about creating an existing loan, please see: [Creating a Pre-Existing Loan](./creating-a-pre-existing-loan)
 
 ### Step 3 Screenshot
-![img](../../../static/img/docs/app/guides/creating-a-loan/how-much-step.png)
+![Step 3 of the new loan wizard: sales price, down payment, rate and length](/img/docs/app/guides/creating-a-loan/how-much-step.png)
 
 
 ## Step 4: Communication {#step4}
@@ -216,7 +216,7 @@ This option enables a Principal Only payment option on Lendiom Pay. This is usef
 This option enables the client to setup automatic payments via Lendiom Pay. This is useful when the client wants to ensure that they never miss a payment.
 
 ### Step 4 Screenshot
-![img](../../../static/img/docs/app/guides/creating-a-loan/fourth-step.png)
+![Step 4 of the new loan wizard: communication settings](/img/docs/app/guides/creating-a-loan/fourth-step.png)
 
 ## Step 5: Escrow {#step5}
 Escrow includes anything such as taxes, insurance, or other fees that are paid on a regular basis. If property taxes are paid in a lump sum, you may not need to collect escrow. For property taxes, Lendiom has a feature set dedicated for collecting reimbursement of property taxes. [Please see here for more information](./property-taxes.md).
@@ -237,10 +237,10 @@ The escrow application step is when the escrow is took out of the payments. The 
 
 The majority of the time the escrow is taken out before the interest is calculated, to ensure the escrow is always paid.
 
-![img](../../../static/img/docs/app/guides/creating-a-loan/escrow-step.png)
+![Step 5 of the new loan wizard: escrow settings](/img/docs/app/guides/creating-a-loan/escrow-step.png)
 
 ## Step 6: Review {#step6}
-The fifth, and final, step is to review all of the data which you have entered before saving it. The review also includes an amortization schedule. Once you have reviewed all of the data and double checked it is correct, click the **Save** button and you are done creating the loan!
+The sixth, and final, step is to review all of the data which you have entered before saving it. The review also includes an amortization schedule. Once you have reviewed all of the data and double checked it is correct, click the **Save** button and you are done creating the loan!
 
 ### Step 6 Screenshot
-![img](../../../static/img/docs/app/guides/creating-a-loan/review-step.png)
+![Step 6 of the new loan wizard: reviewing the loan and its amortization schedule](/img/docs/app/guides/creating-a-loan/review-step.png)

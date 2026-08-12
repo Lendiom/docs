@@ -7,7 +7,7 @@ We call PDF Forms Fillable PDFs. With this feature you can upload a PDF Form and
 
 ## Upload the PDF Form
 
-:::important
+:::info
 
 The uploaded PDF must be a PDF Form (see [here](https://www.pdfgear.com/create-fillable-pdf/) or [here](https://helpx.adobe.com/acrobat/using/pdf-forms.html) for information).
 
@@ -18,9 +18,9 @@ The uploaded PDF must be a PDF Form (see [here](https://www.pdfgear.com/create-f
 3. Then on the big blue *New Fillable PDF* button
 4. When the drawer opens up, select what the fillable pdf is for.
   - `Cash Loan` applies to loans that are related to nothing (such as hard cash loans)
-  - `Track Loan` applies to a loan which has a track associated with it
+  - `Tract Loan` applies to a loan which has a track associated with it
   - `Client` applies to a single client
-  - `Track` applies to a single track
+  - `Tract` applies to a single track
 5. Select the PDF file to upload.
 6. Provide a description of what the file is. The description is for your own reference only, it will not be added to the document.
 

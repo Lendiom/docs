@@ -15,5 +15,5 @@ Lendiom Pay is the client facing portal. Find more information about [Lendiom Pa
 Lendiom is for the business to use and manage their system. Find out more information about [Lendiom here](./app/what-is-lendiom.md).
 
 * Guides: detailed step through
-* Template Variables: the variables used for templates
+* How it Works: the concepts behind loans, fees and statuses
 * FAQ: questions asked frequently

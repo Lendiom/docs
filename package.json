@@ -10,7 +10,9 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "spellcheck": "mdspell -r -n docs/app/**/*.md"
+    "spellcheck": "mdspell -r -n docs/app/**/*.md",
+    "check-anchors": "node scripts/check-anchors.js",
+    "check-images": "node scripts/check-images.js"
   },
   "dependencies": {
     "@docusaurus/core": "^2.4.1",

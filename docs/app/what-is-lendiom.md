@@ -4,32 +4,21 @@ title: What Is Lendiom?
 slug: /app/
 ---
 
-## Brief Description
-Lendiom is a comprehensive platform designed to streamline the management of owner-financed and rental property portfolios. Tailored for land developers, hard money lenders, and property managers, Lendiom offers a suite of features to enhance efficiency and organization.
+Lendiom is an all-in-one platform built to streamline the entire lifecycle of a loan or rental. Whether you finance the purchase of real estate, personal property or intangible goods, Lendiom brings every step into one modern web application.
 
-### Features
-- **Owner-Finance Contract Management**  
-  Easily set up new contracts, generate amortization schedules, apply late fees, and manage payment collections.
-  
-- **Client/Customer Records**  
-  Maintain detailed customer records, add notes, attach files, and automate communications to keep clients informed.
+---
 
-- **Online Payments**  
-  Facilitate faster payments by accepting ACH, credit, and debit cards.  
-  The integrated customer portal, **[Lendiom Pay](../pay/what-is-pay.md)**, allows clients to:
-  - Make payments.
-  - Manage payment methods.
-  - Enable auto-draft for seamless payment collection.
+## Core Capabilities
 
-- **Automatic Communications**  
-  Send automated SMS and email notifications to clients about upcoming payments, past-due notices, and other important account information.
+- **Loan & Contract Management:** Create and manage cash loans, land contracts, rentals and leases in a single system.
+- **Integrated CRM:** Maintain records for clients and properties, track contact details and histories, and quickly access information from anywhere.
+- **Document Generation & Signing:** Generate contracts automatically and collect signatures electronically with built-in document signing.
+- **Payment Processing:** Accept online payments from borrowers via integrated processors, track payment schedules, escrow and late fees. Your clients make those payments through [Lendiom Pay](../pay/what-is-pay.md), the client-facing portal.
+- **Communications:** Send automated texts, emails and letters to keep clients informed about their accounts and deadlines.
+- **Reporting & Analytics:** Review dashboards and reports to monitor performance, outstanding balances and revenue.
 
-- **Report Generation**  
-  Generate detailed reports on installment income, rental income and transactions with a single click, providing a comprehensive overview of financial activities.
-
-- **Payment Management**  
-  Efficiently handle contract payments, rental payments, late fees, and property tax reimbursements.  
-  Payments, whether received digitally or entered manually, are automatically recorded and reflected in reports and the customer portal.
+Because Lendiom runs entirely in the cloud, your team can work from any device. By replacing spreadsheets and multiple point tools with one platform, Lendiom helps lenders stay compliant, automate manual tasks and serve borrowers more effectively.
 
 ### Learn More
-For more information, visit our [website](https://lendiom.com).
+
+Visit our [website](https://lendiom.com) to learn more about Lendiom.
