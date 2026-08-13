@@ -18,7 +18,7 @@ Open the client's conversation on the **Communications** page and look for the m
 | A red *Message failed to send* icon | The carrier rejected the recipient, usually an opt-out | [One person is not getting anything](#one-person-is-not-getting-anything) |
 | The message is there, but it arrived at 8:00 AM | It was held overnight | [It arrived, only late](#it-arrived-only-late) |
 
-<!-- screenshot: The Communications page with a client conversation open, showing one outbound message bubble carrying the orange "Message is queued and will be sent shortly" info icon next to an older delivered message. -->
+![The Communications page with a client conversation open, showing each message bubble and its delivery status](/img/docs/app/communication/message-troubleshooting/01.png)
 
 :::info
 Emails have no equivalent view — the **Email History** tab is not available yet, so a missing email leaves no trace in the app. Diagnose those from the entity record instead.

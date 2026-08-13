@@ -23,7 +23,7 @@ The bell holds three tabs — **Notifications**, **Reminders**, and **Messages**
 
 Notifications belong to your **user account**, not to an organization. If you belong to more than one organization, the bell mixes them together and there is no filter — the organization name is usually in the title or description.
 
-<!-- screenshot: the Lendiom notification bell open, showing the Notifications / Reminders / Messages tabs with item counts, a couple of unread rows with orange "high" tags, and the "Clear Notifications" bar at the bottom -->
+![The notification bell open, showing the Notifications, Reminders and Messages tabs](/img/docs/app/how-it-works/notification-settings/01.png)
 
 :::caution Clear removes unread items too
 **Clear** hides everything in that tab regardless of whether you read it. There is no undo and no archive to look through afterward. If a notification matters, act on it before clearing.

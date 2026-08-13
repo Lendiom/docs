@@ -106,7 +106,7 @@ The 256 characters are yours alone. Lendiom's built-in automated reminders carry
 
 Every job lands on the **Jobs** tab with its date, method, scope, status (draft, queued, processing, completed, failed), and running success and failure counts. Filter by method, scope, or status to find an older run.
 
-<!-- screenshot: The Send Mass Text modal with "Clients with Late Loans" chosen in the Scope select and a short message typed into the message box showing the character counter -->
+![The Send Mass Text modal, with the audience Scope select above the message box](/img/docs/app/communication/conversations-inbox/03.png)
 
 ## Messages from numbers you do not know
 

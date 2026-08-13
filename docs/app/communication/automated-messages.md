@@ -124,7 +124,7 @@ The Lendiom Pay welcome text goes out once per client — activating a second lo
 
 The approval notice follows a [client change request](../guides/client-change-requests.md) being approved in the app. The email always goes out; the text is added only when the Communication Portal is set up. Like the welcome text, both are client-level and are not gated by a loan or rental's Automated Communication switch.
 
-<!-- screenshot: A conversation thread in the Communication Portal showing an outbound automated upcoming-payment text with its 9:00 AM timestamp, followed by the buyer's reply. -->
+![A conversation thread in the communication portal, with an automated outbound payment reminder and the borrower reply](/img/docs/app/communication/automated-messages/02.png)
 
 ## Daily job times
 
