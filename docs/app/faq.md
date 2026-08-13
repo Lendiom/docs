@@ -57,7 +57,7 @@ The short answer is yes to text and emails. Calls are not automated at this poin
 ## How do I check the version of Lendiom I am using? {#check-version}
 You can check the version of Lendiom you are using by clicking on your name, then clicking on "About". You will see the following screen:
 
-![about lendiom screenshot](../../static/img/docs/app/faq/about-screenshot.png)
+![about lendiom screenshot](/img/docs/app/faq/about-screenshot.png)
 
 ## General Usage & Features
 
@@ -65,7 +65,9 @@ You can check the version of Lendiom you are using by clicking on your name, the
 You can add a new property by navigating to the Inventory section, selecting the appropriate category (Land, Residential House, Multifamily), and filling out the necessary details. Make sure to specify if it's for financing or rental. See the [getting started guide](./getting-started.md).
 
 ### Can I import my existing inventory from another system?
-Lendiom currently does not support direct imports, but you can manually add inventory or work with our team for bulk data migration solutions.
+Yes. Lendiom includes a data import wizard for MoneyLender Professional 3 exports. It analyzes your export, lets you review and adjust how records are matched to existing inventory, and then commits loans along with their payment history. Your original MoneyLender transactions are also attached to each loan as a historical record.
+
+If you are coming from a spreadsheet, paper files, or another servicing platform, there is no automated importer for those yet — you add that inventory manually, or talk to us about a bulk migration.
 
 ### How do I track contract payments inside Lendiom?
 Once a client has an active contract, you can monitor their payment history and upcoming dues in the Loan Management section. Automated reminders can also be enabled to notify clients of due dates.

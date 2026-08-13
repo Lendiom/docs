@@ -27,6 +27,8 @@ jobs:
       - name: Build Client
         run: |
           yarn install
+          yarn run check-anchors
+          yarn run check-images
           yarn run build
 
   docker-build:

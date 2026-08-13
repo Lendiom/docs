@@ -10,7 +10,13 @@ Lendiom initially partnered with **Stripe** for payment processing due to its ea
 To ensure uninterrupted payment processing, we strongly recommend migrating to **PayArc**, our new preferred payment processor.
 
 :::warning
-Stripe support will end in **2025**. Please migrate to PayArc as soon as possible to avoid service disruptions.
+Stripe is no longer available to new Lendiom merchants, and PayArc is the only processor you can onboard to today. If you are still collecting buyer payments through Stripe, migrate to PayArc.
+
+Note that payments taken through Stripe historically cannot be refunded automatically from within Lendiom — those have to be handled in Stripe directly.
+:::
+
+:::note
+This page is about Stripe as a **merchant processor**, meaning how you collect money from your buyers. That is separate from how Lendiom bills *you* for your own subscription, which also runs on Stripe. Enabling or disabling Stripe here has no effect on your Lendiom subscription billing.
 :::
 
 ## Stripe Fees
