@@ -25,7 +25,7 @@ Every loan created in Lendiom is given a schedule, so the first requirement only
 2. Under **Primary Actions**, click **Move Due Date**.
 3. Pick the new date, check any move-to-end options you want, write a reason, and click **Save**.
 
-<!-- screenshot: A loan detail page with the Actions dropdown open, scrolled to the "Primary Actions" group, showing "Move Due Date" as the first item with a calendar icon, above Record Payoff, Refinance Loan, Recast Loan, and Calculate Payoff. -->
+![A loan page with the Actions dropdown open, showing the primary actions group](/img/docs/app/guides/moving-a-due-date/01.png)
 
 The modal is titled **New Due Date** and opens with a blue notice: *Please note that when changing a due date, all future payments will follow the new date structure.* That notice is literal — the move is not a one-payment holiday. Every remaining payment is regenerated from the new date at the loan's payment frequency.
 

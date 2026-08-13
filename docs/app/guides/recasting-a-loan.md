@@ -27,7 +27,7 @@ A recast cannot be undone from the app. There is no "revert recast" action. Prev
 
 Open the loan, click `Actions`, and choose `Recast Loan`.
 
-<!-- screenshot: The loan detail page with the Actions dropdown open, showing the primary group of menu items (Move Due Date, Record Payoff, Refinance Loan, Recast Loan, Calculate Payoff) with "Recast Loan" hovered. -->
+![The loan Actions dropdown open, showing Move Due Date, Record Payoff, Refinance and Recast](/img/docs/app/guides/recasting-a-loan/01.png)
 
 The `Actions` button itself is disabled unless your role has the **Loan → Update** permission. The `Recast Loan` item is disabled — with the reason in a tooltip next to it — when any of the following are true:
 
@@ -73,7 +73,7 @@ Read the preview's **Last Payment Date** every time. It is the fastest way to ca
 
 This is the most consequential field in the modal. It defaults to **Re-amortize**.
 
-<!-- screenshot: The Balance Handling select expanded inside the Recast Loan modal, showing all three options: "Leave balances as-is (shift dates only)", "Re-amortize principal (recompute payment)", and "Capitalize unpaid interest and fees into principal". -->
+![The Balance Handling select expanded inside the Recast Loan modal, showing its options](/img/docs/app/guides/recasting-a-loan/02.png)
 
 | Mode | Principal | Interest, late fees, other fees | Payment amount |
 | --- | --- | --- | --- |

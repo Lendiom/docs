@@ -7,7 +7,7 @@ Once a transaction is recorded, its amounts are locked. Three actions on the tra
 
 All three live in the actions menu at the end of each row in the loan's **Transactions** table. All three require update permission on Loan Transactions.
 
-<!-- screenshot: The loan Transactions table with the row actions menu open on a successful regular payment, showing View Details, Reverse, Revise Date, Generate Letter, and Download Success Letter -->
+![The loan Transactions table with a row actions menu open, offering View Details, Reverse, Waive, Revise Date and Download Success Letter](/img/docs/app/guides/reversing-a-transaction/02.png)
 
 ## Pick the tool that matches the situation
 
@@ -38,7 +38,7 @@ Transactions already marked Reversed or Failure do not count as "later." Once yo
 
 The reason and the comment are both required. The reason list in the Reverse dialog is short on purpose: Buyer Requested, Check Bounced, Clerical Error, Insufficient Funds, and Other. The comment accepts formatted text and cannot be left blank.
 
-<!-- screenshot: The Reverse Transaction modal for a check payment, showing the Reason select expanded with its five options, the Client Visibility select, the Reversal Comment editor, and the Transaction Details table underneath -->
+![The Reverse Transaction modal, with the reason selector and the confirmation controls](/img/docs/app/guides/reversing-a-transaction/03.png)
 
 **Client Visibility** controls whether the transaction stays in the client's history in Lendiom Pay:
 
@@ -124,7 +124,7 @@ The **Status Change Date** cannot be earlier than the transaction date. Use the 
 
 **Revise Date** appears only on transactions with a status of **Success**. It still shows in the menu for online payments, but the modal opens with its **Revise Date** button greyed out for anything that carries a processor behind it, so the date cannot be moved.
 
-<!-- screenshot: The Revise Transaction Date modal showing the red warning text and the date picker calendar with the payment due date outlined in green, the late fee grace cutoff outlined in red, and the transaction's current date outlined in gold -->
+![The Revise Transaction Date modal, with its warning text above the date picker](/img/docs/app/guides/reversing-a-transaction/05.png)
 
 The new date has to stay inside its neighbors: not before the previous transaction on the loan and not after the next one. The calendar marks the due date of the payment this transaction paid in green, the late fee grace cutoffs in red, and the transaction's current date in gold, so you can see what you are moving across.
 
