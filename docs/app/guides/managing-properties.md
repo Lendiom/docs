@@ -5,7 +5,7 @@ title: Adding and Managing Properties
 
 Everything you sell or rent lives in the **Inventory** section. The record is the anchor — tracts, units, loans, rentals, property taxes, notes, and files hang off it — so the choices you make when creating one are hard to change later.
 
-<!-- screenshot: The Inventory list showing records of mixed categories, the search and filter bar, and the "Add New" button top right -->
+![The Inventory list, showing each property with its category, type and status](/img/docs/app/guides/managing-properties/01.png)
 
 ## Categories
 
@@ -35,7 +35,7 @@ Choosing Land sets the type to Finance for you; choosing Multifamily sets it to 
 
 Click **Add New** and work through three steps: **Basic Data**, **Details**, then **Save**, a review screen plus any custom fields your organization has defined. Next stays disabled until the current step's required fields are filled in. Status at creation is limited to Idea, Ready, In Progress, or Completed.
 
-<!-- screenshot: Step one of the wizard, category dropdown open with Commercial and Other greyed out, above the Finance/Rental/Other type buttons -->
+![Step one of the new inventory wizard, with the category dropdown open above the Finance/Rental type choice](/img/docs/app/guides/managing-properties/02.png)
 
 The fields worth getting right the first time:
 
@@ -108,7 +108,7 @@ Your column selection and last-used filters are saved in the browser you are usi
 
 Archiving is the safe option: **Operation → Status → Archived**, confirm, and the record drops out of the list while everything attached stays intact.
 
-<!-- screenshot: The Operation dropdown on a land inventory page with the Status submenu expanded -->
+![The Operation dropdown open on a land inventory page](/img/docs/app/guides/managing-properties/06.png)
 
 Deleting is permanent. **Operation → Delete** removes the property with its tracts, property tax records, development costs, and development loans. Lendiom refuses when any tract still has a loan attached — cancel or delete those loans first.
 

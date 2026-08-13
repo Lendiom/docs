@@ -17,7 +17,7 @@ The calculator is read-only. It does not post transactions, change the loan's st
 
 The **Pay Off Calculator** modal opens, loads the quote for today, and shows the breakdown under **Pay Off Details**.
 
-<!-- screenshot: Pay Off Calculator modal for a daily-accrual loan showing the Select Pay Off Date field set to today and the bordered Pay Off Details table with Total, Principal, Interest, Unpaid Interest, Fees, Other Fees, Property Tax and Escrow rows -->
+![The Calculate Payoff modal, showing the payoff figure as of a chosen date](/img/docs/app/guides/payoff-quote/02.png)
 
 To quote a different day, pick a new date in **Select Pay Off Date**. The quote reloads on its own — there is no recalculate button.
 

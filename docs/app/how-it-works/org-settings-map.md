@@ -37,7 +37,7 @@ The Billing and Invoices tabs are gated on `billing read`, but every request beh
 
 The **Balance Due** tag on the Invoices tab is not an overdue amount. It is usage you have accrued since your last invoice — mailed [letters](../guides/sending-a-letter.md) and other metered items — that will appear on your next one.
 
-<!-- screenshot: the Invoices tab with the Balance Due tag beside the Invoices heading and one invoice row showing the pink alert icon for an action-required payment -->
+![The Invoices page, with the Balance Due tag beside the heading](/img/docs/app/how-it-works/org-settings-map/04.png)
 
 ## Your organization profile
 

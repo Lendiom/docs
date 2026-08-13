@@ -7,7 +7,7 @@ A unit is one apartment, condo, or door inside a multifamily inventory. Units on
 
 Units are what you attach a rental to. On a residential property the rental attaches to the property itself; on a multifamily property the rental attaches to a specific unit, and that unit carries the market rent, the bed/bath counts, and its own occupancy status.
 
-<!-- screenshot: a multifamily inventory page, header showing Address, City, County, State, Zip Code, Units, and Year Built, with the Units table card below listing four units -->
+![A multifamily inventory page, with the address and property details in the header](/img/docs/app/guides/units-on-multifamily/01.png)
 
 ## Before you add units
 
@@ -97,7 +97,7 @@ Two smaller gaps worth knowing about:
 - The **Tenant** column in the Units table always shows a dash, even for a unit with an active rental and a tenant on it. To see who is in a unit, open the rental.
 - On the review step of the rental wizard, the unit number is a link. There is no unit detail page in Lendiom, so that link opens a blank page.
 
-<!-- screenshot: the Units table with four rows, one showing status "rented", and the Tenant column showing a dash on every row including the rented one -->
+![The Units table on a multifamily property, showing each unit with its status and tenant](/img/docs/app/guides/units-on-multifamily/05.png)
 
 ## Units cannot be edited or deleted
 

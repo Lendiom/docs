@@ -9,13 +9,13 @@ Lendiom ships a fixed set of reports. You cannot build your own, and you cannot 
 
 Open **Reports** from the main menu. The Reports tab lists every report with its description, the date it was last run, and an actions menu holding **Run** and **Download**.
 
-<!-- screenshot: the Reports page on the Reports tab, table listing all twelve reports with Name, Description, Last Ran At, and Actions columns, one row's actions menu open showing Run and Download -->
+![The Reports page, listing the available reports with their descriptions](/img/docs/app/guides/reports-library/01.png)
 
 Choosing **Run** opens a modal that asks for whatever that report needs — a month, a year, a date range, a set of client statuses, or nothing at all. Fill it in, choose **Run!**, and the finished file opens in a new browser tab.
 
 Every run is kept. The **Last Ran At** column shows when the report last produced a file for your organization, and the **Download** action pulls that stored copy back without regenerating anything. Download stays greyed out until a report has been run at least once.
 
-<!-- screenshot: the Run Report modal titled "Run Report: Monthly Journal Entry Report" with a month picker showing March 2026 and the helper text "The date in which to run the report against." -->
+![The Run Report modal, with the reporting period selector and the Run button](/img/docs/app/guides/reports-library/02.png)
 
 :::info
 Where a description has a question mark beside it, hover it. The tooltip holds details that do not fit in the description — the Avery label numbers, the "one tab per status" note, and the beta warnings.

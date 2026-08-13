@@ -11,7 +11,7 @@ Open the rental and use the **Record Transaction** button in the page header. Th
 
 The rental's history lives in the **Transactions** panel further down the page. Each row's actions menu holds View Details, Reverse, and Change Status.
 
-<!-- screenshot: A rental detail page showing the Record Transaction button in the header, the Overview tab with Balance Due, Late Fees Due, Other Fees Due, and Total Due, and the collapsed Transactions panel below -->
+![A rental detail page, with the Record Transaction button in the header and the Overview tab showing the balances](/img/docs/app/guides/recording-rental-transactions/01.png)
 
 ## The transaction types
 
@@ -51,7 +51,7 @@ When there is a late fee balance and you choose Regular Payment, the dialog show
 
 Balance Due is then recalculated from scratch: Lendiom counts one rent payment for every month from the rental's first payment date up to today, subtracts the **To Balance** total of every successful or pending regular payment, and floors the result at zero. Overpayments carry forward on their own — next month's expected amount grows while the received total stays, so the credit shows up as a smaller Balance Due. It is never shown as a negative number.
 
-<!-- screenshot: The Add a Transaction dialog with Regular Payment selected, the amount pre-filled with the rent amount, a Payment Method select, a Date picker, a Status select, and the orange warning banner reading that a late fee balance will be paid first -->
+![The Add a Transaction dialog on a rental, with Regular Payment selected and the rent amount pre-filled](/img/docs/app/guides/recording-rental-transactions/02.png)
 
 ## Positive and negative amounts on fees
 
@@ -126,4 +126,4 @@ Waiving a late fee as part of a payment is supported by the server but has no co
 | Waiving a late fee at payment time | Not reachable in the dialog | Supported |
 | Reversal order | Regular payments newest-first | Any transaction, newest-first |
 
-<!-- screenshot: The rental Transactions table showing a mix of rows — a successful regular payment with amounts in To Balance and To Fees, a system-applied late fee, an other fee with a negative amount, and a reversed payment whose comment column reads the reversal reason -->
+![The rental Transactions table, listing each rent payment with its date, method, amount and status](/img/docs/app/guides/recording-rental-transactions/05.png)

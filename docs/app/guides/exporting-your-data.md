@@ -66,7 +66,7 @@ The ledger is what the archive misses, so this is usually the export that matter
 
 Open a loan, expand the **Transactions** panel, and use the **Download Transactions** split button in the panel header. The button itself gives you the simple file; the dropdown arrow offers **Simple CSV** and **Detailed CSV**. The loans list also has a **Download Transactions** row action, which always produces the simple version.
 
-<!-- screenshot: a loan detail page with the Transactions collapse panel expanded and the "Download Transactions" split button dropdown open in the panel header, showing Simple CSV and Detailed CSV -->
+![A loan detail page with the Transactions panel expanded and the Download Transactions split button beside it](/img/docs/app/guides/exporting-your-data/02.png)
 
 Neither file is a superset of the other.
 
@@ -87,7 +87,7 @@ There is no bulk transaction export. One loan, one download, one at a time.
 
 Go to **Reports**. Each row has a **Run** action and a **Download** action. Running generates a fresh file and opens it in a new tab; downloading pulls back the most recent stored copy without regenerating it. **Download** stays disabled until the report has run at least once.
 
-<!-- screenshot: the Reports page table listing every report with its description and Last Ran At column, one row's actions menu open showing Run and Download, and one row labelled with a Beta tag -->
+![The Reports page, listing every report with its description and Last Ran At column](/img/docs/app/guides/exporting-your-data/03.png)
 
 | Report | Period you choose | Output |
 | --- | --- | --- |

@@ -17,7 +17,7 @@ Both property pickers are limited to inventory whose type is **Finance**. Rental
 
 Lendiom writes the loan label for you from the type: *Jane Doe's loan for Sunrise Ranch Tracts 4, 5* for a tract loan, *Jane Doe's loan for 100 Main St* for a residential loan, and *Jane Doe's cash loan* for a cash loan. Change it to whatever you and the borrower will recognize.
 
-<!-- screenshot: step 1 of the new loan wizard with the Loan Type radio group showing Cash, Tract of Land, and Residential, with "Tract of Land" selected, and the Inventory Selection and Tract Selection dropdowns revealed below it -->
+![Step 1 of the new loan wizard, with the Loan Type radio group and the inventory selector](/img/docs/app/how-it-works/loan-types/01.png)
 
 ## What Gets Written Back When You Save
 
@@ -49,7 +49,7 @@ Property tax records are built per land development, per year, and billed per tr
 
 Cash and residential loans therefore always show a Property Tax Due of zero, and there is no supported way to raise it. For the tract workflow, see [Property Taxes](../guides/property-taxes) and [Collecting Property Tax After You Finalize](../guides/collecting-property-tax).
 
-<!-- screenshot: the New Transaction modal on a cash loan with the Type dropdown open, showing the Principal, Fees, Record Keeping, and Reconciliation groups with only Late Fee and Other Fee under Fees and no Property Tax option -->
+![The New Transaction modal on a cash loan, with the transaction Type selector](/img/docs/app/how-it-works/loan-types/03.png)
 
 ## Loan Status Cascades to Tracts, and Only to Tracts
 
@@ -77,7 +77,7 @@ The **Status** submenu on a loan offers **Repossessed** only for tract loans. Ca
 
 Repossession always asks for the repossession date, and asks for acreage and a tract label as well when you are moving a tract loan from Inactive to Repossessed. It marks the client inactive, and it is final — any later status change is refused with *can not change the status of a repossessed loan*.
 
-<!-- screenshot: the loan actions dropdown expanded on the Status submenu for a tract loan, showing Draft, Pending, Current, Late, In Default, Defaulted, and Repossessed, with Repossessed at the bottom of the list -->
+![The loan Actions dropdown expanded, showing the available operations for a tract loan](/img/docs/app/how-it-works/loan-types/04.png)
 
 :::warning Mark Repossessed appears on defaulted loans of every type
 A cash or residential loan that reaches **Defaulted** shows a **Mark Repossessed** button in its [Action Center](./loan-action-center), even though the Status submenu deliberately withholds that status from those types. Using it records a repossession date and locks the loan permanently, but the Monthly Journal Entry report counts repossessions on tract loans only, so the loan disappears from that count. On a cash or residential loan, use **Inactive** or **Canceled** instead.
@@ -103,6 +103,6 @@ Nothing in the app or the API changes a loan's type, its tracts, or its resident
 
 If you picked the wrong type, delete the loan and start over — and you can only do that while it is still a Draft; anything further along is refused with *loans must be in a draft state to be deleted*. A Draft tract loan deleted this way releases its tracts back to Available.
 
-<!-- screenshot: the loans list filtered to Draft status, showing two loan cards with their labels, Draft status tags, balance due, and next due date, with the row actions menu open on the first one showing Delete -->
+![The loans list, showing each loan with its status tag, balance due and next due date](/img/docs/app/how-it-works/loan-types/05.png)
 
 The rest of the wizard — terms, amounts, communication, escrow, and review — is documented in [Creating a Loan](../guides/creating-a-loan). For what each status means once the loan is live, see [Loan Status](./loan-status).

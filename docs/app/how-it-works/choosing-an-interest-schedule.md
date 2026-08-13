@@ -100,7 +100,7 @@ A loan's **Details** tab shows the Interest Formula and Finance Start rows only 
 
 :::
 
-<!-- screenshot: The Overview tab of an interest-only loan showing the Payment Amount, Remaining Principal, Interest Rate, Interest per Day, Accrued Interest, Unpaid Interest, Compounding ("Simple") and Term Type ("balloon") rows in the details grid. -->
+![The Overview tab of an interest-only loan, showing Payment Amount, Remaining Principal and Interest Rate](/img/docs/app/how-it-works/choosing-an-interest-schedule/04.png)
 
 ## The choice is permanent
 

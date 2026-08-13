@@ -69,7 +69,7 @@ Uploaded PDFs are inspected once on the way in. If a PDF is letter size, it beco
 **Snail Mail** appears on any letter-size PDF, but only works from a loan, client, or tract. On an organization-level file it opens and immediately reports that sending is not supported for that type. On a tract, the tract needs an owner set, or the send is refused.
 :::
 
-<!-- screenshot: the Upload Files modal with the "Click or drag files to this area to upload" dropzone and two queued file names listed below it, each with a cancel link -->
+![The Upload Files modal, with its click-or-drag dropzone](/img/docs/app/how-it-works/files-and-storage/02.png)
 
 ## Renaming, moving, coloring, and new folders
 
@@ -103,7 +103,7 @@ Nothing enforces it. No upload is checked against the 50GB figure, no warning is
 
 Your actual consumption is on the [dashboard](./dashboard.md) Overview tab, in the **Usage Info** card: **Folders**, **Files**, and **Space Used**. Space Used sums the byte size of every stored file record in the organization, including files Lendiom keeps behind the scenes that never appear in the Files browser — Document Builder templates, signature packages, conversation attachments. It is always rendered in megabytes, so a large account reads as a five-digit MB figure rather than gigabytes.
 
-<!-- screenshot: the dashboard Usage Info card showing Folders, Files, and Space Used in MB across the top row -->
+![The dashboard Usage Info card, showing Folders, Files and Space Used](/img/docs/app/how-it-works/files-and-storage/04.png)
 
 ## Two things that switch the browser off
 

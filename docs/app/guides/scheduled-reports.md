@@ -11,7 +11,7 @@ Open **Org Settings → Scheduled Reports**, or go straight to `/{your-org}/sett
 
 The whole tab requires the `organization` `update` permission. Without it the tab returns a 403 — see [Roles and Permissions](../security/roles-and-permissions.md).
 
-<!-- screenshot: Org Settings with the Scheduled Reports tab active, showing the "Scheduled Report Emails" card with one monthly schedule row (schedule, recipient tags, green Enabled tag, next send date, Actions link) and the "Delivery History" card below it -->
+![The Scheduled Reports tab of Org Settings, showing the Scheduled Report Emails card](/img/docs/app/guides/scheduled-reports/01.png)
 
 ## What gets sent
 

@@ -35,7 +35,7 @@ You also need the **Update** permission on the record type you are configuring �
 | Rental | Rental page → Actions → **Online Payments**, or the communication step of the rental creation wizard | Any status except **Terminated** |
 | Invoice | Invoice page → **Payment Settings** panel, or the invoice creation form | While the invoice is a **Draft**; after that the panel shows the settings read-only |
 
-<!-- screenshot: The loan "Online Payments" modal with Online Payments set to Yes, showing the Statement Descriptor, ACH Fee Payee, Card Fee Payee, Allow Principal Only, Allow Auto Draft, and Extra Application fields. -->
+![The Online Payments configuration modal on a loan](/img/docs/app/payment-processing/setting-up-online-payments/02.png)
 
 Each record type has a few extra switches once online payments are on:
 

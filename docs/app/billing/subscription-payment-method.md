@@ -27,7 +27,7 @@ Every billing endpoint requires the **all** action on the `billing` feature, not
 
 Your methods sit in the **Payment Methods** section of **Org Settings → Billing**, above the Addons card, with an **Add Payment Method** button in the section header.
 
-<!-- screenshot: Org Settings → Billing with the Payment Methods section on the right, the "Add Payment Method" button in its header, and a table listing a Visa row tagged Default and a bank row tagged Pending Verification, with columns Name, Details, Expiration, and Action -->
+![The payment methods section of the Billing tab](/img/docs/app/billing/subscription-payment-method/01.png)
 
 ## Adding a card
 

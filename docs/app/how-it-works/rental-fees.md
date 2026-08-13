@@ -102,7 +102,7 @@ A minimum payment rule makes it worse. Under **Current Late Balance**, the enfor
 The first charge date has to be in the future, and the wizard does not say so up front. **Contract Start** on a rental whose start date has passed fails the save with `we currently do not support first charge date on recurring fees to be in the past`. **Specific Date** fails too: the date the wizard collects is not sent in the field the server reads, so the save is rejected with `invalid recurring fee, the first charge date is required` no matter which date you pick. If either blocks you, remove the recurring fee and save the rental without it.
 :::
 
-<!-- screenshot: The rental Details tab showing Balance Due, Late Fees Due, Other Fees Due, Total Due, the Late Fee Tiers tag, and the Recurring Fees tags -->
+![The rental Details tab, showing Balance Due, Late Fees Due, Other Fees Due and Total Due](/img/docs/app/how-it-works/rental-fees/05.png)
 
 ## Where to put each kind of charge
 

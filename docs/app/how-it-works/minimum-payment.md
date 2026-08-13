@@ -21,7 +21,7 @@ The rule is a gate on client-initiated regular payments and nothing else. It doe
 
 Two things are outside **Total Due** on a loan and therefore outside a Current Late Balance minimum: property tax collected through the [property tax feature](../guides/collecting-property-tax.md), and interest accrued since the last payment on a loan that [accrues interest daily](./interest-accrues-daily.md). A negative other-fees balance — a credit — is treated as zero rather than reducing the minimum.
 
-<!-- screenshot: a loan's Details tab with the Minimum Payment row reading "Regular Payment Amount", shown alongside Balance Due, Late Fees Due, and Total Due -->
+![The Details tab of a loan, with the Minimum Payment row shown alongside the balance figures](/img/docs/app/how-it-works/minimum-payment/01.png)
 
 ## Where you set it
 
@@ -34,9 +34,9 @@ Two things are outside **Total Due** on a loan and therefore outside a Current L
 
 Saving the rule on a single loan or rental writes a system note to its timeline naming you and the new rule, so a change is always traceable after the fact.
 
-<!-- screenshot: the Loans page with the Default Loan Settings dropdown open, showing Default Late Fees, Default Defaulting Terms, Default Communication Preferences, Default Document Automation, and Default Minimum Payment -->
+![The Loans page with the Default Loan Settings dropdown open, listing the organization-wide loan defaults](/img/docs/app/how-it-works/minimum-payment/02.png)
 
-<!-- screenshot: the Minimum Payment Configuration modal opened from the Loans page, with the blue "What is this for?" alert, Rule Type set to Fixed Amount, the Fixed Amount field filled in, and the Apply to All Loans switch below it -->
+![The Minimum Payment Configuration modal, with the explanatory alert and the payment-rule options](/img/docs/app/how-it-works/minimum-payment/03.png)
 
 The organization default on its own is only a starting value. Existing loans and rentals keep whatever they already have unless you turn on **Apply to All**, which pushes the configuration onto every loan (or every rental) in the organization and overwrites what is there.
 
@@ -101,7 +101,7 @@ The minimum is checked in exactly two places: a client's regular loan payment an
 
 Rentals use the same five rules, the same modal, and the same error code. The one difference that matters is what **Total Due** contains, and it is a trap on rentals carrying recurring fees: the tenant's Lendiom Pay dashboard shows rent plus late fees, while a **Current Late Balance** minimum is computed from Total Due with every recurring fee entry included. The tenant is told to pay more than the balance they can see, and paying it does not clear the gap. [Rental Fees](./rental-fees.md) explains why, and [Rental Balances](./rental-balances.md) covers how the underlying balance is rebuilt each night.
 
-<!-- screenshot: a rental's Details tab showing the Minimum Payment row reading "Current Late Balance (Total Owed)" above a Total Due figure that is larger than Balance Due plus Late Fees Due -->
+![The rental Details tab, with the Minimum Payment row above the total owed](/img/docs/app/how-it-works/minimum-payment/05.png)
 
 ## Invoices
 

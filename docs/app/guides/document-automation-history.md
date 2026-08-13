@@ -17,7 +17,7 @@ Two views show the same records.
 
 Both views require the **Document Builder** add-on; without it you get the enable screen ([Add-Ons](../billing/add-ons.md)). Both also follow read access on loans and rentals ([Roles and Permissions](../security/roles-and-permissions.md)).
 
-<!-- screenshot: The Documents → Automation History page with the filter row (Outcome, Type, Date Range) above a table of rows showing green Sent, orange Skipped, and red Failed tags -->
+![The Document Automation History page, with its filter row above the job table](/img/docs/app/guides/document-automation-history/01.png)
 
 An empty table reads "No automation rules have been triggered yet."
 

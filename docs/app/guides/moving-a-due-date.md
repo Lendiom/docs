@@ -29,7 +29,7 @@ Every loan created in Lendiom is given a schedule, so the first requirement only
 
 The modal is titled **New Due Date** and opens with a blue notice: *Please note that when changing a due date, all future payments will follow the new date structure.* That notice is literal — the move is not a one-payment holiday. Every remaining payment is regenerated from the new date at the loan's payment frequency.
 
-<!-- screenshot: The "New Due Date" modal on an Accrues Daily loan that has a late fee balance and other fees, showing the info alert at the top, the New Due Date picker, and all four checkboxes visible: Adjust Interest, Adjust Unpaid Interest, Adjust Late Fees, and Adjust Other Fees, each with its dollar-amount helper text below it. -->
+![The Move Due Date modal on a loan, with the current and new due date fields](/img/docs/app/guides/moving-a-due-date/02.png)
 
 ## What Happens to the Schedule
 

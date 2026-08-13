@@ -63,7 +63,7 @@ Invoices carry a genuine append-only audit trail, shown as the **Activity Log** 
 
 Each entry records the action, a details line, the changed fields, the timestamp, and who did it. Actions taken from the client portal are recorded with **no user attached** — the client's name appears in the details text instead.
 
-<!-- screenshot: the invoice page with the "Activity Log" collapse panel expanded, showing a vertical timeline of entries including "created", "sent", "viewed", and "payment_added", one of them expanded to reveal an old-value / new-value change row -->
+![The Activity Log panel on an invoice, listing each recorded event in order](/img/docs/app/security/what-lendiom-records/02.png)
 
 :::caution
 Two limits apply. **Viewed** is written once — only on the first view while the invoice is still in **Sent** status — so repeat views by the client are not recorded. And the panel loads the 100 most recent entries with no paging control, so an invoice with a longer history has older entries stored but not reachable from that panel.
@@ -85,7 +85,7 @@ Each record captures the automation type, what triggered it (status change, late
 
 Read it org-wide at **Documents → Automation History**, or per loan and rental in the **Document Automation History** section of those pages.
 
-<!-- screenshot: the Document Automation History page showing a filterable table with rows for sent, skipped, and failed jobs, each with automation type, trigger source, template name, client, and completion time -->
+![The Document Automation History page, with its filterable table of sent, skipped and failed jobs](/img/docs/app/security/what-lendiom-records/03.png)
 
 ## Delivery and import history
 
@@ -96,7 +96,7 @@ Read it org-wide at **Documents → Automation History**, or per loan and rental
 
 An import session is deliberately hard to erase. A **completed** import cannot be deleted, because it is the record of what was brought in while the imported loans and clients live on. A **purged** import cannot be deleted either, because it is the record of both the import and the purge that undid it. Only failed or interrupted sessions can be removed, and the app greys out **Delete** on the rest with a tooltip explaining why.
 
-<!-- screenshot: the import sessions list in Org Settings with a completed session row, its Delete link greyed out and the tooltip reading "A completed import is kept as a record and can't be deleted." -->
+![The import sessions list in Org Settings, with each session and its available actions](/img/docs/app/security/what-lendiom-records/04.png)
 
 ## Recent Events
 

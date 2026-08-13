@@ -19,7 +19,7 @@ No automated message reaches a client unless all three line up. Miss one and Len
 
 The loan or rental also carries a **Communication Preferences** list — SMS, Email, or both. Lendiom sends one copy per selected channel. A loan with automated communication on but nothing selected sends nothing.
 
-<!-- screenshot: The "Change Communication Preferences" modal on a loan, with the Automated Communication switch showing "Enabled" and the Communication Preferences multi-select showing both "SMS (text messages)" and "Email" chips. -->
+![The Change Communication Preferences modal on a loan, with the Automated Communication switch](/img/docs/app/communication/automated-messages/01.png)
 
 Automated messages go to the client's primary entity by default. Switching **Send Automated Messages To** to *All Entities* in Client Communication Preferences sends every automated message to every entity under the client.
 

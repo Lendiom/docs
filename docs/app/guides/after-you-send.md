@@ -9,7 +9,7 @@ Building a request, placing fields, and clicking **Send for Signature** are cove
 
 Each row is one request. Name, Status, Status Changed, Due Date, Signers, and Actions show by default. Template, Created At, Created By, Updated At, and Updated By are hidden until you turn them on in the column settings. Your column choices, the name search, and the status filter are remembered in the browser you are using.
 
-<!-- screenshot: The Sign Requests tab of the Documents page showing several rows with different statuses (Requested, Completed, Expired, Canceled), the name search box and status filter above the table, and the Actions column on the right -->
+![The Signature Requests page, listing each request with its status](/img/docs/app/guides/after-you-send/01.png)
 
 **Status Changed** shows a different date depending on where the request stands: the created date for a draft, the sent date once requested, the completion date, the due date for an expired request, or the cancellation date.
 

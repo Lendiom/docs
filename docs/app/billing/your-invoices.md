@@ -13,7 +13,7 @@ This is not the [Invoices feature](../how-it-works/invoices-overview.md) you use
 
 :::
 
-<!-- screenshot: The Org Settings page with the left-hand tab rail showing Basic Settings, Billing, Roles, Members, Invoices, Scheduled Reports, Fillable PDFs, Custom Fields, Import/Export — with Invoices selected, and the invoice table on the right titled "Invoices" with a "Balance Due: $12.83" tag beside the title and a blue Refresh button -->
+![The Org Settings Billing tab, with the left-hand tab rail alongside the billing detail](/img/docs/app/billing/your-invoices/01.png)
 
 ## Getting to the Tab
 

@@ -85,7 +85,7 @@ For a regular payment, reversing restores the loan to its pre-payment state:
 - The interest accrual anchor is reset to exactly where it stood before this payment, and **Last Payment Received** is re-derived from the newest remaining regular payment that is neither reversed nor failed. Other transaction types do not count toward it. On daily-accrual and interest-only loans, accrued interest is recalculated on the spot.
 - The schedule is rebuilt, so a payment that is unpaid again and past its grace period can pick up a fresh late fee on the next integrity run.
 
-<!-- screenshot: The Transactions table after a reversal, with the reversed row shaded red and struck through and its Comment column reading "Reversal reason: check bounced (by Jane Doe)" -->
+![A loan's Transactions panel, with the row actions available on each transaction](/img/docs/app/guides/reversing-a-transaction/01.png)
 
 Other types unwind their own side effects: a down payment or setup fee goes back to unpaid, a late fee comes off the late fee, flex late fee, or principal balance depending on how its tier applies, and a property tax payment is removed.
 

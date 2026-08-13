@@ -16,7 +16,7 @@ Default Settings decide whether Lendiom escalates a late loan on its own, and ho
 
 **Defaults After** only appears when **Auto** is Enabled. Both day counts must be a whole number of calendar days.
 
-<!-- screenshot: The "Defaulting Configuration" modal on a loan, with "Days Until In-Default" set to 30, the adjacent button reading "Auto: Enabled" in red, and the "Defaults After" field below it set to 10 -->
+![The Defaulting Configuration modal on a loan, with Days Until In-Default and the automatic-default options](/img/docs/app/how-it-works/default-settings/01.png)
 
 ## Where to Set Them
 
@@ -26,7 +26,7 @@ Organization-wide: go to the loans list and use the **Default Loan Settings** dr
 
 You can also set all three on the terms step of the new loan wizard. See [Creating a Loan](../guides/creating-a-loan).
 
-<!-- screenshot: The loans list page with the "Default Loan Settings" dropdown open, showing the "Default Defaulting Terms" menu item alongside Default Late Fees and Default Communication Preferences -->
+![The loans list with the Default Loan Settings dropdown open, showing the Default Defaulting Terms entry](/img/docs/app/how-it-works/default-settings/02.png)
 
 ## Automatic vs. Manual
 
@@ -86,7 +86,7 @@ If the payment brings every past-due installment fully current, the loan returns
 
 There is no status gate on recording payments: you can take a payment on a loan sitting at In Default or Defaulted the same way you would on any other loan. See [Adding a Transaction](../guides/adding-a-transaction).
 
-<!-- screenshot: A loan's Details tab showing the Defaulting descriptions block with "Days Until In-Default: 30", "Automatic Defaulting Enabled: Yes", and "Defaults After: 10 Days" -->
+![The Details tab of a loan, showing the Defaulting settings block](/img/docs/app/how-it-works/default-settings/03.png)
 
 ## What Is Sent at Each Step
 

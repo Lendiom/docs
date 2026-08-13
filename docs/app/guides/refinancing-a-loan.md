@@ -41,7 +41,7 @@ From the loan page, open **Actions** and pick **Refinance Loan**.
 
 The window opens with a warning banner across the top and a live preview underneath that recalculates as you type. Nothing is saved until you press **Refinance** and confirm.
 
-<!-- screenshot: The Refinance Loan modal freshly opened on a loan carrying late fees, showing the yellow warning banner, the five form fields (First Payment Date, Closing Date, Interest Rate, Payment Frequency, Remaining Term), and the Refinance Preview table below with Principal Balance, Late Fees, New Loan Amount, Current Payment and New Payment rows filled in. -->
+![The Refinance Loan modal, with the new terms and the remaining-balance summary](/img/docs/app/guides/refinancing-a-loan/02.png)
 
 ## What gets rolled into the new loan
 

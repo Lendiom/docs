@@ -7,7 +7,7 @@ A tract is one sellable parcel inside a land inventory. Tracts only exist under 
 
 Open **Inventories**, pick a land inventory, and use the **Tracts** panel. The table lists every tract sorted by its number, with a summary row totalling acres, price, cost, and payments. If the tract acres do not add up to the inventory's total acres, the summary shows a warning icon.
 
-<!-- screenshot: the Tracts panel on a land inventory named "Demo Land Company Ranch", showing six tracts with mixed status tags (Available, Sold, Late), the "Add Tract" button in the table header, and the bold summary row at the bottom -->
+![The Tracts panel on a land inventory, showing each tract with its status tag and the Add Tract button](/img/docs/app/guides/working-with-tracts/01.png)
 
 ## Adding a tract
 
@@ -28,7 +28,7 @@ Select **Add Tract** in the table header. A drawer opens titled *New Tract for: 
 
 With **Add Pricing** on, tick the checkbox on either Sales Price or Price per Acre and Lendiom derives the other from the acreage. A financed tract also takes Down Payment, Years, and Interest Rate; Amount Financed, Monthly Payment, and Total of Payments are calculated and read-only. This pricing is a quote, not a contract — it pre-fills the numbers when you [create a loan](./creating-a-loan).
 
-<!-- screenshot: the "New Tract for: Demo Land Company Ranch" drawer, scrolled to the pricing section with the Financed toggle on, showing Sales Price, Price per Acre, Down Payment, Years, Interest Rate, and the greyed-out calculated Amount Financed, Monthly Payment, and Total of Payments -->
+![The New Tract drawer, showing the tract details and the financed pricing fields](/img/docs/app/guides/working-with-tracts/02.png)
 
 :::caution Two controls in this drawer do not work
 The **Owner** field never saves. Picking a client, or clearing one, has no effect when you press Save — no error appears, the change is silently dropped. Set a tract's owner by creating a loan or by using **Mark Sold** instead.
@@ -74,7 +74,7 @@ The moment you create a tract loan, Lendiom writes back to every tract on it:
 
 Still editable: **Rename**, **Adjust Cost**, **Adjust Acres**, **Edit Administrative Fields** (tax eligibility and parcel numbers), **Custom Fields**, the description, notes, files, and the timeline. Adjusting acres also updates the acreage cached on the loan, and cost and acre changes leave an automatic note.
 
-<!-- screenshot: a tract detail page for "Tract 12" showing the Sold status tag, the Buyer Information card with a client, the balance due and next due date in the header descriptions, and the ellipsis menu open with Rename, View Loan, View Owner, Adjust Cost, Adjust Acres, Edit Administrative Fields, and Custom Fields -->
+![A tract detail page, showing its status tag, acreage, legal description and the buyer information card](/img/docs/app/guides/working-with-tracts/03.png)
 
 ## How loan status cascades to tract status
 

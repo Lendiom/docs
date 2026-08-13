@@ -7,7 +7,7 @@ The **Story** tab answers one question about a loan: what is going on with it, a
 
 Open any loan and the tab sits in the header row, labeled **Story** with a purple **Beta** tag. Loans only — rentals do not have it.
 
-<!-- screenshot: the loan page header showing the tab row with Overview, Story (with a purple Beta tag), and Details, with Story selected -->
+![The loan page tab row with Overview, Story (tagged Beta) and Details](/img/docs/app/how-it-works/loan-story/01.png)
 
 ## What the page is made of
 
@@ -22,7 +22,7 @@ The tab always opens with a blue **Story is in Beta** banner, then a narrative c
 
 Click a section header to expand it. The tab is read-only; nothing on it changes data.
 
-<!-- screenshot: the Story tab with the beta banner at the top, the narrative card below it, and the three collapsed section headers for Active issues, Balance breakdown, and Timeline -->
+![The Story tab, with the beta banner, the narrative card, and the collapsed section headers below it](/img/docs/app/how-it-works/loan-story/02.png)
 
 ## The narrative card
 
@@ -44,7 +44,7 @@ Opening the tab fires two requests: the first skips the polish so the page paint
 
 The **Refresh** button discards the stored narrative and generates a new one on the spot. Next to it, *Polished 3 hours ago* tells you when the current one was written; hover it for the exact timestamp.
 
-<!-- screenshot: the narrative card expanded, showing the headline with a status tag, several paragraphs of polished prose, and the Polished toggle, Refresh button, and "Polished 2 hours ago" label in the card's top-right corner -->
+![The Story tab narrative card, with the headline, the prose summary and the Polished toggle](/img/docs/app/how-it-works/loan-story/03.png)
 
 ### Yes, a language model writes the prose
 
@@ -95,7 +95,7 @@ The **Total** here is what is currently owed, not the loan's payoff amount. Inst
 
 Installment labels and their due dates are rendered in your organization's timezone, falling back to Central if none is set.
 
-<!-- screenshot: the expanded Balance breakdown section showing a table with rows for two past-due installments, a late fees row, and an unpaid setup fee, with a bold Total row at the bottom -->
+![The Details tab of a loan, showing the terms, dates and configuration in one place](/img/docs/app/how-it-works/loan-story/04.png)
 
 ## Timeline
 

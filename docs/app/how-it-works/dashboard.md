@@ -5,7 +5,7 @@ title: Understanding Your Dashboard
 
 The dashboard is the first page you land on after choosing an organization. It is split into tabs, and the **Overview** tab holds the cards most people check every morning. This page explains what each number actually counts, so you are not guessing whether a total includes pending money, failed payments, or rentals.
 
-<!-- screenshot: The dashboard on the Overview tab, showing the tab strip and the first row of cards. -->
+![The dashboard on the Overview tab, showing the tab strip and the first row of cards](/img/docs/app/how-it-works/dashboard/01.png)
 
 ## The tabs
 
@@ -152,7 +152,7 @@ The header reads **Last 365 (or more) days**, and the parenthetical is real. The
 Recent Events cannot be filtered, searched, or narrowed by date. Pagination is the only control. To isolate one kind of activity, use the relevant list page or a report instead.
 :::
 
-<!-- screenshot: The Recent Events feed with mixed tract, loan, invoice, and automation entries and the "Last 365 (or more) days" header label. -->
+![The Recent Events feed on the dashboard, listing recent tract, loan and invoice activity](/img/docs/app/how-it-works/dashboard/04.png)
 
 ## Why a teammate sees fewer cards
 

@@ -37,7 +37,7 @@ The calculated payment is labeled **First Monthly Payment** rather than Monthly 
 
 The **Amortization Schedule** section carries an **Interest Only Loan** notice explaining that the rows assume payments land exactly on their due dates. On the loan itself the table also gains an **Unpaid Interest** column, which the wizard's review-step preview does not show. Escrow, if the loan collects it, is added on top of the interest figure in each row exactly as it is on any other loan — see [Escrow on Loans](./loan-escrow.md).
 
-<!-- screenshot: The Amortization Schedule section of an interest-only loan expanded, showing the blue "Interest Only Loan" info alert above a table whose Principal column is all zeros and whose Balance column repeats the same figure on every row. -->
+![The Amortization Schedule of an interest-only loan, with the Interest Only Loan notice above a table whose Principal column is zero and whose Balance repeats](/img/docs/app/how-it-works/interest-only-loans/02.png)
 
 ## Indefinite, fixed, and balloon
 
@@ -70,7 +70,7 @@ Compounding is not a one-time event. Each shortfall that survives to the next pa
 
 The current setting is visible on the loan's overview card as **Compounding**, next to **Term Type** and, on balloon loans, **Balloon Action**.
 
-<!-- screenshot: The loan overview details card for an interest-only loan, showing Interest per Day, Accrued Interest, Unpaid Interest, Compounding "Compound", and Term Type "balloon" with Balloon Action "called due". -->
+![The overview card of an interest-only loan, showing Interest per Day, Accrued Interest, Unpaid Interest, Compounding and Term Type](/img/docs/app/how-it-works/interest-only-loans/03.png)
 
 ## Paying the principal down
 

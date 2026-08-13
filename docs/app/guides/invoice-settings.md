@@ -19,7 +19,7 @@ This guide covers each setting, where to change it, and when it stops being chan
 
 Every one of these requires the `invoice` **Update** permission, including the organization-wide tax rate. See [Roles and Permissions](../security/roles-and-permissions.md).
 
-<!-- screenshot: The Invoices list page header showing the "New Invoice" button, the "A/R Aging Report" button with its Excel icon, and the gear icon button whose tooltip reads "Invoice Settings". -->
+![The Invoices list page header, with New Invoice and A/R Aging Report](/img/docs/app/guides/invoice-settings/01.png)
 
 ## The default tax rate
 
@@ -65,7 +65,7 @@ Reminders use the invoice's delivery preferences and fall back to email when non
 **Notify on Due Date** is saved on the invoice and shown in the panel, but the daily reminder job matches only against the **Reminders Before Due** list. Turning this switch on does not, by itself, produce a notice on the due date. Neither does anything else: a notice on the day itself would need an offset of 0, and the list offers only 14, 7, 3, and 1. The nearest you can get is the 1-day reminder, which goes out the morning **before** the due date, or — with **Overdue Reminders** on — a 1-day overdue reminder, which goes out the morning **after** it.
 :::
 
-<!-- screenshot: The Notification Settings panel expanded on a draft invoice, showing "Reminders Before Due" with 7, 3 and 1 selected, "Notify on Due Date" on, "Overdue Reminders" enabled, and the Overdue Reminder Days and Max Overdue Reminders fields below. -->
+![The Notification Settings panel on a draft invoice, showing the reminder schedule](/img/docs/app/guides/invoice-settings/03.png)
 
 ## Online payments and the fee split
 
@@ -81,7 +81,7 @@ With online payments on, two dropdowns appear — one for ACH, one for card — 
 
 Both default to **Client pays fee**. They are independent, so you can absorb the card fee while passing the cheaper ACH fee along, or the reverse. Lendiom resolves which of the two applies at the moment of the charge, from the payment method the client picked. The gross-up math and the rate sources are documented in [Setting Up Online Payments](../payment-processing/setting-up-online-payments.md) and [Processor: PayArc](../payment-processing/payarc.md).
 
-<!-- screenshot: The Payment Settings panel expanded on a draft invoice with Partial Payments allowed, Online Payments enabled, and the ACH Fee Payee and Card Fee Payee dropdowns both showing "Client pays fee". -->
+![The Payment Settings panel on a draft invoice, showing the partial-payment and online-payment options](/img/docs/app/guides/invoice-settings/04.png)
 
 ## Partial payments
 

@@ -9,7 +9,7 @@ Every loan Lendiom creates gets an amortization schedule: one row per scheduled 
 
 Open a loan and expand the **Amortization Schedule** panel. The same table previews the schedule before you save in the last step of [creating a loan](../guides/creating-a-loan.md), and previews what a buyer would owe on a tract's payment option.
 
-<!-- screenshot: A loan detail page with the "Amortization Schedule" collapse panel expanded, showing the virtualized table with about eight rows visible, the first two rows fully paid with dates in the Paid Date column, and the "Download Schedule" button in the panel header on the right. -->
+![A loan detail page with the Amortization Schedule panel expanded, showing paid rows above the projected ones](/img/docs/app/how-it-works/amortization-schedule/01.png)
 
 The table scrolls inside a fixed-height area rather than paging, and every payment is loaded. **Download Schedule** builds a printable version and opens it in a new browser tab; it is hidden on phones and disabled when your organization's billing status is not active, trialing, or incomplete.
 

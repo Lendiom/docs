@@ -63,7 +63,7 @@ If every installment is already fully paid, the recast is rejected — there is 
 
 ## The Recast Modal
 
-<!-- screenshot: The Recast Loan modal in its default state: the blue info alert at the top, Balance Handling set to "Re-amortize principal (recompute payment)", Payment Frequency set to Monthly, Next Payment Date and Closing Date both filled with today, and the Recast Preview table below showing Current Principal, Current Payment, New Payment, Interest Rate, Remaining Payments, Total Remaining Interest, Total Remaining Payments, Next Payment Date, and Last Payment Date. -->
+![The Recast Loan modal, showing the recalculated payment for the remaining term](/img/docs/app/guides/recasting-a-loan/01.png)
 
 Everything below the form is a **preview** — a dry run against the real loan data. Nothing is saved until you click `Recast` and confirm. The preview refreshes about half a second after each change, and the `Recast` button stays disabled while it loads.
 

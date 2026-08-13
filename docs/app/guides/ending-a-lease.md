@@ -7,7 +7,7 @@ A rental in Lendiom does not stop on its own. The **Payment Terms** you entered 
 
 This article covers what actually happens when you end one, what the deposit and early termination fee controls really do, and when to delete a rental instead.
 
-<!-- screenshot: A rental's Overview tab for an active tenancy, showing Payment Amount, Balance Due, Late Fees Due, Other Fees Due, Total Due, Last Payment Date, Next Due Date, and Payment Terms reading "12 months" -->
+![The Overview tab of an active tenancy, showing Payment Amount, Balance Due, Late Fees Due and Other Fees Due](/img/docs/app/guides/ending-a-lease/01.png)
 
 ## The statuses a rental can hold
 
@@ -50,7 +50,7 @@ When you set it, Lendiom:
 
 Transactions, notes, and files stay on the rental. You can still open it and read the whole history.
 
-<!-- screenshot: The rental page actions menu open with the Status submenu expanded, showing Draft, Current, Late, Eviction, Evicted, and Terminated -->
+![The rental Actions menu with the Status submenu expanded, listing the tenancy statuses](/img/docs/app/guides/ending-a-lease/02.png)
 
 :::warning
 
@@ -84,7 +84,7 @@ Recording a transaction on an already-ended rental recalculates the balance due 
 
 The **Add a Transaction** modal offers **Early Termination Fee** under the Fees group. Alongside it sit **Maintenance Fee** and, under Record Keeping, **Deposit** and **Documentation Fee**.
 
-<!-- screenshot: The Add a Transaction modal with the Type select expanded, showing the Rent, Fees, and Record Keeping groups and all seven transaction types -->
+![The Add a Transaction modal on a rental, with the transaction Type selector](/img/docs/app/guides/ending-a-lease/03.png)
 
 :::caution
 

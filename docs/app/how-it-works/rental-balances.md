@@ -13,7 +13,7 @@ The number you typed is not lost. It is preserved on the **Existing** tab, which
 
 <!-- screenshot: the New Rental wizard on the How Much step with the New/Existing switch set to Existing, showing the Unpaid Balance, Late Fee Balance, Other Fee Balance and Next Payment Date fields -->
 
-<!-- screenshot: a rental record open on the Overview tab, showing Balance Due of $2,400.00 next to a Payment Amount of $800.00, with the Existing tab visible in the tab strip -->
+![A rental on its Overview tab, showing Balance Due beside the Payment Amount and the next due date](/img/docs/app/how-it-works/rental-balances/02.png)
 
 :::caution
 There is no supported way to set a rental's opening balance and have Lendiom keep it. If the tenant owes an amount that does not equal rent-since-the-first-payment-date, the balance due field cannot represent it. The **Late Fee Balance** and **Other Fee Balance** you enter do survive, because neither is recalculated.
@@ -58,7 +58,7 @@ Online payments are created as **pending** and become **success** when the proce
 
 Within a qualifying payment, only the portion that landed on the balance counts. If a $900 payment covered $100 of late fees first, only $800 reduces the balance due.
 
-<!-- screenshot: the rental Transactions tab listing a mix of Regular Payment, Late Fee and Other Fee rows with Success, Pending and Reversed status tags -->
+![The rental Transactions list, with regular payments and their success status](/img/docs/app/how-it-works/rental-balances/03.png)
 
 ## When it runs
 

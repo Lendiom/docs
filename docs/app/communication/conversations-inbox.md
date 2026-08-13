@@ -31,7 +31,7 @@ Below that, the inbox is two panes:
 
 Selecting a conversation marks it read and puts its id in the address bar, so you can bookmark a specific thread. New messages stream in live — you do not need to refresh.
 
-<!-- screenshot: The Communications page on the Conversations tab, left rail listing several conversations with name, date, and last-message preview, right pane showing an open thread with alternating inbound and outbound bubbles and the composer at the bottom -->
+![The Conversations inbox, with the thread list on the left and the selected conversation on the right](/img/docs/app/communication/conversations-inbox/01.png)
 
 Two buttons sit in the conversation header: **Call**, and **View Client**, which opens the client record behind the conversation.
 

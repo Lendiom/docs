@@ -46,7 +46,7 @@ A chargeable payment method has to be on file before the trial can begin. A card
 
 Nothing is limited during the trial. Creating, editing, exporting and reporting all work exactly as they will after it converts.
 
-<!-- screenshot: Org Settings → Billing with the status table on the left showing rows for Status (a "Trialing" badge), Plan ("Monthly"), Period Start, Trial Ends At, and Action with a dashed Cancel button -->
+![The Billing tab of Org Settings, with the subscription status table and the plan details](/img/docs/app/billing/plans-and-trial/02.png)
 
 **If you cancel before the trial ends, you are not charged.** Cancel from **Org Settings → Billing**; the confirmation asks for a written reason of more than 20 characters, and the subscription then ends on the date already shown as your trial end. The full walkthrough and the list of what stops working is in [Canceling a Subscription](./canceling-a-subscription.md).
 

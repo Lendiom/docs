@@ -33,7 +33,7 @@ The month picker in the toolbar controls what you see. It opens on the current m
 
 The summary row at the bottom totals every column for the month shown. The money figures come straight from PayArc's batch report; Lendiom converts them from cents and does not recalculate them.
 
-<!-- screenshot: The PayArc Deposits page for a demo organization with a month selected in the picker, showing several deposit rows with Date, Total, Net Amount, Refund Amount, Transaction Count and ID columns, and the "Total for [month]" summary row at the bottom. -->
+![The PayArc Deposits page, with the month picker and the settlement batches table](/img/docs/app/payment-processing/payarc-deposits/01.png)
 
 If the month is empty, the table says so and invites you to pick a different month. A month with no deposits usually means no card payments settled in it, not that something failed.
 
