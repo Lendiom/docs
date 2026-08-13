@@ -80,7 +80,7 @@ Still editable: **Rename**, **Adjust Cost**, **Adjust Acres**, **Edit Administra
 
 | Loan status | Tract status becomes |
 | --- | --- |
-| Pending, Current, Grace Period, Paying Off | Sold |
+| Pending, Current, Grace Period, Pending Payoff | Sold |
 | Late | Late |
 | In Default, Defaulted | In Default |
 | Paid Off | Paid Off, and tax reimbursement eligibility is switched off |

@@ -23,7 +23,7 @@ Loans, owner financing contracts, go through a process on creation and throughou
 * **In Default**: The loan has not been paid after the configured amount of time for a loan to be considered in default. At this status, Lendiom will start the process of repossessing the property, if enabled. This includes sending the buyer a notice of default, via text (if the communication portal is enabled) and mail.
 * **Defaulted**: The loan has not had a payment made on it after the notice was sent and the configured number of days after the default notice was sent has passed. At this status, the loan is considered defaulted and no more payments can be made on the loan unless the status is *manually* changed back to *In Default*.
 * **Repossessed**: The property has been repossessed and the loan is no longer active. This status is set manually by the owner (or one of their employees). Upon changing the status to *Repossessed*, the inventory and/or tract associated with the loan will be released and available for sale.
-* **Paying Off**: The buyer has initiated the process of paying off the loan. This status can be triggered when the buyer makes their final payment on the loan and the payment is still pending. This status can also be triggered manually by the owner (or one of their employees). When in this status, no further payments can be made to the principal balance of the loan.
+* **Pending Payoff**: The buyer has initiated the process of paying off the loan. This status can be triggered when the buyer makes their final payment on the loan and the payment is still pending. This status can also be triggered manually by the owner (or one of their employees). When in this status, no further payments can be made to the principal balance of the loan.
 * **Paid Off**: The loan has been paid off and is no longer active. This status is automatically set if the balance of the loan is zero and the transaction that paid it off is successful. This status can also be set manually by the owner (or one of their employees) when recording a payoff that was not done through Lendiom and with a payoff discount.
 * **Inactive**: The loan is no longer active and no further payments can be made on the loan. This is a legacy status, and as of v0.38.0, this status is no longer used. The status *Paid Off* or *Repossessed* should be used instead.
 * **Canceled**: The loan was called off rather than paid off or repossessed — typically because it never really got going. Canceled loans are excluded from analytics and from the yearly installment income report, and late fees cannot be waived on them.
@@ -43,7 +43,7 @@ Most loans move through the statuses in this order:
 
 A payment at any point in steps 4 through 7 returns the loan to **Current**. From **Defaulted** you can either move the status manually back to *In Default*, or on to **Repossessed**.
 
-Loans that end well go **Paying Off** and then **Paid Off**. Loans that end another way land on **Repossessed**, **Canceled**, or **Refinanced**.
+Loans that end well go **Pending Payoff** and then **Paid Off**. Loans that end another way land on **Repossessed**, **Canceled**, or **Refinanced**.
 
 
 ## Which Statuses Are Considered "Active"? {#active-statuses}
@@ -55,4 +55,4 @@ At the end of 2022, Lendiom changed the pricing model to include 100 active loan
 - Late
 - In Default
 - Defaulted
-- Paying Off
+- Pending Payoff
