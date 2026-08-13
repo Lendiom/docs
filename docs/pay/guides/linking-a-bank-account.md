@@ -47,7 +47,7 @@ on your account.
 Address changes you request are reviewed by the company you pay before they take effect, so leave a few
 business days if you have to add one first.
 
-<!-- screenshot: the Lendiom Pay Payment Methods page at phone width with no methods saved, showing the blue "Link Bank" and yellow "New Card" buttons in the page header above the blue "No Payment Methods" panel -->
+![The Payment Methods page in Lendiom Pay at phone width, with no methods saved yet](/img/docs/pay/guides/linking-a-bank-account/01.png)
 
 ## Adding the Account
 

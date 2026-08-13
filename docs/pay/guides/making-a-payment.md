@@ -22,7 +22,7 @@ If you have no payment method saved yet, what you see depends on what you opened
 
 Either way, add a payment method first (see [Adding a Payment Method](./adding-a-payment-method.md)) and **Make a Payment** will be there when you come back.
 
-<!-- screenshot: at phone width, a loan details page in Lendiom Pay showing the loan label, balance due, next due date, and the violet "Make a Payment" button in the page header -->
+![A loan details page in Lendiom Pay at phone width, showing the label, balance due and payment history](/img/docs/pay/guides/making-a-payment/01.png)
 
 ## Choosing what to pay
 

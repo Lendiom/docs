@@ -19,7 +19,7 @@ Automatic payments are controlled by the company you buy or rent from. The butto
 
 If you expected the button and do not see it, contact the company you buy or rent from. Lendiom Support cannot turn this on for you.
 
-<!-- screenshot: at phone width, the Lendiom Pay contract page for a loan, showing the balance due at top and the yellow "Enable Auto Draft" button in the header area next to the violet "Make a Payment" button -->
+![The Lendiom Pay contract page for a loan at phone width, showing the balance due at the top](/img/docs/pay/guides/automatic-payments/01.png)
 
 ## Starting the setup
 

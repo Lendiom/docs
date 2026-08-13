@@ -14,7 +14,7 @@ Your rentals sit under **Rentals** on the home screen. That section only appears
 least one rental. Each row shows the name, the status underneath, and the amount owed on the right.
 The amount is red when money is owed, and the dollar icon turns red when the status is **Late**.
 
-<!-- screenshot: at phone width, the Lendiom Pay home screen scrolled to the Rentals section, showing one rental row with a red dollar icon, the rental name, "Status: Late" underneath, a red amount on the right, and the outlined View Details button -->
+![The Lendiom Pay home screen at phone width, showing the tenant’s rental](/img/docs/pay/guides/paying-rent/01.png)
 
 Tap **View Details**. The page opens with the rental name and **Balance Due**, and the help icon
 beside that amount says the balance due is a total of the unpaid payments and any late fees. Four
@@ -27,7 +27,7 @@ cards sit below.
 | **Status** | Current, Late, Eviction, Evicted, or Terminated |
 | **Payment Amount** | Your regular rent |
 
-<!-- screenshot: at phone width, a rental details page showing the rental name, Balance Due with its help icon, the violet Make a Payment and yellow Enable Auto Pay buttons, and the Next Due Date, Last Payment Date, Status and Payment Amount cards -->
+![A rental open in Lendiom Pay at phone width, showing the rental name and balance due](/img/docs/pay/guides/paying-rent/02.png)
 
 Under the cards is your history: the three most recent entries, with **Load more** when there are
 more. An entry can be a Regular Payment, a Late Fee, a Deposit, or a Maintenance, Documentation,
@@ -128,7 +128,7 @@ is not something you did. Open the menu, go to **Payment Methods**, add a card o
 return to the rental and the buttons will be there.
 :::
 
-<!-- screenshot: at phone width, a rental details page for someone with no saved payment method — the header shows the rental name and Balance Due with empty space where the buttons would be -->
+![A rental details page in Lendiom Pay for a tenant with no saved payment method](/img/docs/pay/guides/paying-rent/05.png)
 
 Two other reasons the buttons may be gone:
 

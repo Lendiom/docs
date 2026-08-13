@@ -5,7 +5,7 @@ title: Your Lendiom Pay Home Screen
 
 The home screen is the first thing you see after you sign in. It answers one question up front: how much do you owe right now? Everything else on the page explains where that number comes from.
 
-<!-- screenshot: the Lendiom Pay home screen at phone width, showing the dark Balance Due header with a dollar amount, the Next Due Date and Last Payment Date cards below it, and the start of the Loans list -->
+![The Lendiom Pay home screen at phone width, with the Balance Due header above the accounts list](/img/docs/pay/home-screen/01.png)
 
 ## The Balance Due at the top
 
@@ -55,7 +55,7 @@ There is one important exception. When a loan is marked **Late**, the date shown
 
 If either card shows a dash (`-`), there is no date to show yet. On a brand new account, that is normal.
 
-<!-- screenshot: a loan row at phone width with a red dollar icon, the label "Status: Late" beneath the loan name, and a red balance amount on the right -->
+![The Lendiom Pay home screen showing a loan row whose status reads Late](/img/docs/pay/home-screen/03.png)
 
 ## The balance breakdown on daily-interest loans
 
@@ -93,7 +93,7 @@ Lendiom Pay is fully available in English and Spanish.
 
 Tap the menu button in the top-left corner to open the menu. Near the bottom of the list you will see **Spanish** (or **English**, if you are already reading Spanish). Tap it and the wording across the portal switches immediately.
 
-<!-- screenshot: the Lendiom Pay side menu open at phone width, showing the account name, Balance Due, and the menu items Home, Account, Payment Methods, Help, Spanish, and Logout -->
+![The Lendiom Pay side menu open at phone width, showing the account name and the menu entries](/img/docs/pay/home-screen/05.png)
 
 Two things worth knowing about that switch:
 

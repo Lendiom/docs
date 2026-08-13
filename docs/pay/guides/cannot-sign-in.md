@@ -7,7 +7,7 @@ Signing in to Lendiom Pay takes two things: your account number, and a six-digit
 phone number on your account. If either one is not working, find your symptom below and follow the
 fix for it.
 
-<!-- screenshot: the Lendiom Pay sign-in screen at phone width, showing the "Account Number" field with the ID-card icon, the blue "Get Code" button, and the "I forgot my account number" link below it -->
+![The Lendiom Pay sign-in screen at phone width, with the Account Number field](/img/docs/pay/guides/cannot-sign-in/01.png)
 
 :::info Who to ask for help
 
@@ -122,7 +122,7 @@ On the sign-in screen, tap **I forgot my account number**, enter the phone numbe
 and tap **Text Me My Account Number**. We text back your account number plus a link that signs you in
 directly.
 
-<!-- screenshot: the "Recover Your Account Number" screen at phone width, showing the phone number field and the "Text Me My Account Number" button -->
+![The Recover Your Account Number screen at phone width, with the phone number field](/img/docs/pay/guides/cannot-sign-in/04.png)
 
 The confirmation reads the same whether or not we found a match — that is deliberate, so nobody can
 use this page to fish for account numbers. If no text arrives, the number you entered is probably not
@@ -169,7 +169,7 @@ can email you reminders and status updates. Three things trip people up:
   browser, or on a computer when you signed in on your phone, drops you at the sign-in screen without
   verifying anything. Sign in on that device first, then open the link there.
 
-<!-- screenshot: the Account page at phone width showing the blue "Verify Email" header button and the email card below it -->
+![The Account page in Lendiom Pay at phone width, showing the contact details on file](/img/docs/pay/guides/cannot-sign-in/06.png)
 
 If the email never arrives at all, check your spam folder, then confirm with the company you pay that
 the email address on your account is spelled correctly. See

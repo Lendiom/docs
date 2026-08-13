@@ -23,7 +23,7 @@ The first time you open the page, the invoice is marked as **Viewed** on the com
 
 Two buttons sit in the header. **Download PDF** is always there. Beside it you get **Make a Payment**, or **Add Payment Method** when you have none on file yet — see [Adding a Payment Method](./adding-a-payment-method.md).
 
-<!-- screenshot: at phone width, an invoice page in Lendiom Pay showing "Invoice #INV-1042" with Balance Due beneath it, the violet "Make a Payment" and blue "Download PDF" buttons in the header, and the Due Date, Issued Date, Status and Total Amount cards below -->
+![An invoice open in Lendiom Pay at phone width, showing the balance due and the line items](/img/docs/pay/guides/paying-an-invoice/02.png)
 
 | Status | Can you pay it here? |
 | --- | --- |
