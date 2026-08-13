@@ -29,7 +29,7 @@ Each row is one request. Name, Status, Status Changed, Due Date, Signers, and Ac
 
 You may also see an orange **Past Due** tag instead of a status word. That is not a sixth status: it is a Requested row whose due date has passed while it is still inside its grace period. Hover the tag to see the date the grace period runs out.
 
-<!-- screenshot: A Sign Requests row displaying the orange "Past Due" tag in the Status column with its tooltip open reading "Grace period until" followed by a date -->
+![A sign request showing the orange Past Due tag, with its tooltip giving the grace period deadline](/img/docs/app/guides/after-you-send/02.png)
 
 ## Sending a reminder
 
