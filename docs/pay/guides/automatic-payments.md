@@ -58,7 +58,7 @@ You also choose **How to Apply Extra**, which only matters if you set an amount 
 
 The **Total Amount** field shows what will actually leave your account. Depending on how the company set things up, it may include a platform fee, half of one with the company covering the rest, or no fee at all. The help text under the field says which applies to the method you picked.
 
-<!-- screenshot: at phone width, the "Payment Auto Draft" form filled in — Payment Method dropdown showing a bank ending in 4 digits marked (default), Start Date, Payment Amount, "How to Apply Extra" set to Principal, and the greyed-out Total Amount field with its fee help text -->
+![The Payment Auto Draft form in Lendiom Pay, with the payment method and draft day](/img/docs/pay/guides/automatic-payments/02.png)
 
 ## Authorizing it
 
@@ -79,7 +79,7 @@ Your contract page shows a green **Automatic Payments Enabled** panel with the n
 
 You also get a text message confirming the date and the amount. Setting up automatic payments turns on automated messages about this contract, so you will get texts about upcoming and missed payments too. On a rental, that includes email.
 
-<!-- screenshot: at phone width, the green "Automatic Payments Enabled" alert on a contract page, reading "the next automatic payment date is scheduled for" a date, with outlined Stop and Edit buttons at the bottom right -->
+![A loan page in Lendiom Pay with automatic payments enabled, showing the confirmation alert and the next draft date](/img/docs/pay/guides/automatic-payments/04.png)
 
 :::info Payments run overnight
 Lendiom Pay processes automatic payments early in the morning, Central time — loans around 3:00 AM and rentals around 3:30 AM. The charge shows on your statement that day or shortly after, depending on your bank.
@@ -112,7 +112,7 @@ On a rental there is no Edit. To change anything, tap **Stop** and set it up aga
 
 Either way, Lendiom Pay asks you to confirm: **Yes, stop!** to stop, or **Whoops, no** to keep it running. You can turn automatic payments back on later, as long as the company still allows them.
 
-<!-- screenshot: at phone width, the "Stop Automatic Payments" confirmation dialog asking "Are you sure you want to stop automatic payments?" with the "Whoops, no" and "Yes, stop!" buttons -->
+![The confirmation dialog asking whether to stop automatic payments on a loan](/img/docs/pay/guides/automatic-payments/05.png)
 
 :::caution Removing a saved payment method
 You cannot delete a card or bank account while automatic payments are using it — Lendiom Pay tells you the method is in use. Stop automatic payments, or switch them to a different method, then remove it.

@@ -21,11 +21,11 @@ On your home screen, a yellow alert sits near the top when a down payment or a s
 
 Other fees do not produce a home-screen alert. You will only see them on the loan itself.
 
-<!-- screenshot: the Lendiom Pay home screen at phone width, showing a yellow "Down Payment Due" alert near the top and, below it, a loan row with a red alarm icon and the bold text "Down Payment Due" beneath the loan name -->
+![The Lendiom Pay home screen with a Down Payment Due alert above the accounts](/img/docs/pay/guides/fees-and-down-payment/01.png)
 
 Open the loan and each outstanding charge gets its own notice, with the amount, the date it is due, and a green button that takes you straight to the payment screen. A setup fee notice turns red once its due date has passed.
 
-<!-- screenshot: a loan page at phone width showing the yellow "Down Payment Due" notice with the amount and due date in bold and the green "Pay down payment now" button, with a "Closing Fee Due" notice below it -->
+![A loan page in Lendiom Pay showing the Down Payment Due notice with its amount and due date](/img/docs/pay/guides/fees-and-down-payment/02.png)
 
 ## Paying a down payment
 
@@ -38,7 +38,7 @@ Whether your down payment comes as one payment or several is decided by the comp
 - **One payment.** The full amount is charged at once, and the down payment is settled.
 - **Several payments.** The page shows only the next one due, with its own amount and date. Pay it, and the notice comes back for the one after that. Work through them as they arrive.
 
-<!-- screenshot: the Lendiom Pay down payment page at phone width with the red Due Date card, the violet Amount Due card, the Payment Method dropdown with a bank account selected, the greyed-out Total Amount field, and the Cancel and Pay buttons -->
+![The down payment page in Lendiom Pay, with the due date, amount and payment method](/img/docs/pay/guides/fees-and-down-payment/03.png)
 
 ## Why Make a Payment can be missing entirely
 
@@ -68,7 +68,7 @@ Each unpaid fee gets its own notice on the loan page and its own payment screen,
 
 Like a down payment, the amount is fixed and there is no amount box. A setup fee can also be split into several payments. When it is, the payment screen adds a **Total Fee Amount** card and a blue **Payment Schedule** panel listing every payment with its amount and date, marked **Paid** or **Current** so you can see where you are. Tapping **Pay** charges the one marked Current.
 
-<!-- screenshot: the Lendiom Pay setup fee payment page at phone width titled "Closing Fee", showing the Due Date, Amount Due and Total Fee Amount cards above a blue Payment Schedule panel listing three scheduled payments, the first badged "Paid" and the second badged "Current" -->
+![The setup fee payment page in Lendiom Pay, showing the closing fee and its due date](/img/docs/pay/guides/fees-and-down-payment/04.png)
 
 ## Other fees
 

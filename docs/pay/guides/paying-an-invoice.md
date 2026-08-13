@@ -49,7 +49,7 @@ There is no minimum on invoices. When Custom Amount is available, any figure abo
 
 If part of this invoice is already paid, a blue **Partial Payment Made** panel shows the amount paid so far and the balance left.
 
-<!-- screenshot: at phone width, the Lendiom Pay invoice payment screen showing the Payment Method dropdown, the Amount section with "Full Balance: $412.50" selected and a "Custom Amount" radio below it, and the read-only Total Amount field -->
+![The Lendiom Pay invoice payment screen at phone width, with the payment method and amount](/img/docs/pay/guides/paying-an-invoice/03.png)
 
 ## The total, and authorizing it
 

@@ -123,7 +123,7 @@ Bank payments take longer to settle than card payments, so a payment from this a
 **Pending** for longer. That is expected, and it is covered in [Making a Payment](./making-a-payment.md).
 You can also point automatic payments at it — see [Setting Up Automatic Payments](./automatic-payments.md).
 
-<!-- screenshot: the Lendiom Pay Payment Methods page at phone width listing a saved bank account for Jane Doe, showing the bank name, a "default" badge, the masked account ending in 6789, and the status "New" -->
+![The Payment Methods page in Lendiom Pay showing the saved bank account for the borrower](/img/docs/pay/guides/linking-a-bank-account/05.png)
 
 ## Errors You Might Hit
 

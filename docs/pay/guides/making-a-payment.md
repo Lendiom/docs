@@ -38,7 +38,7 @@ If your loan is in default, or your rental is in eviction, the other choices are
 
 Invoices work a little differently. There you choose **Full Balance**, plus **Custom Amount** if partial payments are allowed on that invoice.
 
-<!-- screenshot: at phone width, the Lendiom Pay payment page showing the Payment Method dropdown with a card selected, the Amount radio group with "Balance Due" chosen, and the grey helper text "How much do you want to pay today? Balance due includes any late fees." -->
+![The Lendiom Pay loan payment page at phone width, with the payment method and amount choices](/img/docs/pay/guides/making-a-payment/02.png)
 
 ### The minimum
 

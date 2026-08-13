@@ -93,7 +93,7 @@ These come from your bank, not from Lendiom. Nothing is charged when you see one
 A payment can be accepted at first and fail later, when a bank returns it days afterward. Lendiom Pay then marks that method **(disabled)** and it can no longer be selected. Add a working method, and ask the company you pay about the returned payment.
 :::
 
-<!-- screenshot: The Lendiom Pay payment methods page at phone width listing two entries for Jane Doe — a Visa ending 4242 labeled "(disabled)" in muted text, and a bank account ending 6789 labeled "(default)". -->
+![The Payment Methods page in Lendiom Pay listing a saved card and a saved bank account](/img/docs/pay/guides/error-messages/03.png)
 
 ## Payment Methods and Automatic Payments
 
@@ -105,7 +105,7 @@ A payment can be accepted at first and fail later, when a bank returns it days a
 | selected payment method is not enabled, please use a different one (9982) | The method picked for automatic payments is disabled. | Choose a different one. |
 | automatic payment start date must be in the future (9984) | That start date has passed. | Pick a later date. |
 
-<!-- screenshot: The Lendiom Pay payment methods page at phone width with a single card on file, its Remove button greyed out, and the "New Card" and "New Bank Account" buttons above it. -->
+![The Payment Methods page in Lendiom Pay with a single card on file and its Remove control](/img/docs/pay/guides/error-messages/04.png)
 
 ## If Nothing Here Matches
 

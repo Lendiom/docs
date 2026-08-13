@@ -88,7 +88,7 @@ The page says so: since the rental is in eviction mode, you must pay the total b
 When there is a minimum it is printed under the choices, and a custom amount below it turns the box
 red and keeps **Pay** switched off until you raise it. Type amounts as plain digits, like `1200.00`.
 
-<!-- screenshot: at phone width, the rental payment page showing the Payment Method dropdown, the Amount radio group with Balance Due selected, and the grey helper text "How much do you want to pay today? Balance due includes any late fees." -->
+![The rental payment page in Lendiom Pay at phone width, with the payment method and amount](/img/docs/pay/guides/paying-rent/03.png)
 
 **Total Amount** is what will actually leave your account. Depending on how the company you pay set
 things up, it may add a processing fee, half of one, or none; the note under the field says which.
