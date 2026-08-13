@@ -121,7 +121,7 @@ The row menu gives you four actions:
 
 For how letters get created, see [Sending a Letter](../guides/sending-a-letter.md).
 
-<!-- screenshot: The Recent Mail Sent card with a row action menu open, Cancel Mail greyed out. -->
+![The Recent Mail Sent card with a row action menu open, showing the available mail actions](/img/docs/app/how-it-works/dashboard/01.png)
 
 ## Usage Info
 

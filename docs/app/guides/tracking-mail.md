@@ -17,7 +17,7 @@ Every letter goes through the same pipeline — the ones you upload by hand, the
 
 The dashboard card requires `client::entities` Read — see [Understanding Your Dashboard](../how-it-works/dashboard.md) and [Roles and Permissions](../security/roles-and-permissions.md). Automation history is part of the Document Builder add-on ([Add-ons](../billing/add-ons.md)).
 
-<!-- screenshot: The Recent Mail Sent card on the dashboard Overview tab, five rows showing Client, Entity, Description, Status, Sent, and Expected Delivery, with one row's action menu open on Download PDF, View Details, Cancel Mail, and View Tracking -->
+![The Recent Mail Sent card, listing each piece with its client, entity, description, status and dates](/img/docs/app/guides/tracking-mail/01.png)
 
 ## The two dates in the list
 
@@ -57,7 +57,7 @@ Underneath, when tracking events exist, is one row per event with the **Date**, 
 
 The details view deliberately stays about the piece itself — the tracking number and the current status are not repeated inside it. Read the status from the list row and use **View Tracking** for the number.
 
-<!-- screenshot: The View Mail Details modal for a delivered first-class letter, showing the description grid on top and the tracking event table beneath it with Date, Location, and Status columns across several rows ending in Delivered -->
+![The View Mail Details modal for a delivered first-class letter, with its description grid above the tracking history](/img/docs/app/guides/tracking-mail/02.png)
 
 ## Certified and registered letters
 
@@ -65,7 +65,7 @@ Letters sent with an extra service get richer tracking. Alongside the status, ea
 
 For these letters only, the details table gains a **Certified Notes** column. That text is where the carrier's account of the event lives, and it is the part worth reading when a certified letter stalls short of Delivered.
 
-<!-- screenshot: The View Mail Details modal for a certified letter, Extra Services reading "certified return receipt", and the tracking table showing the extra Certified Notes column populated on a Pickup Available row -->
+![The View Mail Details modal for a certified letter, showing the extra service and the certified tracking events](/img/docs/app/guides/tracking-mail/03.png)
 
 :::caution Nothing tells you when action is needed
 Lendiom records the action-required flag but does not surface it as a badge, and no notification goes out. A certified letter can sit at Pickup Available for weeks without a word. If certified delivery matters to a case you are building, check the record yourself rather than waiting to be told.
