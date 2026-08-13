@@ -15,7 +15,7 @@ Each row is one request. Name, Status, Status Changed, Due Date, Signers, and Ac
 
 **Signers** lists everyone on the request, with a green check beside anyone who has finished. Click a name for a popover with that signer's email, phone, and the magic code they can use to reach the document.
 
-<!-- screenshot: The Signers column with a signer name clicked open, showing the "Signer Details" popover containing Email, Phone, and a copyable Magic Code -->
+![The Signers column on a sign request, with a signer opened to show their details](/img/docs/app/guides/after-you-send/01.png)
 
 ### Statuses
 
@@ -63,7 +63,7 @@ Once a request is Expired, Lendiom stops accepting signatures against it. Anythi
 
 **Extend** appears on Requested rows in the `...` menu, and directly in the Actions column on Expired rows. Completed and Canceled requests cannot be extended.
 
-<!-- screenshot: The Extend Sign Request modal with the "New Due Date" date-and-time picker filled in and the "Remind pending signers" toggle below it -->
+![The Extend Sign Request modal, with the new due date picker and the reminder option](/img/docs/app/guides/after-you-send/03.png)
 
 The modal asks for two things:
 
@@ -85,7 +85,7 @@ A completed request produces two files.
 | Signed document | **Download** — in the Actions column on a Completed row, in the `...` menu on an Expired one | Completed and Expired requests |
 | Audit log | **Download Audit Log** in the `...` menu | Completed requests only |
 
-<!-- screenshot: A Completed row in the Sign Requests table with the Download link in the Actions column and the `...` menu open showing "Download Audit Log" -->
+![The Sign Requests table with a completed row offering a Download link alongside the in-flight requests](/img/docs/app/guides/after-you-send/04.png)
 
 Both open in a new browser tab. The audit log records who opened, consented to, and signed the document, and when — keep it with the signed PDF.
 
