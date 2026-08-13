@@ -7,7 +7,7 @@ Two-factor authentication adds a second step to your sign-in: your password, the
 
 Two-factor is per person and opt-in. Nobody in your organization can require it for you, and no administrator can turn it on, reset it, or remove it from another member's account.
 
-<!-- screenshot: Account Settings → Security Settings, the Two-Factor Authentication card in the disabled state, showing the orange "Two-factor authentication is currently disabled." alert and the "Set up authenticator" button -->
+![The Two-Factor Authentication card in Account Settings, showing the disabled state and the Set up authenticator button](/img/docs/app/security/two-factor/01.png)
 
 ## Turn on an authenticator app
 

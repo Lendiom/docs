@@ -11,7 +11,7 @@ This page covers what is in there, which folders Lendiom builds on its own, what
 
 **Files** sits in the main menu below Reports. It needs the `file` feature's read action; without it the page returns 403. The per-record cards are gated separately by `client::files`, `inventory::files`, `tract::files`, `loan::files`, and `rental::files`. See [Roles and Permissions](../security/roles-and-permissions.md).
 
-<!-- screenshot: the Files page at its top level, breadcrumb reading "Demo Land Company's Files", showing the Files, Inventories, Loans, Clients, Fillable PDFs, and Reports folders in the grid view -->
+![The Files page at its top level, showing the automatically created folders](/img/docs/app/how-it-works/files-and-storage/01.png)
 
 ## What the top level holds
 

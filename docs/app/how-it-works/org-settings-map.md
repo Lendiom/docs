@@ -7,7 +7,7 @@ Org Settings holds the settings that belong to the business itself: who your org
 
 Open it at **Org Settings** in the left navigation, or go straight to `/<your-org>/settings/<tab>`. The page itself opens for everyone: every role is granted `organization read` when it is created and again every time it is saved, so nobody can be locked out of the settings screen. Individual tabs are another matter.
 
-<!-- screenshot: Org Settings with the Basic Settings tab active, the full vertical tab rail visible down the left side showing all nine tabs -->
+![Org Settings on the Basic Settings tab, with the full vertical tab rail down the left](/img/docs/app/how-it-works/org-settings-map/01.png)
 
 ## The tabs
 
@@ -59,7 +59,7 @@ Three things people look for here and will not find:
 
 If you are still finishing initial setup, [Setting Up Your Lendiom Business](../guides/setting-up-your-business.md) covers the creation wizard that collects these values the first time.
 
-<!-- screenshot: the Basic Settings form filled in, with the disabled +1 dropdown attached to the Contact Number field and the https:// prefix on the Website field -->
+![The Basic Settings form, showing the fixed +1 country code and the https:// website prefix](/img/docs/app/how-it-works/org-settings-map/03.png)
 
 ## Settings people look for here that live elsewhere
 

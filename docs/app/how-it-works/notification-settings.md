@@ -40,7 +40,7 @@ Go to your avatar in the top-right, then **Account Settings**, then the **Notifi
 | Client Messages | Messages from clients, whether text, email, or auto-generated from client actions |
 | Reminders Notices | Items you marked to be reminded about on notes or other items |
 
-<!-- screenshot: the Account Settings Notifications tab showing the four rows (Security Events, System Messages, Client Messages, Reminders Notices) each with a Notify Me / Silenced switch on the right -->
+![The Notifications tab of Account Settings, with a switch for each notification group](/img/docs/app/how-it-works/notification-settings/02.png)
 
 :::caution Three of these four switches currently do nothing
 Only **Client Messages** is consulted anywhere in Lendiom, and only for the missed-text email described below. **Security Events**, **System Messages**, and **Reminders Notices** are saved to your account and read by nothing.

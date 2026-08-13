@@ -16,7 +16,7 @@ A role is a list of those pairs. When someone clicks a button, Lendiom checks wh
 
 Every role is given `organization read` automatically, both when it is created and every time it is saved, so no role can be locked out of the organization itself.
 
-<!-- screenshot: Org Settings → Roles, the Role Matrix card, showing the permission rows down the left and columns for admin, property manager, and viewer with checkboxes filled in -->
+![The Role Matrix in Org Settings, with a row per permission and a column per role](/img/docs/app/security/roles-and-permissions/01.png)
 
 ## The roles you start with
 
@@ -76,7 +76,7 @@ Role names are normalized: they are lowercased and spaces become dashes. "Front 
 
 The role appears as a column in the matrix and becomes selectable when you [invite someone](../guides/adding-users-to-your-organization.md) or change a member's role. If the name is taken, Lendiom tells you to edit the existing role instead. Names cannot be changed later — saving under a new name creates a second role.
 
-<!-- screenshot: the New Role modal with a name entered and the Access Selection tree expanded, several feature groups checked -->
+![The New Role modal with the access selection tree](/img/docs/app/security/roles-and-permissions/02.png)
 
 ## Editing a role in the matrix
 

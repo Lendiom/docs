@@ -19,7 +19,7 @@ Once you are in, Lendiom selects your first organization and opens its inventori
 
 Every successful sign-in — by password or by passkey — sends a **New Login Detected** email and creates an in-app notification. The email lists the time, the sign-in method, the browser, the operating system, and the IP address, and it says whether a two-factor code or a recovery code was used. If one of those arrives and it was not you, reset your password immediately using the steps further down this page.
 
-<!-- screenshot: the Lendiom sign-in page with the logo at the top, the Email and Password fields, the outlined "Sign in with passkey" button, the "Remember me" checkbox next to the "Forgot your password?" link, and the blue Login and grey Sign Up buttons -->
+![The Lendiom sign-in screen with email, password, passkey and Remember me](/img/docs/app/security/signing-in/01.png)
 
 :::caution The Remember me checkbox does nothing
 
