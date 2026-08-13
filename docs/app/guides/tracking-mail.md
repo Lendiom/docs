@@ -110,8 +110,6 @@ This is not the file you uploaded. Your original is kept untouched; the rendered
 
 Use the rendered PDF whenever the exact printed content matters — proving what a borrower was sent, checking that an address window lines up, or filing a copy alongside a certified receipt.
 
-<!-- screenshot: A downloaded rendered_letter PDF open in a viewer, first page showing the recipient block for Jane Doe and the return address for Demo Land Company printed above the body text that was uploaded -->
-
 **Download PDF** is greyed out while a letter is still Created, and for any letter marked Failed. It can also fail with `rendered mail file not available` in the first minutes after sending, because the rendered file arrives separately from status updates. Wait a moment and try again.
 
 <!-- screenshot: The Document Automation history table with several job rows, the blue Download link visible at the right edge of the rows whose status is Sent -->

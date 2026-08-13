@@ -108,8 +108,6 @@ On the Reports page, switch to the **1098 INTs** tab. The year picker defaults t
 
 Each row carries a status icon. A green unlock icon means the row is ready. A pink alert icon means something is missing — hover it and it names which of the four problems it is: missing mailing address, unverified address, undeliverable address, or missing tax information. Work the alerts until every row is green.
 
-<!-- screenshot: the 1098 INTs tab showing the legal info card on the right, the preview table below with a mix of green unlock icons and pink alert icons, and one alert tooltip open reading "The mailing address has not been verified." -->
-
 ### E-file the 1098s
 
 Read this before you click.
@@ -125,8 +123,6 @@ Click **e-file** for the selected year. The first dialog states the per-form pri
 
 The second dialog asks for your password and the address to print on the forms.
 
-<!-- screenshot: the final e-file modal titled "eFile 2025's 1098" with the password field filled with dots and the Address dropdown showing Legal Address selected -->
-
 Submitting takes a minute or two depending on how many forms are going out. When it finishes, Lendiom emails your organization confirming the filings were submitted.
 
 If the filing provider rejects an individual form, its row shows a red **Rejected** tag with the provider's reason on hover. The filing for the year still exists at that point, so you cannot re-run it — contact [support@lendiom.com](mailto:support@lendiom.com) and we will check the status with the provider.
@@ -139,8 +135,6 @@ Once at least one form has been accepted, a **Filed 1098** column appears in the
 - **Download All** gives you a single zip of every filed form for the year. If one form fails to download, the whole archive fails rather than handing you an incomplete set. Try again.
 
 Rejected rows have nothing to download.
-
-<!-- screenshot: the 1098 INTs tab after a successful filing, green success banner reading "All 1098s for 2025 have been filed", Download buttons in the Filed 1098 column, and the Download All button in the toolbar -->
 
 ## Related
 

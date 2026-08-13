@@ -97,8 +97,6 @@ The letter is written for someone outside your office and contains more than the
 | Borrower | Name, address, and phone number from the client's primary entity. |
 | Ten-day table | The payoff amount for each of the ten days following the good-through date. |
 
-<!-- screenshot: first page of a generated payoff letter PDF for "Demo Land Company", showing the INTEREST ACCRUES DAILY banner, the amounts-due column, the postings block, and the ten-day payoff table in the lower right -->
-
 The same PDF is filed on the loan under **Files**, in a **Letters** folder, named `Pay Off - <date>.pdf`. Reach for that copy later instead of regenerating — the download link the browser used expires after ten minutes, and a regenerated letter reflects balances as they are then, not as they were.
 
 :::caution

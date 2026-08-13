@@ -33,8 +33,6 @@ When charging is off and PayArc is set up, the **Charge Client** button on a loa
 
 If a charge request reaches the server anyway, it comes back as `the ability to charge a client is not enabled for this organization` under code `19484`. See [Error Messages](./error-messages.md) for how to read that.
 
-<!-- screenshot: a loan detail page with the greyed-out "Charge Client" button in the action bar and its hover popover open, titled "Charging Not Enabled" with the text about contacting support to charge your clients directly from Lendiom -->
-
 :::info
 
 Lendiom asks for proof before enabling charging: a signed contract or addendum in which your clients authorize you to charge the payment method they have on file. We cannot recommend the wording for you — that is a question for your attorney.
@@ -61,8 +59,6 @@ Turning impersonation off does not hide the button. **Log in as client** stays i
 
 :::
 
-<!-- screenshot: a client record's action menu open with "Log in as client" highlighted, and the "Impersonating Warning" confirmation dialog in front of it with its "Yes, continue" and "Never mind" buttons -->
-
 ## ACH, Rates, and Everything Else on Your Merchant Account
 
 ACH is a separate capability on your PayArc merchant account, applied for and approved through PayArc. It is not something Lendiom can flip on demand, and it is not something you can request from inside the app.
@@ -82,19 +78,11 @@ You can tick **Bank Accounts** under a client's Allowed Payment Methods, and it 
 
 Your rates are on the same page and are equally read-only: card rate and per-transaction fee, ACH rate when ACH is on, plus reserve amount, settlement days, high ticket, average ticket, monthly volume, and batch hold when PayArc has supplied them. These are negotiated, not configured. Lendiom guarantees a ceiling on them, which is documented on the [PayArc](../payment-processing/payarc.md) page.
 
-<!-- screenshot: the PayArc Merchant page header showing the descriptions row with Merchant ID, Settlement Days, Card Rate, and "ACH Enabled: No", with no ACH Rate item present -->
-
-<!-- screenshot: the PayArc Transactions page with the "ACH Transactions" tab visibly disabled and the "ACH Capabilities Not Enabled" result card below it -->
-
 ## Rentals
 
 Rentals is an add-on, but unlike Document Builder or Document Signing it has no switch in the Addons card. Every organization created through the normal signup flow gets it enabled automatically, so most people never notice. If yours is off, only Lendiom can turn it back on.
 
 When it is off, the Rentals page shows a **Coming soon** screen instead of your rentals, creating a rental is refused with `rental addon is not enabled` under code `198415`, invoices cannot be attached to a rental, and rental figures drop out of the dashboard and your expected payments. Nothing is deleted.
-
-<!-- screenshot: the Rentals page showing the disabled view with the "Coming soon: you will be able to manage your rentals within Lendiom." message in place of the rentals table -->
-
-<!-- screenshot: Org Settings → Billing with the Addons card on the right listing Deal Analysis, Document Builder, Document Signing, and Custom Website — and no Rentals row at all -->
 
 ## How to Get One Changed
 

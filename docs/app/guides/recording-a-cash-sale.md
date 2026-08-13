@@ -105,8 +105,6 @@ Cash sales are stitched into the transaction reports as a synthetic row even tho
 
 Rows are matched to a reporting period by the **cash sale date** and sorted in with the real transactions. These reports pull the sale price, not the cost of sale, so their numbers are the ones to trust.
 
-<!-- screenshot: a Monthly Transaction List Excel workbook with a highlighted Tract Sold row showing the client name, development and tract label, sale date, Success status, payment method, and the sale price in the Total Collected column -->
-
 :::info
 Because rows are matched on the sale date, a sale dated in the future — the form allows up to 45 days out — will not appear until you run the report for that month. Cash sales recorded before Lendiom stored a sale date have no date at all; those still count toward acres sold on the journal entry report, but they never produce a transaction row.
 :::

@@ -88,8 +88,6 @@ The **Export** button in the toolbar exports the month currently selected. It do
 2. A **Deposits Summary** table — Settlement Date, Batch Ref, Gross Total, Net Amount, Refund Amount, Transactions — with a totals row.
 3. One block per deposit, headed `Deposit 12345 — settled 07/09/2026 — Net $4812.66`, listing that batch's line items with Date, Type, Amount, Client, Related, Internal Txn ID, Unapplied Payment, and Matched columns, and closing with a Deposit Total.
 
-<!-- screenshot: The top of the exported PayArc-Deposits workbook in Excel, showing the organization header, the "PayArc Deposit Reconciliation" title, the month line, and the Deposits Summary table with its totals row. -->
-
 The last column is the point of the export:
 
 | Marking | Meaning |
@@ -98,8 +96,6 @@ The last column is the point of the export:
 | UNMATCHED | Nothing in Lendiom carries that authorization code — shown in bold red |
 
 Lendiom only stores an authorization code for charges it created, so the usual causes are a charge taken outside Lendiom — through PayArc's own virtual terminal, for instance — and lines PayArc puts in the batch itself, such as refunds and adjustments.
-
-<!-- screenshot: A per-deposit block in the exported workbook, showing the shaded "Deposit ... settled ... Net" header row, several Matched detail rows with Client, Related and Internal Txn ID filled in, one UNMATCHED row in red, and the Deposit Total row. -->
 
 :::caution
 Card payments made against an **invoice** are marked UNMATCHED in the export, with empty Related and Internal Txn ID cells, even though the expanded row inside Lendiom links the invoice correctly. Check any UNMATCHED line against **PayArc → Transactions → Card Transactions** before treating it as unexplained money.

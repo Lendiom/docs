@@ -73,8 +73,6 @@ Late fee assessments never appear. A late fee is debt the borrower takes on, not
 The Monthly Journal Entry Report is marked **Beta**. Its numbers are still under review with CPAs. Verify it against the underlying sheets before posting from it.
 :::
 
-<!-- screenshot: the Monthly Journal sheet of the Monthly Journal Entry Report workbook, showing the thirteen summary lines in column A with their formula-driven values in column B, and the six sheet tabs visible along the bottom -->
-
 ## Processing fees and who bore them
 
 For a card payment, the grossed-up total is the payment amount plus your per-transaction card fee, divided by one minus your card rate. For a bank payment it is the amount plus thirty cents, divided by one minus your ACH rate. Who pays that fee is configured per loan and separately for each rail — card and ACH can differ. See [Setting Up Online Payments](../payment-processing/setting-up-online-payments.md).

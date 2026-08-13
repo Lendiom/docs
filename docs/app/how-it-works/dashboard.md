@@ -175,8 +175,6 @@ Cards are not disabled or greyed out when you lack access; they are absent. A na
 The loan-backed cards are shown based on `loan::transactions` Read, but the data behind them is served under `loan` Read. A role with transaction access and no loan access renders those cards and then fails to load them. Grant both together.
 :::
 
-<!-- screenshot: Two dashboards side by side — an owner role with every Overview card, and a limited role with only Usage Info and Recent Mail Sent. -->
-
 Deal Profitability needs the Deal Analysis add-on **and** `inventory::dealAnalysis` Read; turning the add-on off hides it for everyone regardless of role. See [Add-Ons](../billing/add-ons.md) and [Roles and Permissions](../security/roles-and-permissions.md).
 
 :::tip

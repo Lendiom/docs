@@ -7,8 +7,6 @@ Lendiom can generate and host a public website for your organization that lists 
 
 It is not a site builder. There is no page editor, no theme picker, no drag-and-drop, and no place in the app to write copy. Lendiom renders a fixed template, fills it with your organization details and your available tracts, and serves it. Everything on the page comes from records you already maintain in Lendiom — you keep the site current by keeping your inventory current.
 
-<!-- screenshot: the generated public site for "Demo Land Company" showing the hero section with "Welcome to Demo Land Company", the "See properties" and "Lendiom Pay" buttons, and the top of the properties list below it -->
-
 ## What the site shows
 
 The site is three pages: the main listing page, a privacy policy, and a terms and conditions page. The main page runs top to bottom in this order.

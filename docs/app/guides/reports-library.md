@@ -54,8 +54,6 @@ Three things beyond ordinary payments show up here. Cash tract sales appear as a
 
 The rental lists are narrower, because rentals have no amortization: client, rental, inventory, unit, date, type, status, method, total collected, total, to platform, to balance, to fees, and comments.
 
-<!-- screenshot: an open Excel workbook showing the March 2026 Transactions sheet with the fifteen column headers frozen and a mix of Payment, Property Tax, Tract Sold, and Unapplied Payment rows -->
-
 ## Monthly Journal Entry Report
 
 This is the month-close workbook, and it is marked **Beta** — its tooltip says as much, and the numbers are still under review with CPAs. It builds six sheets for the month you pick: New Contracts, Repossessions, Inventory, Transactions, Installment, and the Monthly Journal sheet itself.
