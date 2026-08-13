@@ -159,7 +159,7 @@ Let's say that the monthly payment is $225. We have a client who pays a $250 eve
 :::
 
 ### New or Existing Loan {#step3-new-or-existing}
-Whenever you create creating an existing loan, this value enables the extra inputs for creating a loan based on an existing one. For more information about creating an existing loan, please see: [Creating a Pre-Existing Loan](./creating-a-pre-existing-loan)
+Whenever you create a pre-existing loan, this value enables the extra inputs for creating a loan based on an existing one. For more information about creating an existing loan, please see: [Creating a Pre-Existing Loan](./creating-a-pre-existing-loan)
 
 ### Step 3 Screenshot
 ![Step 3 of the new loan wizard: sales price, down payment, rate and length](/img/docs/app/guides/creating-a-loan/how-much-step.png)

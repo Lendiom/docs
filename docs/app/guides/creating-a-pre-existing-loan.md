@@ -9,7 +9,7 @@ The information required depends on which interest schedule you are using.
 
 When the interest schedule follows the payment schedule, the math formula variables require specific input. Due to the complexity of the amortization and starting a schedule in the middle of it, without entering the details for each payment made in the past, we require four new data points which will enable us to calculate the correct amortization schedule. [Jump to more information](#interest-follows-payment-schedule).
 
-However, when the interest accrues daily, we a completely different set of data since interest accruing daily does not follow an amorization schedule. [Jump to more inforamtion](#interest-accrues-daily).
+However, when the interest accrues daily, we need a completely different set of data since interest accruing daily does not follow an amortization schedule. [Jump to more information](#interest-accrues-daily).
 
 :::tip
 
