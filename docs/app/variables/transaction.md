@@ -1,4 +1,0 @@
----
-id: transaction
-title: Transaction
----

@@ -55,18 +55,20 @@ Lendiom integrates with a third-party mail service, to allow you to send physica
 
 ### Pricing Table
 
+Prices below are effective as of July 12, 2026.
+
 | **Service**                            | **Price**       |
 |----------------------------------------|-----------------|
-| First-Class Black & White Letter       | $1.23           |
-| First-Class Color Letter               | $1.39           |
-| Standard Black & White Letter          | $1.02           |
-| Standard Color Letter                  | $1.18           |
+| First-Class Black & White Letter       | $1.31           |
+| First-Class Color Letter               | $1.47           |
+| Standard Black & White Letter          | $1.08           |
+| Standard Color Letter                  | $1.24           |
 | Additional Black & White Page          | $0.35           |
 | Additional Color Page                  | $0.45           |
-| Extra Postage                          | $2.56           |
-| Certified Mail                         | $8.25           |
-| Certified Mail with Electronic Return  | $10.87          |
-| Registered Mail                        | $24.20          |
+| Extra Postage                          | $2.75           |
+| Certified Mail                         | $8.95           |
+| Certified Mail with Electronic Return  | $11.86          |
+| Registered Mail                        | $26.50          |
 
 ### Important Notes
 

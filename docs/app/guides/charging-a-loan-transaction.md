@@ -9,7 +9,7 @@ When charging the client for a fee, such as insufficient funds or requiring reim
 
 Below is a screenshot of the screen where you enter in the details of what you are wanting to charge.
 
-![img](../../../static/img/docs/app/guides/charging-a-loan-transaction/charge-transaction-modal.png)
+![The Charge Client modal for taking a payment on a loan](/img/docs/app/guides/charging-a-loan-transaction/charge-transaction-modal.png)
 
 ## How it Works
 

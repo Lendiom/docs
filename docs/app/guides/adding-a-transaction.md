@@ -9,7 +9,7 @@ A transaction in the Lendiom system represents any time there is an exchange of 
 
 Below is a screenshot of the screen where you enter in the details of a new transaction.
 
-![img](../../../static/img/docs/app/guides/adding-a-transaction/new-transaction-modal.png)
+![The New Transaction modal on a loan](/img/docs/app/guides/adding-a-transaction/new-transaction-modal.png)
 
 ## Input Descriptions
 Generally, once a transaction is created none of the values can be changed, however, there are three exceptions. The first exception is that you can change the status. The second exception is that you can reverse a transaction, which is an "undo" for a transaction. The third exception is that you can change the date of a transaction, however, it won't affect the amortization and is only a change of the date.
@@ -17,7 +17,7 @@ Generally, once a transaction is created none of the values can be changed, howe
 ### Transaction Type {#input-type}
 The transaction type determines how the money is applied against the loan. For a detailed description of what each type is, please see the [Transaction Application Flow](#transaction-flow) section below.
 
-![img](../../../static/img/docs/app/guides/adding-a-transaction/transaction-types.png)
+![The transaction type dropdown listing the available types](/img/docs/app/guides/adding-a-transaction/transaction-types.png)
 
 ### Payment For {#input-payment-for}
 When the [Transaction Type](#input-type) is a [Regular Payment](#type-regular), this input is enabled. One or more payments can be selected. Payments which have been paid in full will not appear. The payments which have an asterisk `*` in front of them are late.

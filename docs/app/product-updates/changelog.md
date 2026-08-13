@@ -1,0 +1,229 @@
+---
+id: changelog
+title: Changelog
+---
+
+## Recent changes
+
+- v0.63.0
+  - New
+    - **Send an address confirmation reminder on demand** — from a client's Lendiom Pay menu, ask a buyer to confirm or update their mailing address anytime. Automated reminders are also now on for everyone by default (yearly; adjust or turn off under Communications → Client Preferences).
+    - **Custom file names for generated documents** — templates can include data tokens in a "Generated File Name" (e.g. {{client name}} - Payoff Letter), so documents come out named correctly instead of needing a manual rename.
+    - **Tract financing fields in document templates** — sales price, down payment, financed amount, interest rate, monthly payment and more are available for tract templates, no draft loan required.
+  - Fixed
+    - The mailing cost summary now explains the blank address page certified mail inserts automatically, so the page count is never a surprise.
+    - Template details (including the generated file name) can be edited on active templates, not just drafts.
+    - Required form fields consistently show the required mark.
+  - `v0.62.2`
+    - New
+      - **View and download filed 1098s** — filed 1098 PDFs are available right from the 1098 preview table, individually or as a bundle.
+    - Improved
+      - Strengthened how passwords are stored, applied automatically the next time each user signs in.
+      - Clearer error message when adding an expired card, and better card-detail validation.
+      - Text message group images now load faster when opening a conversation preview.
+      - The monthly journal reconciliation report now includes a Cash Land Sales line.
+  - `v0.62.1`
+    - Fixed
+      - Older unapplied payments can now be applied — the application date is clamped to the valid range with a clear explanation, instead of being blocked.
+- `v0.62.0`
+  - New
+    - Scheduled report emails — have reports delivered to your inbox automatically, including an optional monthly payments summary with PayArc deposit reconciliation. Configure them under Org Settings → Scheduled Reports.
+    - Payments summary report — a new report summarizing payments over any date range you pick.
+    - Pay your Lendiom subscription by bank account (ACH) in addition to card.
+    - Waive late fees — late fee transactions now have a Waive action, and fees can be waived even after payments have already been applied to them.
+    - Download notice templates directly from the template picker when sending a notice.
+  - Improved
+    - Faster permission checks throughout the app.
+    - More reliable nightly loan data integrity checks.
+- `v0.51.10`    - January 13th, 2026
+  - New: now you can download MMS attachments
+- `v0.51.9`    - January 12th, 2026
+  - New: dashboard tab to see all of the pending change requests from clients
+- `v0.51.7`    - January 7th, 2026
+  - New: clients can submit updated address information via Lendiom Pay
+- `v0.51.5-v0.51.6`    - December 31st, 2025
+  - Fix: Rentals not displaying correctly on the expected payments dashboard
+- `v0.51.4`    - December 2nd, 2025
+  - New: confirmation required when paying down late fees during backdated loan transactions
+- `v0.51.3`    - December 2nd, 2025
+  - New: ability to extend the due date for a document you requested a signature on
+- `v0.51.2`    - December 1st, 2025
+  - New: ability to validate a property tax record.
+    - This enables you to tell the system to rerun the validation
+    - This then crunches the numbers to determine if everything is correct
+- `v0.51.1`    - November 25th, 2025
+  - New: ability to communicate to all individuals in a client (send reminders, auth code, etc)
+  - Fix: phone number validation when editing an individual on a client
+- `v0.51.0`    - November 10th, 2025
+  - New: added passkey and 2fa support
+- `v0.50.1`    - October 31st, 2025
+  - New: track due date change timestamp for loans
+  - New: enable SMS automation after opt-in
+  - New: add weekend support message (Twilio)
+  - New: add after-hours support call message (Twilio)
+  - Fix: include due-day payments in balance calculations
+  - Fix: disallow creating a transaction with failure or reversed status
+  - Fix: double calculating interest due
+  - Fix: allow archived inventory status updates]
+  - New: show whether loan transaction was waived or not
+- `v0.49.18`    -`v0.49.20`     - September 1st, 2025 to October 1st, 2025
+  - New: adjustable transaction table page size for loans
+  - Fix: clarify real property tax wording to indicate the correct year
+  - Fix: ensure owner ZIP validation (PayArc)
+  - Fix: guard signer completion date check
+  - Fix: handle missing files when removing communications
+  - Fix: maintain adjustment type state in transaction modal
+  - Chore: disable failed and reversed status when creating a transaction
+- `v0.49.14 - v0.49.17`     - August 8th, 2025 to August 30th, 2025
+  - New: support loan transaction create dry run
+  - New: allow mails to client to be cancelled
+  - Fix: PayArc registration flow
+  - Fix: client page constantly loading
+  - Fix (loans): display correct tract label on review
+  - Fix: closing new transaction modal via the X button
+- `v0.49.3-v0.49.12`     - May 30th, 2025 to July 2nd, 2025
+  - New: ACH processing time alert
+  - New: docs link to merchant page (PayArc)
+  - New: client pay access alert
+  - New: allow editing cash sales data
+  - New: show acreage mismatch warning on tract summary
+  - New: support cost of sale on tract
+  - New: allow reversing and deleting overpaid property tax
+  - New: add entity contact info search
+  - New: expose signer details on document requests
+  - New: update client list with ProList
+  - New: add sale details modal for tracts
+  - New: add ability to charge a client fee to their pin on file
+  - New: add the loan and rental to the document signature form
+  - New: display additional merchant info in PayArc
+  - New: show edited timestamp on notes
+  - New: enable signing documents in any order
+  - New: add notification count in mobile actions
+  - New: compare change requests for clients
+  - New: add tax ID validation
+  - New: add AP error handling
+  - Fix: handle document template errors
+  - Fix: tracts add/edit drawer resetting fields before closing
+  - Fix: conversation selection hooks
+  - Fix: reset password error handling
+  - Fix: invite acceptance when token expires
+  - Fix: new organization layout and routing
+  - Fix: calculator modal reset
+  - Fix: portfolio report showing details when it shouldn’t for tracts without loans
+  - Fix: forgot password logout bug
+  - Fix: conversation navigation loop
+  - Fix: error saving new tract
+- `v0.42.4`     - August 6th, 2024
+  - New: filter/search communication conversations by the individual's name
+- `v0.42.2`     - August 4th, 2024
+  - New: sort loans by various columns
+  - New: support updating/setting website of an org
+- `v0.42.1`     - July 31st, 2024
+  - New: ability to adjust a tract's acreage even when a loan is attached 🎉
+- `v0.42.0`     - July 30th, 2024
+  - New: PayArc registration inside of Lendiom! ✨
+- `v0.41.1-v0.41.12`     - May 28th, 2024 to July 26th, 2024
+  - New: added daily interest amount to the loan overview when a loan's interest accrues daily
+  - New: added a confirmation modal when creating a loan transaction and there's a late fee balance
+  - New: loans can have multiple communication preferences (preparing for email support)
+  - New: when reversing a transaction, add the option to hide it from the client's perspective
+  - New: introduced the concept of default options when creating new loans (currently only the defaulting preferences, supporting late fees is on the backlog)
+  - New: exposed unpaid interest on the transaction list report
+  - New: exposed balance breakdown on interest accrues daily in Lendiom Pay
+  - New: exposed unpaid interest on amortization schedule
+  - Fix: Random UI errors on mobile devices (related to drag and drop)
+  - Fix: ACH payment methods not able to be saved (depending on the circumstance)
+  - Fix: `toUnpaidInterest`     not visible on a loan's transaction details
+  - Fix: client having opted out of sms not being reflected on the UI
+  - Fix: incorrect installment income reports for paid off loans
+  - Fix: logic for moving a loan to in-default, was incorrectly doing it if the loan was not late
+  - **Fix: how daily interest is generated and applied on a transaction** (if you have interest accrues daily loans and your numbers no longer match, please contact support as we will have to do some manual data fixing)
+  - Misc: generated websites now show all pending tracts, even if no pricing information
+  - Misc: generated websites now show the business phone number
+  - Misc: added language about amortization schedule and daily interest loans on the generated schedule
+- `v0.41.0`     - May 22nd, 2024
+  - New: pay off feature on loans
+  - New: lendiom pay welcome letter generation
+- `v0.40.1`     - May 6th, 2024
+  - Fix: property tax feature sometimes not saving before clicking finalize
+- `v0.40.0`     - May 6th, 2024
+  - New: Action center ([docs here](https://docs.lendiom.com/app/how-it-works/loan-action-center))
+  - New: Accept down payments online! ([docs](https://docs.lendiom.com/app/how-it-works/down-down-payments))
+  - New: Verbose loan statuses ([docs](https://docs.lendiom.com/app/how-it-works/loan-status))
+  - New: Loan default logic ([docs](https://docs.lendiom.com/app/guides/creating-a-loan#step2-days-until-in-default))
+  - New: Lendiom Pay payment page (documentation coming soon)
+  - New: Recent mailings on the dashboard
+  - Updated: loan table now saves the filters, pagination, and more!
+  - Fix: Communication portal pagination not working
+  - Fix: Billing alerts not showing up
+- `v0.36.0`     - February 12th, 2024
+  - New: Tiered late fees ([docs here](https://docs.lendiom.com/app/how-it-works/late-fees))
+  - Updated: Automated messages to make them comply with new regulations
+  - Fix: Entity addresses not always being the same casing
+- `v0.35.0`     - January 18th, 2024
+  - New: Payment process - PayArc
+  - New: Report to assist with 1098 int
+  - Fix: Address label report alignment on multiple pages
+- `v0.34.0`     - January 11th, 2024
+  - New: Client List reports
+  - New: ability to update an inventory's cost price, overwriting all tracts
+  - New: added PayPal as an option for app payment methods on transactions
+  - Fix: Client address not always saving
+- `v0.33.1`     - January 2nd, 2024
+  - New: Avery Address Labels "report"
+- `v0.33.0`     - January 2nd, 2024
+  - Happy new year! 🥳
+  - New: loans where interest accrues daily now have amortization schedules (changes daily, assumes the buyer pays on the due date every month)
+- `v0.32.5`     - December 30th, 2023
+  - New: Active Loan Balance Dashboard Widget 🎉
+  - Fix: ui issues related to new payment processor
+- `v0.32.1`     - December 22nd, 2023
+  - New: PayArc payment processor integration! ✨
+  - Fix: Installment income report incorrectly reporting principal paid for imported loans
+- `v0.31.0`     - November 5th, 2023
+  - New: Rentals! ✨
+- `v0.30.1`     - September 29th, 2023
+  - New: MMS support (sending & receiving)
+  - New: Outgoing phone calls
+  - New: Phone numbers are validated as cellular or not
+  - New: Unknown numbers get saved (aka created as a client)
+  - Fix: Incorrect billing of communication portal
+    - Now 100 sms messages are included monthly
+- `v0.29.4`     - August 27th, 2023
+  - New: Better communication portal
+  - Fix: Error while creating a loan without a down payment date provided
+- `v0.29.2`     - August 25th, 2023
+  - New: Loans with interest accruing daily can now select the first payment basis/anchor
+  - Fix: Hides the support button on mobile devices
+- `v0.29.1`     - August 24th, 2023
+  - New: Multiple tracts for one loan 🔥
+    - **Important**: tract numbers are important when creating a tract! We use that to dynamically create the label for multiple tracts on a loan. If the label generated is not correct, double check the tract number on the tract edit screen!
+    - This is the first round of support. When more than one tract is present, some features are currently disabled while we work through supporting it.
+      - Fillable PDFs for tract loans
+      - Property tax payments
+      - Changing a loan status from inactive to repossessed
+  - Fix: Loan creation failing when late fees are expected (any active status)
+- `v0.28.3`     - August 18th, 2023
+  - Fix: inability to create tracts
+  - Fix: support email
+  - New: utilizing HelpScout for support 🥳
+- `v0.28.2`     - August 16th, 2023
+  - Communication portal improvements
+    - New: ability to hit enter to include newline in a message
+    - New: ability send message to someone new
+    - Misc: various styling improvements
+- `v0.28.1`     - August 15th, 2023
+  - New: Allow late fees to be positive
+    - This enables entering a late fee paid not part of a regular payment
+- `v0.28.0`     - August 14th, 2023
+  - New: Interest Accruing Daily Loans 🔥
+- `v0.27.13`     - August 11th, 2023
+  - Fix: Updated escrow amount not updating the monthly payment
+- `v0.27.12`     - August 10th, 2023
+  - Misc: calling our toll-free number now gives the option for sales or support
+    - Sales goes to Hunter Haley
+    - Support goes to Bradley Hilton
+    - +1 (855) 650-LEND (5363)
+- `v0.27.11`     - August 9th, 2023
+  - Fix: Adjustments on residential loans being forced positive
+  - Fix: Inability to update residential inventory address

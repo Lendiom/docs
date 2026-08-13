@@ -24,7 +24,7 @@ Please note that if the down payment remains unpaid by the due date and the syst
 ### Down Payment Collection Modal
 When telling Lendiom to collect a down payment online, you will click the **Collect via Lendiom** button on the new loan wizard, step 3 (how much). This will open a modal that allows you to specify the details of the down payment collection.
 
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/button.png)
+![The Collect via Lendiom button on the down payment field](/img/docs/app/how-it-works/loan-down-payments/button.png)
 
 The details needed are:
 * Schedule - One Payment (aka Lump Sum) or Incremental (aka Multiple Payments)
@@ -33,10 +33,10 @@ The details needed are:
 * Expired Status - The status that the loan should move to if the down payment is not paid by the due date (`canceled` can only be selected if expecting a lump sum)
 
 #### Lump Sum Down Payment Modal
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/down-payment-modal_lump-sum.png)
+![The down payment modal set to collect a single lump sum](/img/docs/app/how-it-works/loan-down-payments/down-payment-modal_lump-sum.png)
 
 #### Incremental Down Payment Modal
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/down-payment-modal_incremental.png)
+![The down payment modal set to collect the down payment incrementally](/img/docs/app/how-it-works/loan-down-payments/down-payment-modal_incremental.png)
 
 
 ### Buyer Experience
@@ -44,17 +44,17 @@ When the buyer logs into their Lendiom Pay portal, they will be presented with a
 If a loan has an online down payment that is approaching or has reached its due date, a notification will appear on the corresponding loan card,
 alerting them that the down payment is pending and requires their attention.
 
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-loan-list.png)
+![The buyer's loan list in Lendiom Pay showing the down payment owed](/img/docs/app/how-it-works/loan-down-payments/buyer-loan-list.png)
 
 When the buyer clicks on a specific loan from their list, they will be directed to the loan details page.
 At the top of this page, a prominent notice will alert them that the online down payment is due.
 Additionally, a 'Pay down payment now' button will be displayed, allowing them to conveniently initiate the payment process.
 
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-loan-details.png)
+![The loan detail screen a buyer sees in Lendiom Pay](/img/docs/app/how-it-works/loan-down-payments/buyer-loan-details.png)
 
 When they click the **Pay down payment now** button, they will be taken to the payment page where they can pay the down payment.
 
-![img](../../../static/img/docs/app/how-it-works/loan-down-payments/buyer-payment-page.png)
+![The payment screen a buyer uses to pay their down payment](/img/docs/app/how-it-works/loan-down-payments/buyer-payment-page.png)
 
 After clicking the **Pay** button, the payment will be processed and the loan status will be updated to reflect that the down payment has been made.
 If there are still outstanding incremental down payments to be paid, the buyer will continue to see a notice indicating that the down payment is due, prompting them to fulfill their remaining obligations.
