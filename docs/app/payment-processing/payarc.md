@@ -27,6 +27,17 @@ PayArc imposes a minimum monthly fee for both credit card and ACH processing:
 ### ACH (Bank) Processing
 - Optional service with a minimum monthly fee of **$10**.
 
+### Chargeback and Dispute Fees
+
+These apply on top of your processing rates:
+
+| Fee | Amount |
+| --- | --- |
+| Chargeback | $15 |
+| Chargeback reversal | $15 |
+| Chargeback retrieval | $15 |
+| Chargeback arbitration | $25 |
+
 ## PCI Compliance
 
 Since each business operates as its own merchant, maintaining PCI compliance is your responsibility. PayArc facilitates this process by sending a **PCI Compliance Questionnaire** email via **Security Metrics**. 
@@ -58,3 +69,7 @@ ACH payments will normally take 10 to 15 business days to complete. The flow usu
 *Note*: We understand it takes a long time, but there's nothing we can do to expedite this.
 
 Should an ACH payment fail, it will happen within the 10 to 15 days.
+
+## Onboarding
+
+Applying for PayArc is done from inside Lendiom: you complete the **Merchant Info** section, sign electronically, and PayArc reviews the application. See [Onboarding PayArc](./onboarding-payarc.md) for the full walkthrough and the documents to gather first.
