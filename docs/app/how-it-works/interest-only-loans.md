@@ -7,7 +7,7 @@ An interest-only loan is one where the scheduled payment covers the interest for
 
 Interest-only loans always use daily interest accrual, so the **Interest Formula** and **Finance Start** fields become required the moment you pick Interest Only. The math for each period is the same day-count math described in [Interest Accrues Daily](./interest-accrues-daily.md).
 
-<!-- screenshot: Step 3 of the new loan wizard with Interest Schedule set to "Interest Only", showing the Interest Formula, Finance Start, Compound Unpaid Interest switch (reading "Simple"), and Term Type dropdown set to "Indefinite (Month to Month)". -->
+![Step 3 of the new loan wizard with Interest Only selected, showing the Interest Formula, Finance Start, Compound Unpaid Interest switch and Term Type](/img/docs/app/how-it-works/interest-only-loans/01.png)
 
 ## The fields you set
 

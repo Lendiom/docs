@@ -7,7 +7,7 @@ Every loan carries an **interest schedule**. It decides how Lendiom computes int
 
 There are three: **Follows Payment Schedule**, **Accrues Daily**, and **Interest Only**. All three work on monthly, biweekly, and weekly cadences.
 
-<!-- screenshot: Step 3 (How Much) of the new loan wizard with the Interest Schedule dropdown open, showing its three options — Accrues Daily, Follows Payment Schedule, Interest Only — and the Interest Rate and Length fields filled in above it. -->
+![Step 3 of the new loan wizard with the Interest Schedule dropdown open, showing its three options](/img/docs/app/how-it-works/choosing-an-interest-schedule/01.png)
 
 ## Side by side
 
@@ -38,7 +38,7 @@ That makes the term elastic. The length field is labelled **Based on Length** he
 
 The formulas, the daily interest math, and the differences between the three accrual methods are covered in detail in [Interest Accrues Daily](./interest-accrues-daily.md).
 
-<!-- screenshot: Step 3 of the new loan wizard with Accrues Daily selected, revealing the Interest Formula dropdown (set to Actual / 365) and the Finance Start dropdown below it, with the Length field relabelled "Based on Length". -->
+![Step 3 of the new loan wizard with Accrues Daily selected, revealing the Interest Formula and Finance Start fields](/img/docs/app/how-it-works/choosing-an-interest-schedule/02.png)
 
 Pick this when your contract says interest accrues daily on the unpaid balance, or when you want early payments to genuinely save the borrower money.
 
@@ -58,7 +58,7 @@ Two extra decisions come with it.
 | Fixed Period | Interest-only payments for the length you enter, then the schedule stops. |
 | Balloon | Interest-only payments for the length you enter, then a final row. **Called Due** makes that row the whole remaining balance plus its accrued interest. **Convert to Amortized** replaces it with a full amortization run at its own length and unit — and that tail is amortized per period, so the daily formula stops applying once the interest-only phase ends. |
 
-<!-- screenshot: Step 3 of the new loan wizard with Interest Only selected, showing the Compound Unpaid Interest switch, Term Type set to Balloon, the Balloon Action dropdown set to Convert to Amortized, and the Amortized Period length and unit inputs below it. -->
+![Step 3 of the new loan wizard with Interest Only selected, showing the Compound Unpaid Interest switch and Term Type](/img/docs/app/how-it-works/choosing-an-interest-schedule/03.png)
 
 :::caution The amortized tail is always monthly
 
