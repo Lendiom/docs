@@ -22,6 +22,6 @@ You are now signed in and can access your account! Here is what the screen looks
 
 ## Issues
 
-If you have troubles signing in, please double check your account number is precisely like the one provided as casing does matter! If you think you have an incorrect account number, please contact your account manager (person you're buying or renting from) to ask for it. Lendiom Support can not assist you with account number troubles.
+If you have troubles signing in, please double check your account number is precisely like the one provided as casing does matter! If you think you have an incorrect account number, please contact the company you buy or rent from to ask for it. Lendiom Support can not assist you with account number troubles.
 
 The auth code expires after five minutes. You will have to click the **Get Code** button again to be sent an updated code.
