@@ -1,5 +1,5 @@
 ---
-id: pay-home-screen
+id: home-screen
 title: Your Lendiom Pay Home Screen
 ---
 
