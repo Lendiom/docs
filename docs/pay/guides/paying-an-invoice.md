@@ -11,7 +11,7 @@ The company you pay sends the invoice by email, text message, or mail, depending
 
 The invoice also sits on your home screen in a list called **Invoices**. When money is owed on one, that list jumps above your rentals and loans so it is the first thing you see; when everything is settled, it drops to the bottom. Each row shows the invoice number, its status, the due date, and the amount still owed, in red when there is a balance. Tap **View Details** to open it.
 
-<!-- screenshot: at phone width, the Lendiom Pay home screen with the Invoices list at the top, one row reading "Invoice #INV-1042", "Status: Overdue; Due: Jul 1st, 2026", a red balance on the right, and a View Details button -->
+![The Lendiom Pay home screen at phone width, with the Invoices list above the loans](/img/docs/pay/guides/paying-an-invoice/01.png)
 
 ## The invoice page
 
