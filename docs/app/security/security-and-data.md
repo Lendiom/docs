@@ -92,7 +92,7 @@ Lendiom issues no API keys, personal access tokens, or long-lived credentials. T
 
 Connecting and revoking both generate an email and an in-app notification, so an unexpected connection is visible rather than silent.
 
-![The Security tab of Account Settings, showing connected assistants and the organizations they can reach](/img/docs/app/security/security-and-data/04.png)
+![The Security tab of Account Settings, showing passkeys, the two-factor status and the start of the connected applications list](/img/docs/app/security/security-and-data/04.png)
 
 ## Sub-processors
 

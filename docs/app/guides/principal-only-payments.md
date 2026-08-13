@@ -16,7 +16,7 @@ You need the **Loan Transaction / Create** permission.
 3. Enter the **Amount**, **Payment Method**, **Date**, and **Status**.
 4. Save.
 
-<!-- screenshot: The "Add a Transaction" modal on an accrues-daily loan with Type set to "Principal Payment". Amount is 10,000.00, Payment Method is Check, Status is Success. Note that the "Payment For" field is visible but greyed out, and the "Extra Application" field is not shown for this type. -->
+![The Add a Transaction modal on an accrues-daily loan, where Principal Payment is chosen as the type](/img/docs/app/guides/principal-only-payments/01.png)
 
 | Field | Behavior for a Principal Payment |
 | --- | --- |
@@ -110,7 +110,7 @@ The rule of thumb: if the borrower is paying their payment *and* extra, record o
 
 If the loan has online payments turned on, **Allow Principal Only** controls whether the option is offered in the borrower's portal. You set it when creating the loan and can change it later from the loan's online payments settings.
 
-<!-- screenshot: The loan's Online Payments settings modal with the "Allow Principal Only" Yes/No toggle set to Yes, and its helper text visible below the field. -->
+![The Online Payments modal on a loan, showing the Allow Principal Only toggle](/img/docs/app/guides/principal-only-payments/04.png)
 
 In the portal, the option appears as **Custom Principal Amount** on the payment screen, and only when all three are true:
 

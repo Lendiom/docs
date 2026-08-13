@@ -41,7 +41,7 @@ These are removed on a phone. They are not disabled or greyed out — they are a
 
 The presets that vanish from the transaction modal are the shortcuts — *Today*, *Next Due Date*, *Last Due Date*, *Last Payment Date*, *Down Payment Date*, *Closing Date* on a loan, and the rental equivalents. The date field itself works normally. Note that the presets are also suppressed when you open the modal to charge a client, on any device.
 
-<!-- screenshot: The loan page at phone width, showing the header without a Charge Client button, and the Transactions panel header with no Download Transactions split button on its right edge. -->
+![A loan page at phone width, with the header actions collapsed and the panels stacked](/img/docs/app/how-it-works/using-lendiom-on-your-phone/01.png)
 
 ### Notifications fold into an Actions dropdown
 
@@ -69,13 +69,13 @@ The tab list is unchanged — Basic Settings, Billing, Invoices, Import/Export, 
 
 Each tab is its own URL, so a bookmark or a link straight to a tab still lands correctly on a phone.
 
-<!-- screenshot: Organization Settings at phone width, with the tab rail rendered as a horizontal scrolling strip above the Basic Settings form instead of a column on the left. -->
+![Organization Settings at phone width, with the tab rail rendered as a horizontal strip above the form](/img/docs/app/how-it-works/using-lendiom-on-your-phone/03.png)
 
 ### Tables become lists
 
 Four of the heaviest tables swap to a card list on a phone rather than scrolling sideways: **Loans**, **Clients**, the entities list on a client record, and a loan's **Transactions**. The list shows fewer fields than the table by design; tap a row to open the same detail view.
 
-<!-- screenshot: The Loans page at phone width rendered as a stacked card list rather than a table, with the collapsed sidebar hamburger visible in the header. -->
+![The Loans page at phone width, rendered as a stacked card list rather than a table](/img/docs/app/how-it-works/using-lendiom-on-your-phone/04.png)
 
 
 Everywhere a table stays a table, it scrolls horizontally inside its own panel. Detail blocks — the summary rows at the top of a loan, rental, tract, inventory, or client — drop from three columns side-by-side to two columns stacked, with each label above its value. Drawers and modals open at full screen width instead of a fixed panel.

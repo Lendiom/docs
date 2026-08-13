@@ -11,7 +11,7 @@ Your existing data is never deleted when an add-on is turned off. It is put out 
 
 Add-ons live in **Org Settings → Billing**, in the **Addons** card on the right-hand side of the page, below your payment methods.
 
-<!-- screenshot: The Org Settings Billing tab with the subscription status descriptions and billing address form on the left, and on the right the payment method card above the "Addons" card listing Deal Analysis (Beta), Document Builder, Document Signing, and Custom Website, each with an Enable or Disable button -->
+![The Billing tab of Org Settings, with the subscription status and the billing address form](/img/docs/app/billing/add-ons/01.png)
 
 ## Who Can Turn an Add-On On or Off
 
@@ -47,7 +47,7 @@ Without it, the Deal Analysis tab is not rendered, the dashboard card is hidden,
 
 The related permission is **inventory dealAnalysis**, with separate read, create, update, and delete actions.
 
-<!-- screenshot: An inventory record page with the tab bar showing "Tracts" and "Deal Analysis" with a purple Beta tag, the Deal Analysis panel open below it showing itemized development costs and a development loans section -->
+![An inventory record with the Tracts and Deal Analysis tabs in its tab bar](/img/docs/app/billing/add-ons/02.png)
 
 ### Document Builder
 
@@ -117,7 +117,7 @@ If you need one of these, email [Lendiom Support](mailto:support@lendiom.com) fr
 
 ## Troubleshooting
 
-<!-- screenshot: The Roles table under Org Settings with permission rows down the left including "billing *" and "inventory dealAnalysis read", and checkbox columns for each role such as admin, manager, and viewer -->
+![The Roles table in Org Settings, with a row per permission including billing and inventory](/img/docs/app/billing/add-ons/06.png)
 
 **The Billing tab is missing.** Your role does not have **billing read**. Ask an admin to grant it under **Org Settings → Roles**.
 
