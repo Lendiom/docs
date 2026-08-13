@@ -21,7 +21,7 @@ The entry your app creates is issued by **Lendiom** and named with your email ad
 
 If the camera will not cooperate, choose **Can't scan? Show setup key** on the QR step. That reveals the same secret as text, with a copy button, for apps that let you type a key in by hand. The QR code and the setup key are two forms of the same secret — use one or the other, not both.
 
-<!-- screenshot: the "Set up your authenticator app" modal showing the QR code, the account line reading the user's email and "Lendiom", and the "Can't scan? Show setup key" link -->
+![The Set up your authenticator app modal, with the QR code and the setup key link](/img/docs/app/security/two-factor/02.png)
 
 Lendiom expects a standard six-digit code on a 30-second cycle and accepts the code from one cycle either side of the current one, so a phone clock that is a few seconds off still works. A phone clock that is minutes off does not — if every code is rejected, turn on automatic time on the device first.
 
@@ -43,7 +43,7 @@ Once confirmed, the card shows the status and the dates for enrollment, confirma
 
 Use **Copy all codes** and put them somewhere you can reach without your phone: a password manager, a printed sheet in a safe, or both. When you close the codes screen, Lendiom asks "Have you saved your recovery codes?" — that prompt is your last chance.
 
-<!-- screenshot: the "Recovery codes" step of the enrollment modal, ten dashed codes listed in the monospace box, with the "Copy all codes" button below -->
+![The Recovery codes step of enrollment, listing the one-time codes with the copy and download controls](/img/docs/app/security/two-factor/01.png)
 
 :::caution
 Lendiom never tells you how many recovery codes you have left. The count is not on the security card and is not returned by the API, so track your own usage: after you use one, assume the set is thinner than you remember and regenerate.
@@ -55,7 +55,7 @@ Enter your email and password as usual. Instead of landing in the app, you get a
 
 That window cannot be dismissed or clicked away from — finish it, or reload the page to start over. A wrong code raises "Invalid authentication code. Please try again.", clears the field, and leaves the window open, so you can wait for the next code and retry.
 
-<!-- screenshot: the sign-in page with the "Two-factor verification" modal open, the six-digit code boxes empty, and the "Prefer to use a recovery code? Enter recovery code" link beneath the Verify sign-in button -->
+![The sign-in page with the two-factor verification prompt, where the authenticator code is entered](/img/docs/app/security/two-factor/03.png)
 
 ## Use a recovery code
 
@@ -75,7 +75,7 @@ The new set replaces the old one completely. Every previously issued code stops 
 
 The button only works while an authenticator is enrolled. With two-factor off, it is greyed out, and the API refuses the call with code `940106`.
 
-<!-- screenshot: the "Confirm password to regenerate codes" modal with the Current password field focused and the Regenerate button beside Cancel -->
+![The confirm-password modal shown before recovery codes can be regenerated](/img/docs/app/security/two-factor/04.png)
 
 ## Turn two-factor off
 
