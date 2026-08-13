@@ -33,7 +33,7 @@ A submitted request surfaces in four places at once.
 
 The bell notification and the email go to every member of the organization whose role holds create, read, or update on `client::entities` — not only to whoever owns the account. See [Roles and Permissions](../security/roles-and-permissions.md) for how those pairs are built.
 
-<!-- screenshot: The Lendiom dashboard on the Client Change Requests tab, the tab label carrying a count badge of 3, and the Pending Client Change Requests card below it with three rows showing client name, entity, "Email, Phone Number" in the Requested Updates column, a submitted date, and a Review link -->
+![The Client Change Requests tab of the dashboard, where pending buyer-submitted changes are reviewed](/img/docs/app/guides/client-change-requests/02.png)
 
 ## Reviewing and approving
 

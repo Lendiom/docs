@@ -84,7 +84,7 @@ Everything below is organization-wide or record-level configuration that is **no
 
 The distinction that catches people: Org Settings **Invoices** is what Lendiom bills you; the **Invoices** page in the main navigation is what you bill your clients. They are unrelated. See [Invoices Overview](./invoices-overview.md).
 
-<!-- screenshot: the Loans list page with the Default Loan Settings dropdown open, showing Default Late Fees, Default Defaulting Terms, Default Communication Preferences, Default Document Automation, and Default Minimum Payment -->
+![The Loans list with the Default Loan Settings dropdown open, listing the organization-wide loan defaults](/img/docs/app/how-it-works/org-settings-map/05.png)
 
 ## Only Lendiom support can change these
 

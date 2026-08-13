@@ -58,7 +58,7 @@ Also month-scoped, with its own month selector. This card reads **transactions**
 
 Online plus Manual equals Total Collected. Failed and Reversed sit outside that total.
 
-<!-- screenshot: The Expected Payments and Total Collected cards side by side on their Summary tabs, month selector open. -->
+![The Expected Payments and Total Collected cards side by side on the dashboard](/img/docs/app/how-it-works/dashboard/06.png)
 
 ## Upcoming Loan Payments
 

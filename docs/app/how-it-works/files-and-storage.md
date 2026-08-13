@@ -47,7 +47,7 @@ You never make these. Lendiom creates each one the first time it has something t
 | **Filled PDFs** | The fillable PDF | Each filled copy you produce |
 | **Report Results** | The report | The file from every run of that report |
 
-<!-- screenshot: a loan's Files card with the Letters, Schedules, and Imported from MoneyLender folders side by side, one payoff letter PDF visible -->
+![The Files card on a loan, with its folders and the create-folder and upload controls](/img/docs/app/how-it-works/files-and-storage/05.png)
 
 Generated folders on a loan or client behave like normal folders: you can rename them, recolor them, and delete what is inside. That cuts both ways — deleting a payoff letter removes the only stored copy, and regenerating it later produces a letter with today's balances, not the old ones.
 

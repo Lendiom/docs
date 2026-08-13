@@ -38,7 +38,7 @@ The PayArc deposit lines cover card settlement batches only. ACH, cash, checks, 
 
 Click **Add Schedule**. The form opens with sensible defaults — Daily, 6:00 AM, enabled.
 
-<!-- screenshot: the "New Scheduled Report" modal with Frequency set to "Weekly — covers the prior 7 days", the Day of the Week select showing Friday, Send Time on 6:00 AM, two recipient email tags, and the Enabled switch on -->
+![The New Scheduled Report modal, with the report, frequency and recipient fields](/img/docs/app/guides/scheduled-reports/02.png)
 
 | Field | Notes |
 | --- | --- |

@@ -120,7 +120,7 @@ An invoice qualifies when it has a balance greater than zero and is **not** Draf
 
 Both entry points need `invoice` **Read**; the aging tab is hidden from the dashboard without it. See [The Dashboard](../how-it-works/dashboard.md).
 
-<!-- screenshot: The Dashboard's Invoice A/R Aging tab with the as-of date picker, the five bucket statistic cards across the top, and the detail table listing invoice number, client, due date, days overdue and balance due. -->
+![The Invoice A/R Aging tab of the dashboard, with the as-of date picker above the ageing buckets](/img/docs/app/guides/invoice-settings/05.png)
 
 ## Two prompts you may hit while saving
 

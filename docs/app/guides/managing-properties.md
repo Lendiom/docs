@@ -72,7 +72,7 @@ This is your borrowing, not a client's. If the loan fails to save, the property 
 
 **Edit** opens a drawer with the detail fields. The name is not in it — renaming has side effects, so it lives under **Operation → Rename**. Saving a Residential or Multifamily record re-derives the name from the street address anyway and clears the address verification, so re-run **Verify Address** afterward.
 
-<!-- screenshot: The Edit drawer over a residential property, showing the address and property detail fields with Cancel and Save in the header -->
+![The Edit drawer over a property, showing the address and property detail fields](/img/docs/app/guides/managing-properties/04.png)
 
 :::warning Editing a residential property drops its links
 Saving this drawer replaces the whole details block, and the buyer, loan, and rental links are not part of what the screen sends back. Afterward the Buyer's Information card is empty and the View Client, View Loan, and View Rental shortcuts vanish from the Operation menu. The loan or lease itself still works from its own page. When a loan is attached the fields grey out, but Save stays live — leave with Cancel.
