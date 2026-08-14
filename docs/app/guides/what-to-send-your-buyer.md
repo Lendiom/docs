@@ -20,7 +20,7 @@ Every item below fails quietly when the client record is thin. The **Lendiom Pay
 | Loan out of Draft | The loan's Action Center | Draft loans are invisible in Lendiom Pay and send nothing. See [Loan Status](../how-it-works/loan-status.md). |
 | Online payments on the loan | **Actions → Online Payments** on the loan | Without it the buyer can sign in and see the loan but cannot pay. See [Setting Up Online Payments](../payment-processing/setting-up-online-payments.md). |
 
-<!-- screenshot: The client page header showing the Account Number, Language, Welcomed At, Portal Last Activity, Code Requested At, and Code Redeemed At fields in the description block. -->
+![The client page header, showing the account number, language and portal activity](/img/docs/app/guides/what-to-send-your-buyer/01.png)
 
 ## Set the language before you invite
 
@@ -45,7 +45,7 @@ To send it yourself — or send it again — open the client page and use the **
 
 The full walkthrough is in [Inviting a Client to Lendiom Pay](./inviting-a-client-to-lendiom-pay.md).
 
-<!-- screenshot: The client page with the Lendiom Pay dropdown open, showing Send Info, Send Address Reminder, Login As, and Lendiom Pay Graphic. -->
+![The Lendiom Pay dropdown on a client, offering to send their portal details or sign in as them](/img/docs/app/guides/what-to-send-your-buyer/02.png)
 
 The text the buyer receives reads like this:
 
@@ -101,7 +101,7 @@ The written record comes from you. When a regular payment is applied to a schedu
 
 It lays out the payment period, the amount and how it split across principal, interest, fees, and escrow, the original loan amount and rate, principal and interest paid to date, the remaining principal, unpaid interest, remaining fees, and the next payment due. Email it, or mail it with [Sending a Physical Letter](./sending-a-letter.md).
 
-<!-- screenshot: A loan's transactions table with a regular payment row's action menu open, showing Download Success Letter and Regenerate Letter. -->
+![A regular payment row with its action menu open, including the success letter download](/img/docs/app/guides/what-to-send-your-buyer/04.png)
 
 ## The closing packet
 

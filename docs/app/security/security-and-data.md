@@ -61,7 +61,7 @@ A member holding `client` **update** can open [Lendiom Pay](../../pay/logging-in
 The opt-out works, but there is no switch for it in the app. No settings screen or API endpoint sets it; Lendiom has to set it on your organization. If you want impersonation off, ask [Lendiom Support](mailto:support@lendiom.com) and confirm in writing that it has been applied.
 :::
 
-<!-- screenshot: the action bar on a client page showing the Lendiom Pay buttons, including the control that opens the client's portal as that client -->
+![The action bar on a client page, with the Lendiom Pay and mail controls](/img/docs/app/security/security-and-data/03.png)
 
 ## Lendiom's own access
 

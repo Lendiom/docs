@@ -64,7 +64,7 @@ Loans have a **Waive Late Fee** switch on the payment screen. Rentals do not —
 
 The Add a Transaction modal offers a **Deposit** type under the **Record Keeping** group, pre-filled with the deposit recorded at creation. That grouping is accurate: the transaction is written to history and changes no balance at all — not the deposit figure, not the balance due, not late fees, not other fees.
 
-<!-- screenshot: The rental Add a Transaction modal with the Type dropdown open, showing the Record Keeping group containing Deposit and Documentation Fee -->
+![The Add a Transaction modal on a rental, with the transaction type selector](/img/docs/app/how-it-works/rental-fees/03.png)
 
 :::caution
 Deposit handling is not finished. The **Deposit Tracking** panel on the rental page is present but disabled and labelled "Coming soon", the deposit amount cannot be edited after creation, and there is no return or deduction workflow — recording a Deposit transaction for a refund does not reduce the stored figure. Until deposit tracking ships, treat the amount as a reference note, hold the money wherever your state requires, and record deductions as **Other Fee** transactions so they land on a balance you can collect.

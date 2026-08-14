@@ -115,7 +115,7 @@ Track deposit refunds and withholdings outside the deposit field: charge withhol
 
 If the deposit was collected online and shows a processor transaction, you do have a real refund path. Open the transaction's actions menu, choose **Reverse**, and pick **Refund to customer**. That pushes the refund back through the payment processor to the card or bank account it came from. Choosing **Hold as unapplied payment** instead keeps the money in Lendiom as a credit you can apply to a future transaction for that client.
 
-<!-- screenshot: The rental Transactions table with the row actions menu open on a deposit transaction, showing View Details, Reverse, and Change Status -->
+![A rental transaction row with its actions menu open](/img/docs/app/guides/ending-a-lease/01.png)
 
 :::warning
 
