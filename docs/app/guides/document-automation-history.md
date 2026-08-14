@@ -87,7 +87,7 @@ Nothing is recorded when:
 - The daily scans pass the record over. They skip draft, evicted, and terminated rentals, and draft, inactive, repossessed, canceled, refinanced, and paid-off loans. Payment reminders also need a balance due above zero and a reference date; upcoming-payment rules need a next due date.
 - A payment posts that is not a regular or principal-only payment, or posts on a draft record.
 
-<!-- screenshot: A loan page's Document Automation History panel showing one Sent row with a Download button and one Failed row -->
+![The Document Automation History panel on a loan, listing each job and its outcome](/img/docs/app/guides/document-automation-history/02.png)
 
 A **Failed** row is the opposite case: the rule matched, the document was built, and the send was rejected. Most failures come from the mailing address — "entity has no addresses" and "entity address is not verified; can not send mail to an unverified address". The rest come from template rendering or PDF conversion. Expand the row to read the exact text.
 

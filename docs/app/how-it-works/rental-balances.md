@@ -103,7 +103,7 @@ Until it is fixed: set **First Payment Date** to the date you want the schedule 
 
 Percentage-based late fees are calculated against the recomputed balance due — the entire arrears, not one month's rent. On a rental six months behind, a 5% late fee is 5% of six months of rent.
 
-<!-- screenshot: the rental Transactions tab showing four consecutive system-generated Late Fee transactions dated on consecutive grace dates, each with the "Late fee imposed for failure to pay on time" comment -->
+![The rental Transactions list, showing the system-generated late fees alongside the rent payments](/img/docs/app/how-it-works/rental-balances/03.png)
 
 ## Late fees, other fees, and recurring fees are separate
 

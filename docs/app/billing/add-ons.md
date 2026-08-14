@@ -47,7 +47,7 @@ Without it, the Deal Analysis tab is not rendered, the dashboard card is hidden,
 
 The related permission is **inventory dealAnalysis**, with separate read, create, update, and delete actions.
 
-![An inventory record with the Tracts and Deal Analysis tabs in its tab bar](/img/docs/app/billing/add-ons/02.png)
+![An inventory record showing its Tracts and Deal Analysis sections, the latter tagged Beta](/img/docs/app/billing/add-ons/02.png)
 
 ### Document Builder
 

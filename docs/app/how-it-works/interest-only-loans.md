@@ -109,7 +109,7 @@ The one supported path is a [refinance](../guides/refinancing-a-loan.md). The re
 
 Note that the Convert to Amortized balloon action is not the same thing. That is a term you commit to at creation, baked into the schedule from day one — not a conversion you can apply later.
 
-<!-- screenshot: The Refinance Loan modal opened on an interest-only loan, with the New Interest Schedule dropdown expanded showing "Follows Payments" and "Accrues Daily", and the Remaining Term field pre-filled. -->
+![The Refinance Loan modal on an interest-only loan, requiring a new interest schedule](/img/docs/app/how-it-works/interest-only-loans/02.png)
 
 ## Related reading
 

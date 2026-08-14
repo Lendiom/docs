@@ -115,7 +115,7 @@ For the wider reporting workflow, see [Year-End Close](./year-end-close).
 
 If your organization has the Deal Analysis add-on, sold tracts feed the **Deal Analysis** tab on the development. Sold tracts count toward **Sold / Acre**, drop out of **Asking / Acre**, and contribute to **Expected Revenue** and therefore **Projected Net Profit**.
 
-<!-- screenshot: the Deal Analysis tab on a development, showing Projected Net Profit, Expected Revenue, Remaining Debt Service, and Cost Basis tiles above a details row with Asking / Acre and Sold / Acre -->
+![The Deal Analysis section on a development, projecting revenue, cost basis and net profit](/img/docs/app/guides/recording-a-cash-sale/04.png)
 
 :::warning
 Deal Analysis reads the wrong field for cash sales. When a tract has a **non-zero Cost of Sale**, Deal Analysis uses that cost-of-sale amount as both the tract's sale price and its expected revenue, instead of the actual sale price. A tract sold for $50,000 with $2,000 in commissions is counted as a $2,000 tract, which understates **Sold / Acre**, **Expected Revenue**, and **Projected Net Profit**.
