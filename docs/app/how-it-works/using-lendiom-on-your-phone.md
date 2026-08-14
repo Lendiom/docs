@@ -94,7 +94,7 @@ Lendiom Pay is the client-facing side, and it is the one that was designed for a
 
 The whole app is a fixed top bar with a back arrow and a hamburger, and content underneath. The hamburger opens a full-height panel with the client's name, account number, balance due, and links to Home, Account, Payment Methods, Help, a language toggle, and Logout. The English/Spanish choice is remembered across visits.
 
-<!-- screenshot: Lendiom Pay at phone width with the side menu open, showing the account name and number, the Balance Due amount, and the Menu list: Home, Account, Payment Methods, Help, Spanish, Logout. -->
+![Lendiom Pay at phone width with the side menu open, showing the account name and balance](/img/docs/app/how-it-works/using-lendiom-on-your-phone/02.png)
 
 ### Adding it to a home screen
 

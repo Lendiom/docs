@@ -31,7 +31,7 @@ Two things are deliberately kept out of the total, and both surprise people.
 
 **Refinanced loans are shown but not counted.** If one of your loans was refinanced into a new one, the old loan stays visible in your list with a status of "Refinanced" so you can still look at its history. It is not added to the Balance Due, it is not used for your next due date, and it is not used for your last payment date. No further payments can be made on it. The new loan is the one that counts.
 
-<!-- screenshot: the Balance Due header and feature cards at phone width, with the violet Property Tax Due card visible alongside Next Due Date and Last Payment Date -->
+![The Balance Due header and the feature cards beneath it at phone width](/img/docs/pay/home-screen/01.png)
 
 ## Why some loans do not appear at all
 
