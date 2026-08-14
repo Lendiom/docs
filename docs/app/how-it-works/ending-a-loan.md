@@ -18,7 +18,7 @@ This page is the procedure. For what each status means, read [Loan Status](./loa
 
 Tract loans are never offered **Inactive**, and non-tract loans are never offered **Repossessed** from the Status menu. Everything here sits behind the loan's **Actions** button, which needs Update permission on loans ([Roles and Permissions](../security/roles-and-permissions)).
 
-<!-- screenshot: The Actions dropdown open on a defaulted tract loan, scrolled to the Lifecycle group, with the Status submenu expanded showing Draft, Pending, Current, Late, In Default, Defaulted and Repossessed -->
+![The loan Actions dropdown with the Status submenu expanded, listing the lifecycle statuses](/img/docs/app/how-it-works/ending-a-loan/01.png)
 
 ## What all three ending statuses do
 
@@ -85,7 +85,7 @@ Deactivating a residential loan clears the property's owner and loan link, but l
 
 **Canceled** is for a contract that never got going — the buyer backed out before the first payment, or the deal collapsed during signing. Lendiom offers it only while the loan is still a **Draft**, from either the Status submenu or the **Mark as Canceled** button in the draft's Action Center.
 
-<!-- screenshot: The Action tab of a draft loan showing the Mark as Pending, Mark as Current and Mark as Canceled buttons in a row -->
+![A draft loan, offering the buttons that move it to pending, current or canceled](/img/docs/app/how-it-works/ending-a-loan/04.png)
 
 Canceled runs the same teardown, releases the tract, and drops the loan out of the analytics that count originated contracts — a canceled draft never counts as a deal you wrote. Late fees on it can no longer be waived.
 
@@ -117,7 +117,7 @@ There is no undo and no recycle bin. If you want the deal history — who the bu
 
 This is the practical reason to repossess rather than deactivate: an Inactive loan vanishes from the income reports as though the year's collections never happened, while a repossessed one reports them and then stops. See [The Reports Library](../guides/reports-library) and [Year-End Close](../guides/year-end-close).
 
-<!-- screenshot: A repossessed loan's page with the Action tab selected, showing the yellow Repossessed alert stating nothing can be done with the loan, and the Repossessed Date on the Overview beside it -->
+![A repossessed loan, with the notice explaining that nothing further can be recorded against it](/img/docs/app/how-it-works/ending-a-loan/06.png)
 
 ## Picking the right one
 

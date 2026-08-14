@@ -64,7 +64,7 @@ Recovery codes are the only way back in if you lose the phone holding your authe
 
 **Account Settings → Security → Additional Security** lists two rows, **Account Password** ("Change your account password") and **Security Questions**. Both have a **Coming Soon** button that is permanently disabled.
 
-<!-- screenshot: the "Additional Security" card in Account Settings → Security showing the "Account Password" and "Security Questions" rows, each with a greyed-out "Coming Soon" link on the right -->
+![The Additional Security card in Account Settings, covering the account password and security questions](/img/docs/app/security/signing-in/02.png)
 
 :::caution Those two rows do nothing today
 

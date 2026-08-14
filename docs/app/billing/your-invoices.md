@@ -107,7 +107,7 @@ A single grouped **Snail Mail** line, carrying a quantity instead of a per-lette
 
 :::
 
-<!-- screenshot: The invoice table header at the top of the tab, with the heading "Invoices" followed by a grey "Balance Due: $12.83" tag and the Refresh button aligned to the right -->
+![The invoices section of the Billing tab, headed by the current balance due](/img/docs/app/billing/your-invoices/04.png)
 
 :::tip
 
