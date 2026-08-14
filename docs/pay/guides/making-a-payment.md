@@ -52,7 +52,7 @@ Enter custom amounts as digits with a decimal point, like `1200.00`. A comma can
 
 :::
 
-<!-- screenshot: at phone width, the Amount section with "Custom Amount" selected, the input outlined in red containing a too-small figure, the red "Minimum payment is $250.00" message below it, and the greyed-out Pay button -->
+![The payment page with Custom Amount selected, showing the amount input it reveals](/img/docs/pay/guides/making-a-payment/01.png)
 
 ### The most you can pay
 
@@ -87,7 +87,7 @@ Processing a payment costs a fee: a small percentage of the amount plus a flat p
 
 The **Total Amount** box shows exactly what will leave your account, and the note under it spells out the fee if you are paying any part of it. Until you choose a payment method it reads "No payment method selected."
 
-<!-- screenshot: at phone width, the "How to Apply Extra" dropdown set to Principal and, below it, the read-only Total Amount field with the helper text explaining the payment amount plus the platform fee -->
+![The How to Apply Extra selector on the payment page, set to Principal, above the total](/img/docs/pay/guides/making-a-payment/02.png)
 
 ## Authorizing the payment
 
