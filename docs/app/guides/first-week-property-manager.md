@@ -45,7 +45,7 @@ Get category and type right the first time — they steer the rest of the route.
 
 Full detail, including the fields, the disabled categories, and what editing a record quietly drops: [Adding and Managing Properties](./managing-properties.md).
 
-<!-- screenshot: the Inventory list filtered to rental properties, showing Name, Category, Status, and Type columns with a mix of Residential and Multifamily rows -->
+![The Inventory list, showing each property with its category, status and type](/img/docs/app/guides/first-week-property-manager/01.png)
 
 ## Step 2: Tracts, on land only
 

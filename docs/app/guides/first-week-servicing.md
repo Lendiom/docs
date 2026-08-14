@@ -53,7 +53,7 @@ Escalation past Late is driven by two numbers, set under **Default Settings** in
 | Days Until In-Default | Consecutive days after the missed due date, not counting the due date itself, before the loan moves to In Default. Accepts 1 to 365; the form opens at 30. |
 | Defaults After | Days after the In Default move before the loan escalates to Defaulted. Accepts 1 to 365; the form opens at 10. Only shown when Auto is on. |
 
-<!-- screenshot: The "Defaulting Configuration" modal with the "Days Until In-Default" field beside the red "Auto: Enabled" button, and the "Defaults After" field below it. -->
+![The Defaulting Configuration modal, with the days-until-in-default field beside the automatic defaulting toggle](/img/docs/app/guides/first-week-servicing/02.png)
 
 Both clocks run from the missed due date, so a loan with 30 and 10 reaches Defaulted 40 days past that date. Escalation only runs on loans that are already late, and only while Auto is on. When a loan escalates, Lendiom writes a note on the loan and on the related tract, property, or client, so the timeline is on the record.
 
@@ -103,7 +103,7 @@ A refinance cannot be undone. There is no revert and no way to move the original
 
 **Calculate Payoff** in the Actions menu opens the Pay Off Calculator. Pick a date — today or later, past dates are not selectable — and it breaks the figure into Total, Principal, Interest, Fees, Other Fees, and Property Tax, adding Unpaid Interest on loans where [interest accrues daily](../how-it-works/interest-accrues-daily.md) and Escrow on loans that carry it. If the borrower has [unapplied payments](../how-it-works/unapplied-payments.md) sitting as credit, a banner shows the count and total and a **Net Payoff Due** line nets them out. **Generate Letter** downloads the quote as a PDF you can send.
 
-<!-- screenshot: The Pay Off Calculator modal with a date selected and the Pay Off Details table showing Total, Principal, Interest, Fees, Other Fees, and Property Tax. -->
+![The Pay Off Calculator modal, showing the payoff details table for the selected date](/img/docs/app/guides/first-week-servicing/03.png)
 
 When the money arrives, **Record Payoff** posts it. [Recording a Loan Payoff](./recording-a-loan-payoff.md) walks the fields, including the choice between Pending and Success status, the adjustment amount when what arrived does not match what was quoted, and the required comment. Set it to Pending while the check clears and the loan sits in Pending Payoff, which blocks further payments to principal until you mark it Success.
 

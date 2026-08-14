@@ -19,7 +19,7 @@ Each step below says why it sits where it does and points at the article that wa
 | 6 | Build your document templates | No |
 | 7 | Create your first loan | No |
 
-<!-- screenshot: The left navigation with Org Settings expanded, listing Basic, Billing, Roles, Members, Invoices, Scheduled Reports, Fillable PDFs, Custom Fields, and Import/Export -->
+![Org Settings with the left navigation expanded, listing each settings tab](/img/docs/app/guides/first-week-owner/01.png)
 
 ## 1. Create the organization and finish the wizard
 

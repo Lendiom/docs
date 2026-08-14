@@ -78,7 +78,7 @@ Error **19530** means someone else is mid-payment on the same loan. Nothing was 
 
 The day the ledger meets the bank statement. Open **PayArc → Deposits** and pick a month; future months are refused, so the current month shows only what has settled so far.
 
-<!-- screenshot: the PayArc Deposits page with the month picker set to March 2026, the table showing several settlement batches with Date, Total, Net Amount, Refund Amount, Transaction Count and ID columns, the bold month total row beneath them, and the Export button in the toolbar -->
+![The PayArc Deposits page, where settled batches are reconciled month by month](/img/docs/app/guides/first-week-bookkeeper/01.png)
 
 Each row is one settlement batch PayArc sent to your bank account. **Total** is gross, **Net Amount** is what landed, **Refund Amount** is what went back out, and the summary row totals the month.
 

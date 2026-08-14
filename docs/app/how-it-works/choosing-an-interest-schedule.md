@@ -118,7 +118,7 @@ Even then, conversion is one-directional and narrow:
 
 A refinance of a Follows Payment Schedule or Accrues Daily loan can change the rate, the term, and the cadence, but it carries the original interest schedule forward. [Recasting](../guides/recasting-a-loan.md) never changes the schedule either, and interest-only loans cannot be recast at all.
 
-<!-- screenshot: The Refinance Loan modal on an interest-only loan, with the required New Interest Schedule dropdown expanded showing its only two choices, Follows Payments and Accrues Daily. -->
+![The Refinance Loan modal on an interest-only loan, where a new interest schedule must be chosen](/img/docs/app/how-it-works/choosing-an-interest-schedule/01.png)
 
 So the decision is worth making carefully at creation. If the loan is still in **Draft** and the schedule is wrong, delete it and create it again — that is far cheaper than a refinance. See [Creating a Loan](../guides/creating-a-loan.md) for the rest of step 3, and [Loan Status](./loan-status.md) for what Draft and Refinanced mean.
 
