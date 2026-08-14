@@ -23,7 +23,7 @@ Have your business mailing address, a contact phone number and email, and a paym
 
 The important line is between steps two and three. Your organization does not exist on the server until you click **Next** on Billing Details, and it isn't finished until you click **Start Trial**.
 
-<!-- screenshot: The organization creation wizard on step one, showing the blue "31 Day Trial" alert at the top, the three-step progress indicator with "Company Info" active, and the empty company form below -->
+![Step one of the organization creation wizard, with the 31 day trial notice above the company details](/img/docs/app/guides/setting-up-your-business/01.png)
 
 ## Step 1: Company Info
 
@@ -50,7 +50,7 @@ Underneath, choose **Card** or **Bank Account (ACH)**.
 
 **Bank Account (ACH)** asks for the account holder's name. Clicking **Next** opens a secure Stripe window where you sign in to your bank, which verifies the account instantly. Lendiom then shows an **Authorize Bank Debits** dialog with the ACH mandate. Choosing **Disagree**, or closing the bank window without linking an account, cancels the attempt and leaves you on this step to try again.
 
-<!-- screenshot: Step two of the wizard with the "Same as mailing" switch enabled, the billing address fields filled and greyed out, and the Card / Bank Account (ACH) toggle showing Card selected above the Stripe card field -->
+![Step two of the wizard, with the billing address and the same-as-mailing switch](/img/docs/app/guides/setting-up-your-business/02.png)
 
 :::caution An unverified bank account can't start your trial
 
@@ -118,7 +118,7 @@ Nothing stops you from running several businesses in Lendiom, or from being invi
 
 **Your role is per organization.** Permissions are loaded and enforced per organization, not per account. You can be an admin in the business you created and a viewer in one you were invited to, and the menus and buttons you see change as you switch. If something you expect is missing, check which organization is selected before assuming a permissions problem.
 
-<!-- screenshot: The avatar dropdown menu expanded to the Organizations submenu, listing two organizations with the current one greyed out and a "New Organization" item at the bottom -->
+![The avatar menu expanded to the Organizations submenu, listing the organizations you belong to and New Organization](/img/docs/app/guides/setting-up-your-business/05.png)
 
 **Adding another one** is the **New Organization** item at the bottom of that same submenu, which drops you back into this wizard with its own terms acceptance, payment method, and trial. Every organization is billed separately.
 

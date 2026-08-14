@@ -44,7 +44,7 @@ The invite code has no expiration date, so an invitation from months ago still o
 
 Most signed-out pages in Lendiom redirect you into the app when you already have a session. The accept page is one of the few that does not, which is what makes the first row of the table work.
 
-<!-- screenshot: the Accept Invite page signed out, showing the Lendiom logo, the greyed-out Email and Invite Code fields already filled in, First name and Last name fields, a Password field, and the Sign Up and Log In buttons -->
+![The Accept Invite page, with the email and invite code pre-filled and locked and the name and password fields to complete](/img/docs/app/security/joining-an-organization/02.png)
 
 ## Accepting while already signed in
 
@@ -135,6 +135,6 @@ If an error notification appeared the moment the page opened, the invitation nev
 
 Lendiom has no resend button for invitations. If a link is dead, the organization must remove the pending member and invite you again, which generates a new code and a new email.
 
-<!-- screenshot: the "Invite for Someone Else" modal dialog over the Accept Invite page, showing the message naming the invited person and the currently signed-in person, with a single "Whoopies!" button -->
+![The prompt shown when an invite is opened while signed in as a different person](/img/docs/app/security/joining-an-organization/05.png)
 
 If none of the above applies, email [Lendiom Support](mailto:support@lendiom.com) with the exact message text and the Request ID from the notification.
