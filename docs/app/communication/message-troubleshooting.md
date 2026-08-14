@@ -57,7 +57,7 @@ Every automated message is gated on the loan or rental it belongs to.
 | A payment posted on a draft | Recording a transaction on a draft | Payment confirmations are suppressed while the loan or rental is a draft |
 | A rental late reminder | The rental is not marked late | That reminder only runs for rentals whose status is *Late* |
 
-<!-- screenshot: The "Change Communication Preferences" modal on a loan with the Automated Communication switch set to Disabled, and the Communication Preferences select showing only the Email chip. -->
+![The Change Communication Preferences modal on a loan, with the automated communication switch](/img/docs/app/communication/message-troubleshooting/02.png)
 
 ## One person is not getting anything
 
@@ -118,7 +118,7 @@ The scheduled reminder honors each loan's Automated Communication setting. The m
 
 The reminder carries a short link to the buyer's address page in Lendiom Pay. If that short link cannot be created, Lendiom falls back to the full Lendiom Pay address URL — longer, but it opens the same page.
 
-<!-- screenshot: The client detail page with the Lendiom Pay actions menu open, showing "Send Address Reminder" enabled alongside Send Info and Login As. -->
+![The Lendiom Pay actions menu on a client, including the address reminder option](/img/docs/app/communication/message-troubleshooting/04.png)
 
 ## Still stuck
 

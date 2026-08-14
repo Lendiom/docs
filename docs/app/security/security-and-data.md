@@ -114,7 +114,7 @@ Connecting and revoking both generate an email and an in-app notification, so an
 
 ## Gaps we will not paper over
 
-<!-- screenshot: Account Settings → Security showing the two-factor section with an authenticator app enrolled and the registered passkeys listed below it -->
+![The two-factor section of Account Settings, showing the enrollment controls](/img/docs/app/security/security-and-data/04.png)
 
 - **There is no two-factor enforcement policy.** TOTP and [passkeys](./passkey.md) are available and work well, but enrollment is each user's own choice. You cannot require them organization-wide, and the Members list does not report who has enrolled. Enforcement today is a conversation, not a control.
 - **There is no session revocation and no "sign out everywhere."** Sign-in tokens are self-contained and valid for fourteen days. Changing or resetting a password does not invalidate sessions already issued. If a laptop goes missing, contact [Lendiom Support](mailto:support@lendiom.com) rather than assuming a password change closes the hole.

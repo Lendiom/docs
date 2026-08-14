@@ -169,4 +169,4 @@ Mailed letters are separate. Document automation for successful payments, late f
 
 [Document signature](../guides/document-signing.md) requests, reminders, and expiration notices are also separate. They follow the per-signer email and text flags on the request itself, and the expiration check runs every two hours rather than on a daily schedule.
 
-<!-- screenshot: The loan detail page with the Communication card visible, showing "Automated Communication: Enabled" and the preference list, next to the separate document automation section. -->
+![The Details tab of a loan, showing whether automated communication is enabled](/img/docs/app/communication/automated-messages/03.png)

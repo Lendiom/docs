@@ -105,7 +105,7 @@ More on this flow in [Adding Users to Your Organization](../guides/adding-users-
 | Down Payment Missed ❌ | A loan's down payment is not paid in full by the last due date | Members with full access to `loan` |
 | *Fee* Missed | A loan setup fee is not paid in full and on time | Members with full access to `loan` |
 
-<!-- screenshot: the Notifications tab of the bell showing a red "urgent" and an orange "high" item side by side — a Failed Online Loan Payment row and an Automatic Payment Skipped row with the possible-duplicate wording -->
+![The notification bell open on its Notifications tab, showing the queued items by priority](/img/docs/app/how-it-works/notification-settings/01.png)
 
 ### Notifications tab — clients, documents, property tax, imports
 
