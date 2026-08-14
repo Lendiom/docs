@@ -7,7 +7,7 @@ If you are moving to Lendiom from MoneyLender Professional 3, the import wizard 
 
 It lives at **Org Settings → Import/Export**, where each import is its own record. Five steps: Source, Upload, Analyze, Review, Import.
 
-<!-- screenshot: Org Settings → Import/Export, Data Imports section, with the table listing one completed import and one in review, and the New Import button top right -->
+![The Data Imports section of the Import/Export tab, listing each import session](/img/docs/app/guides/data-import/01.png)
 
 ## Before you start
 

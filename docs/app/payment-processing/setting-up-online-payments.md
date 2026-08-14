@@ -61,7 +61,7 @@ The processing fee is configured **separately for cards and for ACH**, because t
 
 Lendiom picks the ACH setting when the client pays from a bank account and the card setting when they pay with a card. The gross-up is calculated from your organization's PayArc rates: the payment amount plus the per-transaction fee, divided by one minus the percentage rate. ACH uses a $0.30 per-transaction component; the card per-transaction fee comes from your negotiated rates. Look your own rates up in the PayArc section of Lendiom — [Processor: PayArc](payarc.md) documents the ceilings Lendiom guarantees you will not exceed.
 
-<!-- screenshot: The invoice Payment Settings panel on a draft invoice, with Partial Payments on, Online Payments toggled on, and the ACH Fee Payee and Card Fee Payee dropdowns both visible. -->
+![The Payment Settings panel on a draft invoice, with partial and online payment options](/img/docs/app/payment-processing/setting-up-online-payments/02.png)
 
 Because the two settings are independent, you can absorb the card fee while passing the much cheaper ACH fee to the client, or the reverse.
 
@@ -94,7 +94,7 @@ Minimums are configured per loan and per rental through the **Minimum Payment** 
 
 If the remaining balance is lower than the calculated minimum, the remaining balance is accepted instead, so a final payoff is never blocked by the rule.
 
-<!-- screenshot: The Minimum Payment Configuration modal with Rule Type set to "Fixed Amount", the Fixed Amount field filled in, and the blue "What is this for?" explanatory alert above the form. -->
+![The Minimum Payment Configuration modal, where the rule type and its amount are set](/img/docs/app/payment-processing/setting-up-online-payments/03.png)
 
 Maximums are not configured — they are enforced from the balance:
 
@@ -117,7 +117,7 @@ A timeline entry is added to the client, and an "Auto Pay Stopped" notification 
 The rental modal saves this immediately — there is no confirmation prompt, and it is not reversible from your side. Re-enrolling in auto-pay is something the tenant does from the client portal.
 :::
 
-<!-- screenshot: The rental Online Payments modal with Online Payments being switched from Yes to No while the rental's details panel behind it shows Auto Pay as enabled. -->
+![The Online Payments modal on a rental, with the online payment and auto pay switches](/img/docs/app/payment-processing/setting-up-online-payments/04.png)
 
 The same cascade applies to loans with auto draft: disabling online payments or turning off *Allow Auto Draft* cancels the buyer's auto draft and records who did it. The loan modal does warn you first — it shows an "Automatic Payments Enabled" alert while auto draft is running, and asks you to confirm before it saves.
 

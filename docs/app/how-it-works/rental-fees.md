@@ -41,7 +41,7 @@ At most one late fee is charged per due-date cycle: Lendiom skips the grace date
 
 Rentals in **Draft** are skipped entirely — no status change, no due-date roll, no late fee — so you can back-enter history before making the rental active. Evicted and Terminated rentals are skipped too.
 
-<!-- screenshot: The rental Transactions table with a system-generated Late Fee row dated the last day of the grace period, showing the negative amount and the auto-generated comment about the due date and grace days -->
+![The rental Transactions table, with system-generated late fee rows among the rent payments](/img/docs/app/how-it-works/rental-fees/02.png)
 
 ### Clearing a late fee
 
