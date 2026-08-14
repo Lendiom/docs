@@ -19,7 +19,7 @@ The increase is rounded to two decimal places before it is added, and the loan n
 
 Then notices go out, the year flips to `In Progress`, and you get a notification titled *&lt;Inventory&gt;'s &lt;Year&gt; Property Tax Finalized*.
 
-<!-- screenshot: the Property Tax per Year tab on an inventory, showing one row for 2026 with a green "In Progress" tag, Total Owed, Total Expected, Total Collected, Outstanding Due, Number of Acres, and Due Date columns, with the row expanded to reveal the per-tract table underneath -->
+![The Property Tax per Year section on an inventory, with the year, its status and the totals](/img/docs/app/guides/collecting-property-tax/01.png)
 
 :::caution Partial finalize is silent
 If Lendiom cannot load or save one tract's loan, it logs the failure, skips that tract, and keeps going — the year still finishes as `In Progress`. Afterward, check that each borrower's loan shows a Property Tax Due. A missing loan note means that loan was never billed.
@@ -43,7 +43,7 @@ In Lendiom Pay the borrower sees a Property Tax Due card on their dashboard and 
 
 **Recorded by you.** On the inventory's `Property Tax per Year` tab, expand the year and use `Record Payment` on the tract's actions menu. That opens the loan transaction modal with the type set to **Property Tax** and the amount pre-filled. This is the only route to it: the loan's own `New Transaction` modal does not offer **Property Tax** in its type list.
 
-<!-- screenshot: the expanded per-tract row of a property tax year with the actions menu open showing View Tract, View Client, View Loan, Remind, Record Payment, and Void Property Tax -->
+![A property tax year expanded to its per-tract rows, each with the amount owed and what has been paid](/img/docs/app/guides/collecting-property-tax/03.png)
 
 Either way the money is applied the same: oldest year first, across every `In Progress` year for that inventory, but only to tracts on that loan **and** whose recorded client matches the loan's client. That client check stops a payment from settling a prior owner's tax after a repossession and resale. The transaction comment lists every year it touched.
 
