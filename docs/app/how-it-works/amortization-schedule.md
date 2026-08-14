@@ -69,7 +69,7 @@ Once a row is fully or partially paid it is frozen: the generator reuses the int
 - **Payment adjustment.** An adjustment transaction credits the rows you select: Received Amount goes up and the row can flip to paid, even though no cash arrived. The credited amount is stored on the row so later regenerations reproduce the same balance.
 - **[Moved due date](../guides/moving-a-due-date.md).** Balances you roll to the end of the loan are recorded on the affected row as an adjustment too, which is why that row's balance can rise rather than fall.
 
-<!-- screenshot: The schedule table on a loan with mixed history: a fully paid row, a partially paid row whose Paid Date carries a trailing asterisk, a row with a principal-only payment where the Principal cell tooltip reading "2 principal only payments" is visible, and an unpaid future row below them. -->
+![The amortization schedule on a loan with history, showing paid rows above the projected ones](/img/docs/app/how-it-works/amortization-schedule/02.png)
 
 ## Row Flags
 

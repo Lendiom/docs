@@ -82,7 +82,7 @@ One deliberate difference: this spreadsheet includes every qualifying loan regar
 
 Also **Beta**. It takes no inputs at all — the Run modal shows nothing but the button, because the report is always "as of right now." One row per tract: inventory, tract, acres, status, buyer, purchase date, sales price, down payment, term and term remaining in years, interest rate, payment amount, remaining principal, days late, cost of tract, gross profit, profit percent, gross profit remaining, and gross profit percent remaining. A totals row sums the money columns and averages the rates and terms. Run it when someone asks what the book looks like today.
 
-<!-- screenshot: the Run Report modal for the Portfolio Report showing no input fields, only the Cancel and Run! buttons -->
+![The Run Report modal for the Portfolio Report, which takes no inputs at all](/img/docs/app/guides/reports-library/01.png)
 
 ## The two client reports
 

@@ -106,7 +106,7 @@ Open a schedule's **Actions** menu and choose **Send Test To Me**. Lendiom gener
 
 The subject is prefixed with `[Test]`, and the delivery shows in the history with a `test` tag. A test does not change the schedule's next send.
 
-<!-- screenshot: a schedule row's Actions dropdown open, showing Edit, "Send Test To Me", and a red Delete item -->
+![A scheduled report row with its actions menu open, offering edit, a test send and delete](/img/docs/app/guides/scheduled-reports/02.png)
 
 ## Delivery history
 

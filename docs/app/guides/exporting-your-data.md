@@ -20,7 +20,7 @@ Open **Settings**, choose the **Import/Export** tab, and look under **Exports & 
 
 Either one opens a new browser tab that downloads a zip named after your organization, its internal ID, and the date. Everything inside sits under a single `<Your Organization>-backup/` folder.
 
-<!-- screenshot: the Settings Import/Export tab scrolled to the "Exports & Backups" section, showing the "Export Data" row with its Export dropdown open on CSV Export and JSON Export, and the greyed-out "Download Internal Backup" row beneath it -->
+![The Exports and Backups section of the Import/Export tab](/img/docs/app/guides/exporting-your-data/01.png)
 
 ### What the archive contains
 
@@ -114,7 +114,7 @@ If you process payments through [PayArc](../payment-processing/payarc.md), open 
 
 It is built for reconciliation. The first block summarises every settlement batch in the month — settlement date, batch reference, gross total, net amount, refund amount, transaction count, plus a totals row. Below that, each deposit gets its own block listing the line items with date, type, amount, client, related loan or rental, internal transaction ID, any unapplied payment, and a **Matched** column. Line items Lendiom cannot tie back to an internal record are flagged **UNMATCHED** in red.
 
-<!-- screenshot: the PayArc Deposits page with the month picker set to a past month, the deposits table listing settlement batches, and the Export button in the page header -->
+![The PayArc Deposits page, with its month picker above the settlement batches](/img/docs/app/guides/exporting-your-data/02.png)
 
 Building the workbook calls PayArc for each batch's line items, five batches at a time, so a busy month takes noticeably longer than a quiet one.
 

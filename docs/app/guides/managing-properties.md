@@ -50,7 +50,7 @@ The fields worth getting right the first time:
 
 Land records carry a **Cost of Development** block: Total Cost and Per Acre Cost, each with a checkbox in front of it. The checkbox picks which one you type; the other is calculated from Total Acres. Both stay disabled until Total Acres has a value, so enter the acreage first.
 
-<!-- screenshot: Step two with Land selected, the Cost of Development block showing Total Cost checked and Per Acre Cost calculated and greyed out -->
+![The new inventory wizard, where a land property records its cost of development](/img/docs/app/guides/managing-properties/01.png)
 
 Those two numbers are a fallback, not the whole story. To work out what the land cost, Lendiom goes tract by tract and takes the first value it finds: the tract's own total cost, then the tract's per-acre cost times its acres, then the development's per-acre cost times that tract's acres. Only if none of that yields a figure does it fall back to the development's Total Cost as a lump sum. Acreage works the same way — Total Acres wins, the sum of tract acres is the fallback.
 
