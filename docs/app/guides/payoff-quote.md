@@ -13,7 +13,7 @@ The calculator is read-only. It does not post transactions, change the loan's st
 2. Click **Actions**.
 3. Under **Primary Actions**, click **Calculate Payoff**.
 
-<!-- screenshot: loan detail page with the Actions dropdown open, the "Primary Actions" group visible, and the "Calculate Payoff" item (calculator icon) hovered -->
+![A loan’s Actions menu open on the detail page, with Calculate Payoff hovered under Primary Actions](/img/docs/app/guides/payoff-quote/01.png)
 
 The **Pay Off Calculator** modal opens, loads the quote for today, and shows the breakdown under **Pay Off Details**.
 
@@ -48,7 +48,7 @@ The date picker refuses any date earlier than the current moment, not the start 
 
 ## What the Quote Includes
 
-<!-- screenshot: close-up of the Pay Off Details table on a loan with escrow, each row labeled and populated with dollar amounts -->
+![The Pay Off Details table on a loan carrying escrow, with total, principal, interest, fees, other fees, property tax and escrow each labelled and carrying an amount](/img/docs/app/guides/payoff-quote/03.png)
 
 | Line | What it is |
 |---|---|
@@ -73,7 +73,7 @@ The escrow line covers escrow on payments that have come due, not the escrow for
 
 If the borrower has [unapplied payments](../how-it-works/unapplied-payments.md) sitting on this loan, the calculator shows a blue banner with the count and dollar total, then adds a **Net Payoff Due** line — the total minus those credits, floored at zero.
 
-<!-- screenshot: Pay Off Calculator modal showing the blue "2 unapplied payment(s) totaling $1,250.00 available as credit" banner above a single-row table reading Net Payoff Due -->
+![The Pay Off Calculator with a blue banner reporting two unapplied payments available as credit, above the single Net Payoff Due row](/img/docs/app/guides/payoff-quote/04.png)
 
 :::warning
 Net Payoff Due is a courtesy figure for the borrower. Lendiom will not let you record a payoff while unapplied payments are still available on the loan — apply or refund them first, then record the payoff against the full total.

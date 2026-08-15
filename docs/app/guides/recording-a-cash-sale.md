@@ -30,7 +30,7 @@ A tract can only take one of these. If a loan is already attached, Mark Sold ref
 
 Open the development, expand the **Tracts** section, then use the actions menu on the tract's row and choose **Mark Sold**. The action lives on the tract list, not on the tract detail page.
 
-<!-- screenshot: the development page with the Tracts section expanded, a tract row's actions menu open showing View Details, Quick Edit, Calculator, Delete, Duplicate, Mark Sold, Adjust Cost, and Adjust Acres -->
+![A tract row on the development page with its Actions menu open, listing View Details, Quick Edit, Calculator, Delete, Duplicate, Mark Sold, Adjust Cost and Adjust Acres](/img/docs/app/guides/recording-a-cash-sale/01.png)
 
 | Field | Required | Notes |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ Open the development, expand the **Tracts** section, then use the actions menu o
 | Sale Document | No | Uploaded to the tract's files |
 | Comment | Yes | Cannot be blank; posted to the tract's timeline |
 
-<!-- screenshot: the Mark Tract as Sold modal open, blue info alert at the top explaining cash sales only, with Purchaser, Date Sold, Sale Price, Cost of Sale, Payment Method, Sale Document upload, and Comment fields filled in -->
+![The Mark Tract as Sold dialog, its cash-sales-only notice above the purchaser, date sold, sale price, cost of sale, payment method, sale document upload and comment fields, all filled in](/img/docs/app/guides/recording-a-cash-sale/02.png)
 
 ## What Gets Recorded
 
@@ -68,7 +68,7 @@ Marking a tract sold **replaces the entire pricing block**. Any down payment, te
 
 Once saved, the tract detail page shows three new fields — **Cost of Sale**, **Cash Sale Date**, and **Cash Sale Payment Method** — alongside the sales price and price per acre.
 
-<!-- screenshot: a tract detail page for a sold tract showing the Status field reading Sold, plus Cost of Sale, Cash Sale Date, and Cash Sale Payment Method in the details grid -->
+![The detail grid of a sold tract, its status reading Sold alongside the sales price, cost of sale, cash sale date and cash sale payment method](/img/docs/app/guides/recording-a-cash-sale/03.png)
 
 ## What Happens to the Tract
 
@@ -143,7 +143,7 @@ What you can actually do:
 
 Every **Edit Cash Sale** run posts another comment to the tract's timeline, so the correction history stays visible even though the previous values do not.
 
-<!-- screenshot: a tract's timeline panel showing two entries — the original Mark Sold comment and a later Edit Cash Sale correction comment, each with author and timestamp -->
+![A sold tract’s notes panel, with the mark-sold comment and the later Edit Cash Sale correction above it, each showing its author and how long ago it was posted](/img/docs/app/guides/recording-a-cash-sale/04.png)
 
 :::tip
 Because there is no way back, treat the Comment field as your audit trail. Write down the purchase agreement number, the closing date, and who handled the sale. It is the only part of the record you control after the fact.
