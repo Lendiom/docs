@@ -62,7 +62,7 @@ Three actions sit on each row. **Fix match** opens a picker for the development 
 
 Expand a row for its payment, fee, adjustment, and payoff counts, its term, and every down-payment source side by side. Flags are grouped into one alert per class at the top of the review, and each group links to the loans it affects.
 
-<!-- screenshot: the Review step, Loans tab, showing the grouped flag alerts above a table of loans with Exact, Likely, and Unmatched match tags and the Fix match / Down payment / Skip actions -->
+![The Review step of the import, grouping every flagged loan for checking before anything is written](/img/docs/app/guides/data-import/02.png)
 
 ### The Borrowers tab
 
