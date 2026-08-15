@@ -37,7 +37,7 @@ Codes are not unique across the whole product. A few numbers, such as `19510` an
 | `198415` | `document signature addon is not enabled` | Creating a template or a signature request | Enable it in the same card. See the [Document Signing Guide](../guides/document-signing.md) |
 | `198415` | `rental addon is not enabled` | Creating a rental | Rentals are not self-serve. The Addons card has no rentals switch, and the rentals page reads "Coming soon" — contact Lendiom to have it turned on for your organization |
 
-<!-- screenshot: Organization Settings, Billing tab, the Addons card, with Document Builder and Document Signature shown in the off state -->
+![The Addons card on the Billing tab, listing each add-on and whether it is enabled](/img/docs/app/how-it-works/error-messages/02.png)
 
 ## Loan payments and transactions
 
