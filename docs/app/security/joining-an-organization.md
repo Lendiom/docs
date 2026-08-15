@@ -116,8 +116,6 @@ Once you are in, consider adding a [passkey](./passkey.md) so you can sign in wi
 
 ## If acceptance fails
 
-<!-- screenshot: the Accept Invite page with a red error notification in the top-right corner reading "invalid invite code" with the Status, Code, and Request ID line beneath it -->
-
 Errors here appear as a red notification whose second line reads `Status: …, Code: …, Request ID: …`, a format covered in [Error Messages in Lendiom](../how-it-works/error-messages.md).
 
 | What you see | Most likely cause | What to do |

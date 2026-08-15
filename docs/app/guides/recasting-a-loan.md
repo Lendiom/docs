@@ -128,8 +128,6 @@ If you pick a next payment date that is already far enough in the past that its 
 
 > The selected next payment date plus the *N*-day grace period is before today. This will immediately trigger a late fee after the recast.
 
-<!-- screenshot: The Recast Loan modal with a backdated Next Payment Date, showing the red error alert warning that the date plus the grace period is before today and a late fee will trigger immediately. -->
-
 *N* is the shortest grace period across the loan's late fee tiers, and the warning only appears when late fees are configured and enabled. See [Late Fees](../how-it-works/late-fees.md) for how grace periods are counted.
 
 This is a warning, not a block — you can still commit. Do it deliberately: backdating a recast into an expired grace window means the next automation run assesses a late fee on the schedule you just created.

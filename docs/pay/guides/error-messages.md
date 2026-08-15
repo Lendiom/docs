@@ -13,8 +13,6 @@ Messages appear as a small banner near the edge of the screen, and most end with
 
 The words are the reason. The number is an internal code. You do not need it, but reading it out when you contact the company you pay saves everyone time.
 
-<!-- screenshot: The Lendiom Pay loan payment page at phone width with a red error toast overlaying the bottom of the screen reading "payment amount is below the minimum of $250.00 (105001)". The custom amount field shows 100.00. -->
-
 :::info
 The same number means different things in different places. Code 101 is one thing while you add a card and another while you make a payment. Read the words, not the number.
 :::
@@ -32,8 +30,6 @@ You sign in with your account number and a six-digit code sent by text. See [How
 | auth token expired (784) | Codes last five minutes. | Tap **Get Code** for a fresh one. |
 | authorization code already used; please request a new code (748) | Each code works once. | Tap **Get Code**. |
 | too many invalid authorization code attempts; please request a new code (747) | Five wrong entries retired that code. | Tap **Get Code**. Not a lockout — a new code starts you fresh. |
-
-<!-- screenshot: The Lendiom Pay sign-in screen at phone width showing the yellow "We can't text your authorization code" panel with its two numbered steps and the orange "Text START" button, above the Account Number field. -->
 
 :::tip
 A rejected code sends you back to the account-number step, with the **Invalid Account Number** banner showing. Your account number is fine — request a new code and try again. And tapping **Get Code** twice within a minute sends no second text, so check your messages before asking for another.

@@ -105,8 +105,6 @@ The neighboring codes come from the same two forms and are all validation, not c
 
 For the wider list, see [Error Messages in Lendiom Pay](../../pay/guides/error-messages.md) and [Error Messages in Lendiom](../how-it-works/error-messages.md).
 
-<!-- screenshot: The Lendiom Pay address form at phone width with a red toast reading "a pending change request already exists, please wait for it to be processed before submitting a new one (5570)" and an "Update Pending" alert visible above the form -->
-
 ## Notifications on both sides
 
 | Moment | Your team gets | The borrower gets |

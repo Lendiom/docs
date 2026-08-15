@@ -97,8 +97,6 @@ Both the finalize notice and the due-date reminder render without the tract labe
 
 A year reaches `Error` when a step after the claim fails, most often a save. Everyone in your organization gets an urgent notification titled *&lt;Year&gt; Property Tax Finalization Failed*, and the tab shows a red banner.
 
-<!-- screenshot: the Property Tax per Year tab with a red error alert across the top reading that one or more property taxes encountered an error while processing, above a table row whose year carries a red "Error" tag -->
-
 :::warning An errored year has no self-service fix
 Every action on it is refused with *property tax is in an error state, please contact support* — edit, mark draft, delete, validate, void, record payment, remind. The `Add Property Tax` button for that inventory is disabled too, so you cannot start next year until it clears, and any loan balances added before the failure stay put. Open the Help Scout bubble.
 :::

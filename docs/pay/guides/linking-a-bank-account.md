@@ -145,8 +145,6 @@ number helps whoever you contact find the same failure.
 More messages, including the ones you can hit while paying, are listed in
 [Error Messages in Lendiom Pay](./error-messages.md).
 
-<!-- screenshot: the Link Bank form at phone width with a red error banner across the bottom of the screen reading "invalid routing number provided (57291)" -->
-
 ## Changing or Removing It
 
 On the **Payment Methods** page, each entry has **Set Default** and **Remove**. Both ask you to confirm.

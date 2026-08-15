@@ -73,8 +73,6 @@ A payment below the minimum is rejected with HTTP `400` and code `105001`. The m
 
 The dollar figure is the final enforced minimum — after the remaining-balance cap and after rounding to cents — so the amount in the message is the amount that will go through. It is not the raw rule value, and on a loan close to payoff it will be lower than the rule suggests.
 
-<!-- screenshot: Lendiom Pay at phone width on the make-a-payment screen, with an entered amount of $100.00 and the error "payment amount is below the minimum of $250.00" displayed beneath the amount field -->
-
 The other codes in this area appear while you are configuring the rule, not while a client is paying:
 
 | Code | Message | When |

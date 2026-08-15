@@ -89,8 +89,6 @@ After you text START, wait a moment, then press **Get Code** again.
 
 ## The code is rejected
 
-<!-- screenshot: the sign-in screen at phone width with the "Auth Code" field filled in and a red toast notification across the top reading "auth token expired" -->
-
 Whatever the message says, the screen does the same thing first: the **Auth Code** box disappears and
 the red **Invalid Account Number** banner opens, as though the account number were the problem. It is
 not. A rejected code simply drops you back to the account-number step, so **Didn't get the code?** is

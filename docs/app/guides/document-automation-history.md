@@ -117,5 +117,3 @@ If someone reconfigures loan automation while an import is running, the saved co
 5. Check the record's notes for the matching *Auto generated* note.
 
 Sends, skips, and failures also surface in the Recent Events feed on the [dashboard](../how-it-works/dashboard.md) — the fastest way to notice a rule that started failing.
-
-<!-- screenshot: The dashboard Recent Events feed with an "Automation failed" entry alongside loan and invoice entries -->

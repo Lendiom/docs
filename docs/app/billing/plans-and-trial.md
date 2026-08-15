@@ -65,10 +65,6 @@ If the charge fails, the subscription goes **past due**. Lendiom emails you and 
 | Reports and data exports | Run and Download are greyed out — see [Exporting Your Data](../guides/exporting-your-data.md) |
 | Your buyers signing in to [Lendiom Pay](../../pay/what-is-pay.md) | Blocked, including the "text me my account number" recovery |
 
-<!-- screenshot: The in-app notification drawer showing a medium-priority notification titled "Demo Land Company Subscription Past Due" with the body explaining the payment failed and that content creation is disabled -->
-
-<!-- screenshot: The Lendiom Pay sign-in screen at phone width, after a buyer of a past-due organization enters an account number, showing the error that no valid client was found -->
-
 Fix it by updating the payment method in **Org Settings → Billing**. If the retries run out and the subscription lands on canceled, the **Action** row in the Billing tab changes to a **Contact Support** button — restarting from that point is not self-serve.
 
 ## Coupons

@@ -124,8 +124,6 @@ The left navigation is not filtered by role: menu entries stay visible and the 4
 Lendiom loads permissions when someone signs in and caches them for the session. After you change a role, that person keeps their old access until they reload Lendiom. If a fix does not seem to work, have them refresh or sign out and back in before you keep editing.
 :::
 
-<!-- screenshot: the 403 access-denied screen inside the app, with the subtitle naming a missing "update" permission on the "loan" feature and a Back Home button -->
-
 ## Removal and role-change blockers
 
 Three things Lendiom will not let you do, no matter your role:

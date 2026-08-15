@@ -134,8 +134,6 @@ Building the workbook calls PayArc for each batch's line items, five batches at 
 
 **Billing status disables exports before cancellation does.** Run, Download, and Download Transactions are all disabled when your subscription is not active, trialing, or incomplete — a past-due account loses them. The archive export is not gated this way and keeps working.
 
-<!-- screenshot: a loan page for an organization whose subscription is past due, with the "Download Transactions" split button visibly greyed out and a tooltip explaining the billing status -->
-
 :::warning
 **Once a subscription is cancelled, the exports go away.** Lendiom keeps working normally for ten days after the cancellation date. After that, the navigation menu disappears and every page is replaced by a single "Subscription Cancelled" screen with a Contact Us button. Reports, transaction CSVs, the archive, and the PayArc export all become unreachable at the same moment.
 
