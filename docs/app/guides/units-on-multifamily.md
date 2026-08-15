@@ -30,7 +30,7 @@ The unit appears in the table right away. Units are always listed in order by nu
 
 <!-- screenshot: the Units card in its empty state, showing "No units found. Create one to start today:" with a blue Create Unit button beneath it -->
 
-<!-- screenshot: the New Unit drawer open over the inventory page, titled "New Unit for: Demo Land Company Apartments", with Number, Status, Market Rent, Tenant, Bedrooms, Bathrooms, and Square Footage filled in -->
+![The New Unit drawer over a multifamily property, with the unit detail fields](/img/docs/app/guides/units-on-multifamily/02.png)
 
 ## The fields
 
