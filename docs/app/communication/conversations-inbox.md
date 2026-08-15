@@ -65,7 +65,7 @@ The paperclip in the composer attaches an image. Attaching one turns the message
 
 Incoming picture messages appear as thumbnails in the thread. Click one to enlarge it, or use its download button to save the original. Lendiom stores up to four images from a single incoming message.
 
-<!-- screenshot: The composer with an attached image listed above the text box, showing the paperclip icon, the file name with a delete icon, and a typed message ready to send -->
+![The conversation composer with an image attached above the text box, its filename shown with a remove control, and a typed message ready to send](/img/docs/app/communication/conversations-inbox/02.png)
 
 ## Placing a call
 
@@ -77,7 +77,7 @@ Completed and attempted calls appear inline in the thread as a chip showing dire
 
 Incoming calls to your Lendiom number are answered with a short greeting naming your organization, then forwarded to the business number on your organization settings. At the same time, Lendiom texts that forwarding number to tell you who is calling, with a link to their client record.
 
-<!-- screenshot: The "Make an Outbound Call" modal with the explanation text and a masked phone number field filled in, Call button in the footer -->
+![The Make an Outbound Call dialog, with its explanation above a masked callback number and the Call button in the footer](/img/docs/app/communication/conversations-inbox/04.png)
 
 ## Sending a mass text
 
@@ -132,7 +132,7 @@ When someone texts **START**, they are re-subscribed. Lendiom also turns automat
 You cannot opt someone back in on their behalf. The message has to come from their phone. If a client says they are not getting texts, check whether their number shows as opted out, then ask them to text `START` to your Lendiom number.
 :::
 
-<!-- screenshot: An open conversation with an opted-out number, the composer greyed out with the placeholder "This number has opted out of receiving messages" and the end-of-thread notice about sending START -->
+![A conversation whose number has opted out, its composer greyed out with an opted-out placeholder above a notice saying the contact must text START to start receiving messages again](/img/docs/app/communication/conversations-inbox/05.png)
 
 ## Quiet hours and the overnight queue
 

@@ -57,7 +57,7 @@ Without it, the Document Builder page and the Document Automation history page b
 
 The related permission is **document builders**.
 
-<!-- screenshot: The Document Builder page replaced by the enable screen — an info result titled "Document Builder" with the subtitle about DOCX templates with dynamic data fields, three green checkmark bullets, and Enable and "Go to the Dashboard" buttons -->
+![The Document Builder page replaced by its enable screen, naming the add-on, what it does and what it includes, above Enable and Go to the Dashboard](/img/docs/app/billing/add-ons/03.png)
 
 ### Document Signing
 
@@ -93,7 +93,7 @@ Enabling an add-on does not create a second subscription and does not move your 
 
 Which price is used depends on your billing interval. If your subscription renews monthly, the monthly add-on price is used; if it renews yearly, the yearly add-on price is used instead. The dollar figures quoted in the app's confirmation dialogs are the monthly ones.
 
-<!-- screenshot: The "Enable Document Builder" confirmation dialog reading "Are you sure you want to enable the document builder? It costs $10 per month." with "Yes, enable!" and Cancel buttons -->
+![The Enable Document Builder confirmation, stating the add-on costs $10 per month, over the billing page](/img/docs/app/billing/add-ons/04.png)
 
 :::caution
 
@@ -105,7 +105,7 @@ Deal Analysis is free while it is in beta, which means it currently adds nothing
 
 Disabling works the same way in reverse: the line item is removed from your subscription and the unused portion of the period is prorated as a credit toward your next invoice. Removal takes effect immediately — the feature is gone as soon as you confirm.
 
-<!-- screenshot: The "Disable Deal Analysis" confirmation dialog warning that recorded costs and development loans are kept but nobody will be able to see or change them until it is enabled again, with a red "Yes, disable" button -->
+![The Disable Deal Analysis confirmation, warning that recorded costs and development loans are kept but nobody can see or change them until it is enabled again](/img/docs/app/billing/add-ons/05.png)
 
 Each confirmation dialog spells out what you lose. Read it before confirming, particularly for Deal Analysis, where the data stays but becomes invisible to your whole team.
 
