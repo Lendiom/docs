@@ -21,7 +21,7 @@ An entry holds a date, a colored icon, and one line of text. Entries come from t
 | A borrower set up or canceled automatic payments | The client |
 | Property tax was finalized on a tract | The tract owner |
 
-<!-- screenshot: a client page with the "History / Timeline" card expanded, showing four alternating entries with colored dots — a green "loan created", a red "now late", a green "automatic payments set up", and a blue "paid off" — each prefixed with its date and time -->
+![The Notes and history on a client, listing each recorded event in order](/img/docs/app/security/what-lendiom-records/01.png)
 
 Two gaps are worth knowing before you rely on a timeline as evidence.
 

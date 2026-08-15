@@ -104,7 +104,7 @@ Billing produces a confusing half-state. The Billing and Invoices tabs open for 
 
 If a role has already lost access this way, contact [Lendiom Support](mailto:support@lendiom.com) — a wildcard cannot be restored from the matrix.
 
-<!-- screenshot: the Role Matrix scrolled to the communication rows, all four communication checkboxes checked on the property manager column, illustrating that a wildcard renders identically to four separate actions -->
+![The Role Matrix, with a row per permission and a column per role](/img/docs/app/security/roles-and-permissions/02.png)
 
 ## Roles cannot be deleted
 

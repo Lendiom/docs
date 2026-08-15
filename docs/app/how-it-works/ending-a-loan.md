@@ -99,7 +99,7 @@ Deletion is not a status. It removes the record, and only while the loan is a **
 
 Choose **Actions → Danger Zone → Delete** and confirm. Lendiom destroys the amortization schedule, every transaction, every escrow entry, all notes, the timeline, all uploaded files and generated documents, and any snail mail tied to the loan; releases the tract back to **Available** and unlinks the client; and disassociates the loan from any property tax record ([Collecting Property Tax](../guides/collecting-property-tax)). You land back on the loans list.
 
-<!-- screenshot: The Delete Loan confirmation dialog warning that deleting removes all components including files, transaction history and comments, with Yes and No buttons -->
+![The Delete Loan confirmation, warning that every attached component goes with it](/img/docs/app/how-it-works/ending-a-loan/03.png)
 
 :::warning
 There is no undo and no recycle bin. If you want the deal history — who the buyer was, what was signed, what was collected — cancel the draft instead of deleting it.

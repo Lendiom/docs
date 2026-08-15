@@ -22,7 +22,7 @@ Every read, write, and delete against the encrypted store appends an audit recor
 Field-level encryption covers tax IDs and authenticator secrets. It does not cover owner SSNs, owner dates of birth, driver's license images, or your business bank account — those sit in the organization record as entered. Treat access to `organization update` and `billing update` accordingly when you build roles.
 :::
 
-<!-- screenshot: a client's entity card showing the Tax ID row rendered as "SSN ••••1234" with a small view control beside it, for a fictional client such as "Jane Doe" at Demo Land Company -->
+![A client entity card, with the tax ID shown only as its last four digits](/img/docs/app/security/security-and-data/01.png)
 
 ## Revealing a client tax ID
 

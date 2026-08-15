@@ -117,7 +117,7 @@ For the wider list, see [Error Messages in Lendiom Pay](../../pay/guides/error-m
 
 The approval email goes to the address on the person's record *after* the change applied — so when the borrower changed their email, the notice goes to the new one. It is skipped when the person has no email, or when their address is marked blocked. The text message goes out only if your organization has finished messaging setup in the [Communication Portal](../communication.md), and is skipped for anyone with no cellular number on file or who has replied STOP. It follows the client's language preference, English or Spanish. Both land in that client's conversation thread.
 
-<!-- screenshot: A client's notes section showing an auto-generated system note reading "Auto generated: Jane Smith has approved a change request for Jane Doe." with its timestamp -->
+![The notes on a client, including the system notes Lendiom writes automatically](/img/docs/app/guides/client-change-requests/04.png)
 
 ## Asking a borrower to update their address
 

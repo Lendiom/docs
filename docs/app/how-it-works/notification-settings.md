@@ -172,4 +172,4 @@ Nothing in Lendiom creates a reminder notification today. The tab, its count, it
 
 **You silenced a category and still get bell entries.** Expected — only the missed-text email responds to a switch.
 
-<!-- screenshot: the Role Matrix open on a role's communication and document signature rows, illustrating the permission columns that decide who receives which notification -->
+![The Role Matrix showing the communication and document signature permissions](/img/docs/app/how-it-works/notification-settings/02.png)
