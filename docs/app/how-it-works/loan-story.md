@@ -121,7 +121,7 @@ Some things are filtered out deliberately. Failed transactions never appear. [Au
 Messages and calls are attached to the client, not to the loan. If one client holds several loans with you, the same texts and calls appear on the Story tab of every one of them.
 :::
 
-![The Timeline section of the loan Story tab, listing the loan events in order](/img/docs/app/how-it-works/loan-story/05.png)
+<!-- screenshot: the expanded Timeline section showing a vertical list of events with colored icons — a green payment received, an orange late payment, a red payment reversed -->
 
 :::caution
 Timeline entries are not clickable. They tell you a transaction exists but will not take you to it; scroll down to the transaction list to open it. Setup fee payments also carry no date and render as *No date value set* at the very top of the list.

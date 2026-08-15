@@ -75,6 +75,9 @@ module.exports = {
   plugins: [
     './plugins/umami',
   ],
+  clientModules: [
+    './src/clientModules/screenshotLinks.js',
+  ],
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',

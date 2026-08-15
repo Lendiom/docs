@@ -128,7 +128,7 @@ is not something you did. Open the menu, go to **Payment Methods**, add a card o
 return to the rental and the buttons will be there.
 :::
 
-![A rental details page in Lendiom Pay for a tenant with no saved payment method](/img/docs/pay/guides/paying-rent/05.png)
+<!-- screenshot: at phone width, a rental details page for someone with no saved payment method — the header shows Add a Payment Method rather than Pay Rent -->
 
 Two other reasons the buttons may be gone:
 
