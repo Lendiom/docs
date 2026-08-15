@@ -31,7 +31,7 @@ Choose how much history to bring, too. **Full history replay** recreates every p
 
 Analysis runs in the background. It reads the files, parses each MoneyLender account number into a subdivision, tract number, and acreage, matches that against your inventory, groups borrowers, and builds a reviewable plan. It usually takes under a minute, and nothing is written to your organization yet. If it fails, re-running it is safe.
 
-<!-- screenshot: the Analyze step with a progress bar partway across and the caption "Processing matching" beneath it -->
+![The Analyze step, with a progress bar partway across and the file currently being processed named beneath it](/img/docs/app/guides/data-import/03.png)
 
 ## Step 3 — Review and adjust the matches
 
@@ -89,7 +89,7 @@ The confirmation screen totals what is about to happen: clients to create, match
 
 The run works through five stages — Clients, Loans, Notes, Files, Finalizing — and keeps going on the server even if you close the page. Lendiom sends an in-app notification and an email when it finishes. If the server restarts mid-run, the import parks as interrupted with a **Resume the import** button; nothing already imported is lost or duplicated.
 
-<!-- screenshot: the Import step mid-run, the five-stage Steps bar with Loans active, a progress bar at 60%, and the imported / fell back / failed counters below -->
+![The Import step running, with the five stage bar on Clients, a progress bar partway across, and the imported, fell back and failed counters beneath it](/img/docs/app/guides/data-import/04.png)
 
 :::caution
 Committing creates real clients and loans in your organization. There is no one-click undo. Get the review right first.
@@ -113,13 +113,13 @@ Every imported loan gets a PDF named **MoneyLender source transactions (pre-impo
 
 It is a historical record of the data as it existed in MoneyLender, not a live ledger. Balances-only loans get one too, so the pre-import history is available even where the transactions were not replayed. Future-dated rows — MoneyLender pre-posts its projected finance charges and late fees years ahead — are omitted, with a count at the bottom.
 
-<!-- screenshot: a loan's Files tab showing the "Imported from MoneyLender" folder expanded with the source transactions PDF and two imported documents inside -->
+![The Files card on an imported loan, with the Imported from MoneyLender folder open and the source transactions PDF alongside the loan’s own two documents](/img/docs/app/guides/data-import/05.png)
 
 ## After the import
 
 The results screen lists every loan with its outcome — Imported, Balances Only (flagged), Failed, Blocked, or Skipped — plus the client, note, and file ledgers and a **Download results (CSV)** button. Loan names link into the app.
 
-<!-- screenshot: the results screen with the Clients, Loans, and Extras summary cards above the loans table, one row tagged Balances Only (flagged) -->
+![The import results, with the clients, loans and extras summary cards above the loans table, each balances-only loan tagged in the outcome column](/img/docs/app/guides/data-import/06.png)
 
 Work through this before you call the migration done:
 
