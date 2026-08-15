@@ -86,7 +86,7 @@ When the rental saves, Lendiom flips the unit to **Rented** and records the rent
 
 When you set the rental to **Terminated** or **Evicted**, or delete it while it is still a draft, the unit returns to **Available** and the rental link is cleared, freeing the unit for the next rental.
 
-<!-- screenshot: step one of the New Rental wizard, the Unit dropdown open with three options, one greyed out and showing the "Unit is already rented out." tooltip -->
+![Step one of the new rental wizard with the Unit list open, showing which units are free](/img/docs/app/guides/units-on-multifamily/03.png)
 
 :::caution The old tenant is never removed from the unit
 Ending a rental clears the unit's rental link and status, but leaves the previous tenant attached to the unit forever. There is no screen and no control that can remove it. This matters in two places: a mass communication sent to the whole multifamily property still includes that former tenant as a recipient, and the voice assistant still reads them out as the unit's tenant. Check the recipient list before sending a property-wide message on a complex that has had turnover.

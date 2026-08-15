@@ -11,7 +11,7 @@ Everything a rental charges on top of rent is entered in the New Rental wizard, 
 
 Rental late fees are set on the **Terms** step of the wizard. Choose whether Lendiom applies them **Automatically** or **Manually**, then add a late fee tier. A tier is required either way, even when you pick Manually.
 
-<!-- screenshot: The Terms step of the New Rental wizard, Late Fees Applied set to Automatically, with a single late fee tier tag under Late Fee Tiers next to the Add tier button -->
+![The Terms step of the new rental wizard, where the late fee behaviour is set](/img/docs/app/how-it-works/rental-fees/01.png)
 
 | Setting | What it controls |
 | --- | --- |
