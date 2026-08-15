@@ -88,7 +88,7 @@ On an Accrues Daily loan, leaving **Move Accrued Interest to End of Loan** unche
 Check the box if you want that interest preserved. It is capitalized into the principal balance first, and only then does accrual restart. The modal's own helper text says so: *Additional interest will start accruing from today's date.*
 :::
 
-<!-- screenshot: Close-up of the "Adjust Interest" form item in the New Due Date modal on an Accrues Daily loan, showing the "Move Accrued Interest to End of Loan" checkbox and the helper text reading "This will add $X to the principal balance of the loan. Additional interest will start accruing from today's date." -->
+![The New Due Date modal on a daily-accrual loan, including the adjust-interest choice](/img/docs/app/guides/moving-a-due-date/02.png)
 
 ## The Reason Is Required and Permanent
 
@@ -98,7 +98,7 @@ When the move succeeds, Lendiom writes an auto-generated system note to the loan
 
 System notes cannot be edited. Treat the reason as the permanent record of why this loan's terms changed, because that is exactly what it is — write it for the auditor, the borrower, or the attorney who reads it two years from now, not for yourself today.
 
-<!-- screenshot: The Notes card on a loan detail page showing an auto-generated system note authored by "System", with the text "Auto generated: Jane Doe moved the due date to ... from ... The principal balance was adjusted by ... to account for rolled forward balances." followed by the reason, and with the Edit button disabled. -->
+![The Notes card on a loan, showing the system notes Lendiom writes as things change](/img/docs/app/guides/moving-a-due-date/03.png)
 
 ## Date Limits and Errors
 

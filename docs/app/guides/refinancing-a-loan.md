@@ -37,7 +37,7 @@ See [Loan Status](../how-it-works/loan-status.md) for what each status means on 
 
 From the loan page, open **Actions** and pick **Refinance Loan**.
 
-<!-- screenshot: The loan detail page for a Current tract loan with the Actions dropdown open, showing the primary group: Move Due Date, Record Payoff, Refinance Loan, Recast Loan, Calculate Payoff. The Refinance Loan row with its retweet icon should be hovered. -->
+![A current tract loan with its Actions dropdown open, showing the primary actions](/img/docs/app/guides/refinancing-a-loan/01.png)
 
 The window opens with a warning banner across the top and a live preview underneath that recalculates as you type. Nothing is saved until you press **Refinance** and confirm.
 
@@ -97,7 +97,7 @@ If the first payment date plus your shortest late fee grace period already falls
 
 The preview is a real dry run against the server, not a client-side estimate, and it re-runs about half a second after each change. It shows the balances being rolled in, the **New Loan Amount**, **Current Payment** and **New Payment**, **Current Rate** and **New Rate**, the new term, total interest, total payments, and the new schedule's **Next Payment Date** (its first payment) and **Last Payment Date**. Payment and rate are always two rows apiece, shown even when the rate has not moved; a **Frequency Change** or **Schedule Change** row appears only when you actually change the cadence or the interest schedule. On a weekly or biweekly refinance you also get a **Number of Payments** count, because a 60-month term at weekly cadence is roughly 260 payments.
 
-<!-- screenshot: The Refinance Loan modal on an interest-only loan being converted, with the New Interest Schedule dropdown visible and set to Follows Payments, and the preview table showing the Schedule Change row reading "interest only → follows payments" and a Frequency Change row. -->
+![The Refinance Loan modal on an interest-only loan, where the new interest schedule is chosen](/img/docs/app/guides/refinancing-a-loan/02.png)
 
 ## Interest-only loans
 
