@@ -116,7 +116,7 @@ The **Delivery History** card lists the 50 most recent deliveries, newest first,
 
 Deleting a schedule stops future sends and leaves the history intact.
 
-<!-- screenshot: the Delivery History table with three rows — one green "sent", one orange "partial" with a red recipient tag, and one red "failed" — and the Resend link at the end of each row -->
+![The Delivery History table beneath the scheduled reports, recording each send](/img/docs/app/guides/scheduled-reports/02.png)
 
 ## How failures surface
 

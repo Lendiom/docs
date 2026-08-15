@@ -52,7 +52,7 @@ Open **Unapplied Payments** from the main menu and work through anything still h
 
 When you apply a credit, you choose the date of the new transaction it funds, and that date decides which tax year the interest lands in. The date cannot be earlier than the day the funds were received. A single credit can fund several transactions, so a large one can be split across more than one payment.
 
-<!-- screenshot: the Unapplied Payments list showing several credits with their user-facing IDs, source loans, amounts, remaining balances, and a mix of Available and Partially Applied status tags -->
+![The Unapplied Payments list, showing each credit with its source, amount and remaining balance](/img/docs/app/guides/year-end-close/02.png)
 
 ### Finish reversals before the year closes
 
@@ -96,7 +96,7 @@ Go to **Reports**. Pick a report, choose **Run**, select the year, and the finis
 
 Two more are marked Beta and may change: the **Monthly Journal Entry Report** (monthly interest, principal, and late fee totals) and the **Portfolio Report** (current status of all tracts).
 
-<!-- screenshot: the Reports page on the Reports tab, table listing report names with descriptions, Last Ran At dates, and the actions menu open showing Run and Download -->
+![The Reports page, listing each report with its description and when it last ran](/img/docs/app/guides/year-end-close/03.png)
 
 The **Yearly 1098 Report** requires your password because it contains tax identifiers. One deliberate difference: this spreadsheet includes every qualifying loan that collected any interest during the year, while the 1098 INTs tab lists only borrowers at or above the $600 IRS reporting threshold. Use the spreadsheet for the whole picture and the tab for what will actually be filed.
 

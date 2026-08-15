@@ -54,7 +54,7 @@ On a full-width screen the header carries the global search bar in the middle, t
 
 Open the dropdown and the bell item reads **Notifications**; tapping it opens the same three-tab panel you get on a desktop — Notifications, Reminders, and Messages, each with a count and a Clear action.
 
-<!-- screenshot: The Lendiom header at phone width with the Actions dropdown open, showing the disabled "Actions" label, a divider, the Notifications bell with its unread badge, and the Help link. -->
+![A loan page at phone width with the Actions dropdown open](/img/docs/app/how-it-works/using-lendiom-on-your-phone/01.png)
 
 ### Settings tabs reflow below 768px
 
