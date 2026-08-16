@@ -76,7 +76,7 @@ Two cards, monthly and yearly. The prices are printed on the cards; the yearly p
 
 If you have a coupon code, enter it in the field at the bottom. Lendiom checks it as you type and shows the discounted price on both cards, with a note about how long the discount lasts. An invalid code blocks **Start Trial** until you clear or correct it.
 
-<!-- screenshot: Step three showing the Monthly and Yearly plan cards side by side with the Monthly card selected, the coupon input at the bottom left, and the Start Trial button at the bottom right -->
+![Step three of the wizard with the monthly plan selected, the coupon box at the bottom left and Start Trial at the bottom right](/img/docs/app/guides/setting-up-your-business/04.png)
 
 Click **Start Trial**. Your trial runs 31 days, and the first invoice is anchored to the first of the month after it ends. Cancel before the trial ends and you are not charged. Lendiom drops a notification with your exact trial end date, and you land on your new organization's inventory page, ready to add properties.
 

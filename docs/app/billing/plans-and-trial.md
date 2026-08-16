@@ -28,7 +28,7 @@ Every plan card lists the same included amounts:
 | Active loans | 100 |
 | Data storage | 50GB |
 
-<!-- screenshot: Step 3 of the organization creation wizard, "Plan Selection", showing the Monthly and Yearly cards side by side — each listing 31 day trial, unlimited inventories, unlimited clients, 100 active loans, 50GB data storage — with the coupon input at the bottom left and the blue Start Trial button at the bottom right -->
+![The Plan Selection step of the organization creation wizard, the monthly and yearly cards side by side listing what each plan includes, with the coupon box and Start Trial beneath](/img/docs/app/billing/plans-and-trial/01.png)
 
 :::info
 
@@ -76,7 +76,7 @@ Coupons are checked twice:
 1. **As you type.** About a second after you stop typing, Lendiom looks the code up. A good code turns the field green, shows the coupon's name underneath it, and re-prices both plan cards with the original price struck through and a footnote saying how long the discount lasts. A bad or switched-off code turns the field red with *Invalid coupon.* and keeps **Start Trial** disabled until you clear or correct it.
 2. **When you click Start Trial.** The code is fetched again and re-checked. A coupon that was switched off between typing it and clicking is rejected with *out dated coupon provided*, and no subscription is created.
 
-<!-- screenshot: The coupon field at the bottom of the plan step in its valid state — green outline, the coupon's name shown as help text below it — with both plan cards above showing a struck-through original price next to the discounted price and an asterisked note about the discount duration -->
+![The coupon box with a valid code accepted and its discount named beneath, the plan cards above showing each original price struck through next to the discounted one and a note on how long the discount lasts](/img/docs/app/billing/plans-and-trial/03.png)
 
 How the discount is applied depends on the plan you picked:
 
@@ -96,7 +96,7 @@ The credit Lendiom writes for a limited-duration coupon on the yearly plan is ca
 
 Your plan covers 100 active loans. The Loans page shows a five-step progress bar for how full your current tier is; hover it and the popover reads *Current tier usage for [your organization's name]. Each tier allows for 100 active loans. This number updates nightly.*, with your own organization's name in place of the bracketed part. [Loan Status](../how-it-works/loan-status.md#active-statuses) carries the pricing for going past a tier.
 
-<!-- screenshot: The Loans page header with the five-step tier progress bar at the right and its popover open, titled "63 Active Loans" and explaining that each tier allows for 100 active loans and the number updates nightly -->
+![The five-step tier usage bar on the Loans page header with its popover open, naming the active loan count and explaining that each tier allows 100 active loans and the number updates nightly](/img/docs/app/billing/plans-and-trial/04.png)
 
 The count comes from a job that runs once a night across every organization with a live subscription. Two things follow from that: a brand-new organization has no bar until the first nightly run, and a loan you closed this morning is still in today's number.
 
