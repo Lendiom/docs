@@ -99,7 +99,7 @@ Recast supports **Monthly**, **Biweekly**, and **Weekly**. If the loan is on an 
 
 Changing the cadence converts the remaining term to months and lays the new installments out over roughly that same horizon. The loan's stored frequency and remaining length are updated too, so payoff quotes, status checks, and any future recast see the new cadence.
 
-<!-- screenshot: The Recast Loan modal with Balance Handling set to "Leave balances as-is (shift dates only)" and Payment Frequency changed from Monthly to Weekly, showing the orange warning alert about the payment amount being applied to every new period. -->
+![The Recast Loan dialog, with its balance handling choice above the payment frequency and the recalculated terms](/img/docs/app/guides/recasting-a-loan/03.png)
 
 :::warning
 **Leave as-is plus a frequency change will pay the loan off far earlier than the contract.**

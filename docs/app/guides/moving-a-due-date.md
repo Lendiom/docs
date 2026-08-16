@@ -115,7 +115,7 @@ The server enforces its own checks:
 | `340` | can not adjust the next due date to be before the last transaction date | The chosen date precedes the most recent transaction on the loan. |
 | `9991` | can not adjust the next due date for a loan with no more payments required | Every payment in the schedule is already fully or partially paid. |
 
-<!-- screenshot: The New Due Date modal with the date picker calendar open, showing dates before the loan's last transaction date greyed out and unselectable, and a valid future date hovered. -->
+![The New Due Date dialog with its calendar open, dates before the loan’s last transaction greyed out and unselectable](/img/docs/app/guides/moving-a-due-date/04.png)
 
 :::info
 Moving a due date is a change to the payment schedule, not a payment. If you need to record money received, use [Adding a Transaction](./adding-a-transaction.md). If the borrower is settling the loan in full, use [Recording a Loan Payoff](./recording-a-loan-payoff.md).
