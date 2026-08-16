@@ -63,9 +63,9 @@ business days if you have to add one first.
 one of the numbers is the wrong length or a name box is under two characters. Grey does not mean something
 went wrong — it means the form is still waiting on a field.
 
-<!-- screenshot: the Link Bank form at phone width with Account Type set to "Personal Checking", the Account Holder First Name and Last Name boxes side by side, and the Routing Number and Account Number boxes below, each with its grey helper text -->
+![The Link Bank form at phone width with the account type set to Personal Checking, the account holder first and last name boxes side by side, and the routing and account number boxes below with their helper text](/img/docs/pay/guides/linking-a-bank-account/02.png)
 
-<!-- screenshot: the Link Bank form at phone width with Account Type set to "Business Checking", showing the single Company Name box in place of the two name boxes -->
+![The Link Bank form switched to Business Checking, showing a single company name box in place of the two account holder name boxes](/img/docs/pay/guides/linking-a-bank-account/03.png)
 
 ## Authorizing It
 
@@ -75,7 +75,7 @@ be drafted from it. Tap **Authorize** to save the account, or **Cancel** to back
 
 Nothing is stored anywhere until you tap **Authorize**.
 
-<!-- screenshot: the "Authorize Bank Account" confirmation dialog at phone width, with its explanatory paragraph and the Authorize and Cancel buttons -->
+![The Authorize Bank Account confirmation at phone width, explaining that Lendiom Pay stores the account through PayArc for future payments, with Authorize and Cancel beneath](/img/docs/pay/guides/linking-a-bank-account/04.png)
 
 ## How the Routing Number Is Checked
 
