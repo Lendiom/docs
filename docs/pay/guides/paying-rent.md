@@ -97,7 +97,7 @@ Tap **Pay**, then **Authorize**. Nothing is charged until you authorize. The not
 money will be applied as a regular payment — that is its wording even when part of your payment
 clears late fees first. Where the money landed is recorded on the entry afterward.
 
-![The transaction details for a rent payment in Lendiom Pay](/img/docs/pay/guides/paying-rent/01.png)
+![The Transaction Details window for a rent payment in Lendiom Pay, showing the total split between the balance and fees](/img/docs/pay/guides/paying-rent/04.png)
 
 A green message confirms the payment, your balance drops right away, and a new entry appears with
 **Status: Pending**. Pending is normal — the processor has not confirmed the funds settled yet.
