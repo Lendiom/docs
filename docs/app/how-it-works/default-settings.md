@@ -113,7 +113,7 @@ To repossess, open the loan's actions menu, choose **Status**, then **Repossesse
 Repossession cannot be reversed. Marking the loan repossessed disassociates it from the tract or property, releases that property back to Available, turns off auto draft, and marks the client inactive. Once a loan is Repossessed, its status can never be changed again — the server rejects any further status change on it.
 :::
 
-<!-- screenshot: The "Mark as Repossessed" modal with its orange warning alert reading "This action is unable to be reverted", a "Date of Repossession" date picker, and the red "Repossess" button -->
+![The Mark as Repossessed dialog, warning that the action cannot be reverted, above the required date of repossession](/img/docs/app/how-it-works/default-settings/04.png)
 
 ## Every Change Writes a System Note
 

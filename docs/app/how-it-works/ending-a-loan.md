@@ -48,7 +48,7 @@ This is the exit to use whenever you actually got the property back, and the onl
 2. Enter the **Date of Repossession**. It is required, it is stored in your organization's timezone, and the picker rejects any date before the loan's last transaction or more than one day into the future.
 3. Confirm. The dialog warns you before it saves.
 
-<!-- screenshot: The Mark as Repossessed modal with its orange warning alert reading that the action is unable to be reverted, and a Date of Repossession picker showing a date and time -->
+![The Mark as Repossessed dialog, warning that the loan will be disassociated from the tract and that the action cannot be reverted, above the date of repossession picker](/img/docs/app/how-it-works/ending-a-loan/02.png)
 
 On top of the shared teardown, repossession records the repossession date on the loan, sets the **client** to Inactive, and fires any document automation rules configured for the Repossessed status.
 
