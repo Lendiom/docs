@@ -9,7 +9,7 @@ We call PDF Forms Fillable PDFs. With this feature you can upload a PDF Form and
 
 :::info
 
-The uploaded PDF must be a PDF Form (see [here](https://www.pdfgear.com/create-fillable-pdf/) or [here](https://helpx.adobe.com/acrobat/using/pdf-forms.html) for information).
+The uploaded PDF must be a PDF Form (see [PDF Gear](https://www.pdfgear.com/create-fillable-pdf/) or [Adobe's Guide](https://helpx.adobe.com/acrobat/using/pdf-forms.html) for more information).
 
 :::
 

@@ -5,6 +5,16 @@ title: Changelog
 
 ## Recent changes
 
+- v0.65.0
+  - New
+    - **Import your portfolio from MoneyLender Professional 3** — upload an export, review how each record matches your existing inventory, then commit the loans along with their payment history. The original MoneyLender transactions are attached to each loan as a historical record so you can always see the data as it was.
+  - Fixed
+    - Downloaded 1098 forms now return every copy with the correct values.
+- v0.64.0
+  - Improved
+    - Groundwork for the MoneyLender import: escrow, daily interest, joint borrowers and late fee handling on imported loans. Document automation pauses while an import runs and resumes afterwards, and you are notified when a commit finishes.
+  - Fixed
+    - A late fee maximum of zero is now treated as uncapped rather than capping the fee at zero.
 - v0.63.0
   - New
     - **Send an address confirmation reminder on demand** — from a client's Lendiom Pay menu, ask a buyer to confirm or update their mailing address anytime. Automated reminders are also now on for everyone by default (yearly; adjust or turn off under Communications → Client Preferences).
@@ -16,7 +26,7 @@ title: Changelog
     - Required form fields consistently show the required mark.
   - `v0.62.2`
     - New
-      - **View and download filed 1098s** — filed 1098 PDFs are available right from the 1098 preview table, individually or as a bundle.
+      - **View and download filed 1098s** — filed forms can be downloaded right from the 1098 preview table, one at a time or all together as a ZIP, and each form shows its filing status.
     - Improved
       - Strengthened how passwords are stored, applied automatically the next time each user signs in.
       - Clearer error message when adding an expired card, and better card-detail validation.
