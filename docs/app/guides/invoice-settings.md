@@ -33,7 +33,7 @@ Tax is calculated on the subtotal of your line items. Any discount is then appli
 If a creation request arrives without a tax rate at all, Lendiom falls back to your organization default on the server. That is what keeps invoices created outside the normal form consistent with the ones created inside it.
 :::
 
-<!-- screenshot: The "Default Tax Rate" modal open over the Invoices list, with the explanatory paragraph and the "Tax Rate (%)" number input filled in. -->
+![The Default Tax Rate dialog over the invoices list, explaining what the rate applies to above the filled-in percentage field](/img/docs/app/guides/invoice-settings/02.png)
 
 ## The reminder schedule
 

@@ -98,7 +98,7 @@ The Rent Amount you enter when creating a residential rental drives nothing. Cre
 
 The table shows Name, Category, Status, and Type, and hides Total Acres, Total Cost/Price, Created At, Created By, Updated At, and Updated By behind the column settings icon. Total Cost/Price shows total development cost for land, sales price for a house, and a dash for multifamily. Filtering by a specific status turns off **Exclude Archived** and disables it, since Lendiom cannot include and exclude at once.
 
-<!-- screenshot: The Inventory list with the column settings dropdown open, the six optional columns unticked by default -->
+![The inventory list with its column settings popover open, the six optional columns unticked by default](/img/docs/app/guides/managing-properties/05.png)
 
 :::info Column choices follow the browser, not the account
 Your column selection and last-used filters are saved in the browser you are using. They will not follow you to another computer, browser, or private window, and clearing site data resets them.

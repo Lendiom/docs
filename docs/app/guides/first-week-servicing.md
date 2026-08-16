@@ -13,7 +13,7 @@ When a loan needs something from you, one more tab appears in front of the other
 
 The buttons inside change with the status. Late offers **Send Late Notice** and recording a payment. In Default offers **Send In-Default Notice** and **Record Pay Off**. Defaulted offers **Send Repossession Notice** and **Mark Repossessed**. Read [Loan Action Center](../how-it-works/loan-action-center.md) for the overview.
 
-<!-- screenshot: A loan page in Late status with the red-icon Action Center tab selected, showing the "Send Late Notice" dropdown button next to the record-payment button. -->
+![A late loan with the Action Center tab selected, showing the Send Late Notice dropdown beside the record transaction button](/img/docs/app/guides/first-week-servicing/01.png)
 
 Then read [Loan Status](../how-it-works/loan-status.md) end to end. It is the vocabulary for the rest of the job — Grace Period, Late, In Default, Defaulted, and the terminal states. The distinction that will bite you first: six statuses shut the loan's **Actions** menu off entirely. Inactive, Pending Payoff, Paid Off, Repossessed, Canceled, and Refinanced loans accept no new transactions, no waivers, and no restructuring.
 

@@ -160,4 +160,4 @@ Deleting is permanent and cascades: every entity on the client, the notes attach
 Deleting a client that has ever had a loan invalidates the reports and tax documents that referenced it. Prefer setting the status to Inactive over deleting a real customer.
 :::
 
-<!-- screenshot: the delete confirmation modal for a client that has associated items, showing the message that it cannot be deleted along with the count of associated items and the disabled Delete button -->
+![The delete confirmation for a client with associated records, explaining it cannot be deleted and counting the associated items above a disabled Delete button](/img/docs/app/guides/managing-clients/05.png)

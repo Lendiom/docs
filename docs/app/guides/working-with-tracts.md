@@ -129,6 +129,6 @@ These operations do not exist anywhere in Lendiom — not in the app, not in the
 - **No bulk renumbering.** Numbers change one tract at a time through **Rename**.
 - **No moving a tract to a different inventory.** A tract belongs to the inventory it was created under.
 
-<!-- screenshot: the tract row actions menu expanded, showing View Details, Quick Edit, View Loan, Calculator, Delete, Duplicate, Mark Sold, Adjust Cost, and Adjust Acres, with Delete and Mark Sold greyed out on a tract that has a loan -->
+![The tract row actions menu open on a tract that already has a loan, with Delete and Mark Sold greyed out](/img/docs/app/guides/working-with-tracts/05.png)
 
 All of this is governed by the **Tract** permission, with separate permissions for tract notes, files, and timeline. See [roles and permissions](../security/roles-and-permissions.md).

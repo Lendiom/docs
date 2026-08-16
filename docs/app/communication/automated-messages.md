@@ -23,7 +23,7 @@ The loan or rental also carries a **Communication Preferences** list — SMS, Em
 
 Automated messages go to the client's primary entity by default. Switching **Send Automated Messages To** to *All Entities* in Client Communication Preferences sends every automated message to every entity under the client.
 
-<!-- screenshot: The "Client Communication Preferences" modal showing the "Send Automated Messages To" switch set to "Primary Entity" and the "Remind Buyers To Confirm Their Mailing Address" dropdown set to "Every 12 months". -->
+![The Client Communication Preferences dialog, with the send-automated-messages-to switch above the mailing address reminder frequency](/img/docs/app/communication/automated-messages/04.png)
 
 ## Loan payment messages
 

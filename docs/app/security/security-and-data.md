@@ -37,7 +37,7 @@ The password travels in the request body, never a URL parameter, and that route 
 One report bypasses the `client::secrets` gate. The **Yearly 1098 Report** writes full tax identifiers into its spreadsheet and is protected only by password confirmation plus organization membership — it does not check `client::secrets`. Anyone who can run reports can produce that file. See [Reports Library](../guides/reports-library.md) and [E-Filing 1098 INTs](../guides/e-filing-1098s.md).
 :::
 
-<!-- screenshot: the "Tax Info" modal open over a client page, showing the blue notice "In order to view their tax information, you must enter your password." above a password field and a Confirm button -->
+![The tax info dialog over a client page, its blue notice explaining that your password is required, above the password field and Confirm button](/img/docs/app/security/security-and-data/02.png)
 
 ## What the browser never receives
 

@@ -59,7 +59,7 @@ Monthly schedules can attach any of three additional reports alongside the summa
 
 Attachments are monthly-only by design. If you switch a monthly schedule to daily or weekly, the extra reports are cleared.
 
-<!-- screenshot: the "New Scheduled Report" modal with Frequency set to "Monthly on the 1st — covers the prior month", revealing the "Also Attach" checkbox group with Monthly Transaction List, Monthly Installment Income, and Monthly Journal Entry, with Monthly Journal Entry checked -->
+![The New Scheduled Report dialog with a monthly frequency chosen, revealing the Also Attach checkboxes with the monthly journal entry ticked](/img/docs/app/guides/scheduled-reports/03.png)
 
 ## Cadence and the period each send covers
 
