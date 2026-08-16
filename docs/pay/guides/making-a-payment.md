@@ -93,7 +93,7 @@ The **Total Amount** box shows exactly what will leave your account, and the not
 
 Tap **Pay** and a confirmation appears: "By clicking the authorize button, you authorize Lendiom Pay to charge the selected payment method $X." For a principal-only payment it also repeats that the payment will not change your due date. Tap **Authorize** to go ahead, or **Cancel** to back out. Nothing is charged until you tap **Authorize**.
 
-<!-- screenshot: at phone width, the "Authorize Payment" confirmation dialog with the total dollar amount in the body text and the Authorize and Cancel buttons -->
+![The Authorize Payment confirmation at phone width, naming the exact amount that will be charged, with Authorize and Cancel](/img/docs/pay/guides/making-a-payment/03.png)
 
 ## What a successful payment looks like
 

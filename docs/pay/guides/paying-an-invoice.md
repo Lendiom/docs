@@ -59,7 +59,7 @@ Pick your card or bank account in the **Payment Method** dropdown at the top. Yo
 
 **Pay** stays greyed out until you have a payment method and an amount above zero. Tap it and a confirmation appears: "By clicking the authorize button, you authorize Lendiom Pay to charge the selected payment method $X. This amount will be applied to this invoice." Nothing is charged until you tap **Authorize**. When it goes through you land back on the invoice with a green "Invoice payment successfully submitted!" message.
 
-<!-- screenshot: at phone width, the "Authorize Payment" confirmation dialog over the invoice payment screen, showing the total dollar amount in the body text with Authorize and Cancel buttons -->
+![The Authorize Payment confirmation over the invoice payment screen at phone width, naming the amount that will be charged](/img/docs/pay/guides/paying-an-invoice/04.png)
 
 ## What happens next
 

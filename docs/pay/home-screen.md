@@ -73,7 +73,7 @@ There is one thing this breakdown does not include, and it matters. **Interest t
 If you want the amount that would close out the loan completely, look for the **Pay Off Balance** figure on the loan's page. It is calculated for a specific date and shows that date next to it. That number, not the Balance Due, is the one to use when you are trying to pay a loan off.
 :::
 
-<!-- screenshot: the Loan Balance Due Breakdown modal at phone width, listing Payments Due, Unpaid Interest Due, Late Fees Due, Other Fees Due, and Total Due with a Close button -->
+![The loan balance due breakdown at phone width, itemising payments due, unpaid interest, late fees and other fees above the total](/img/docs/pay/home-screen/06.png)
 
 ## Reading the lists
 
