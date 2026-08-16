@@ -46,7 +46,7 @@ A worked example. A loan sits at $21,375.65 at 10%, Actual / 360. The last regul
 * Principal drops to $11,375.65.
 * From June 24 forward, interest accrues at $3.16/day on the new balance. Ten days later that is $31.60, not the $59.38 the old balance would have produced.
 
-<!-- screenshot: The loan Overview tab immediately after the paydown, showing Remaining Principal of $11,375.65 and Unpaid Interest of $118.75, with the Accrued Interest field at $0.00. -->
+![The loan Overview immediately after a principal-only paydown, remaining principal reduced by the payment with the settled interest moved into unpaid interest and accrued interest back at zero](/img/docs/app/guides/principal-only-payments/02.png)
 
 :::info Why the balance goes up
 
@@ -120,7 +120,7 @@ In the portal, the option appears as **Custom Principal Amount** on the payment 
 
 Selecting it pops a confirmation that spells out the consequence: the payment will not modify the due date and will not count toward the regular payment. The borrower types an amount and pays with a saved card or bank account.
 
-<!-- screenshot: The borrower portal payment page showing the amount options with "Custom Principal Amount" selected, its amount input revealed, and the confirmation dialog stating the payment will not modify the due date. -->
+![The borrower portal payment page with Custom Principal Amount selected, and the confirmation asking whether to proceed with a payment that will not move the due date or count towards the regular payment](/img/docs/app/guides/principal-only-payments/05.png)
 
 That third condition has a consequence worth knowing. Because the settled interest lands in the balance due, a borrower who makes a mid-period principal payment on an accrues-daily loan **cannot immediately make another one** — their balance due is no longer zero. It clears when the next regular payment is applied.
 
