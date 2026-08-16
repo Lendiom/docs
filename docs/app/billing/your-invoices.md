@@ -51,7 +51,7 @@ Alongside the status text, the Status column adds a marker for the state of the 
 | Pink alert icon | The payment needs something from you. Hovering it says to see the actions menu. |
 | Blue **Processing** tag | The payment is in flight. Bank payments take a few business days to settle. |
 
-<!-- screenshot: The invoice table's Status column with three rows — one reading "paid" with a green check circle, one reading "open" with a pink alert icon, and one reading "open" with a blue "Processing" tag -->
+![The invoices table with three rows — one Paid with a green check, one Open with a pink alert icon, and one Open carrying a blue Processing tag](/img/docs/app/billing/your-invoices/02.png)
 
 ## Downloading an Invoice PDF
 
@@ -59,7 +59,7 @@ Open the **Actions** menu on the invoice row and choose **Download**. The PDF op
 
 Draft invoices have no PDF, which is why the entire Actions menu is hidden on draft rows. Wait until the invoice is finalized and moves to **open**, then download it.
 
-<!-- screenshot: An invoice row with the Actions dropdown open, showing "Download" with a red PDF icon and "Take Action: Needs Payment Method" with an alert icon -->
+![An invoice row with its Actions menu open, offering Download and Take Action: Needs Payment Method](/img/docs/app/billing/your-invoices/03.png)
 
 ## When an Invoice Needs Action
 
@@ -72,7 +72,7 @@ Card payments sometimes stop partway through and wait on you — 3-D Secure conf
 
 Choosing it opens the **Payment Action Required** dialog. Click **Take Action** and the payment processor's verification flow starts in place — you complete the bank challenge in the dialog, and Lendiom reports back with a success notification. If the invoice needs a payment method and your organization has no default one on file, Lendiom opens the **Add Payment Method** dialog first, then retries the action with the method you just added.
 
-<!-- screenshot: The "Payment Action Required" modal reading "Action is required to complete your payment. Please click the Take Action button to start the process." with "Take Action" and Cancel buttons -->
+![The Payment Action Required dialog, explaining that the payment needs another step, with Cancel and Take Action](/img/docs/app/billing/your-invoices/05.png)
 
 After the action succeeds, Lendiom pauses a few seconds for the processor to report the result, then reloads your organization. If the status has not caught up, hit **Refresh**.
 
