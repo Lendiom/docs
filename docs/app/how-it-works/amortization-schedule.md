@@ -122,7 +122,7 @@ Regeneration is automatic, and runs whenever the loan is touched in a way that c
 | Bulk work | Committing a data import |
 | Nightly | The Loan Data Integrity job, which runs at 00:30 America/Chicago and also applies late fees and refreshes the next due date |
 
-<!-- screenshot: A loan's Transactions panel immediately after recording a regular payment, with the success notification visible, and the Amortization Schedule panel below it showing the newly paid row and the recalculated rows after it. -->
+![The transactions panel with the just-recorded regular payment at the top, above the amortization schedule showing the payment it settled](/img/docs/app/how-it-works/amortization-schedule/04.png)
 
 Paid rows survive regeneration; the unpaid tail is what gets rebuilt. The on-screen table refreshes when the loan's modified timestamp advances, so if the rows look stale after an action, reload the page.
 

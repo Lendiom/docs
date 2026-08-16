@@ -11,7 +11,7 @@ Lendiom does not keep a rental's balance due as a running figure you nudge up an
 
 The number you typed is not lost. It is preserved on the **Existing** tab, which appears only on rentals flagged as pre-existing. But it is a record of what you told us, not the live balance.
 
-<!-- screenshot: the New Rental wizard on the How Much step with the New/Existing switch set to Existing, showing the Unpaid Balance, Late Fee Balance, Other Fee Balance and Next Payment Date fields -->
+![The How Much step of the new rental wizard switched to Existing, showing the unpaid balance, late fee balance, other fee balance and next payment date](/img/docs/app/how-it-works/rental-balances/01.png)
 
 ![A rental on its Overview tab, showing Balance Due beside the Payment Amount and the next due date](/img/docs/app/how-it-works/rental-balances/02.png)
 

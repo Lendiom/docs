@@ -74,7 +74,7 @@ Deposit handling is not finished. The **Deposit Tracking** panel on the rental p
 
 Recurring fees cover charges that repeat alongside rent — pest control, trash, a parking spot. They are added on the **How Much** step.
 
-<!-- screenshot: The New Recurring Fee modal with Fee Name, Description, Amount, Frequency set to Monthly, and the First Charge Period radio group showing Contract Start and Specific Date -->
+![The New Recurring Fee dialog with a name, description and amount above a monthly frequency and the first charge period choice](/img/docs/app/how-it-works/rental-fees/04.png)
 
 | Field | Notes |
 | --- | --- |

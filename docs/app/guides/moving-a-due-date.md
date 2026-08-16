@@ -43,7 +43,7 @@ What the move touches depends on the loan's payment history:
 
 In every case the payments after it are regenerated, spaced at the loan's normal payment frequency starting from the new date.
 
-<!-- screenshot: The loan's amortization schedule tab after a move, with the affected payment row expanded or highlighted so the new due date is visible alongside the following payments, which have all shifted by the same offset. -->
+![The amortization schedule after a due date move, the affected payment carrying its new due date and every payment after it shifted by the same amount](/img/docs/app/guides/moving-a-due-date/05.png)
 
 :::caution
 There is no undo. Reversing a move means running the action again with the old date, and that does not pull any capitalized balances back out of the principal.
