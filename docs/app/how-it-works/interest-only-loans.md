@@ -99,7 +99,7 @@ Lendiom treats that row differently from a normal payment for messaging. The ord
 The wizard does not ask for a payment frequency for the amortized phase, and Lendiom defaults it to **monthly**. A loan on a weekly or biweekly interest-only cadence with Convert to Amortized selected will switch to monthly payments once the amortizing phase begins.
 :::
 
-<!-- screenshot: Step 3 of the new loan wizard with Term Type "Balloon", Balloon Action "Convert to Amortized Loan", and the Amortized Period Length field showing 15 Years. -->
+![The How Much step with an interest-only schedule, a balloon term that converts to an amortized loan, and the amortized period length set to fifteen years](/img/docs/app/how-it-works/interest-only-loans/04.png)
 
 ## Converting an existing loan to amortized
 

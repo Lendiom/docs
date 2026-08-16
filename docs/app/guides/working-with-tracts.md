@@ -114,7 +114,7 @@ A tract's owner is a client record, shown in the **Buyer Information** card and 
 
 **Mark Sold** records an outright cash sale. It needs a buyer, sale date, payment method, comment, and a sale price; you can attach a signed document. The cost of sale must be zero or positive, the sale date cannot be more than 45 days out, and the tract must have acreage above zero.
 
-<!-- screenshot: the "Mark Sold" modal for a tract, with the buyer autocomplete filled in with "Jane Doe", a sale date, payment method set to Cash, a cost of sale, a document upload button, and the comment editor with a note about the sale -->
+![The Mark Sold dialog for a tract, with the purchaser, sale date, sale price, cost of sale, payment method, document upload and comment filled in](/img/docs/app/guides/working-with-tracts/04.png)
 
 :::caution A cash sale cannot be undone
 Once **Mark Sold** records a real sale date, the tract is frozen: Quick Edit is disabled, Duplicate and the Calculator disappear, and Edit Administrative Fields is greyed out. Re-running **Edit Cash Sale** lets you correct the buyer, date, price, or method — but nothing clears the cash sale or moves the tract off **Sold**. If one was recorded in error, the only way out is to delete the tract and rebuild it.

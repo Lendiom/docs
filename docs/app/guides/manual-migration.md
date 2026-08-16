@@ -96,7 +96,7 @@ Each loan goes through the six-step wizard at **Loans → New**: What & Who, Ter
 
 Two things matter for migrated loans. First, on the **How Much** step, switch **New or Existing Loan** to `Existing`. That reveals the paid-to-date fields you gathered above, and it tells Lendiom to build the amortization schedule from the remaining principal rather than from the original terms. Second, every loan saves in **Draft** status regardless of what you do — the status selector on step one is disabled on purpose.
 
-<!-- screenshot: The How Much step of the loan creation wizard with the New or Existing Loan switch set to Existing, the amber "Existing Loan Requirements" alert visible, and the Existing Loan Information panel expanded showing Principal Paid, Interest Paid, Interest Paid YTD, Last Full Payment Number, and Next Payment Date. -->
+![The How Much step with the loan switched to Existing, its amber requirements alert above the principal paid, interest paid, interest paid year to date, last full payment number and next payment date](/img/docs/app/guides/manual-migration/03.png)
 
 Draft is where you want them for now. Draft loans are invisible to the buyer, accrue no late fees, and send no messages, so you can enter the whole portfolio and correct mistakes without a borrower noticing. Check the generated schedule on the Review step before saving: the next payment number, the next due date, and the interest and principal split should match your records. If you excluded partial payments, record them now with [Adding a Transaction](./adding-a-transaction.md).
 

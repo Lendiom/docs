@@ -33,7 +33,7 @@ Every type creates the loan, links it to the client, and leaves an automatic not
 
 **Total Adjustments** appears on step 3 for residential loans only. It covers the taxes and closing adjustments folded into a house closing: a positive value adds to the amount financed, a negative value subtracts. The financed amount is always sales price minus down payment plus adjustments.
 
-<!-- screenshot: step 3 of the new loan wizard on a residential loan, showing Sales Price, Down Payment, the Total Adjustments field with its explanatory helper text, and the calculated Amount Financed below them -->
+![The How Much step of a residential loan, with sales price, down payment and total adjustments above the calculated amount financed](/img/docs/app/how-it-works/loan-types/02.png)
 
 **Document automation** on step 4 offers loan-type templates: Tract Loan templates for a tract loan, Cash Loan templates for a cash loan, and — for a residential loan — only your General templates.
 

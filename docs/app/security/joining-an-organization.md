@@ -104,7 +104,7 @@ Because acceptance happens *before* sign-in, a wrong password produces a confusi
 
 After acceptance you land on the organization's **Inventory** page. The confirmation email's **Access Now** button points at that organization's dashboard instead.
 
-<!-- screenshot: the Lendiom app immediately after accepting, showing the Inventory page with the newly joined organization selected in the organization switcher -->
+![The inventory page with the organization switcher open, the current organization greyed out in the list](/img/docs/app/security/joining-an-organization/03.png)
 
 Each organization's invitation is separate. If two companies invite you, you get two emails with two codes and accept each on its own. Both memberships hang off the same login, and you switch between them with the organization switcher.
 
