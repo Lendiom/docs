@@ -17,7 +17,7 @@ An address that has never been verified against USPS records will stop your 1098
 
 To verify one, open the client, find the person's row in the entities table, open the row's actions menu, and choose **Verify Address**. The action is disabled when the entity has no address, or when the address is already verified.
 
-<!-- screenshot: a client detail page with the entities table row expanded, the row's actions menu open, and "Verify Address" visible among Edit, Make Primary, and View Tax ID -->
+![A client entity row expanded with its actions menu open, Verify Address sitting among edit, make primary and view tax ID](/img/docs/app/guides/year-end-close/01.png)
 
 | Address state | Effect on e-filing |
 | --- | --- |

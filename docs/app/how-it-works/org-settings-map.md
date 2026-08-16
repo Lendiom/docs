@@ -98,7 +98,7 @@ The distinction that catches people: Org Settings **Invoices** is what Lendiom b
 
 The **voice assistant** belongs just outside this list, and it is the one people get wrong. It has no screen — nothing in Org Settings or anywhere else in the app toggles it, and the floating microphone button is simply there or not — but it is not support-only the way the rows above are. The server takes a voice-assistant preference update from any role holding `organization update`; there is just nothing in the interface that sends one. In practice most organizations ask Lendiom to flip it, which is why it reads like a support setting. See [Settings Your Lendiom Contact Controls](./support-controlled-settings.md).
 
-<!-- screenshot: the Billing tab for a canceled organization, with the Status row showing cancelled and a Contact Support button in the Action row -->
+![The billing tab of a cancelled organization, its status badge reading Canceled with a Contact Support button in the action row](/img/docs/app/how-it-works/org-settings-map/06.png)
 
 ## Related reading
 

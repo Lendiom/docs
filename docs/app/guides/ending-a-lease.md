@@ -139,7 +139,7 @@ These are different actions with different outcomes, and only one of them is ava
 
 The **Delete** item is hidden from the actions menu on anything that is not a Draft, and Lendiom rejects the request server-side as well. Delete is for a rental you entered by mistake and never activated. Anything a tenant actually lived under should be ended, not deleted — the transaction history is your record of what was charged and paid.
 
-<!-- screenshot: The actions menu on a Draft rental, showing the Delete item present alongside View Client, View Inventory, Rename, and Status -->
+![The actions menu on a draft rental, where Delete appears alongside view client, view inventory, rename and the status submenu](/img/docs/app/guides/ending-a-lease/04.png)
 
 Deleting removes the rental's files and folders from storage, its notes, its timeline entries, its snail mail records, and every transaction, then releases the property and unlinks the client. The confirmation dialog asks whether you are "100% certain" for good reason — nothing here is recoverable.
 

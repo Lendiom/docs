@@ -29,7 +29,7 @@ If Lendiom cannot load or save one tract's loan, it logs the failure, skips that
 
 The amount shows up as a **Property Tax Due** row on the loan's Overview and Details tabs. It is deliberately not part of **Total Due**, which covers late fees, other fees, and the balance due.
 
-<!-- screenshot: the loan Details tab balance descriptions, showing Total Due with its info tooltip open reading that it does not include property tax, and a separate Property Tax Due row below it -->
+![The loan details balances with the Total Due tooltip open, explaining that the figure excludes property tax, above a separate property tax due row](/img/docs/app/guides/collecting-property-tax/02.png)
 
 A loan carries **one** property tax balance and **one** property tax due date, not one per year. Finalizing 2026 while 2025 is unpaid adds to the same balance and overwrites the displayed due date with 2026's. Per-year detail lives on the inventory's `Property Tax per Year` tab.
 

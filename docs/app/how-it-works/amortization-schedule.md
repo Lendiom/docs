@@ -35,7 +35,7 @@ Because an Accrues Daily schedule runs until the balance is gone rather than for
 
 ## The Columns
 
-<!-- screenshot: Close-up of the schedule table header row on a loan with escrow and an Accrues Daily interest schedule, showing all columns in order: #, Payment, Received Amount, Unpaid Interest, Interest, Escrow, Principal, Balance, Due Date, Paid Date. -->
+![The amortization schedule header on an accrues-daily loan with escrow, showing the number, payment, received amount, unpaid interest, interest, principal, escrow, balance and date columns](/img/docs/app/how-it-works/amortization-schedule/03.png)
 
 | Column | What it holds |
 | --- | --- |

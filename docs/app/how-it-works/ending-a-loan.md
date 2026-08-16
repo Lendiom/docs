@@ -65,7 +65,7 @@ A tract loan someone previously marked Inactive can still be repossessed: its Ac
 | **Tract Acres** | Greater than zero. Acreage drives the cost basis on the installment income reports |
 | **Tract Label** | The tract's name, used on reports and on the released tract |
 
-<!-- screenshot: The Mark as Repossessed modal opened from an inactive tract loan, showing the extra Tract Acres and Tract Label fields below the date picker -->
+![The Mark as Repossessed dialog on an inactive tract loan, carrying tract acres and label fields beneath the date picker so the tract can go back into inventory](/img/docs/app/how-it-works/ending-a-loan/05.png)
 
 :::caution
 On a loan covering several tracts, the acreage and label you type here are written to the **first** tract only. Check the remaining tracts on the inventory afterward and correct them by hand.
