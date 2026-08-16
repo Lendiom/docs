@@ -60,7 +60,6 @@ Bank accounts added later go through micro-deposits: two small deposits arrive i
 
 :::
 
-<!-- screenshot: The "Authorize Bank Debits" modal over the wizard, showing the ACH mandate text with Agree and Disagree buttons -->
 
 ## Step 3: Plan Selection
 
@@ -122,7 +121,7 @@ Nothing stops you from running several businesses in Lendiom, or from being invi
 
 **Adding another one** is the **New Organization** item at the bottom of that same submenu, which drops you back into this wizard with its own terms acceptance, payment method, and trial. Every organization is billed separately.
 
-<!-- screenshot: Org Settings Billing tab showing the payment methods table with a card marked Default and a bank account row labeled pending verification, with its actions menu open and "Set as Default" greyed out -->
+![The payment methods table with a default card above a bank account pending verification, the bank row’s actions menu open showing Set as Default greyed out beside Verify Bank Account and Remove](/img/docs/app/guides/setting-up-your-business/06.png)
 
 ## Related
 

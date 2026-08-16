@@ -37,7 +37,7 @@ Your methods sit in the **Payment Methods** section of **Org Settings → Billin
 
 Lendiom sends the card straight to Stripe from your browser — the card number never reaches Lendiom's servers. Your organization's billing address is attached to the card automatically, so keep that address current in the same Billing tab.
 
-<!-- screenshot: The "Add Payment Method" modal on the Card option, showing the Card / Bank Account (ACH) toggle, the "Name on Card" field, the Stripe card number field, and Cancel and Add buttons -->
+![The Add Payment Method dialog on the card option, with the card and bank account choice above the name and card number fields](/img/docs/app/billing/subscription-payment-method/02.png)
 
 ## Adding a bank account
 
@@ -48,7 +48,6 @@ Lendiom sends the card straight to Stripe from your browser — the card number 
 
 An instantly verified account is ready to use right away. An account that needs micro-deposits lands in your table tagged **Pending Verification**, and the modal tells you two small deposits are on the way.
 
-<!-- screenshot: The "Add Payment Method" modal at the confirm stage, reading "You are adding the Demo Bank account ending in 6789 as a payment method" above the ACH authorization text, with the "Agree & Add" button -->
 
 :::info Signing up is instant-verification only
 
@@ -65,7 +64,7 @@ When they arrive, open **Org Settings → Billing**, use the row's action menu, 
 - A **6-character code** from the deposit description on your statement. The description starts with `SM`.
 - The **two deposit amounts in cents**, if your bank shows amounts instead of a code.
 
-<!-- screenshot: The "Verify Bank Account" modal explaining to look for a deposit description starting with "SM" on the Demo Bank account ending in 6789, with the 6-character Verification Code field and the Verify button -->
+![The Verify Bank Account dialog, naming the bank account and telling you to look for a small deposit whose description starts with SM, with a box for the six-character code](/img/docs/app/billing/subscription-payment-method/03.png)
 
 If verification fails or the deposits expire, Lendiom removes the pending account from your list entirely and notifies your organization. Add the account again, or use a card.
 
@@ -111,7 +110,7 @@ To move your billing to a new card or bank account, do it in this order:
 
 Both guardrails push you into that order anyway: step 3 fails with `874` if you skip step 1, and the Remove action stays unavailable on the old row until step 2 makes something else the default.
 
-<!-- screenshot: The action menu open on a payment method row showing Set as Default, Verify Bank Account, and Remove, with Remove greyed out on the row tagged Default -->
+![The actions menu on the default card row, with Set as Default and Remove both greyed out because that card is already the default](/img/docs/app/billing/subscription-payment-method/05.png)
 
 ## When a Lendiom charge fails
 
