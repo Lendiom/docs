@@ -50,7 +50,7 @@ After your email and password are accepted, a **Two-factor verification** dialog
 | Authentication code | The six digits from your authenticator app. Codes rotate every 30 seconds, and Lendiom accepts the code from one cycle either side of the current one, so a phone clock that is a few seconds off still works. |
 | Recovery code | Choose **Enter recovery code** in the dialog. You get 10 codes when you enroll; each one works once and is consumed when used. |
 
-<!-- screenshot: the "Two-factor verification" modal over the sign-in page, showing the blue info banner, the six-box authentication code input, the "Verify sign-in" button, and the "Prefer to use a recovery code? Enter recovery code" line beneath it -->
+![The two-factor verification dialog over the sign-in page, with its notice above the six-box authentication code input, the verify button, and the recovery code link beneath](/img/docs/app/security/signing-in/03.png)
 
 Regenerate your recovery codes from the same Security card — that replaces all 10 at once, and the previous set stops working. Regenerating requires your current password, as does turning two-factor off.
 
@@ -87,7 +87,7 @@ Your current password is still required in three places, so keep it where you ca
 
 The confirmation message after step 2 is the same whether or not an account exists for that address: "Password request sent. If an account was found with the provided address, you will receive an email." Nothing on that screen tells you the address was right, so check the inbox and the spam folder before requesting again.
 
-<!-- screenshot: the Forgot Password page after a reset has been requested, showing the filled Email field, the "Password Reset Token" field with the certificate icon, the Password and Confirm Password fields, and the "Reset Password" button -->
+![The Forgot Password page after a reset has been requested, the email address filled in and greyed above the reset token, new password and confirmation fields and the Reset Password button](/img/docs/app/security/signing-in/04.png)
 
 Reset tokens expire **24 hours** after they are issued and work once. Requesting another reset replaces the previous token, so if you clicked **Request Reset** twice, only the newest email works — an older link returns "Invalid token. It may have expired." When that happens, choose **Invalid token? Request reset again** to start over.
 
@@ -121,7 +121,7 @@ A new account starts unverified, and changing your sign-in email address makes t
 
 While your address is unverified, every page in the app bounces you to the verification screen — the dashboard, loans, clients, and reports all redirect, keeping the page you wanted in the address so you return there afterward. The app is unusable until you verify.
 
-<!-- screenshot: the Email Verification screen showing the blue "Email Verification Notes" banner with the "Click here and we will resend it" link, the greyed-out email field, the "Verification Token" input, and the "Verify Email" button -->
+![The Email Verification screen, its notes banner offering to resend the message above the greyed-out email address, the verification token box and the Verify Email button](/img/docs/app/security/signing-in/05.png)
 
 The verification email contains a link that fills in the token and submits it for you. You can also paste the token into the field by hand. Verification tokens last **three days**. If yours expired, choose **Click here and we will resend it** on the verification screen — that issues a fresh token and retires the old one, so use the newest email.
 
