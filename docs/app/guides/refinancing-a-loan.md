@@ -146,9 +146,9 @@ Escrow deserves one note: the configuration and the current balance copy across,
 
 Press **Refinance**. Lendiom shows a confirmation listing the changes it is about to apply — rate, cadence, and schedule shifts — and repeats that the action cannot be undone. Confirm, and Lendiom creates the new loan, links it, freezes the original, writes a system note on each loan describing the change, and redirects you to the new loan.
 
-The new loan is named after the original with **(Refinanced)** appended, and it starts in **Current** status.
+The new loan is named after the original with **(Refinanced)** appended, and it starts live: **Current**, or **Grace Period** while its first payment is not yet past due.
 
-<!-- screenshot: The newly created loan page, title ending in "(Refinanced)", status tag reading Current, and the Overview tab's details panel showing the "Refinanced From" row with its "Original Loan" link. -->
+![The successor loan created by a refinance, its title ending in Refinanced and the overview carrying a Refinanced From row that links back to the original loan](/img/docs/app/guides/refinancing-a-loan/03.png)
 
 ### Payment numbering continues
 
@@ -172,7 +172,7 @@ Everything that touches money on that loan is now closed:
 
 The record itself stays fully readable. Its transactions, schedule, notes, and documents are all still there, and the Overview tab gains a **Refinanced Date** and a **Refinanced To** link to the new loan. The new loan carries the mirror link, **Refinanced From**.
 
-<!-- screenshot: The original loan page in Refinanced status, showing the cyan "Refinanced" status tag, the blue info alert reading "This loan has been refinanced. A new loan was created with updated terms." with its "View new loan" link, and the Actions menu open showing every item greyed out except Custom Fields. -->
+![The original loan frozen in Refinanced status, its cyan status tag and blue notice linking to the new loan, with most items in the actions menu greyed out](/img/docs/app/guides/refinancing-a-loan/04.png)
 
 Refinanced loans are treated as inactive: they drop out of the default loan list unless you include inactive loans, and they stop counting toward your organization's active loan count for billing.
 

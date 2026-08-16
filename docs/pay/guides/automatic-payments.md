@@ -71,7 +71,7 @@ What the notice says depends on what you are paying:
 
 Either way, the notice explains that the authorization stays in effect until you cancel it in Lendiom Pay or your payment method stops working.
 
-<!-- screenshot: at phone width, the "Authorize Automatic Payments" confirmation dialog showing the full authorization paragraph with the amount, day, start date and company name, with Cancel and Authorize buttons -->
+![The Authorize Automatic Payments confirmation at phone width, spelling out the amount, the day of the month, the start date and the company being authorised](/img/docs/pay/guides/automatic-payments/03.png)
 
 ## After it is set up
 

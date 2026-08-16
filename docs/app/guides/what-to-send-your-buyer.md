@@ -67,7 +67,7 @@ The download link Lendiom opens is valid for about a minute, so the PDF lands in
 
 The handout is English only. For a Spanish-speaking buyer, hand over the page for the account number and the step order, and lean on **Send Info** for the words — that text follows the client's language.
 
-<!-- screenshot: The generated Lendiom Pay Graphic PDF, with the buyer's name and account number printed in the top-right corner and the account number repeated in the highlighted box. -->
+![The generated Lendiom Pay flyer, with the buyer's name and account number printed at the top right and the account number repeated in the highlighted box](/img/docs/app/guides/what-to-send-your-buyer/03.png)
 
 ## What the buyer will receive, and roughly when
 

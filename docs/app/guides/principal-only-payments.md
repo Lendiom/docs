@@ -87,7 +87,7 @@ A principal-only payment deliberately leaves the schedule alone.
 
 On the amortization schedule, the paydown is folded into the **Principal** column of the first unpaid payment, and the item is flagged partially paid. Hovering the figure shows how many principal-only payments are included.
 
-<!-- screenshot: The loan's Schedule tab with the cursor hovering the Principal column of payment #31, showing the tooltip "1 principal only payment" over a combined figure. -->
+![The amortization schedule with the cursor over the Principal column of the first unpaid payment, the tooltip reporting one principal only payment folded into the figure](/img/docs/app/guides/principal-only-payments/03.png)
 
 The transaction details view shows **To Principal** equal to the full amount and **To Interest** at zero. The interest that got settled is not itemized on the transaction — look at **Unpaid Interest** on the loan's Overview tab to see it.
 

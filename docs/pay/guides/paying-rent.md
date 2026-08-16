@@ -128,7 +128,7 @@ is not something you did. Open the menu, go to **Payment Methods**, add a card o
 return to the rental and the buttons will be there.
 :::
 
-<!-- screenshot: at phone width, a rental details page for someone with no saved payment method — the header shows Add a Payment Method rather than Pay Rent -->
+![A rental at phone width for a tenant with no saved payment method, the header showing the balance due and no payment buttons](/img/docs/pay/guides/paying-rent/05.png)
 
 Two other reasons the buttons may be gone:
 
