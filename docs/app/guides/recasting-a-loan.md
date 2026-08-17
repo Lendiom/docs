@@ -140,7 +140,7 @@ Click `Recast`. A confirmation dialog summarizes the mode and any cadence change
 
 Every committed recast is stored permanently on the loan. Nothing is overwritten — the history is append-only.
 
-<!-- screenshot: The loan Overview tab showing the "Last Recast" row in the loan details descriptions with a date and a "(2 total)" count next to it, and the loan timeline below showing the auto-generated system note describing the recast. -->
+![The loan overview showing a Last Recast row with the date of the most recent recast and a count of two in total](/img/docs/app/guides/recasting-a-loan/04.png)
 
 - **The recast history on the loan.** Each entry records who ran it, when, the effective and closing dates, the mode, before/after values for the payment amount, remaining payment count, payment frequency, and the full balance breakdown, plus the interest rate as it stood before the recast.
 - **The Overview tab.** A `Last Recast` row shows the most recent recast date, plus a total count when the loan has been recast more than once.

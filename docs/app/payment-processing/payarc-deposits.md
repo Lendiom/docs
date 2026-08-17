@@ -65,7 +65,7 @@ Each batch line is one card charge, and one card charge is one Lendiom transacti
 The line Amount is what the card was charged, which is the transaction's **Total Collected** in Lendiom — not its **Amount**. When the client pays the platform fee, the two differ by the **To Platform** figure on the transaction. Reconcile against Total Collected or the numbers will never agree.
 :::
 
-<!-- screenshot: The loan transaction details modal opened from a deposit line's Actions menu, with the Total Collected and To Platform rows visible in the descriptions list. -->
+![The transaction details dialog for a card payment, its descriptions listing the total collected alongside the amount kept by the platform](/img/docs/app/payment-processing/payarc-deposits/03.png)
 
 ## Why deposit dates do not match transaction dates
 
