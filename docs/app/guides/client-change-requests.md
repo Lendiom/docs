@@ -46,7 +46,7 @@ From either entry point you land in the same **Pending Change Requests** modal. 
 
 The modal ignores the Escape key and clicks outside it. Use the **Close** button to back out.
 
-<!-- screenshot: The Pending Change Requests modal open over a client page, showing a small table with Field / Existing / Requested rows for Email and Phone Number, and an Approve button beside a greyed-out Reject button underneath -->
+![The pending change request dialog over a client page, a small table pairing each existing value with the requested one above the approve control](/img/docs/app/guides/client-change-requests/03.png)
 
 ## Rejecting
 

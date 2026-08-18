@@ -112,4 +112,4 @@ Use the rendered PDF whenever the exact printed content matters — proving what
 
 **Download PDF** is greyed out while a letter is still Created, and for any letter marked Failed. It can also fail with `rendered mail file not available` in the first minutes after sending, because the rendered file arrives separately from status updates. Wait a moment and try again.
 
-<!-- screenshot: The Document Automation history table with several job rows, the blue Download link visible at the right edge of the rows whose status is Sent -->
+![The document automation history with several jobs listed, a blue download link at the right of each row that was sent](/img/docs/app/guides/tracking-mail/04.png)

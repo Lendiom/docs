@@ -37,7 +37,7 @@ Expand a row for the rest: **Started** and **Completed** timestamps, the **Mail 
 
 Because the template name is captured at run time, a row still tells you what was sent after the template is renamed. Rows are written once and never edited or removed.
 
-<!-- screenshot: A single history row expanded to show the Started, Completed, Mail ID, and Template fields with a Skip Reason spanning the bottom -->
+![A document automation history row expanded to show when it started and completed, its mail ID and template, with the skip reason spanning the bottom](/img/docs/app/guides/document-automation-history/03.png)
 
 Five things can trigger an evaluation:
 
