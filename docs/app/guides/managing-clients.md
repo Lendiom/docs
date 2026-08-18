@@ -146,7 +146,7 @@ These show up in your Clients list. There are three ways to resolve one.
 
 **A wrong number or spam.** Delete the placeholder client.
 
-<!-- screenshot: a client detail page for an "Unknown" placeholder, the header showing the raw phone number as the display name with an Unknown status tag, and the Entities card listing a single entity whose last name is "Unknown" -->
+![A placeholder client created from an unrecognised phone number, the raw number standing in for the display name with an Unknown status tag above a single entity](/img/docs/app/guides/managing-clients/04.png)
 
 ## Deleting a client
 

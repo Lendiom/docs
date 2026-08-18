@@ -92,7 +92,7 @@ Both ask which client statuses to include — Active, Prospect, Inactive, Do Not
 
 **Client Address Labels** produces a PDF laid out for Avery 1" x 2 5/8" labels, 30 to a sheet — compatible with 5160, 8160, 5960, and dozens of other Avery numbers listed in the report's tooltip. Clients whose primary entity has no address are skipped silently, so the sheet count will not always match your client count.
 
-<!-- screenshot: the Run Report modal for Client List showing the blue info alert about primary entities and the Client's Status multi-select with Active and Prospect chips selected -->
+![The Run Report dialog for the client list, its blue notice explaining that client reports use the primary entity, above the status multi-select](/img/docs/app/guides/reports-library/03.png)
 
 ## Beta and disabled reports
 

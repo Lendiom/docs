@@ -77,7 +77,7 @@ A number that is not dialable at all — a bad area code, a typo — behaves lik
 
 Lendiom re-checks the last two overnight. One job validates new numbers against the carrier and writes an auto-generated note on the client saying whether the number is valid and whether it is cellular. Another re-checks opt-in status, raises an in-app notification when someone opts out, and — when someone texts START — flips the number back and re-enables automated communication with SMS on all of that client's loans.
 
-<!-- screenshot: A client's entity list showing one entity whose phone number is struck through with the opted-out tooltip visible, and another entity whose number carries the blue mobile icon. -->
+![A client entity list where one phone number is struck through with a tooltip explaining it has opted out of messages, beside another number still marked as mobile](/img/docs/app/communication/message-troubleshooting/05.png)
 
 ### Emails
 
