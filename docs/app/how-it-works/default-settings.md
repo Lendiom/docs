@@ -125,7 +125,7 @@ Each of these events writes a note authored by **System** onto the loan, visible
 
 System notes cannot be edited. Treat them as the audit trail when a buyer disputes a default date. Applying settings to all loans writes one of these notes on **every** loan it touches — worth knowing before you flip that switch on a large portfolio.
 
-<!-- screenshot: The Notes section of a loan showing a red "IN DEFAULT" system note authored by System, reading "This loan automatically went IN DEFAULT with a balance of $1,450.00. The last due date was January 1st and no payment was received by January 31st (30 days later)." -->
+![The notes card on a loan carrying a red system note recording that the loan automatically went in default, with the balance and the last payment date](/img/docs/app/how-it-works/default-settings/05.png)
 
 ## Related Articles
 - [Loan Status](./loan-status) — every status a loan can hold

@@ -92,7 +92,7 @@ There is no edit. Two actions can change a saved transaction.
 
 For an online payment you also choose how the money is handled: **Refund to customer** sends it back through Stripe or PayArc (the platform fee is not refundable), or **Hold as unapplied payment** keeps the full amount available to apply elsewhere. Holding is unavailable on a Pending transaction because the funds have not settled; the server rejects it with error **99430**.
 
-<!-- screenshot: The Reverse Transaction modal for an online rental payment, with the Refund to customer and Hold as unapplied payment radio options, the Reason and Client Visibility selects, the Reversal Comment editor, and the Transaction Details table -->
+![The Reverse Transaction dialog on a rental payment, offering a refund to the customer or holding the money as an unapplied payment, above the reason and client visibility choices](/img/docs/app/guides/recording-rental-transactions/04.png)
 
 :::caution Client Visibility on a rental reversal does nothing
 

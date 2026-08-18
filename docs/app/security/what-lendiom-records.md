@@ -116,7 +116,7 @@ The window runs **365 days** back from now, it cannot be filtered or searched, a
 
 What survives is the money. Reversed transactions are never removed. The transaction stays in the table with its status set to **reversed**, and its Comment column is rewritten to read the reversal reason followed by the name of whoever performed it — `Reversal reason: clerical error (by Jane Doe)`. The reversal time is stored on the row as well. See [Reversing a Transaction](../guides/reversing-a-transaction.md).
 
-<!-- screenshot: a loan's transaction table with one row whose Status column reads "reversed" and whose Comment column reads "Reversal reason: clerical error (by Jane Doe)", with normal rows above and below it -->
+![A loan transaction table where one row is struck through and marked reversed, its comment recording the clerical-error reason and who reversed it, between ordinary rows](/img/docs/app/security/what-lendiom-records/05.png)
 
 :::info
 Notes on inventory items and tracts are included in the organization backup; timeline entries, invoice activity logs, and automation history are not. See [Exporting Your Data](../guides/exporting-your-data.md) for what a backup contains and where to get the rest.

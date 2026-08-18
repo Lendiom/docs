@@ -57,7 +57,7 @@ When you reverse a transaction yourself, this choice is the whole story: the rev
 
 When the transaction went through a payment processor **and** the loan still has online payments enabled, the dialog adds a section asking how the money should be handled. If online payments were switched off on the loan after that transaction was taken, the section never appears, and the reversal falls through to the default — a refund to the customer.
 
-<!-- screenshot: The Reverse Transaction modal for an online payment, showing the orange "Online Payment" alert with the non-refundable platform fee amount and the two radio choices, Refund to customer and Hold as unapplied payment -->
+![The Reverse Transaction dialog for an online payment, its orange notice naming the non-refundable platform fee above the refund-to-customer and hold-as-unapplied choices](/img/docs/app/guides/reversing-a-transaction/04.png)
 
 **Refund to customer** sends the money back through PayArc. On a charge that has already been captured, the refund covers the transaction's **Amount** — the loan payment — not the **Total**. The platform fee shown as "To Platform" is not returned, because the processor already took its cut on a charge that went through. Whoever paid that fee, your organization or the buyer, is out that amount. The dialog states the exact figure before you confirm.
 
