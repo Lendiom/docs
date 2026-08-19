@@ -144,7 +144,7 @@ back, choose **Log Out** and sign in again.
 
 ## "Account Not Setup" on the Payment Methods page
 
-<!-- screenshot: the Payment Methods page at phone width showing the yellow "Account Not Setup" alert and no payment method cards -->
+![The payment methods page at phone width with a yellow notice that the account is not set up, and no controls for adding a card or bank account](/img/docs/pay/guides/cannot-sign-in/05.png)
 
 This one is not a sign-in problem — you are signed in fine. Adding a card or bank account requires
 both an **email address** and a **mailing address** on your account. If either is missing, the

@@ -89,7 +89,7 @@ If a payment does reach us with a bad amount, it is turned down before anything 
 | payment amount cannot exceed the other fees balance (19512) | More than the other fees currently owed. | Lower it to the amount shown under the box. |
 | there are no other fees due on this loan (19510) | The balance was cleared, possibly by a payment that has just landed. | Reload the loan. If nothing is owed, you are done. |
 
-<!-- screenshot: the "Pay Other Fees" window at phone width over a loan page, showing the Payment Method dropdown, the Payment Amount box with the helper text "Other Fees Due: $150.00" beneath it, the greyed-out Total Amount field, and the Cancel and Pay buttons -->
+![The Pay Other Fees window at phone width, its payment method and amount above the helper text naming the other fees due and the total that will be taken](/img/docs/pay/guides/fees-and-down-payment/05.png)
 
 ## The total, and authorizing it
 

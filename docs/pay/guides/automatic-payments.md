@@ -126,7 +126,7 @@ When that happens you get a text letting you know automatic payments have been p
 
 Your payments are still due on schedule. Until automatic payments are available again, pay manually in Lendiom Pay or however the company asks.
 
-<!-- screenshot: at phone width, a loan page after automatic payments were turned off by the company you pay — the green enabled panel is gone and the header shows only the "Make a Payment" button -->
+![A loan at phone width after the company disabled automatic payments, the header offering only Make a Payment with no enable-auto-draft button](/img/docs/pay/guides/automatic-payments/06.png)
 
 ## If something looks wrong
 

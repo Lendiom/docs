@@ -102,7 +102,7 @@ You are returned to the loan or rental page and a green message confirms the pay
 - Your balance drops. The payment is recorded against your account immediately.
 - A new entry appears in your payment history showing the date, the amount, and **Status: Pending**.
 
-<!-- screenshot: at phone width, the loan page transaction list with the newest entry showing the payment amount, the date, and "Status: Pending" -->
+![The transaction list at phone width with the newest entry still marked pending, above the payments that already settled](/img/docs/pay/guides/making-a-payment/04.png)
 
 ## What "Pending" means
 

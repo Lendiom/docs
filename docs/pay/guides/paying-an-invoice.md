@@ -90,7 +90,7 @@ The file holds the company's contact details and yours, your account number, the
 
 This is the file to keep for your records or hand to anyone who needs proof of the charge.
 
-<!-- screenshot: at phone width, the invoice page showing the green "Invoice Paid" panel reading "This invoice has been fully paid. Thank you for your payment!" with the Download PDF button still in the header -->
+![A fully paid invoice at phone width, its green panel thanking the payer with only a download button left in the header](/img/docs/pay/guides/paying-an-invoice/05.png)
 
 ## Two errors specific to invoices
 
