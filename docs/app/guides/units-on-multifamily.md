@@ -28,7 +28,7 @@ Unlike most controls in Lendiom, the **Create Unit** button is shown to everyone
 
 The unit appears in the table right away. Units are always listed in order by number, and there is no search box on the card — every unit on the property is in that one table.
 
-<!-- screenshot: the Units card in its empty state, showing "No units found. Create one to start today:" with a blue Create Unit button beneath it -->
+![The units card on a new multifamily property in its empty state, inviting you to create the first unit](/img/docs/app/guides/units-on-multifamily/04.png)
 
 ![The New Unit drawer over a multifamily property, with the unit detail fields](/img/docs/app/guides/units-on-multifamily/02.png)
 

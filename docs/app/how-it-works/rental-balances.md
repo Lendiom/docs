@@ -85,7 +85,7 @@ Inside the grace window, the job is more conservative: a zero balance sets **Cur
 
 A status change made by this job fires document automation exactly as a manual status change would — but only for transitions **into** Late, Eviction, Evicted, or Terminated. A rental going from Late back to Current does not trigger anything. So a tenant who falls behind can receive an automated notice generated at one in the morning, with no person in the loop.
 
-<!-- screenshot: the rental Document Automation history tab showing a job entry with trigger "status change", previous status "current" and new status "late", timestamped shortly after 12:45 AM -->
+![The document automation history on a rental, its row expanded to show a job triggered by the status change to late, with when it started and completed beside the mail it produced](/img/docs/app/how-it-works/rental-balances/04.png)
 
 :::warning
 Automation runs on the rental's own rules, which are copied from your organization defaults when the rental is created. Changing the defaults later does not change rentals that already exist.
