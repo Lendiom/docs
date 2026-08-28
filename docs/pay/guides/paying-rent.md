@@ -52,14 +52,6 @@ fees, and recurring fees show in your history when they are charged, but they ar
 Due and no button in the portal pays them. If you have been told you owe one, ask the company you pay
 how they want it handled.
 
-:::caution The rental and the total at the top can disagree
-The amount shown on the rental — on its row and on its own page — includes your late fees. The big
-**Balance Due** at the top of the home screen counts only the rent on that rental, without the late
-fees. So when you have late fees, the rental shows more than it added to the total and the rows will
-not add up. Pay from the rental's own amount. See
-[Your Lendiom Pay Home Screen](../home-screen.md).
-:::
-
 ## Paying your rent
 
 Open the rental and tap **Make a Payment**. You need a saved card or bank account first — see

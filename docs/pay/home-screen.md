@@ -12,7 +12,7 @@ The home screen is the first thing you see after you sign in. It answers one que
 The large amount at the top of the screen, under the words **Balance Due**, is everything you owe across your whole account added together. It is made up of three things:
 
 - **Your loans.** For each loan, the amount owed is the payments you have not made yet, plus any late fees, plus any other fees, plus unpaid interest carried over from earlier payments.
-- **Your rentals.** The rent owed on each rental listed on this screen. Late fees on a rental are counted in the rental's own row but not in this total.
+- **Your rentals.** The rent owed on each rental listed on this screen, plus any late fees on it.
 - **Your unpaid invoices.** The remaining balance on any invoice that has not been paid in full.
 
 The same total appears again in the menu, so you can see it from any page.
@@ -20,7 +20,7 @@ The same total appears again in the menu, so you can see it from any page.
 :::info
 Each loan, rental, and invoice also shows its own amount on the right side of its row. Those individual amounts are the ones to look at when you want to pay a specific item. The number at the top is only a sum.
 
-Rentals have one quirk worth knowing about. A rental's own row includes its late fees, but the Balance Due at the top counts only the rent owed on that rental, without the late fees. So if you have late fees on a rental, that row shows more than the amount it added to the top number, and the rows will not add up to the total. Loan and invoice rows match what they add to the total exactly.
+Every row matches what it adds to the total, so the rows add up to the number at the top.
 :::
 
 ## What the total leaves out
