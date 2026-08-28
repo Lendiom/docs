@@ -47,11 +47,11 @@ If a loan you are still paying on has vanished from this screen, do not stop pay
 
 Two cards sit under the balance.
 
-**Next Due Date** is the soonest date across your loans and your unpaid invoices.
+**Next Due Date** is the soonest date across your loans, your rentals and your unpaid invoices.
 
-There is one important exception. When a loan is marked **Late**, the date shown is not a future date. It is the due date you already passed, the payment that was missed. That is intentional, because that date is the one that needs your attention. If the date on this card is in the past, it means a payment is overdue, not that the screen is stale.
+There is one important exception. When a loan or a rental is marked **Late**, the date shown is not a future date. It is the due date you already passed, the payment that was missed. That is intentional, because that date is the one that needs your attention. If the date on this card is in the past, it means a payment is overdue, not that the screen is stale.
 
-**Last Payment Date** is the most recent payment received across the loans counted in your balance.
+**Last Payment Date** is the most recent payment received across the loans and rentals counted in your balance.
 
 If either card shows a dash (`-`), there is no date to show yet. On a brand new account, that is normal.
 

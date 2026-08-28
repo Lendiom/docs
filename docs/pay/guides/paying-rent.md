@@ -60,12 +60,6 @@ not add up. Pay from the rental's own amount. See
 [Your Lendiom Pay Home Screen](../home-screen.md).
 :::
 
-:::info The two date cards at the top are not about your rental
-**Next Due Date** at the top of the home screen is built from loans and invoices only, and **Last
-Payment Date** from loans only. Neither one looks at rentals, so if a rental is all you have, both
-show a dash even though your rental has real dates. Open the rental to see them.
-:::
-
 ## Paying your rent
 
 Open the rental and tap **Make a Payment**. You need a saved card or bank account first — see
