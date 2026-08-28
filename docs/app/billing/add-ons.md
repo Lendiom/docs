@@ -11,7 +11,7 @@ Your existing data is never deleted when an add-on is turned off. It is put out 
 
 Add-ons live in **Org Settings → Billing**, in the **Addons** card on the right-hand side of the page, below your payment methods.
 
-<!-- screenshot: The Org Settings Billing tab with the subscription status descriptions and billing address form on the left, and on the right the payment method card above the "Addons" card listing Deal Analysis (Beta), Document Builder, Document Signing, and Custom Website, each with an Enable or Disable button -->
+![The Billing tab of Org Settings, with the subscription status and the billing address form](/img/docs/app/billing/add-ons/01.png)
 
 ## Who Can Turn an Add-On On or Off
 
@@ -47,7 +47,7 @@ Without it, the Deal Analysis tab is not rendered, the dashboard card is hidden,
 
 The related permission is **inventory dealAnalysis**, with separate read, create, update, and delete actions.
 
-<!-- screenshot: An inventory record page with the tab bar showing "Tracts" and "Deal Analysis" with a purple Beta tag, the Deal Analysis panel open below it showing itemized development costs and a development loans section -->
+![An inventory record showing its Tracts and Deal Analysis sections, the latter tagged Beta](/img/docs/app/billing/add-ons/02.png)
 
 ### Document Builder
 
@@ -57,7 +57,7 @@ Without it, the Document Builder page and the Document Automation history page b
 
 The related permission is **document builders**.
 
-<!-- screenshot: The Document Builder page replaced by the enable screen — an info result titled "Document Builder" with the subtitle about DOCX templates with dynamic data fields, three green checkmark bullets, and Enable and "Go to the Dashboard" buttons -->
+![The Document Builder page replaced by its enable screen, naming the add-on, what it does and what it includes, above Enable and Go to the Dashboard](/img/docs/app/billing/add-ons/03.png)
 
 ### Document Signing
 
@@ -93,7 +93,7 @@ Enabling an add-on does not create a second subscription and does not move your 
 
 Which price is used depends on your billing interval. If your subscription renews monthly, the monthly add-on price is used; if it renews yearly, the yearly add-on price is used instead. The dollar figures quoted in the app's confirmation dialogs are the monthly ones.
 
-<!-- screenshot: The "Enable Document Builder" confirmation dialog reading "Are you sure you want to enable the document builder? It costs $10 per month." with "Yes, enable!" and Cancel buttons -->
+![The Enable Document Builder confirmation, stating the add-on costs $10 per month, over the billing page](/img/docs/app/billing/add-ons/04.png)
 
 :::caution
 
@@ -105,7 +105,7 @@ Deal Analysis is free while it is in beta, which means it currently adds nothing
 
 Disabling works the same way in reverse: the line item is removed from your subscription and the unused portion of the period is prorated as a credit toward your next invoice. Removal takes effect immediately — the feature is gone as soon as you confirm.
 
-<!-- screenshot: The "Disable Deal Analysis" confirmation dialog warning that recorded costs and development loans are kept but nobody will be able to see or change them until it is enabled again, with a red "Yes, disable" button -->
+![The Disable Deal Analysis confirmation, warning that recorded costs and development loans are kept but nobody can see or change them until it is enabled again](/img/docs/app/billing/add-ons/05.png)
 
 Each confirmation dialog spells out what you lose. Read it before confirming, particularly for Deal Analysis, where the data stays but becomes invisible to your whole team.
 
@@ -117,7 +117,7 @@ If you need one of these, email [Lendiom Support](mailto:support@lendiom.com) fr
 
 ## Troubleshooting
 
-<!-- screenshot: The Roles table under Org Settings with permission rows down the left including "billing *" and "inventory dealAnalysis read", and checkbox columns for each role such as admin, manager, and viewer -->
+![The Roles table in Org Settings, with a row per permission including billing and inventory](/img/docs/app/billing/add-ons/06.png)
 
 **The Billing tab is missing.** Your role does not have **billing read**. Ask an admin to grant it under **Org Settings → Roles**.
 

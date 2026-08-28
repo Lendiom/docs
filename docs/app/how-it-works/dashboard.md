@@ -5,7 +5,7 @@ title: Understanding Your Dashboard
 
 The dashboard is the first page you land on after choosing an organization. It is split into tabs, and the **Overview** tab holds the cards most people check every morning. This page explains what each number actually counts, so you are not guessing whether a total includes pending money, failed payments, or rentals.
 
-<!-- screenshot: The dashboard on the Overview tab, showing the tab strip and the first row of cards. -->
+![The dashboard on the Overview tab, showing the tab strip and the first row of cards](/img/docs/app/how-it-works/dashboard/01.png)
 
 ## The tabs
 
@@ -58,7 +58,7 @@ Also month-scoped, with its own month selector. This card reads **transactions**
 
 Online plus Manual equals Total Collected. Failed and Reversed sit outside that total.
 
-<!-- screenshot: The Expected Payments and Total Collected cards side by side on their Summary tabs, month selector open. -->
+![The Expected Payments and Total Collected cards side by side on the dashboard](/img/docs/app/how-it-works/dashboard/06.png)
 
 ## Upcoming Loan Payments
 
@@ -121,7 +121,7 @@ The row menu gives you four actions:
 
 For how letters get created, see [Sending a Letter](../guides/sending-a-letter.md).
 
-<!-- screenshot: The Recent Mail Sent card with a row action menu open, Cancel Mail greyed out. -->
+![The Recent Mail Sent card with a row action menu open, showing the available mail actions](/img/docs/app/how-it-works/dashboard/01.png)
 
 ## Usage Info
 
@@ -152,7 +152,7 @@ The header reads **Last 365 (or more) days**, and the parenthetical is real. The
 Recent Events cannot be filtered, searched, or narrowed by date. Pagination is the only control. To isolate one kind of activity, use the relevant list page or a report instead.
 :::
 
-<!-- screenshot: The Recent Events feed with mixed tract, loan, invoice, and automation entries and the "Last 365 (or more) days" header label. -->
+![The Recent Events feed on the dashboard, listing recent tract, loan and invoice activity](/img/docs/app/how-it-works/dashboard/04.png)
 
 ## Why a teammate sees fewer cards
 
@@ -174,8 +174,6 @@ Cards are not disabled or greyed out when you lack access; they are absent. A na
 :::caution
 The loan-backed cards are shown based on `loan::transactions` Read, but the data behind them is served under `loan` Read. A role with transaction access and no loan access renders those cards and then fails to load them. Grant both together.
 :::
-
-<!-- screenshot: Two dashboards side by side — an owner role with every Overview card, and a limited role with only Usage Info and Recent Mail Sent. -->
 
 Deal Profitability needs the Deal Analysis add-on **and** `inventory::dealAnalysis` Read; turning the add-on off hides it for everyone regardless of role. See [Add-Ons](../billing/add-ons.md) and [Roles and Permissions](../security/roles-and-permissions.md).
 

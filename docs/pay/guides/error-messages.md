@@ -13,8 +13,6 @@ Messages appear as a small banner near the edge of the screen, and most end with
 
 The words are the reason. The number is an internal code. You do not need it, but reading it out when you contact the company you pay saves everyone time.
 
-<!-- screenshot: The Lendiom Pay loan payment page at phone width with a red error toast overlaying the bottom of the screen reading "payment amount is below the minimum of $250.00 (105001)". The custom amount field shows 100.00. -->
-
 :::info
 The same number means different things in different places. Code 101 is one thing while you add a card and another while you make a payment. Read the words, not the number.
 :::
@@ -32,8 +30,6 @@ You sign in with your account number and a six-digit code sent by text. See [How
 | auth token expired (784) | Codes last five minutes. | Tap **Get Code** for a fresh one. |
 | authorization code already used; please request a new code (748) | Each code works once. | Tap **Get Code**. |
 | too many invalid authorization code attempts; please request a new code (747) | Five wrong entries retired that code. | Tap **Get Code**. Not a lockout — a new code starts you fresh. |
-
-<!-- screenshot: The Lendiom Pay sign-in screen at phone width showing the yellow "We can't text your authorization code" panel with its two numbered steps and the orange "Text START" button, above the Account Number field. -->
 
 :::tip
 A rejected code sends you back to the account-number step, with the **Invalid Account Number** banner showing. Your account number is fine — request a new code and try again. And tapping **Get Code** twice within a minute sends no second text, so check your messages before asking for another.
@@ -93,7 +89,7 @@ These come from your bank, not from Lendiom. Nothing is charged when you see one
 A payment can be accepted at first and fail later, when a bank returns it days afterward. Lendiom Pay then marks that method **(disabled)** and it can no longer be selected. Add a working method, and ask the company you pay about the returned payment.
 :::
 
-<!-- screenshot: The Lendiom Pay payment methods page at phone width listing two entries for Jane Doe — a Visa ending 4242 labeled "(disabled)" in muted text, and a bank account ending 6789 labeled "(default)". -->
+![The Payment Methods page in Lendiom Pay listing a saved card and a saved bank account](/img/docs/pay/guides/error-messages/03.png)
 
 ## Payment Methods and Automatic Payments
 
@@ -105,7 +101,7 @@ A payment can be accepted at first and fail later, when a bank returns it days a
 | selected payment method is not enabled, please use a different one (9982) | The method picked for automatic payments is disabled. | Choose a different one. |
 | automatic payment start date must be in the future (9984) | That start date has passed. | Pick a later date. |
 
-<!-- screenshot: The Lendiom Pay payment methods page at phone width with a single card on file, its Remove button greyed out, and the "New Card" and "New Bank Account" buttons above it. -->
+![The Payment Methods page in Lendiom Pay with a single card on file and its Remove control](/img/docs/pay/guides/error-messages/04.png)
 
 ## If Nothing Here Matches
 

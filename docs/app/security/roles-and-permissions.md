@@ -16,7 +16,7 @@ A role is a list of those pairs. When someone clicks a button, Lendiom checks wh
 
 Every role is given `organization read` automatically, both when it is created and every time it is saved, so no role can be locked out of the organization itself.
 
-<!-- screenshot: Org Settings → Roles, the Role Matrix card, showing the permission rows down the left and columns for admin, property manager, and viewer with checkboxes filled in -->
+![The Role Matrix in Org Settings, with a row per permission and a column per role](/img/docs/app/security/roles-and-permissions/01.png)
 
 ## The roles you start with
 
@@ -76,7 +76,7 @@ Role names are normalized: they are lowercased and spaces become dashes. "Front 
 
 The role appears as a column in the matrix and becomes selectable when you [invite someone](../guides/adding-users-to-your-organization.md) or change a member's role. If the name is taken, Lendiom tells you to edit the existing role instead. Names cannot be changed later — saving under a new name creates a second role.
 
-<!-- screenshot: the New Role modal with a name entered and the Access Selection tree expanded, several feature groups checked -->
+![The New Role modal with the access selection tree](/img/docs/app/security/roles-and-permissions/02.png)
 
 ## Editing a role in the matrix
 
@@ -104,7 +104,7 @@ Billing produces a confusing half-state. The Billing and Invoices tabs open for 
 
 If a role has already lost access this way, contact [Lendiom Support](mailto:support@lendiom.com) — a wildcard cannot be restored from the matrix.
 
-<!-- screenshot: the Role Matrix scrolled to the communication rows, all four communication checkboxes checked on the property manager column, illustrating that a wildcard renders identically to four separate actions -->
+![The Role Matrix, with a row per permission and a column per role](/img/docs/app/security/roles-and-permissions/02.png)
 
 ## Roles cannot be deleted
 
@@ -123,8 +123,6 @@ The left navigation is not filtered by role: menu entries stay visible and the 4
 :::caution
 Lendiom loads permissions when someone signs in and caches them for the session. After you change a role, that person keeps their old access until they reload Lendiom. If a fix does not seem to work, have them refresh or sign out and back in before you keep editing.
 :::
-
-<!-- screenshot: the 403 access-denied screen inside the app, with the subtitle naming a missing "update" permission on the "loan" feature and a Back Home button -->
 
 ## Removal and role-change blockers
 

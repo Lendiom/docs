@@ -37,7 +37,7 @@ Status is separate from type.
 
 Change status from the actions menu on any row of the Clients list, or from **Edit** on the client page.
 
-<!-- screenshot: the Clients list page with the searchable table showing Name, Status, Type, Entities, and Account Number columns, the "New client" button in the top right, and one row's actions menu open showing View and the Status submenu -->
+![The Clients list, with Name, Status, Type, Entities and Account Number columns and the New client button](/img/docs/app/guides/managing-clients/01.png)
 
 ## Creating a client
 
@@ -56,7 +56,7 @@ Lendiom generates the account number for you, and the first entity you added bec
 The save fails if the client has no entities, if an Individual client has anything other than exactly one entity, or if no payment method is selected.
 :::
 
-<!-- screenshot: the New Client Creation form showing Display Name, Type, Status, Language, and Allowed Payment Methods filled in for "Demo Land Company", with the "Client Family Members" divider below and two entity cards already added -->
+![The new client form, with Display Name, Type, Status, Language and Allowed Payment Methods](/img/docs/app/guides/managing-clients/02.png)
 
 ### Quick create
 
@@ -89,7 +89,7 @@ If your organization has messaging enabled, Lendiom checks numbers against the c
 
 Email has its own status. A verified address shows a green check next to it in the Entities table; a **blocked** address shows a red icon. Lendiom blocks an address when the mail provider reports it as undeliverable — a hard bounce, a spam complaint, or a manual suppression — and writes a system note on the client explaining why. A blocked address receives nothing until it is updated and re-verified.
 
-<!-- screenshot: the Entities card on a client page with two rows, the primary entity starred, a green verified check beside one email and a red blocked icon beside the other, and the first row expanded to show the address with a "Verified" tag and the masked tax ID -->
+![The Entities card on a client page, with the primary entity starred and its contact details listed](/img/docs/app/guides/managing-clients/03.png)
 
 ## Addresses and address verification
 
@@ -146,7 +146,7 @@ These show up in your Clients list. There are three ways to resolve one.
 
 **A wrong number or spam.** Delete the placeholder client.
 
-<!-- screenshot: a client detail page for an "Unknown" placeholder, the header showing the raw phone number as the display name with an Unknown status tag, and the Entities card listing a single entity whose last name is "Unknown" -->
+![A placeholder client created from an unrecognised phone number, the raw number standing in for the display name with an Unknown status tag above a single entity](/img/docs/app/guides/managing-clients/04.png)
 
 ## Deleting a client
 
@@ -160,4 +160,4 @@ Deleting is permanent and cascades: every entity on the client, the notes attach
 Deleting a client that has ever had a loan invalidates the reports and tax documents that referenced it. Prefer setting the status to Inactive over deleting a real customer.
 :::
 
-<!-- screenshot: the delete confirmation modal for a client that has associated items, showing the message that it cannot be deleted along with the count of associated items and the disabled Delete button -->
+![The delete confirmation for a client with associated records, explaining it cannot be deleted and counting the associated items above a disabled Delete button](/img/docs/app/guides/managing-clients/05.png)

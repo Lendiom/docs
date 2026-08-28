@@ -16,7 +16,7 @@ You need the **Loan Transaction / Create** permission.
 3. Enter the **Amount**, **Payment Method**, **Date**, and **Status**.
 4. Save.
 
-<!-- screenshot: The "Add a Transaction" modal on an accrues-daily loan with Type set to "Principal Payment". Amount is 10,000.00, Payment Method is Check, Status is Success. Note that the "Payment For" field is visible but greyed out, and the "Extra Application" field is not shown for this type. -->
+![The Add a Transaction modal on an accrues-daily loan, where Principal Payment is chosen as the type](/img/docs/app/guides/principal-only-payments/01.png)
 
 | Field | Behavior for a Principal Payment |
 | --- | --- |
@@ -46,7 +46,7 @@ A worked example. A loan sits at $21,375.65 at 10%, Actual / 360. The last regul
 * Principal drops to $11,375.65.
 * From June 24 forward, interest accrues at $3.16/day on the new balance. Ten days later that is $31.60, not the $59.38 the old balance would have produced.
 
-<!-- screenshot: The loan Overview tab immediately after the paydown, showing Remaining Principal of $11,375.65 and Unpaid Interest of $118.75, with the Accrued Interest field at $0.00. -->
+![The loan Overview immediately after a principal-only paydown, remaining principal reduced by the payment with the settled interest moved into unpaid interest and accrued interest back at zero](/img/docs/app/guides/principal-only-payments/02.png)
 
 :::info Why the balance goes up
 
@@ -87,7 +87,7 @@ A principal-only payment deliberately leaves the schedule alone.
 
 On the amortization schedule, the paydown is folded into the **Principal** column of the first unpaid payment, and the item is flagged partially paid. Hovering the figure shows how many principal-only payments are included.
 
-<!-- screenshot: The loan's Schedule tab with the cursor hovering the Principal column of payment #31, showing the tooltip "1 principal only payment" over a combined figure. -->
+![The amortization schedule with the cursor over the Principal column of the first unpaid payment, the tooltip reporting one principal only payment folded into the figure](/img/docs/app/guides/principal-only-payments/03.png)
 
 The transaction details view shows **To Principal** equal to the full amount and **To Interest** at zero. The interest that got settled is not itemized on the transaction — look at **Unpaid Interest** on the loan's Overview tab to see it.
 
@@ -110,7 +110,7 @@ The rule of thumb: if the borrower is paying their payment *and* extra, record o
 
 If the loan has online payments turned on, **Allow Principal Only** controls whether the option is offered in the borrower's portal. You set it when creating the loan and can change it later from the loan's online payments settings.
 
-<!-- screenshot: The loan's Online Payments settings modal with the "Allow Principal Only" Yes/No toggle set to Yes, and its helper text visible below the field. -->
+![The Online Payments modal on a loan, showing the Allow Principal Only toggle](/img/docs/app/guides/principal-only-payments/04.png)
 
 In the portal, the option appears as **Custom Principal Amount** on the payment screen, and only when all three are true:
 
@@ -120,7 +120,7 @@ In the portal, the option appears as **Custom Principal Amount** on the payment 
 
 Selecting it pops a confirmation that spells out the consequence: the payment will not modify the due date and will not count toward the regular payment. The borrower types an amount and pays with a saved card or bank account.
 
-<!-- screenshot: The borrower portal payment page showing the amount options with "Custom Principal Amount" selected, its amount input revealed, and the confirmation dialog stating the payment will not modify the due date. -->
+![The borrower portal payment page with Custom Principal Amount selected, and the confirmation asking whether to proceed with a payment that will not move the due date or count towards the regular payment](/img/docs/app/guides/principal-only-payments/05.png)
 
 That third condition has a consequence worth knowing. Because the settled interest lands in the balance due, a borrower who makes a mid-period principal payment on an accrues-daily loan **cannot immediately make another one** — their balance due is no longer zero. It clears when the next regular payment is applied.
 

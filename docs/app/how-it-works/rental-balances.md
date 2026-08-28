@@ -11,9 +11,9 @@ Lendiom does not keep a rental's balance due as a running figure you nudge up an
 
 The number you typed is not lost. It is preserved on the **Existing** tab, which appears only on rentals flagged as pre-existing. But it is a record of what you told us, not the live balance.
 
-<!-- screenshot: the New Rental wizard on the How Much step with the New/Existing switch set to Existing, showing the Unpaid Balance, Late Fee Balance, Other Fee Balance and Next Payment Date fields -->
+![The How Much step of the new rental wizard switched to Existing, showing the unpaid balance, late fee balance, other fee balance and next payment date](/img/docs/app/how-it-works/rental-balances/01.png)
 
-<!-- screenshot: a rental record open on the Overview tab, showing Balance Due of $2,400.00 next to a Payment Amount of $800.00, with the Existing tab visible in the tab strip -->
+![A rental on its Overview tab, showing Balance Due beside the Payment Amount and the next due date](/img/docs/app/how-it-works/rental-balances/02.png)
 
 :::caution
 There is no supported way to set a rental's opening balance and have Lendiom keep it. If the tenant owes an amount that does not equal rent-since-the-first-payment-date, the balance due field cannot represent it. The **Late Fee Balance** and **Other Fee Balance** you enter do survive, because neither is recalculated.
@@ -58,7 +58,7 @@ Online payments are created as **pending** and become **success** when the proce
 
 Within a qualifying payment, only the portion that landed on the balance counts. If a $900 payment covered $100 of late fees first, only $800 reduces the balance due.
 
-<!-- screenshot: the rental Transactions tab listing a mix of Regular Payment, Late Fee and Other Fee rows with Success, Pending and Reversed status tags -->
+![The rental Transactions list, with regular payments and their success status](/img/docs/app/how-it-works/rental-balances/03.png)
 
 ## When it runs
 
@@ -85,7 +85,7 @@ Inside the grace window, the job is more conservative: a zero balance sets **Cur
 
 A status change made by this job fires document automation exactly as a manual status change would — but only for transitions **into** Late, Eviction, Evicted, or Terminated. A rental going from Late back to Current does not trigger anything. So a tenant who falls behind can receive an automated notice generated at one in the morning, with no person in the loop.
 
-<!-- screenshot: the rental Document Automation history tab showing a job entry with trigger "status change", previous status "current" and new status "late", timestamped shortly after 12:45 AM -->
+![The document automation history on a rental, its row expanded to show a job triggered by the status change to late, with when it started and completed beside the mail it produced](/img/docs/app/how-it-works/rental-balances/04.png)
 
 :::warning
 Automation runs on the rental's own rules, which are copied from your organization defaults when the rental is created. Changing the defaults later does not change rentals that already exist.
@@ -103,7 +103,7 @@ Until it is fixed: set **First Payment Date** to the date you want the schedule 
 
 Percentage-based late fees are calculated against the recomputed balance due — the entire arrears, not one month's rent. On a rental six months behind, a 5% late fee is 5% of six months of rent.
 
-<!-- screenshot: the rental Transactions tab showing four consecutive system-generated Late Fee transactions dated on consecutive grace dates, each with the "Late fee imposed for failure to pay on time" comment -->
+![The rental Transactions list, showing the system-generated late fees alongside the rent payments](/img/docs/app/how-it-works/rental-balances/03.png)
 
 ## Late fees, other fees, and recurring fees are separate
 

@@ -20,7 +20,7 @@ Open **Settings**, choose the **Import/Export** tab, and look under **Exports & 
 
 Either one opens a new browser tab that downloads a zip named after your organization, its internal ID, and the date. Everything inside sits under a single `<Your Organization>-backup/` folder.
 
-<!-- screenshot: the Settings Import/Export tab scrolled to the "Exports & Backups" section, showing the "Export Data" row with its Export dropdown open on CSV Export and JSON Export, and the greyed-out "Download Internal Backup" row beneath it -->
+![The Exports and Backups section of the Import/Export tab](/img/docs/app/guides/exporting-your-data/01.png)
 
 ### What the archive contains
 
@@ -66,7 +66,7 @@ The ledger is what the archive misses, so this is usually the export that matter
 
 Open a loan, expand the **Transactions** panel, and use the **Download Transactions** split button in the panel header. The button itself gives you the simple file; the dropdown arrow offers **Simple CSV** and **Detailed CSV**. The loans list also has a **Download Transactions** row action, which always produces the simple version.
 
-<!-- screenshot: a loan detail page with the Transactions collapse panel expanded and the "Download Transactions" split button dropdown open in the panel header, showing Simple CSV and Detailed CSV -->
+![A loan detail page with the Transactions panel expanded and the Download Transactions split button beside it](/img/docs/app/guides/exporting-your-data/02.png)
 
 Neither file is a superset of the other.
 
@@ -87,7 +87,7 @@ There is no bulk transaction export. One loan, one download, one at a time.
 
 Go to **Reports**. Each row has a **Run** action and a **Download** action. Running generates a fresh file and opens it in a new tab; downloading pulls back the most recent stored copy without regenerating it. **Download** stays disabled until the report has run at least once.
 
-<!-- screenshot: the Reports page table listing every report with its description and Last Ran At column, one row's actions menu open showing Run and Download, and one row labelled with a Beta tag -->
+![The Reports page, listing every report with its description and Last Ran At column](/img/docs/app/guides/exporting-your-data/03.png)
 
 | Report | Period you choose | Output |
 | --- | --- | --- |
@@ -114,7 +114,7 @@ If you process payments through [PayArc](../payment-processing/payarc.md), open 
 
 It is built for reconciliation. The first block summarises every settlement batch in the month — settlement date, batch reference, gross total, net amount, refund amount, transaction count, plus a totals row. Below that, each deposit gets its own block listing the line items with date, type, amount, client, related loan or rental, internal transaction ID, any unapplied payment, and a **Matched** column. Line items Lendiom cannot tie back to an internal record are flagged **UNMATCHED** in red.
 
-<!-- screenshot: the PayArc Deposits page with the month picker set to a past month, the deposits table listing settlement batches, and the Export button in the page header -->
+![The PayArc Deposits page, with its month picker above the settlement batches](/img/docs/app/guides/exporting-your-data/02.png)
 
 Building the workbook calls PayArc for each batch's line items, five batches at a time, so a busy month takes noticeably longer than a quiet one.
 
@@ -133,8 +133,6 @@ Building the workbook calls PayArc for each batch's line items, five batches at 
 **One button never works.** The **Download Internal Backup** row under Exports & Backups describes an unstructured backup the server generates every Monday morning. Its button is permanently disabled and there is no endpoint behind it. That backup is not something you can retrieve yourself.
 
 **Billing status disables exports before cancellation does.** Run, Download, and Download Transactions are all disabled when your subscription is not active, trialing, or incomplete — a past-due account loses them. The archive export is not gated this way and keeps working.
-
-<!-- screenshot: a loan page for an organization whose subscription is past due, with the "Download Transactions" split button visibly greyed out and a tooltip explaining the billing status -->
 
 :::warning
 **Once a subscription is cancelled, the exports go away.** Lendiom keeps working normally for ten days after the cancellation date. After that, the navigation menu disappears and every page is replaced by a single "Subscription Cancelled" screen with a Contact Us button. Reports, transaction CSVs, the archive, and the PayArc export all become unreachable at the same moment.

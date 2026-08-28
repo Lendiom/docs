@@ -15,7 +15,7 @@ The last link is the borrower's: they need a card or bank account saved in Lendi
 
 Automatic payments only run through PayArc. A payment method that came from Stripe cannot be drafted.
 
-<!-- screenshot: the Online Payments configuration modal on a loan, showing Online Payments = Yes, Statement Descriptor filled in, ACH and Card Fee Payee selects, Allow Principal Only, and Allow Auto Draft set to Yes -->
+![The Online Payments modal on a loan, with online payments enabled and the auto draft controls](/img/docs/app/how-it-works/automatic-payments/01.png)
 
 ## Who enrolls
 **The borrower does, in Lendiom Pay** — the steps they follow are in [Setting Up Automatic Payments](../../pay/guides/automatic-payments.md). There is no button in Lendiom that turns on a borrower's automatic payments for them. Your three levers are the **Allow Auto Draft** / **Allow Auto Pay** switch, the online payment switch above it, and — if you have the borrower's authorization — signing into Lendiom Pay as them from the client record.
@@ -76,7 +76,7 @@ Some conditions stop a draft before any money moves. In most of these Lendiom se
 
 None of these turn auto pay off. The borrower stays enrolled and the scheduled date stays put.
 
-<!-- screenshot: the Lendiom notifications panel showing a high-priority "Automatic Payment Skipped" notification for a loan, with the possible-duplicate wording -->
+![The notifications panel with a high-priority Automatic Payment Skipped card, explaining that the draft was held back because the processor flagged a possible duplicate and will be retried tomorrow](/img/docs/app/how-it-works/automatic-payments/02.png)
 
 ## When enrollment is switched off automatically
 Other failures are treated as real failures. Lendiom cancels the enrollment, writes a system note with the reason, adds a red entry to the client timeline, notifies your organization, and texts the borrower.
@@ -109,22 +109,22 @@ The loan's **Details** tab carries an **Auto Draft** row that reads one of four 
 | Disabled, with a date | Canceled — hover for the recorded reason |
 | Enabled | Active — hover for the draft amount; a **Next Auto Draft Date** row follows |
 
-<!-- screenshot: the loan Details tab with the Auto Draft row showing "Enabled" and a tooltip revealing the payment amount, followed by the Next Auto Draft Date row -->
+![The Details tab of a loan with auto draft enabled, showing the auto draft row and next draft date](/img/docs/app/how-it-works/automatic-payments/03.png)
 
 Rentals work the same way on their **Details** tab, showing **Auto Pay**, **Next Auto Pay Date**, and the **Up To Amount** ceiling.
 
-<!-- screenshot: the rental Details tab showing Auto Pay = Enabled, Next Auto Pay Date, and Up To Amount -->
+![The Details tab of a rental with auto pay enabled, showing the next auto pay date and the up-to amount](/img/docs/app/how-it-works/automatic-payments/04.png)
 
 For history rather than current state, the loan's **Story** tab lists every time auto pay was enabled or disabled as timeline events, and raises an active issue — "Auto-pay is not enabled" — on any loan where you allow it but the borrower is not currently enrolled, with the most recent reason and the date it stopped.
 
-<!-- screenshot: the loan Story tab with the "Auto-pay is not enabled" active issue expanded to show the recorded disable reason and date -->
+![The loan Story tab with the Auto-pay is not enabled active issue showing the recorded reason, and the narrative above it giving the date the draft was switched off](/img/docs/app/how-it-works/automatic-payments/05.png)
 
 ## Turning it off yourself
 Open the **Online Payments** configuration on the loan or rental and set **Allow Auto Draft** (or **Allow Auto Pay**) to No, or switch online payments off entirely. Either one cancels the borrower's enrollment, records the disable against your name, and texts them.
 
 The two modals differ. The loan modal shows an "Automatic Payments Enabled" alert while auto draft is running and makes you confirm a **Cancel auto draft?** prompt. The rental modal saves immediately, with no prompt.
 
-<!-- screenshot: the "Cancel auto draft?" confirmation dialog over the loan Online Payments modal, with "Yes" and "No, keep them!" buttons -->
+![The Cancel auto draft? confirmation over the loan’s online payments modal, with Yes and No, keep them!](/img/docs/app/how-it-works/automatic-payments/06.png)
 
 Re-enrolling afterward is the borrower's action, not yours.
 

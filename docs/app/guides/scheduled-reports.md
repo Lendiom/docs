@@ -11,7 +11,7 @@ Open **Org Settings → Scheduled Reports**, or go straight to `/{your-org}/sett
 
 The whole tab requires the `organization` `update` permission. Without it the tab returns a 403 — see [Roles and Permissions](../security/roles-and-permissions.md).
 
-<!-- screenshot: Org Settings with the Scheduled Reports tab active, showing the "Scheduled Report Emails" card with one monthly schedule row (schedule, recipient tags, green Enabled tag, next send date, Actions link) and the "Delivery History" card below it -->
+![The Scheduled Reports tab of Org Settings, showing the Scheduled Report Emails card](/img/docs/app/guides/scheduled-reports/01.png)
 
 ## What gets sent
 
@@ -38,7 +38,7 @@ The PayArc deposit lines cover card settlement batches only. ACH, cash, checks, 
 
 Click **Add Schedule**. The form opens with sensible defaults — Daily, 6:00 AM, enabled.
 
-<!-- screenshot: the "New Scheduled Report" modal with Frequency set to "Weekly — covers the prior 7 days", the Day of the Week select showing Friday, Send Time on 6:00 AM, two recipient email tags, and the Enabled switch on -->
+![The New Scheduled Report modal, with the report, frequency and recipient fields](/img/docs/app/guides/scheduled-reports/02.png)
 
 | Field | Notes |
 | --- | --- |
@@ -59,7 +59,7 @@ Monthly schedules can attach any of three additional reports alongside the summa
 
 Attachments are monthly-only by design. If you switch a monthly schedule to daily or weekly, the extra reports are cleared.
 
-<!-- screenshot: the "New Scheduled Report" modal with Frequency set to "Monthly on the 1st — covers the prior month", revealing the "Also Attach" checkbox group with Monthly Transaction List, Monthly Installment Income, and Monthly Journal Entry, with Monthly Journal Entry checked -->
+![The New Scheduled Report dialog with a monthly frequency chosen, revealing the Also Attach checkboxes with the monthly journal entry ticked](/img/docs/app/guides/scheduled-reports/03.png)
 
 ## Cadence and the period each send covers
 
@@ -106,7 +106,7 @@ Open a schedule's **Actions** menu and choose **Send Test To Me**. Lendiom gener
 
 The subject is prefixed with `[Test]`, and the delivery shows in the history with a `test` tag. A test does not change the schedule's next send.
 
-<!-- screenshot: a schedule row's Actions dropdown open, showing Edit, "Send Test To Me", and a red Delete item -->
+![A scheduled report row with its actions menu open, offering edit, a test send and delete](/img/docs/app/guides/scheduled-reports/02.png)
 
 ## Delivery history
 
@@ -116,7 +116,7 @@ The **Delivery History** card lists the 50 most recent deliveries, newest first,
 
 Deleting a schedule stops future sends and leaves the history intact.
 
-<!-- screenshot: the Delivery History table with three rows — one green "sent", one orange "partial" with a red recipient tag, and one red "failed" — and the Resend link at the end of each row -->
+![The Delivery History table beneath the scheduled reports, recording each send](/img/docs/app/guides/scheduled-reports/02.png)
 
 ## How failures surface
 

@@ -11,7 +11,7 @@ Everything a rental charges on top of rent is entered in the New Rental wizard, 
 
 Rental late fees are set on the **Terms** step of the wizard. Choose whether Lendiom applies them **Automatically** or **Manually**, then add a late fee tier. A tier is required either way, even when you pick Manually.
 
-<!-- screenshot: The Terms step of the New Rental wizard, Late Fees Applied set to Automatically, with a single late fee tier tag under Late Fee Tiers next to the Add tier button -->
+![The Terms step of the new rental wizard, where the late fee behaviour is set](/img/docs/app/how-it-works/rental-fees/01.png)
 
 | Setting | What it controls |
 | --- | --- |
@@ -41,7 +41,7 @@ At most one late fee is charged per due-date cycle: Lendiom skips the grace date
 
 Rentals in **Draft** are skipped entirely — no status change, no due-date roll, no late fee — so you can back-enter history before making the rental active. Evicted and Terminated rentals are skipped too.
 
-<!-- screenshot: The rental Transactions table with a system-generated Late Fee row dated the last day of the grace period, showing the negative amount and the auto-generated comment about the due date and grace days -->
+![The rental Transactions table, with system-generated late fee rows among the rent payments](/img/docs/app/how-it-works/rental-fees/02.png)
 
 ### Clearing a late fee
 
@@ -64,7 +64,7 @@ Loans have a **Waive Late Fee** switch on the payment screen. Rentals do not —
 
 The Add a Transaction modal offers a **Deposit** type under the **Record Keeping** group, pre-filled with the deposit recorded at creation. That grouping is accurate: the transaction is written to history and changes no balance at all — not the deposit figure, not the balance due, not late fees, not other fees.
 
-<!-- screenshot: The rental Add a Transaction modal with the Type dropdown open, showing the Record Keeping group containing Deposit and Documentation Fee -->
+![The Add a Transaction modal on a rental, with the transaction type selector](/img/docs/app/how-it-works/rental-fees/03.png)
 
 :::caution
 Deposit handling is not finished. The **Deposit Tracking** panel on the rental page is present but disabled and labelled "Coming soon", the deposit amount cannot be edited after creation, and there is no return or deduction workflow — recording a Deposit transaction for a refund does not reduce the stored figure. Until deposit tracking ships, treat the amount as a reference note, hold the money wherever your state requires, and record deductions as **Other Fee** transactions so they land on a balance you can collect.
@@ -74,7 +74,7 @@ Deposit handling is not finished. The **Deposit Tracking** panel on the rental p
 
 Recurring fees cover charges that repeat alongside rent — pest control, trash, a parking spot. They are added on the **How Much** step.
 
-<!-- screenshot: The New Recurring Fee modal with Fee Name, Description, Amount, Frequency set to Monthly, and the First Charge Period radio group showing Contract Start and Specific Date -->
+![The New Recurring Fee dialog with a name, description and amount above a monthly frequency and the first charge period choice](/img/docs/app/how-it-works/rental-fees/04.png)
 
 | Field | Notes |
 | --- | --- |
@@ -102,7 +102,7 @@ A minimum payment rule makes it worse. Under **Current Late Balance**, the enfor
 The first charge date has to be in the future, and the wizard does not say so up front. **Contract Start** on a rental whose start date has passed fails the save with `we currently do not support first charge date on recurring fees to be in the past`. **Specific Date** fails too: the date the wizard collects is not sent in the field the server reads, so the save is rejected with `invalid recurring fee, the first charge date is required` no matter which date you pick. If either blocks you, remove the recurring fee and save the rental without it.
 :::
 
-<!-- screenshot: The rental Details tab showing Balance Due, Late Fees Due, Other Fees Due, Total Due, the Late Fee Tiers tag, and the Recurring Fees tags -->
+![The rental Details tab, showing Balance Due, Late Fees Due, Other Fees Due and Total Due](/img/docs/app/how-it-works/rental-fees/05.png)
 
 ## Where to put each kind of charge
 

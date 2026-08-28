@@ -27,7 +27,7 @@ A recast cannot be undone from the app. There is no "revert recast" action. Prev
 
 Open the loan, click `Actions`, and choose `Recast Loan`.
 
-<!-- screenshot: The loan detail page with the Actions dropdown open, showing the primary group of menu items (Move Due Date, Record Payoff, Refinance Loan, Recast Loan, Calculate Payoff) with "Recast Loan" hovered. -->
+![The loan Actions dropdown open, showing Move Due Date, Record Payoff, Refinance and Recast](/img/docs/app/guides/recasting-a-loan/01.png)
 
 The `Actions` button itself is disabled unless your role has the **Loan → Update** permission. The `Recast Loan` item is disabled — with the reason in a tooltip next to it — when any of the following are true:
 
@@ -63,7 +63,7 @@ If every installment is already fully paid, the recast is rejected — there is 
 
 ## The Recast Modal
 
-<!-- screenshot: The Recast Loan modal in its default state: the blue info alert at the top, Balance Handling set to "Re-amortize principal (recompute payment)", Payment Frequency set to Monthly, Next Payment Date and Closing Date both filled with today, and the Recast Preview table below showing Current Principal, Current Payment, New Payment, Interest Rate, Remaining Payments, Total Remaining Interest, Total Remaining Payments, Next Payment Date, and Last Payment Date. -->
+![The Recast Loan modal, showing the recalculated payment for the remaining term](/img/docs/app/guides/recasting-a-loan/01.png)
 
 Everything below the form is a **preview** — a dry run against the real loan data. Nothing is saved until you click `Recast` and confirm. The preview refreshes about half a second after each change, and the `Recast` button stays disabled while it loads.
 
@@ -73,7 +73,7 @@ Read the preview's **Last Payment Date** every time. It is the fastest way to ca
 
 This is the most consequential field in the modal. It defaults to **Re-amortize**.
 
-<!-- screenshot: The Balance Handling select expanded inside the Recast Loan modal, showing all three options: "Leave balances as-is (shift dates only)", "Re-amortize principal (recompute payment)", and "Capitalize unpaid interest and fees into principal". -->
+![The Balance Handling select expanded inside the Recast Loan modal, showing its options](/img/docs/app/guides/recasting-a-loan/02.png)
 
 | Mode | Principal | Interest, late fees, other fees | Payment amount |
 | --- | --- | --- | --- |
@@ -99,7 +99,7 @@ Recast supports **Monthly**, **Biweekly**, and **Weekly**. If the loan is on an 
 
 Changing the cadence converts the remaining term to months and lays the new installments out over roughly that same horizon. The loan's stored frequency and remaining length are updated too, so payoff quotes, status checks, and any future recast see the new cadence.
 
-<!-- screenshot: The Recast Loan modal with Balance Handling set to "Leave balances as-is (shift dates only)" and Payment Frequency changed from Monthly to Weekly, showing the orange warning alert about the payment amount being applied to every new period. -->
+![The Recast Loan dialog, with its balance handling choice above the payment frequency and the recalculated terms](/img/docs/app/guides/recasting-a-loan/03.png)
 
 :::warning
 **Leave as-is plus a frequency change will pay the loan off far earlier than the contract.**
@@ -128,8 +128,6 @@ If you pick a next payment date that is already far enough in the past that its 
 
 > The selected next payment date plus the *N*-day grace period is before today. This will immediately trigger a late fee after the recast.
 
-<!-- screenshot: The Recast Loan modal with a backdated Next Payment Date, showing the red error alert warning that the date plus the grace period is before today and a late fee will trigger immediately. -->
-
 *N* is the shortest grace period across the loan's late fee tiers, and the warning only appears when late fees are configured and enabled. See [Late Fees](../how-it-works/late-fees.md) for how grace periods are counted.
 
 This is a warning, not a block — you can still commit. Do it deliberately: backdating a recast into an expired grace window means the next automation run assesses a late fee on the schedule you just created.
@@ -142,7 +140,7 @@ Click `Recast`. A confirmation dialog summarizes the mode and any cadence change
 
 Every committed recast is stored permanently on the loan. Nothing is overwritten — the history is append-only.
 
-<!-- screenshot: The loan Overview tab showing the "Last Recast" row in the loan details descriptions with a date and a "(2 total)" count next to it, and the loan timeline below showing the auto-generated system note describing the recast. -->
+![The loan overview showing a Last Recast row with the date of the most recent recast and a count of two in total](/img/docs/app/guides/recasting-a-loan/04.png)
 
 - **The recast history on the loan.** Each entry records who ran it, when, the effective and closing dates, the mode, before/after values for the payment amount, remaining payment count, payment frequency, and the full balance breakdown, plus the interest rate as it stood before the recast.
 - **The Overview tab.** A `Last Recast` row shows the most recent recast date, plus a total count when the loan has been recast more than once.

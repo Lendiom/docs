@@ -7,7 +7,7 @@ A unit is one apartment, condo, or door inside a multifamily inventory. Units on
 
 Units are what you attach a rental to. On a residential property the rental attaches to the property itself; on a multifamily property the rental attaches to a specific unit, and that unit carries the market rent, the bed/bath counts, and its own occupancy status.
 
-<!-- screenshot: a multifamily inventory page, header showing Address, City, County, State, Zip Code, Units, and Year Built, with the Units table card below listing four units -->
+![A multifamily inventory page, with the address and property details in the header](/img/docs/app/guides/units-on-multifamily/01.png)
 
 ## Before you add units
 
@@ -28,9 +28,9 @@ Unlike most controls in Lendiom, the **Create Unit** button is shown to everyone
 
 The unit appears in the table right away. Units are always listed in order by number, and there is no search box on the card — every unit on the property is in that one table.
 
-<!-- screenshot: the Units card in its empty state, showing "No units found. Create one to start today:" with a blue Create Unit button beneath it -->
+![The units card on a new multifamily property in its empty state, inviting you to create the first unit](/img/docs/app/guides/units-on-multifamily/04.png)
 
-<!-- screenshot: the New Unit drawer open over the inventory page, titled "New Unit for: Demo Land Company Apartments", with Number, Status, Market Rent, Tenant, Bedrooms, Bathrooms, and Square Footage filled in -->
+![The New Unit drawer over a multifamily property, with the unit detail fields](/img/docs/app/guides/units-on-multifamily/02.png)
 
 ## The fields
 
@@ -86,7 +86,7 @@ When the rental saves, Lendiom flips the unit to **Rented** and records the rent
 
 When you set the rental to **Terminated** or **Evicted**, or delete it while it is still a draft, the unit returns to **Available** and the rental link is cleared, freeing the unit for the next rental.
 
-<!-- screenshot: step one of the New Rental wizard, the Unit dropdown open with three options, one greyed out and showing the "Unit is already rented out." tooltip -->
+![Step one of the new rental wizard with the Unit list open, showing which units are free](/img/docs/app/guides/units-on-multifamily/03.png)
 
 :::caution The old tenant is never removed from the unit
 Ending a rental clears the unit's rental link and status, but leaves the previous tenant attached to the unit forever. There is no screen and no control that can remove it. This matters in two places: a mass communication sent to the whole multifamily property still includes that former tenant as a recipient, and the voice assistant still reads them out as the unit's tenant. Check the recipient list before sending a property-wide message on a complex that has had turnover.
@@ -97,7 +97,7 @@ Two smaller gaps worth knowing about:
 - The **Tenant** column in the Units table always shows a dash, even for a unit with an active rental and a tenant on it. To see who is in a unit, open the rental.
 - On the review step of the rental wizard, the unit number is a link. There is no unit detail page in Lendiom, so that link opens a blank page.
 
-<!-- screenshot: the Units table with four rows, one showing status "rented", and the Tenant column showing a dash on every row including the rented one -->
+![The Units table on a multifamily property, showing each unit with its status and tenant](/img/docs/app/guides/units-on-multifamily/05.png)
 
 ## Units cannot be edited or deleted
 

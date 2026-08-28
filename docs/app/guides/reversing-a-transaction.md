@@ -7,7 +7,7 @@ Once a transaction is recorded, its amounts are locked. Three actions on the tra
 
 All three live in the actions menu at the end of each row in the loan's **Transactions** table. All three require update permission on Loan Transactions.
 
-<!-- screenshot: The loan Transactions table with the row actions menu open on a successful regular payment, showing View Details, Reverse, Revise Date, Generate Letter, and Download Success Letter -->
+![The loan Transactions table with a row actions menu open, offering View Details, Reverse, Waive, Revise Date and Download Success Letter](/img/docs/app/guides/reversing-a-transaction/02.png)
 
 ## Pick the tool that matches the situation
 
@@ -38,7 +38,7 @@ Transactions already marked Reversed or Failure do not count as "later." Once yo
 
 The reason and the comment are both required. The reason list in the Reverse dialog is short on purpose: Buyer Requested, Check Bounced, Clerical Error, Insufficient Funds, and Other. The comment accepts formatted text and cannot be left blank.
 
-<!-- screenshot: The Reverse Transaction modal for a check payment, showing the Reason select expanded with its five options, the Client Visibility select, the Reversal Comment editor, and the Transaction Details table underneath -->
+![The Reverse Transaction modal, with the reason selector and the confirmation controls](/img/docs/app/guides/reversing-a-transaction/03.png)
 
 **Client Visibility** controls whether the transaction stays in the client's history in Lendiom Pay:
 
@@ -57,7 +57,7 @@ When you reverse a transaction yourself, this choice is the whole story: the rev
 
 When the transaction went through a payment processor **and** the loan still has online payments enabled, the dialog adds a section asking how the money should be handled. If online payments were switched off on the loan after that transaction was taken, the section never appears, and the reversal falls through to the default — a refund to the customer.
 
-<!-- screenshot: The Reverse Transaction modal for an online payment, showing the orange "Online Payment" alert with the non-refundable platform fee amount and the two radio choices, Refund to customer and Hold as unapplied payment -->
+![The Reverse Transaction dialog for an online payment, its orange notice naming the non-refundable platform fee above the refund-to-customer and hold-as-unapplied choices](/img/docs/app/guides/reversing-a-transaction/04.png)
 
 **Refund to customer** sends the money back through PayArc. On a charge that has already been captured, the refund covers the transaction's **Amount** — the loan payment — not the **Total**. The platform fee shown as "To Platform" is not returned, because the processor already took its cut on a charge that went through. Whoever paid that fee, your organization or the buyer, is out that amount. The dialog states the exact figure before you confirm.
 
@@ -85,7 +85,7 @@ For a regular payment, reversing restores the loan to its pre-payment state:
 - The interest accrual anchor is reset to exactly where it stood before this payment, and **Last Payment Received** is re-derived from the newest remaining regular payment that is neither reversed nor failed. Other transaction types do not count toward it. On daily-accrual and interest-only loans, accrued interest is recalculated on the spot.
 - The schedule is rebuilt, so a payment that is unpaid again and past its grace period can pick up a fresh late fee on the next integrity run.
 
-<!-- screenshot: The Transactions table after a reversal, with the reversed row shaded red and struck through and its Comment column reading "Reversal reason: check bounced (by Jane Doe)" -->
+![A loan's Transactions panel, with the row actions available on each transaction](/img/docs/app/guides/reversing-a-transaction/01.png)
 
 Other types unwind their own side effects: a down payment or setup fee goes back to unpaid, a late fee comes off the late fee, flex late fee, or principal balance depending on how its tier applies, and a property tax payment is removed.
 
@@ -124,7 +124,7 @@ The **Status Change Date** cannot be earlier than the transaction date. Use the 
 
 **Revise Date** appears only on transactions with a status of **Success**. It still shows in the menu for online payments, but the modal opens with its **Revise Date** button greyed out for anything that carries a processor behind it, so the date cannot be moved.
 
-<!-- screenshot: The Revise Transaction Date modal showing the red warning text and the date picker calendar with the payment due date outlined in green, the late fee grace cutoff outlined in red, and the transaction's current date outlined in gold -->
+![The Revise Transaction Date modal, with its warning text above the date picker](/img/docs/app/guides/reversing-a-transaction/05.png)
 
 The new date has to stay inside its neighbors: not before the previous transaction on the loan and not after the next one. The calendar marks the due date of the payment this transaction paid in green, the late fee grace cutoffs in red, and the transaction's current date in gold, so you can see what you are moving across.
 

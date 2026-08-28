@@ -15,8 +15,6 @@ Errors appear as a red notification. The message is the title, and the line bene
 - **Code** is the specific reason, and it is what the tables below are keyed on.
 - **Request ID** identifies that one request in our logs. Include it when you contact support. On some `500` errors it comes back empty, because the server returns the identifier under a different name than the notification looks for. When that happens, send support the exact message text, the code, and roughly when it happened — we can still find the request.
 
-<!-- screenshot: the Lendiom app with a red error notification open in the top-right corner, showing the message as the title and "Status: 400, Code: 19530, Request ID: ..." on the line below it -->
-
 Three codes are generic and can appear anywhere:
 
 | Code | What you see | Why it happens | How to resolve |
@@ -37,7 +35,7 @@ Codes are not unique across the whole product. A few numbers, such as `19510` an
 | `198415` | `document signature addon is not enabled` | Creating a template or a signature request | Enable it in the same card. See the [Document Signing Guide](../guides/document-signing.md) |
 | `198415` | `rental addon is not enabled` | Creating a rental | Rentals are not self-serve. The Addons card has no rentals switch, and the rentals page reads "Coming soon" — contact Lendiom to have it turned on for your organization |
 
-<!-- screenshot: Organization Settings, Billing tab, the Addons card, with Document Builder and Document Signature shown in the off state -->
+![The Addons card on the Billing tab, listing each add-on and whether it is enabled](/img/docs/app/how-it-works/error-messages/02.png)
 
 ## Loan payments and transactions
 
@@ -52,8 +50,6 @@ Codes are not unique across the whole product. A few numbers, such as `19510` an
 | `19511` / `19512` | `payment amount must be greater than zero`, or `payment amount cannot exceed the other fees balance` | The other-fee payment is zero, negative, or too large | Enter a positive amount within the other fees balance |
 | `345` / `490484` | `please select a valid payment method`, or `the client does not have a default payment method that is enabled` | The method is missing, disabled, or not on this client | Have the client add one in [Lendiom Pay](../../pay/what-is-pay.md) and set it as default |
 | `913993` | `can not change the status of online payments; use the reverse functionality to reverse the payment` | Online payments carry processor state | Reverse the transaction |
-
-<!-- screenshot: the New Transaction modal on a loan with the 19530 "a payment for this loan is already being processed" notification visible over it -->
 
 :::caution
 `19530` never retries on its own. If a client hits it in Lendiom Pay, tell them to check their payment history before trying again — the first payment may have gone through.
@@ -77,8 +73,6 @@ Codes are not unique across the whole product. A few numbers, such as `19510` an
 | `19536` / `19544` / `19545` | `this loan was refinanced`, `this loan has been repossessed`, or `this loan has been cancelled; late fees on it can no longer be waived` | The loan is closed to changes | Record an other-fee credit instead |
 | `19541` | `the loan's transactions changed while the waiver was being computed, please try again` | Someone changed the loan mid-waiver | Retry |
 
-<!-- screenshot: a loan's transaction list with the Waive Late Fee modal open and the 19533 "only successful late fees can be waived" notification showing -->
-
 ## Invoices
 
 | Code | What you see | Why it happens | How to resolve |
@@ -101,10 +95,6 @@ Clients report these over the phone, so the message text is what they will read 
 | `874` | `at least one payment method is required` | They tried to remove their only method. You get the same message removing your organization's last usable billing method | Add the replacement first |
 | `99731` | `payment method can not be removed, it is used for automatic payment(s)` | Attached to auto-draft or automatic rent | Move automatic payments to another method |
 | `5570` | `a pending change request already exists, please wait for it to be processed before submitting a new one` | They submitted an address change while an earlier change request on that person is still open | Approve or reject the pending request |
-
-<!-- screenshot: Lendiom Pay at phone width on the make-a-payment screen with the "payment amount is below the minimum of $250.00" error shown under the amount field -->
-
-<!-- screenshot: Lendiom Pay at phone width on the payment methods screen with the 99731 "payment method can not be removed, it is used for automatic payment(s)" message -->
 
 ## Text messaging
 

@@ -31,3 +31,15 @@ html[data-theme='dark'] .theme-doc-markdown img {
 .theme-doc-markdown img {
     filter: drop-shadow(0 0 5px #eee);
 }
+
+/* Screenshots are downscaled to fit the article column, so make it visible
+   that they can be opened at full size. */
+.markdown a.screenshot-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.markdown a.screenshot-link img {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}

@@ -19,11 +19,11 @@ No automated message reaches a client unless all three line up. Miss one and Len
 
 The loan or rental also carries a **Communication Preferences** list — SMS, Email, or both. Lendiom sends one copy per selected channel. A loan with automated communication on but nothing selected sends nothing.
 
-<!-- screenshot: The "Change Communication Preferences" modal on a loan, with the Automated Communication switch showing "Enabled" and the Communication Preferences multi-select showing both "SMS (text messages)" and "Email" chips. -->
+![The Change Communication Preferences modal on a loan, with the Automated Communication switch](/img/docs/app/communication/automated-messages/01.png)
 
 Automated messages go to the client's primary entity by default. Switching **Send Automated Messages To** to *All Entities* in Client Communication Preferences sends every automated message to every entity under the client.
 
-<!-- screenshot: The "Client Communication Preferences" modal showing the "Send Automated Messages To" switch set to "Primary Entity" and the "Remind Buyers To Confirm Their Mailing Address" dropdown set to "Every 12 months". -->
+![The Client Communication Preferences dialog, with the send-automated-messages-to switch above the mailing address reminder frequency](/img/docs/app/communication/automated-messages/04.png)
 
 ## Loan payment messages
 
@@ -124,7 +124,7 @@ The Lendiom Pay welcome text goes out once per client — activating a second lo
 
 The approval notice follows a [client change request](../guides/client-change-requests.md) being approved in the app. The email always goes out; the text is added only when the Communication Portal is set up. Like the welcome text, both are client-level and are not gated by a loan or rental's Automated Communication switch.
 
-<!-- screenshot: A conversation thread in the Communication Portal showing an outbound automated upcoming-payment text with its 9:00 AM timestamp, followed by the buyer's reply. -->
+![A conversation thread in the communication portal, with an automated outbound payment reminder and the borrower reply](/img/docs/app/communication/automated-messages/02.png)
 
 ## Daily job times
 
@@ -169,4 +169,4 @@ Mailed letters are separate. Document automation for successful payments, late f
 
 [Document signature](../guides/document-signing.md) requests, reminders, and expiration notices are also separate. They follow the per-signer email and text flags on the request itself, and the expiration check runs every two hours rather than on a daily schedule.
 
-<!-- screenshot: The loan detail page with the Communication card visible, showing "Automated Communication: Enabled" and the preference list, next to the separate document automation section. -->
+![The Details tab of a loan, showing whether automated communication is enabled](/img/docs/app/communication/automated-messages/03.png)

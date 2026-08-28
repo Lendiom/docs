@@ -22,7 +22,7 @@ If you have no payment method saved yet, what you see depends on what you opened
 
 Either way, add a payment method first (see [Adding a Payment Method](./adding-a-payment-method.md)) and **Make a Payment** will be there when you come back.
 
-<!-- screenshot: at phone width, a loan details page in Lendiom Pay showing the loan label, balance due, next due date, and the violet "Make a Payment" button in the page header -->
+![A loan details page in Lendiom Pay at phone width, showing the label, balance due and payment history](/img/docs/pay/guides/making-a-payment/01.png)
 
 ## Choosing what to pay
 
@@ -38,7 +38,7 @@ If your loan is in default, or your rental is in eviction, the other choices are
 
 Invoices work a little differently. There you choose **Full Balance**, plus **Custom Amount** if partial payments are allowed on that invoice.
 
-<!-- screenshot: at phone width, the Lendiom Pay payment page showing the Payment Method dropdown with a card selected, the Amount radio group with "Balance Due" chosen, and the grey helper text "How much do you want to pay today? Balance due includes any late fees." -->
+![The Lendiom Pay loan payment page at phone width, with the payment method and amount choices](/img/docs/pay/guides/making-a-payment/02.png)
 
 ### The minimum
 
@@ -52,7 +52,7 @@ Enter custom amounts as digits with a decimal point, like `1200.00`. A comma can
 
 :::
 
-<!-- screenshot: at phone width, the Amount section with "Custom Amount" selected, the input outlined in red containing a too-small figure, the red "Minimum payment is $250.00" message below it, and the greyed-out Pay button -->
+![The payment page with Custom Amount selected, showing the amount input it reveals](/img/docs/pay/guides/making-a-payment/01.png)
 
 ### The most you can pay
 
@@ -87,13 +87,13 @@ Processing a payment costs a fee: a small percentage of the amount plus a flat p
 
 The **Total Amount** box shows exactly what will leave your account, and the note under it spells out the fee if you are paying any part of it. Until you choose a payment method it reads "No payment method selected."
 
-<!-- screenshot: at phone width, the "How to Apply Extra" dropdown set to Principal and, below it, the read-only Total Amount field with the helper text explaining the payment amount plus the platform fee -->
+![The How to Apply Extra selector on the payment page, set to Principal, above the total](/img/docs/pay/guides/making-a-payment/02.png)
 
 ## Authorizing the payment
 
 Tap **Pay** and a confirmation appears: "By clicking the authorize button, you authorize Lendiom Pay to charge the selected payment method $X." For a principal-only payment it also repeats that the payment will not change your due date. Tap **Authorize** to go ahead, or **Cancel** to back out. Nothing is charged until you tap **Authorize**.
 
-<!-- screenshot: at phone width, the "Authorize Payment" confirmation dialog with the total dollar amount in the body text and the Authorize and Cancel buttons -->
+![The Authorize Payment confirmation at phone width, naming the exact amount that will be charged, with Authorize and Cancel](/img/docs/pay/guides/making-a-payment/03.png)
 
 ## What a successful payment looks like
 
@@ -102,7 +102,7 @@ You are returned to the loan or rental page and a green message confirms the pay
 - Your balance drops. The payment is recorded against your account immediately.
 - A new entry appears in your payment history showing the date, the amount, and **Status: Pending**.
 
-<!-- screenshot: at phone width, the loan page transaction list with the newest entry showing the payment amount, the date, and "Status: Pending" -->
+![The transaction list at phone width with the newest entry still marked pending, above the payments that already settled](/img/docs/pay/guides/making-a-payment/04.png)
 
 ## What "Pending" means
 

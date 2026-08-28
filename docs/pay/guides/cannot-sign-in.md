@@ -7,7 +7,7 @@ Signing in to Lendiom Pay takes two things: your account number, and a six-digit
 phone number on your account. If either one is not working, find your symptom below and follow the
 fix for it.
 
-<!-- screenshot: the Lendiom Pay sign-in screen at phone width, showing the "Account Number" field with the ID-card icon, the blue "Get Code" button, and the "I forgot my account number" link below it -->
+![The Lendiom Pay sign-in screen at phone width, with the Account Number field](/img/docs/pay/guides/cannot-sign-in/01.png)
 
 :::info Who to ask for help
 
@@ -89,8 +89,6 @@ After you text START, wait a moment, then press **Get Code** again.
 
 ## The code is rejected
 
-<!-- screenshot: the sign-in screen at phone width with the "Auth Code" field filled in and a red toast notification across the top reading "auth token expired" -->
-
 Whatever the message says, the screen does the same thing first: the **Auth Code** box disappears and
 the red **Invalid Account Number** banner opens, as though the account number were the problem. It is
 not. A rejected code simply drops you back to the account-number step, so **Didn't get the code?** is
@@ -122,7 +120,7 @@ On the sign-in screen, tap **I forgot my account number**, enter the phone numbe
 and tap **Text Me My Account Number**. We text back your account number plus a link that signs you in
 directly.
 
-<!-- screenshot: the "Recover Your Account Number" screen at phone width, showing the phone number field and the "Text Me My Account Number" button -->
+![The Recover Your Account Number screen at phone width, with the phone number field](/img/docs/pay/guides/cannot-sign-in/04.png)
 
 The confirmation reads the same whether or not we found a match — that is deliberate, so nobody can
 use this page to fish for account numbers. If no text arrives, the number you entered is probably not
@@ -146,7 +144,7 @@ back, choose **Log Out** and sign in again.
 
 ## "Account Not Setup" on the Payment Methods page
 
-<!-- screenshot: the Payment Methods page at phone width showing the yellow "Account Not Setup" alert and no payment method cards -->
+![The payment methods page at phone width with a yellow notice that the account is not set up, and no controls for adding a card or bank account](/img/docs/pay/guides/cannot-sign-in/05.png)
 
 This one is not a sign-in problem — you are signed in fine. Adding a card or bank account requires
 both an **email address** and a **mailing address** on your account. If either is missing, the
@@ -169,7 +167,7 @@ can email you reminders and status updates. Three things trip people up:
   browser, or on a computer when you signed in on your phone, drops you at the sign-in screen without
   verifying anything. Sign in on that device first, then open the link there.
 
-<!-- screenshot: the Account page at phone width showing the blue "Verify Email" header button and the email card below it -->
+![The Account page in Lendiom Pay at phone width, showing the contact details on file](/img/docs/pay/guides/cannot-sign-in/06.png)
 
 If the email never arrives at all, check your spam folder, then confirm with the company you pay that
 the email address on your account is spelled correctly. See

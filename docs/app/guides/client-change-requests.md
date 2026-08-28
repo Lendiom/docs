@@ -33,7 +33,7 @@ A submitted request surfaces in four places at once.
 
 The bell notification and the email go to every member of the organization whose role holds create, read, or update on `client::entities` — not only to whoever owns the account. See [Roles and Permissions](../security/roles-and-permissions.md) for how those pairs are built.
 
-<!-- screenshot: The Lendiom dashboard on the Client Change Requests tab, the tab label carrying a count badge of 3, and the Pending Client Change Requests card below it with three rows showing client name, entity, "Email, Phone Number" in the Requested Updates column, a submitted date, and a Review link -->
+![The Client Change Requests tab of the dashboard, where pending buyer-submitted changes are reviewed](/img/docs/app/guides/client-change-requests/02.png)
 
 ## Reviewing and approving
 
@@ -46,7 +46,7 @@ From either entry point you land in the same **Pending Change Requests** modal. 
 
 The modal ignores the Escape key and clicks outside it. Use the **Close** button to back out.
 
-<!-- screenshot: The Pending Change Requests modal open over a client page, showing a small table with Field / Existing / Requested rows for Email and Phone Number, and an Approve button beside a greyed-out Reject button underneath -->
+![The pending change request dialog over a client page, a small table pairing each existing value with the requested one above the approve control](/img/docs/app/guides/client-change-requests/03.png)
 
 ## Rejecting
 
@@ -105,8 +105,6 @@ The neighboring codes come from the same two forms and are all validation, not c
 
 For the wider list, see [Error Messages in Lendiom Pay](../../pay/guides/error-messages.md) and [Error Messages in Lendiom](../how-it-works/error-messages.md).
 
-<!-- screenshot: The Lendiom Pay address form at phone width with a red toast reading "a pending change request already exists, please wait for it to be processed before submitting a new one (5570)" and an "Update Pending" alert visible above the form -->
-
 ## Notifications on both sides
 
 | Moment | Your team gets | The borrower gets |
@@ -117,7 +115,7 @@ For the wider list, see [Error Messages in Lendiom Pay](../../pay/guides/error-m
 
 The approval email goes to the address on the person's record *after* the change applied — so when the borrower changed their email, the notice goes to the new one. It is skipped when the person has no email, or when their address is marked blocked. The text message goes out only if your organization has finished messaging setup in the [Communication Portal](../communication.md), and is skipped for anyone with no cellular number on file or who has replied STOP. It follows the client's language preference, English or Spanish. Both land in that client's conversation thread.
 
-<!-- screenshot: A client's notes section showing an auto-generated system note reading "Auto generated: Jane Smith has approved a change request for Jane Doe." with its timestamp -->
+![The notes on a client, including the system notes Lendiom writes automatically](/img/docs/app/guides/client-change-requests/04.png)
 
 ## Asking a borrower to update their address
 

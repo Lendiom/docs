@@ -5,7 +5,7 @@ title: Adding and Managing Properties
 
 Everything you sell or rent lives in the **Inventory** section. The record is the anchor — tracts, units, loans, rentals, property taxes, notes, and files hang off it — so the choices you make when creating one are hard to change later.
 
-<!-- screenshot: The Inventory list showing records of mixed categories, the search and filter bar, and the "Add New" button top right -->
+![The Inventory list, showing each property with its category, type and status](/img/docs/app/guides/managing-properties/01.png)
 
 ## Categories
 
@@ -35,7 +35,7 @@ Choosing Land sets the type to Finance for you; choosing Multifamily sets it to 
 
 Click **Add New** and work through three steps: **Basic Data**, **Details**, then **Save**, a review screen plus any custom fields your organization has defined. Next stays disabled until the current step's required fields are filled in. Status at creation is limited to Idea, Ready, In Progress, or Completed.
 
-<!-- screenshot: Step one of the wizard, category dropdown open with Commercial and Other greyed out, above the Finance/Rental/Other type buttons -->
+![Step one of the new inventory wizard, with the category dropdown open above the Finance/Rental type choice](/img/docs/app/guides/managing-properties/02.png)
 
 The fields worth getting right the first time:
 
@@ -50,7 +50,7 @@ The fields worth getting right the first time:
 
 Land records carry a **Cost of Development** block: Total Cost and Per Acre Cost, each with a checkbox in front of it. The checkbox picks which one you type; the other is calculated from Total Acres. Both stay disabled until Total Acres has a value, so enter the acreage first.
 
-<!-- screenshot: Step two with Land selected, the Cost of Development block showing Total Cost checked and Per Acre Cost calculated and greyed out -->
+![The new inventory wizard, where a land property records its cost of development](/img/docs/app/guides/managing-properties/01.png)
 
 Those two numbers are a fallback, not the whole story. To work out what the land cost, Lendiom goes tract by tract and takes the first value it finds: the tract's own total cost, then the tract's per-acre cost times its acres, then the development's per-acre cost times that tract's acres. Only if none of that yields a figure does it fall back to the development's Total Cost as a lump sum. Acreage works the same way — Total Acres wins, the sum of tract acres is the fallback.
 
@@ -72,7 +72,7 @@ This is your borrowing, not a client's. If the loan fails to save, the property 
 
 **Edit** opens a drawer with the detail fields. The name is not in it — renaming has side effects, so it lives under **Operation → Rename**. Saving a Residential or Multifamily record re-derives the name from the street address anyway and clears the address verification, so re-run **Verify Address** afterward.
 
-<!-- screenshot: The Edit drawer over a residential property, showing the address and property detail fields with Cancel and Save in the header -->
+![The Edit drawer over a property, showing the address and property detail fields](/img/docs/app/guides/managing-properties/04.png)
 
 :::warning Editing a residential property drops its links
 Saving this drawer replaces the whole details block, and the buyer, loan, and rental links are not part of what the screen sends back. Afterward the Buyer's Information card is empty and the View Client, View Loan, and View Rental shortcuts vanish from the Operation menu. The loan or lease itself still works from its own page. When a loan is attached the fields grey out, but Save stays live — leave with Cancel.
@@ -98,7 +98,7 @@ The Rent Amount you enter when creating a residential rental drives nothing. Cre
 
 The table shows Name, Category, Status, and Type, and hides Total Acres, Total Cost/Price, Created At, Created By, Updated At, and Updated By behind the column settings icon. Total Cost/Price shows total development cost for land, sales price for a house, and a dash for multifamily. Filtering by a specific status turns off **Exclude Archived** and disables it, since Lendiom cannot include and exclude at once.
 
-<!-- screenshot: The Inventory list with the column settings dropdown open, the six optional columns unticked by default -->
+![The inventory list with its column settings popover open, the six optional columns unticked by default](/img/docs/app/guides/managing-properties/05.png)
 
 :::info Column choices follow the browser, not the account
 Your column selection and last-used filters are saved in the browser you are using. They will not follow you to another computer, browser, or private window, and clearing site data resets them.
@@ -108,7 +108,7 @@ Your column selection and last-used filters are saved in the browser you are usi
 
 Archiving is the safe option: **Operation → Status → Archived**, confirm, and the record drops out of the list while everything attached stays intact.
 
-<!-- screenshot: The Operation dropdown on a land inventory page with the Status submenu expanded -->
+![The Operation dropdown open on a land inventory page](/img/docs/app/guides/managing-properties/06.png)
 
 Deleting is permanent. **Operation → Delete** removes the property with its tracts, property tax records, development costs, and development loans. Lendiom refuses when any tract still has a loan attached — cancel or delete those loans first.
 

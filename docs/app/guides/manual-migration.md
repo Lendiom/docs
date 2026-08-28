@@ -16,7 +16,7 @@ Lendiom has exactly one automated importer. It lives under **Organization Settin
 | What it creates | Clients, entities, loans, and — on the full-replay setting — payment, fee, and adjustment history |
 | What it never creates | Inventory. Developments, tracts, and units must already exist; the wizard matches each incoming loan to a tract you built by hand |
 
-<!-- screenshot: The Import/Export tab of Organization Settings showing the import wizard's first step, with the "Where is your data coming from?" dropdown open and MoneyLender Professional 3 as its only entry, above the blue "Before you import" alert stating that inventory must already exist. -->
+![The first step of the import wizard, where the source file is chosen](/img/docs/app/guides/manual-migration/01.png)
 
 :::caution
 A spreadsheet renamed to `Loan.csv` will not work. The importer parses MoneyLender's specific column layout, not any CSV that happens to share a filename. If your data did not come out of MoneyLender Professional 3, everything below is your path.
@@ -80,7 +80,7 @@ Open the inventory you created and use **Add Tract** on the tracts table. Label,
 
 For a subdivision of near-identical tracts, fill one out completely, then use the **Duplicate** action on its row. Duplicating copies every field except the identity, owner, and loan links, so you change the label, number, and acreage and move on.
 
-<!-- screenshot: An inventory's tracts table with several tracts listed, the Add Tract button visible above the table, and a row's action menu open showing Duplicate among the options. -->
+![The tracts table on an inventory, with the Add Tract button above it](/img/docs/app/guides/manual-migration/02.png)
 
 ### 4. Create the clients and their entities
 
@@ -96,7 +96,7 @@ Each loan goes through the six-step wizard at **Loans → New**: What & Who, Ter
 
 Two things matter for migrated loans. First, on the **How Much** step, switch **New or Existing Loan** to `Existing`. That reveals the paid-to-date fields you gathered above, and it tells Lendiom to build the amortization schedule from the remaining principal rather than from the original terms. Second, every loan saves in **Draft** status regardless of what you do — the status selector on step one is disabled on purpose.
 
-<!-- screenshot: The How Much step of the loan creation wizard with the New or Existing Loan switch set to Existing, the amber "Existing Loan Requirements" alert visible, and the Existing Loan Information panel expanded showing Principal Paid, Interest Paid, Interest Paid YTD, Last Full Payment Number, and Next Payment Date. -->
+![The How Much step with the loan switched to Existing, its amber requirements alert above the principal paid, interest paid, interest paid year to date, last full payment number and next payment date](/img/docs/app/guides/manual-migration/03.png)
 
 Draft is where you want them for now. Draft loans are invisible to the buyer, accrue no late fees, and send no messages, so you can enter the whole portfolio and correct mistakes without a borrower noticing. Check the generated schedule on the Review step before saving: the next payment number, the next due date, and the interest and principal split should match your records. If you excluded partial payments, record them now with [Adding a Transaction](./adding-a-transaction.md).
 
@@ -106,7 +106,7 @@ Do this before you activate anything. On each client page, open the entity's act
 
 A missing address, an unverified address, an undeliverable address, or a missing taxpayer identification number will each block a 1098 at filing time. [E-Filing 1098 INTs](./e-filing-1098s.md) covers all four, and is worth reading now rather than in January.
 
-<!-- screenshot: A client page's entities table with the row action menu open, showing Verify Address and View Tax ID among the available actions. -->
+![An entity row on a client with its actions menu open](/img/docs/app/guides/manual-migration/04.png)
 
 ### 7. Turn on online payments
 
@@ -120,7 +120,7 @@ Move each loan out of Draft from its [Action Center](../how-it-works/loan-action
 
 Activating a Draft loan is also the moment the borrower gets invited. When your [communication portal](../communication.md) setup is complete and that client has never been welcomed, Lendiom sends the Lendiom Pay welcome text automatically as the loan goes active — no separate button, and it fires once per client, not once per loan.
 
-<!-- screenshot: A client page with the Lendiom Pay dropdown open, showing Send Info, Send Address Reminder, Login As, and Lendiom Pay Graphic. -->
+![The Lendiom Pay dropdown on a client, with the portal actions it offers](/img/docs/app/guides/manual-migration/05.png)
 
 To send it yourself — or resend it — use **Lendiom Pay → Send Info** on the client page. That menu is disabled until the primary entity has a cell phone number, an email address, and a mailing address; the tooltip names whatever is missing. **Lendiom Pay Graphic** downloads a printable card with the account number. What the borrower sees from there is in [How do I log into Lendiom Pay?](../../pay/logging-in.md).
 

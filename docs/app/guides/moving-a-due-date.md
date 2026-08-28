@@ -25,11 +25,11 @@ Every loan created in Lendiom is given a schedule, so the first requirement only
 2. Under **Primary Actions**, click **Move Due Date**.
 3. Pick the new date, check any move-to-end options you want, write a reason, and click **Save**.
 
-<!-- screenshot: A loan detail page with the Actions dropdown open, scrolled to the "Primary Actions" group, showing "Move Due Date" as the first item with a calendar icon, above Record Payoff, Refinance Loan, Recast Loan, and Calculate Payoff. -->
+![A loan page with the Actions dropdown open, showing the primary actions group](/img/docs/app/guides/moving-a-due-date/01.png)
 
 The modal is titled **New Due Date** and opens with a blue notice: *Please note that when changing a due date, all future payments will follow the new date structure.* That notice is literal — the move is not a one-payment holiday. Every remaining payment is regenerated from the new date at the loan's payment frequency.
 
-<!-- screenshot: The "New Due Date" modal on an Accrues Daily loan that has a late fee balance and other fees, showing the info alert at the top, the New Due Date picker, and all four checkboxes visible: Adjust Interest, Adjust Unpaid Interest, Adjust Late Fees, and Adjust Other Fees, each with its dollar-amount helper text below it. -->
+![The Move Due Date modal on a loan, with the current and new due date fields](/img/docs/app/guides/moving-a-due-date/02.png)
 
 ## What Happens to the Schedule
 
@@ -43,7 +43,7 @@ What the move touches depends on the loan's payment history:
 
 In every case the payments after it are regenerated, spaced at the loan's normal payment frequency starting from the new date.
 
-<!-- screenshot: The loan's amortization schedule tab after a move, with the affected payment row expanded or highlighted so the new due date is visible alongside the following payments, which have all shifted by the same offset. -->
+![The amortization schedule after a due date move, the affected payment carrying its new due date and every payment after it shifted by the same amount](/img/docs/app/guides/moving-a-due-date/05.png)
 
 :::caution
 There is no undo. Reversing a move means running the action again with the old date, and that does not pull any capitalized balances back out of the principal.
@@ -88,7 +88,7 @@ On an Accrues Daily loan, leaving **Move Accrued Interest to End of Loan** unche
 Check the box if you want that interest preserved. It is capitalized into the principal balance first, and only then does accrual restart. The modal's own helper text says so: *Additional interest will start accruing from today's date.*
 :::
 
-<!-- screenshot: Close-up of the "Adjust Interest" form item in the New Due Date modal on an Accrues Daily loan, showing the "Move Accrued Interest to End of Loan" checkbox and the helper text reading "This will add $X to the principal balance of the loan. Additional interest will start accruing from today's date." -->
+![The New Due Date modal on a daily-accrual loan, including the adjust-interest choice](/img/docs/app/guides/moving-a-due-date/02.png)
 
 ## The Reason Is Required and Permanent
 
@@ -98,7 +98,7 @@ When the move succeeds, Lendiom writes an auto-generated system note to the loan
 
 System notes cannot be edited. Treat the reason as the permanent record of why this loan's terms changed, because that is exactly what it is — write it for the auditor, the borrower, or the attorney who reads it two years from now, not for yourself today.
 
-<!-- screenshot: The Notes card on a loan detail page showing an auto-generated system note authored by "System", with the text "Auto generated: Jane Doe moved the due date to ... from ... The principal balance was adjusted by ... to account for rolled forward balances." followed by the reason, and with the Edit button disabled. -->
+![The Notes card on a loan, showing the system notes Lendiom writes as things change](/img/docs/app/guides/moving-a-due-date/03.png)
 
 ## Date Limits and Errors
 
@@ -115,7 +115,7 @@ The server enforces its own checks:
 | `340` | can not adjust the next due date to be before the last transaction date | The chosen date precedes the most recent transaction on the loan. |
 | `9991` | can not adjust the next due date for a loan with no more payments required | Every payment in the schedule is already fully or partially paid. |
 
-<!-- screenshot: The New Due Date modal with the date picker calendar open, showing dates before the loan's last transaction date greyed out and unselectable, and a valid future date hovered. -->
+![The New Due Date dialog with its calendar open, dates before the loan’s last transaction greyed out and unselectable](/img/docs/app/guides/moving-a-due-date/04.png)
 
 :::info
 Moving a due date is a change to the payment schedule, not a payment. If you need to record money received, use [Adding a Transaction](./adding-a-transaction.md). If the borrower is settling the loan in full, use [Recording a Loan Payoff](./recording-a-loan-payoff.md).

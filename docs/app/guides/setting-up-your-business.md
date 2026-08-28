@@ -23,7 +23,7 @@ Have your business mailing address, a contact phone number and email, and a paym
 
 The important line is between steps two and three. Your organization does not exist on the server until you click **Next** on Billing Details, and it isn't finished until you click **Start Trial**.
 
-<!-- screenshot: The organization creation wizard on step one, showing the blue "31 Day Trial" alert at the top, the three-step progress indicator with "Company Info" active, and the empty company form below -->
+![Step one of the organization creation wizard, with the 31 day trial notice above the company details](/img/docs/app/guides/setting-up-your-business/01.png)
 
 ## Step 1: Company Info
 
@@ -50,7 +50,7 @@ Underneath, choose **Card** or **Bank Account (ACH)**.
 
 **Bank Account (ACH)** asks for the account holder's name. Clicking **Next** opens a secure Stripe window where you sign in to your bank, which verifies the account instantly. Lendiom then shows an **Authorize Bank Debits** dialog with the ACH mandate. Choosing **Disagree**, or closing the bank window without linking an account, cancels the attempt and leaves you on this step to try again.
 
-<!-- screenshot: Step two of the wizard with the "Same as mailing" switch enabled, the billing address fields filled and greyed out, and the Card / Bank Account (ACH) toggle showing Card selected above the Stripe card field -->
+![Step two of the wizard, with the billing address and the same-as-mailing switch](/img/docs/app/guides/setting-up-your-business/02.png)
 
 :::caution An unverified bank account can't start your trial
 
@@ -60,7 +60,6 @@ Bank accounts added later go through micro-deposits: two small deposits arrive i
 
 :::
 
-<!-- screenshot: The "Authorize Bank Debits" modal over the wizard, showing the ACH mandate text with Agree and Disagree buttons -->
 
 ## Step 3: Plan Selection
 
@@ -76,7 +75,7 @@ Two cards, monthly and yearly. The prices are printed on the cards; the yearly p
 
 If you have a coupon code, enter it in the field at the bottom. Lendiom checks it as you type and shows the discounted price on both cards, with a note about how long the discount lasts. An invalid code blocks **Start Trial** until you clear or correct it.
 
-<!-- screenshot: Step three showing the Monthly and Yearly plan cards side by side with the Monthly card selected, the coupon input at the bottom left, and the Start Trial button at the bottom right -->
+![Step three of the wizard with the monthly plan selected, the coupon box at the bottom left and Start Trial at the bottom right](/img/docs/app/guides/setting-up-your-business/04.png)
 
 Click **Start Trial**. Your trial runs 31 days, and the first invoice is anchored to the first of the month after it ends. Cancel before the trial ends and you are not charged. Lendiom drops a notification with your exact trial end date, and you land on your new organization's inventory page, ready to add properties.
 
@@ -118,11 +117,11 @@ Nothing stops you from running several businesses in Lendiom, or from being invi
 
 **Your role is per organization.** Permissions are loaded and enforced per organization, not per account. You can be an admin in the business you created and a viewer in one you were invited to, and the menus and buttons you see change as you switch. If something you expect is missing, check which organization is selected before assuming a permissions problem.
 
-<!-- screenshot: The avatar dropdown menu expanded to the Organizations submenu, listing two organizations with the current one greyed out and a "New Organization" item at the bottom -->
+![The avatar menu expanded to the Organizations submenu, listing the organizations you belong to and New Organization](/img/docs/app/guides/setting-up-your-business/05.png)
 
 **Adding another one** is the **New Organization** item at the bottom of that same submenu, which drops you back into this wizard with its own terms acceptance, payment method, and trial. Every organization is billed separately.
 
-<!-- screenshot: Org Settings Billing tab showing the payment methods table with a card marked Default and a bank account row labeled pending verification, with its actions menu open and "Set as Default" greyed out -->
+![The payment methods table with a default card above a bank account pending verification, the bank row’s actions menu open showing Set as Default greyed out beside Verify Bank Account and Remove](/img/docs/app/guides/setting-up-your-business/06.png)
 
 ## Related
 

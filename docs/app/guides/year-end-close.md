@@ -17,7 +17,7 @@ An address that has never been verified against USPS records will stop your 1098
 
 To verify one, open the client, find the person's row in the entities table, open the row's actions menu, and choose **Verify Address**. The action is disabled when the entity has no address, or when the address is already verified.
 
-<!-- screenshot: a client detail page with the entities table row expanded, the row's actions menu open, and "Verify Address" visible among Edit, Make Primary, and View Tax ID -->
+![A client entity row expanded with its actions menu open, Verify Address sitting among edit, make primary and view tax ID](/img/docs/app/guides/year-end-close/01.png)
 
 | Address state | Effect on e-filing |
 | --- | --- |
@@ -52,7 +52,7 @@ Open **Unapplied Payments** from the main menu and work through anything still h
 
 When you apply a credit, you choose the date of the new transaction it funds, and that date decides which tax year the interest lands in. The date cannot be earlier than the day the funds were received. A single credit can fund several transactions, so a large one can be split across more than one payment.
 
-<!-- screenshot: the Unapplied Payments list showing several credits with their user-facing IDs, source loans, amounts, remaining balances, and a mix of Available and Partially Applied status tags -->
+![The Unapplied Payments list, showing each credit with its source, amount and remaining balance](/img/docs/app/guides/year-end-close/02.png)
 
 ### Finish reversals before the year closes
 
@@ -96,7 +96,7 @@ Go to **Reports**. Pick a report, choose **Run**, select the year, and the finis
 
 Two more are marked Beta and may change: the **Monthly Journal Entry Report** (monthly interest, principal, and late fee totals) and the **Portfolio Report** (current status of all tracts).
 
-<!-- screenshot: the Reports page on the Reports tab, table listing report names with descriptions, Last Ran At dates, and the actions menu open showing Run and Download -->
+![The Reports page, listing each report with its description and when it last ran](/img/docs/app/guides/year-end-close/03.png)
 
 The **Yearly 1098 Report** requires your password because it contains tax identifiers. One deliberate difference: this spreadsheet includes every qualifying loan that collected any interest during the year, while the 1098 INTs tab lists only borrowers at or above the $600 IRS reporting threshold. Use the spreadsheet for the whole picture and the tab for what will actually be filed.
 
@@ -107,8 +107,6 @@ A loan appears in the year's 1098 data when it is a tract loan, is not draft, in
 On the Reports page, switch to the **1098 INTs** tab. The year picker defaults to last year and will not let you select a future one.
 
 Each row carries a status icon. A green unlock icon means the row is ready. A pink alert icon means something is missing — hover it and it names which of the four problems it is: missing mailing address, unverified address, undeliverable address, or missing tax information. Work the alerts until every row is green.
-
-<!-- screenshot: the 1098 INTs tab showing the legal info card on the right, the preview table below with a mix of green unlock icons and pink alert icons, and one alert tooltip open reading "The mailing address has not been verified." -->
 
 ### E-file the 1098s
 
@@ -125,8 +123,6 @@ Click **e-file** for the selected year. The first dialog states the per-form pri
 
 The second dialog asks for your password and the address to print on the forms.
 
-<!-- screenshot: the final e-file modal titled "eFile 2025's 1098" with the password field filled with dots and the Address dropdown showing Legal Address selected -->
-
 Submitting takes a minute or two depending on how many forms are going out. When it finishes, Lendiom emails your organization confirming the filings were submitted.
 
 If the filing provider rejects an individual form, its row shows a red **Rejected** tag with the provider's reason on hover. The filing for the year still exists at that point, so you cannot re-run it — contact [support@lendiom.com](mailto:support@lendiom.com) and we will check the status with the provider.
@@ -139,8 +135,6 @@ Once at least one form has been accepted, a **Filed 1098** column appears in the
 - **Download All** gives you a single zip of every filed form for the year. If one form fails to download, the whole archive fails rather than handing you an incomplete set. Try again.
 
 Rejected rows have nothing to download.
-
-<!-- screenshot: the 1098 INTs tab after a successful filing, green success banner reading "All 1098s for 2025 have been filed", Download buttons in the Filed 1098 column, and the Download All button in the toolbar -->
 
 ## Related
 

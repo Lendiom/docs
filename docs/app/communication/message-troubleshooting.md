@@ -18,7 +18,7 @@ Open the client's conversation on the **Communications** page and look for the m
 | A red *Message failed to send* icon | The carrier rejected the recipient, usually an opt-out | [One person is not getting anything](#one-person-is-not-getting-anything) |
 | The message is there, but it arrived at 8:00 AM | It was held overnight | [It arrived, only late](#it-arrived-only-late) |
 
-<!-- screenshot: The Communications page with a client conversation open, showing one outbound message bubble carrying the orange "Message is queued and will be sent shortly" info icon next to an older delivered message. -->
+![The Communications page with a client conversation open, showing each message bubble and its delivery status](/img/docs/app/communication/message-troubleshooting/01.png)
 
 :::info
 Emails have no equivalent view — the **Email History** tab is not available yet, so a missing email leaves no trace in the app. Diagnose those from the entity record instead.
@@ -57,7 +57,7 @@ Every automated message is gated on the loan or rental it belongs to.
 | A payment posted on a draft | Recording a transaction on a draft | Payment confirmations are suppressed while the loan or rental is a draft |
 | A rental late reminder | The rental is not marked late | That reminder only runs for rentals whose status is *Late* |
 
-<!-- screenshot: The "Change Communication Preferences" modal on a loan with the Automated Communication switch set to Disabled, and the Communication Preferences select showing only the Email chip. -->
+![The Change Communication Preferences modal on a loan, with the automated communication switch](/img/docs/app/communication/message-troubleshooting/02.png)
 
 ## One person is not getting anything
 
@@ -77,7 +77,7 @@ A number that is not dialable at all — a bad area code, a typo — behaves lik
 
 Lendiom re-checks the last two overnight. One job validates new numbers against the carrier and writes an auto-generated note on the client saying whether the number is valid and whether it is cellular. Another re-checks opt-in status, raises an in-app notification when someone opts out, and — when someone texts START — flips the number back and re-enables automated communication with SMS on all of that client's loans.
 
-<!-- screenshot: A client's entity list showing one entity whose phone number is struck through with the opted-out tooltip visible, and another entity whose number carries the blue mobile icon. -->
+![A client entity list where one phone number is struck through with a tooltip explaining it has opted out of messages, beside another number still marked as mobile](/img/docs/app/communication/message-troubleshooting/05.png)
 
 ### Emails
 
@@ -118,7 +118,7 @@ The scheduled reminder honors each loan's Automated Communication setting. The m
 
 The reminder carries a short link to the buyer's address page in Lendiom Pay. If that short link cannot be created, Lendiom falls back to the full Lendiom Pay address URL — longer, but it opens the same page.
 
-<!-- screenshot: The client detail page with the Lendiom Pay actions menu open, showing "Send Address Reminder" enabled alongside Send Info and Login As. -->
+![The Lendiom Pay actions menu on a client, including the address reminder option](/img/docs/app/communication/message-troubleshooting/04.png)
 
 ## Still stuck
 

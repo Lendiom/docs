@@ -37,11 +37,11 @@ See [Loan Status](../how-it-works/loan-status.md) for what each status means on 
 
 From the loan page, open **Actions** and pick **Refinance Loan**.
 
-<!-- screenshot: The loan detail page for a Current tract loan with the Actions dropdown open, showing the primary group: Move Due Date, Record Payoff, Refinance Loan, Recast Loan, Calculate Payoff. The Refinance Loan row with its retweet icon should be hovered. -->
+![A current tract loan with its Actions dropdown open, showing the primary actions](/img/docs/app/guides/refinancing-a-loan/01.png)
 
 The window opens with a warning banner across the top and a live preview underneath that recalculates as you type. Nothing is saved until you press **Refinance** and confirm.
 
-<!-- screenshot: The Refinance Loan modal freshly opened on a loan carrying late fees, showing the yellow warning banner, the five form fields (First Payment Date, Closing Date, Interest Rate, Payment Frequency, Remaining Term), and the Refinance Preview table below with Principal Balance, Late Fees, New Loan Amount, Current Payment and New Payment rows filled in. -->
+![The Refinance Loan modal, with the new terms and the remaining-balance summary](/img/docs/app/guides/refinancing-a-loan/02.png)
 
 ## What gets rolled into the new loan
 
@@ -97,7 +97,7 @@ If the first payment date plus your shortest late fee grace period already falls
 
 The preview is a real dry run against the server, not a client-side estimate, and it re-runs about half a second after each change. It shows the balances being rolled in, the **New Loan Amount**, **Current Payment** and **New Payment**, **Current Rate** and **New Rate**, the new term, total interest, total payments, and the new schedule's **Next Payment Date** (its first payment) and **Last Payment Date**. Payment and rate are always two rows apiece, shown even when the rate has not moved; a **Frequency Change** or **Schedule Change** row appears only when you actually change the cadence or the interest schedule. On a weekly or biweekly refinance you also get a **Number of Payments** count, because a 60-month term at weekly cadence is roughly 260 payments.
 
-<!-- screenshot: The Refinance Loan modal on an interest-only loan being converted, with the New Interest Schedule dropdown visible and set to Follows Payments, and the preview table showing the Schedule Change row reading "interest only → follows payments" and a Frequency Change row. -->
+![The Refinance Loan modal on an interest-only loan, where the new interest schedule is chosen](/img/docs/app/guides/refinancing-a-loan/02.png)
 
 ## Interest-only loans
 
@@ -146,9 +146,9 @@ Escrow deserves one note: the configuration and the current balance copy across,
 
 Press **Refinance**. Lendiom shows a confirmation listing the changes it is about to apply — rate, cadence, and schedule shifts — and repeats that the action cannot be undone. Confirm, and Lendiom creates the new loan, links it, freezes the original, writes a system note on each loan describing the change, and redirects you to the new loan.
 
-The new loan is named after the original with **(Refinanced)** appended, and it starts in **Current** status.
+The new loan is named after the original with **(Refinanced)** appended, and it starts live: **Current**, or **Grace Period** while its first payment is not yet past due.
 
-<!-- screenshot: The newly created loan page, title ending in "(Refinanced)", status tag reading Current, and the Overview tab's details panel showing the "Refinanced From" row with its "Original Loan" link. -->
+![The successor loan created by a refinance, its title ending in Refinanced and the overview carrying a Refinanced From row that links back to the original loan](/img/docs/app/guides/refinancing-a-loan/03.png)
 
 ### Payment numbering continues
 
@@ -172,7 +172,7 @@ Everything that touches money on that loan is now closed:
 
 The record itself stays fully readable. Its transactions, schedule, notes, and documents are all still there, and the Overview tab gains a **Refinanced Date** and a **Refinanced To** link to the new loan. The new loan carries the mirror link, **Refinanced From**.
 
-<!-- screenshot: The original loan page in Refinanced status, showing the cyan "Refinanced" status tag, the blue info alert reading "This loan has been refinanced. A new loan was created with updated terms." with its "View new loan" link, and the Actions menu open showing every item greyed out except Custom Fields. -->
+![The original loan frozen in Refinanced status, its cyan status tag and blue notice linking to the new loan, with most items in the actions menu greyed out](/img/docs/app/guides/refinancing-a-loan/04.png)
 
 Refinanced loans are treated as inactive: they drop out of the default loan list unless you include inactive loans, and they stop counting toward your organization's active loan count for billing.
 

@@ -9,13 +9,13 @@ Lendiom ships a fixed set of reports. You cannot build your own, and you cannot 
 
 Open **Reports** from the main menu. The Reports tab lists every report with its description, the date it was last run, and an actions menu holding **Run** and **Download**.
 
-<!-- screenshot: the Reports page on the Reports tab, table listing all twelve reports with Name, Description, Last Ran At, and Actions columns, one row's actions menu open showing Run and Download -->
+![The Reports page, listing the available reports with their descriptions](/img/docs/app/guides/reports-library/01.png)
 
 Choosing **Run** opens a modal that asks for whatever that report needs — a month, a year, a date range, a set of client statuses, or nothing at all. Fill it in, choose **Run!**, and the finished file opens in a new browser tab.
 
 Every run is kept. The **Last Ran At** column shows when the report last produced a file for your organization, and the **Download** action pulls that stored copy back without regenerating anything. Download stays greyed out until a report has been run at least once.
 
-<!-- screenshot: the Run Report modal titled "Run Report: Monthly Journal Entry Report" with a month picker showing March 2026 and the helper text "The date in which to run the report against." -->
+![The Run Report modal, with the reporting period selector and the Run button](/img/docs/app/guides/reports-library/02.png)
 
 :::info
 Where a description has a question mark beside it, hover it. The tooltip holds details that do not fit in the description — the Avery label numbers, the "one tab per status" note, and the beta warnings.
@@ -54,8 +54,6 @@ Three things beyond ordinary payments show up here. Cash tract sales appear as a
 
 The rental lists are narrower, because rentals have no amortization: client, rental, inventory, unit, date, type, status, method, total collected, total, to platform, to balance, to fees, and comments.
 
-<!-- screenshot: an open Excel workbook showing the March 2026 Transactions sheet with the fifteen column headers frozen and a mix of Payment, Property Tax, Tract Sold, and Unapplied Payment rows -->
-
 ## Monthly Journal Entry Report
 
 This is the month-close workbook, and it is marked **Beta** — its tooltip says as much, and the numbers are still under review with CPAs. It builds six sheets for the month you pick: New Contracts, Repossessions, Inventory, Transactions, Installment, and the Monthly Journal sheet itself.
@@ -84,7 +82,7 @@ One deliberate difference: this spreadsheet includes every qualifying loan regar
 
 Also **Beta**. It takes no inputs at all — the Run modal shows nothing but the button, because the report is always "as of right now." One row per tract: inventory, tract, acres, status, buyer, purchase date, sales price, down payment, term and term remaining in years, interest rate, payment amount, remaining principal, days late, cost of tract, gross profit, profit percent, gross profit remaining, and gross profit percent remaining. A totals row sums the money columns and averages the rates and terms. Run it when someone asks what the book looks like today.
 
-<!-- screenshot: the Run Report modal for the Portfolio Report showing no input fields, only the Cancel and Run! buttons -->
+![The Run Report modal for the Portfolio Report, which takes no inputs at all](/img/docs/app/guides/reports-library/01.png)
 
 ## The two client reports
 
@@ -94,7 +92,7 @@ Both ask which client statuses to include — Active, Prospect, Inactive, Do Not
 
 **Client Address Labels** produces a PDF laid out for Avery 1" x 2 5/8" labels, 30 to a sheet — compatible with 5160, 8160, 5960, and dozens of other Avery numbers listed in the report's tooltip. Clients whose primary entity has no address are skipped silently, so the sheet count will not always match your client count.
 
-<!-- screenshot: the Run Report modal for Client List showing the blue info alert about primary entities and the Client's Status multi-select with Active and Prospect chips selected -->
+![The Run Report dialog for the client list, its blue notice explaining that client reports use the primary entity, above the status multi-select](/img/docs/app/guides/reports-library/03.png)
 
 ## Beta and disabled reports
 
